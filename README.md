@@ -10,7 +10,7 @@ Date: November 2,2021
 
 ![SOBEL_ULX3S](https://user-images.githubusercontent.com/87559347/139771799-948df8a7-e357-4350-90b1-cacf81c0e691.jpg)
 
-Two ways to run this design to your ULX3S FPGA Board:   
+Two ways to run this design on your ULX3S FPGA Board:   
 * Using Icestudio GUI  
 * Using the FPGA Opensource Toolchain (Yosys+Nexpnr+Fujprog)  
 
