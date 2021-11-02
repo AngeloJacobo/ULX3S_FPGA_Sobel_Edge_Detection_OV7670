@@ -1,6 +1,7 @@
 Created by: Angelo Jacobo  
 Date: November 2,2021   
 
+[![image](https://user-images.githubusercontent.com/87559347/139786858-b899041c-f16d-43c3-b167-9562f0ecccd3.png)](https://youtu.be/N64m7UnyA8o)
 
 # Materials:  
 * [ULX3S FPGA Board](https://radiona.org/ulx3s/)
