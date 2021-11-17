@@ -764,20 +764,40 @@
           }
         },
         {
-          "id": "f7ab2757-1499-4cf9-8449-0bf5bea61556",
-          "type": "33ad97680213f780349f6124ecec7b3f37efbdb7",
+          "id": "cf717351-3477-4db7-9903-47831e5bcae5",
+          "type": "basic.info",
+          "data": {
+            "info": "![OV7670_ULX3S](https://user-images.githubusercontent.com/87559347/139771799-948df8a7-e357-4350-90b1-cacf81c0e691.jpg)   \n\n\n\n\n",
+            "readonly": true
+          },
           "position": {
-            "x": 816,
-            "y": 432
+            "x": 1368,
+            "y": 640
           },
           "size": {
-            "width": 96,
-            "height": 192
+            "width": 1024,
+            "height": 512
           }
         },
         {
-          "id": "46d0bc29-c383-4b80-8a9b-6cf830af5417",
-          "type": "0a1725af2452eb3a106264d596f313715cdefd07",
+          "id": "c91e6075-6edd-4a49-9210-28264e26ae0f",
+          "type": "basic.info",
+          "data": {
+            "info": "## Created by: Angelo C. Jacobo (https://www.linkedin.com/in/angelo-jacobo/)  \n\n### The OV7670 camera is a 0.3 Megapixel camera(640x480 @ 30fps). Data pixels are stored to SDRAM and retrieved by the HDMI which will then be displayed on the monitor.  \n### * `btn3` - switch display (RGB or edge detected image)  \n### * `btn2` - increase threshold of Sobel Edge Detection    \n### * `btn1` - decrease threshold of Sobel Edge Detection  ",
+            "readonly": true
+          },
+          "position": {
+            "x": 1328,
+            "y": 288
+          },
+          "size": {
+            "width": 1240,
+            "height": 312
+          }
+        },
+        {
+          "id": "6e421f04-1280-4f30-af59-807f5dda8f66",
+          "type": "f72cc6f8c7ad81966d4780824d373d5c77793022",
           "position": {
             "x": -384,
             "y": 424
@@ -788,8 +808,8 @@
           }
         },
         {
-          "id": "7c25be40-d8c1-4c81-a85a-e9125da99da2",
-          "type": "9a753e019f716e1dacc0b7f4103b8f8dc4cb669a",
+          "id": "36fdbe7a-ec13-4cb4-b753-6b8f59f7f87c",
+          "type": "2b8124443c947264c554e14f2b424b1730c7c533",
           "position": {
             "x": 240,
             "y": 400
@@ -800,8 +820,20 @@
           }
         },
         {
-          "id": "8540641b-cd59-4ac8-9ec0-bc40f00dc1aa",
-          "type": "deb29256b1bed15854715f99cf37080dab8433be",
+          "id": "e6028903-361e-448d-b543-4a7cfd3c1665",
+          "type": "acc707d864c487157af14f847fe5609ae9427f9d",
+          "position": {
+            "x": 816,
+            "y": 432
+          },
+          "size": {
+            "width": 96,
+            "height": 192
+          }
+        },
+        {
+          "id": "7224f7a9-c1e5-4b95-b56c-8eb42c4b03e5",
+          "type": "215c2916a835b74d09e6348d0d037d2c0f1fc7ef",
           "position": {
             "x": -928,
             "y": 400
@@ -829,7 +861,7 @@
             "port": "out"
           },
           "target": {
-            "block": "46d0bc29-c383-4b80-8a9b-6cf830af5417",
+            "block": "6e421f04-1280-4f30-af59-807f5dda8f66",
             "port": "a222c69c-f91b-463a-9b08-24f443b4e9d3"
           },
           "vertices": [
@@ -845,7 +877,7 @@
             "port": "out"
           },
           "target": {
-            "block": "46d0bc29-c383-4b80-8a9b-6cf830af5417",
+            "block": "6e421f04-1280-4f30-af59-807f5dda8f66",
             "port": "055670a7-e09f-42b6-9f1f-2dd67a433e58"
           },
           "vertices": [
@@ -861,7 +893,7 @@
             "port": "out"
           },
           "target": {
-            "block": "7c25be40-d8c1-4c81-a85a-e9125da99da2",
+            "block": "36fdbe7a-ec13-4cb4-b753-6b8f59f7f87c",
             "port": "cac53762-b18e-452b-9a11-b24526513bee"
           },
           "vertices": [
@@ -877,7 +909,7 @@
             "port": "out"
           },
           "target": {
-            "block": "f7ab2757-1499-4cf9-8449-0bf5bea61556",
+            "block": "e6028903-361e-448d-b543-4a7cfd3c1665",
             "port": "e79ac974-3588-490c-88b9-d0408a2bff12"
           },
           "vertices": [
@@ -889,11 +921,11 @@
         },
         {
           "source": {
-            "block": "7c25be40-d8c1-4c81-a85a-e9125da99da2",
+            "block": "36fdbe7a-ec13-4cb4-b753-6b8f59f7f87c",
             "port": "181fa5f1-661a-43b6-ba0a-9206255928e9"
           },
           "target": {
-            "block": "46d0bc29-c383-4b80-8a9b-6cf830af5417",
+            "block": "6e421f04-1280-4f30-af59-807f5dda8f66",
             "port": "7794c6ed-3c24-4b2d-8e1c-df5f8ef1fc31"
           },
           "vertices": [
@@ -909,7 +941,7 @@
             "port": "04e7e589-2c90-4fcd-af98-6892cbb6dbb8"
           },
           "target": {
-            "block": "7c25be40-d8c1-4c81-a85a-e9125da99da2",
+            "block": "36fdbe7a-ec13-4cb4-b753-6b8f59f7f87c",
             "port": "ab1a3ef1-eafb-4033-8437-e75cb626dfa6"
           }
         },
@@ -919,7 +951,7 @@
             "port": "out"
           },
           "target": {
-            "block": "f7ab2757-1499-4cf9-8449-0bf5bea61556",
+            "block": "e6028903-361e-448d-b543-4a7cfd3c1665",
             "port": "3ea21c4f-6ef8-4639-aefd-4b5f9d4d8208"
           },
           "vertices": [
@@ -931,11 +963,11 @@
         },
         {
           "source": {
-            "block": "7c25be40-d8c1-4c81-a85a-e9125da99da2",
+            "block": "36fdbe7a-ec13-4cb4-b753-6b8f59f7f87c",
             "port": "0d569a29-40ec-4495-97fb-4bd61c5e775e"
           },
           "target": {
-            "block": "f7ab2757-1499-4cf9-8449-0bf5bea61556",
+            "block": "e6028903-361e-448d-b543-4a7cfd3c1665",
             "port": "de40a194-92fe-4bae-95da-8227716f808c"
           },
           "vertices": [
@@ -948,11 +980,11 @@
         },
         {
           "source": {
-            "block": "f7ab2757-1499-4cf9-8449-0bf5bea61556",
+            "block": "e6028903-361e-448d-b543-4a7cfd3c1665",
             "port": "88f2c6e3-5876-4951-bc2b-77190b6776cf"
           },
           "target": {
-            "block": "7c25be40-d8c1-4c81-a85a-e9125da99da2",
+            "block": "36fdbe7a-ec13-4cb4-b753-6b8f59f7f87c",
             "port": "9720b9ec-c5c8-4fd8-a9bb-17f2da4b1aa5"
           },
           "vertices": [
@@ -964,11 +996,11 @@
         },
         {
           "source": {
-            "block": "f7ab2757-1499-4cf9-8449-0bf5bea61556",
+            "block": "e6028903-361e-448d-b543-4a7cfd3c1665",
             "port": "a9369dbc-67c7-4d86-8f16-e67a6ba01a1d"
           },
           "target": {
-            "block": "7c25be40-d8c1-4c81-a85a-e9125da99da2",
+            "block": "36fdbe7a-ec13-4cb4-b753-6b8f59f7f87c",
             "port": "01f00a56-7d2f-45ce-a007-2bc054370e43"
           },
           "vertices": [
@@ -984,7 +1016,7 @@
         },
         {
           "source": {
-            "block": "46d0bc29-c383-4b80-8a9b-6cf830af5417",
+            "block": "6e421f04-1280-4f30-af59-807f5dda8f66",
             "port": "9cce744e-6470-4dba-99ea-861bfb511e4d"
           },
           "target": {
@@ -994,7 +1026,7 @@
         },
         {
           "source": {
-            "block": "46d0bc29-c383-4b80-8a9b-6cf830af5417",
+            "block": "6e421f04-1280-4f30-af59-807f5dda8f66",
             "port": "aa8c4d39-b0c5-4f94-b0e1-80a92ccc87f9"
           },
           "target": {
@@ -1010,7 +1042,7 @@
         },
         {
           "source": {
-            "block": "46d0bc29-c383-4b80-8a9b-6cf830af5417",
+            "block": "6e421f04-1280-4f30-af59-807f5dda8f66",
             "port": "457f101b-9ebb-4216-a5b0-777d36399a8b"
           },
           "target": {
@@ -1021,7 +1053,7 @@
         },
         {
           "source": {
-            "block": "46d0bc29-c383-4b80-8a9b-6cf830af5417",
+            "block": "6e421f04-1280-4f30-af59-807f5dda8f66",
             "port": "6d52aa32-8a91-4946-b435-6a15d0f1f957"
           },
           "target": {
@@ -1031,7 +1063,7 @@
         },
         {
           "source": {
-            "block": "46d0bc29-c383-4b80-8a9b-6cf830af5417",
+            "block": "6e421f04-1280-4f30-af59-807f5dda8f66",
             "port": "0dd12305-053b-45f2-8285-fddfa70b423d"
           },
           "target": {
@@ -1041,7 +1073,7 @@
         },
         {
           "source": {
-            "block": "46d0bc29-c383-4b80-8a9b-6cf830af5417",
+            "block": "6e421f04-1280-4f30-af59-807f5dda8f66",
             "port": "b8ca7eef-59fe-4251-baa8-c3c4ae1c16b4"
           },
           "target": {
@@ -1061,7 +1093,7 @@
             "port": "out"
           },
           "target": {
-            "block": "46d0bc29-c383-4b80-8a9b-6cf830af5417",
+            "block": "6e421f04-1280-4f30-af59-807f5dda8f66",
             "port": "945bf478-ada2-42c3-9199-833592bf2387"
           }
         },
@@ -1071,7 +1103,7 @@
             "port": "out"
           },
           "target": {
-            "block": "46d0bc29-c383-4b80-8a9b-6cf830af5417",
+            "block": "6e421f04-1280-4f30-af59-807f5dda8f66",
             "port": "41933a47-1e4d-44be-9bc0-2f4987c117d5"
           }
         },
@@ -1081,7 +1113,7 @@
             "port": "out"
           },
           "target": {
-            "block": "46d0bc29-c383-4b80-8a9b-6cf830af5417",
+            "block": "6e421f04-1280-4f30-af59-807f5dda8f66",
             "port": "281f7b92-a552-4dbf-8d07-aa7a07e97aff"
           }
         },
@@ -1091,14 +1123,14 @@
             "port": "out"
           },
           "target": {
-            "block": "46d0bc29-c383-4b80-8a9b-6cf830af5417",
+            "block": "6e421f04-1280-4f30-af59-807f5dda8f66",
             "port": "a24522b9-9b37-4b1c-b14d-58854603b024"
           },
           "size": 8
         },
         {
           "source": {
-            "block": "7c25be40-d8c1-4c81-a85a-e9125da99da2",
+            "block": "36fdbe7a-ec13-4cb4-b753-6b8f59f7f87c",
             "port": "646b2040-6ef1-421b-aabe-a4b59864d838"
           },
           "target": {
@@ -1108,7 +1140,7 @@
         },
         {
           "source": {
-            "block": "7c25be40-d8c1-4c81-a85a-e9125da99da2",
+            "block": "36fdbe7a-ec13-4cb4-b753-6b8f59f7f87c",
             "port": "d6c0d193-4344-4ad1-a4a3-d34f9c238b6d"
           },
           "target": {
@@ -1118,7 +1150,7 @@
         },
         {
           "source": {
-            "block": "7c25be40-d8c1-4c81-a85a-e9125da99da2",
+            "block": "36fdbe7a-ec13-4cb4-b753-6b8f59f7f87c",
             "port": "d92663cf-d249-40b6-931e-b94467ebee48"
           },
           "target": {
@@ -1128,7 +1160,7 @@
         },
         {
           "source": {
-            "block": "7c25be40-d8c1-4c81-a85a-e9125da99da2",
+            "block": "36fdbe7a-ec13-4cb4-b753-6b8f59f7f87c",
             "port": "5b05bed4-1c8e-4e42-9a69-ad70a70059e9"
           },
           "target": {
@@ -1138,7 +1170,7 @@
         },
         {
           "source": {
-            "block": "7c25be40-d8c1-4c81-a85a-e9125da99da2",
+            "block": "36fdbe7a-ec13-4cb4-b753-6b8f59f7f87c",
             "port": "71cc5380-fe34-4719-86e7-70fb879fe496"
           },
           "target": {
@@ -1148,7 +1180,7 @@
         },
         {
           "source": {
-            "block": "7c25be40-d8c1-4c81-a85a-e9125da99da2",
+            "block": "36fdbe7a-ec13-4cb4-b753-6b8f59f7f87c",
             "port": "5922aecd-4943-4a1f-9d9f-ce692143b871"
           },
           "target": {
@@ -1158,7 +1190,7 @@
         },
         {
           "source": {
-            "block": "7c25be40-d8c1-4c81-a85a-e9125da99da2",
+            "block": "36fdbe7a-ec13-4cb4-b753-6b8f59f7f87c",
             "port": "68ef4048-5080-47ec-935d-89811653fd5c"
           },
           "target": {
@@ -1169,7 +1201,7 @@
         },
         {
           "source": {
-            "block": "7c25be40-d8c1-4c81-a85a-e9125da99da2",
+            "block": "36fdbe7a-ec13-4cb4-b753-6b8f59f7f87c",
             "port": "3c94aad4-1836-4561-adfc-24208927fd6d"
           },
           "target": {
@@ -1180,7 +1212,7 @@
         },
         {
           "source": {
-            "block": "7c25be40-d8c1-4c81-a85a-e9125da99da2",
+            "block": "36fdbe7a-ec13-4cb4-b753-6b8f59f7f87c",
             "port": "dad0508e-f69a-4c17-b1fd-79fad97a8ce8"
           },
           "target": {
@@ -1197,7 +1229,7 @@
         },
         {
           "source": {
-            "block": "f7ab2757-1499-4cf9-8449-0bf5bea61556",
+            "block": "e6028903-361e-448d-b543-4a7cfd3c1665",
             "port": "90e9049e-258b-4765-88d0-ec965fcdd405"
           },
           "target": {
@@ -1212,18 +1244,18 @@
             "port": "04e7e589-2c90-4fcd-af98-6892cbb6dbb8"
           },
           "target": {
-            "block": "46d0bc29-c383-4b80-8a9b-6cf830af5417",
+            "block": "6e421f04-1280-4f30-af59-807f5dda8f66",
             "port": "3e18810c-61f1-4484-afd7-ddb75e515841"
           },
           "vertices": []
         },
         {
           "source": {
-            "block": "46d0bc29-c383-4b80-8a9b-6cf830af5417",
+            "block": "6e421f04-1280-4f30-af59-807f5dda8f66",
             "port": "ce11d7ad-ddc5-4696-abfa-13dcd32ef113"
           },
           "target": {
-            "block": "7c25be40-d8c1-4c81-a85a-e9125da99da2",
+            "block": "36fdbe7a-ec13-4cb4-b753-6b8f59f7f87c",
             "port": "1197f7db-7f25-4c04-8f22-0273ff9b7920"
           },
           "vertices": [
@@ -1236,7 +1268,7 @@
         },
         {
           "source": {
-            "block": "7c25be40-d8c1-4c81-a85a-e9125da99da2",
+            "block": "36fdbe7a-ec13-4cb4-b753-6b8f59f7f87c",
             "port": "4f5f1270-0272-4456-b93b-35bd8d282341"
           },
           "target": {
@@ -1251,7 +1283,7 @@
             "port": "out"
           },
           "target": {
-            "block": "8540641b-cd59-4ac8-9ec0-bc40f00dc1aa",
+            "block": "7224f7a9-c1e5-4b95-b56c-8eb42c4b03e5",
             "port": "90538a7a-07e0-445a-ad7d-b00d67475300"
           },
           "vertices": [
@@ -1263,11 +1295,11 @@
         },
         {
           "source": {
-            "block": "7c25be40-d8c1-4c81-a85a-e9125da99da2",
+            "block": "36fdbe7a-ec13-4cb4-b753-6b8f59f7f87c",
             "port": "8d6eb2b6-0070-4bd2-a6e9-7f30a3b9d32e"
           },
           "target": {
-            "block": "f7ab2757-1499-4cf9-8449-0bf5bea61556",
+            "block": "e6028903-361e-448d-b543-4a7cfd3c1665",
             "port": "3e06c7b8-b07c-49a6-9dfc-099cac26ec35"
           },
           "vertices": [
@@ -1283,11 +1315,11 @@
         },
         {
           "source": {
-            "block": "46d0bc29-c383-4b80-8a9b-6cf830af5417",
+            "block": "6e421f04-1280-4f30-af59-807f5dda8f66",
             "port": "2238a46a-b4f7-4b48-b0c9-ceb40c10f327"
           },
           "target": {
-            "block": "7c25be40-d8c1-4c81-a85a-e9125da99da2",
+            "block": "36fdbe7a-ec13-4cb4-b753-6b8f59f7f87c",
             "port": "07781eaf-93bc-4cb3-8b9e-38c5ff903e41"
           },
           "vertices": [
@@ -1304,17 +1336,17 @@
             "port": "out"
           },
           "target": {
-            "block": "8540641b-cd59-4ac8-9ec0-bc40f00dc1aa",
+            "block": "7224f7a9-c1e5-4b95-b56c-8eb42c4b03e5",
             "port": "0e89da66-3122-473e-b58f-3e4e05e1722e"
           }
         },
         {
           "source": {
-            "block": "46d0bc29-c383-4b80-8a9b-6cf830af5417",
+            "block": "6e421f04-1280-4f30-af59-807f5dda8f66",
             "port": "9cebc9ee-8618-4819-be6e-2927dec9f1fc"
           },
           "target": {
-            "block": "8540641b-cd59-4ac8-9ec0-bc40f00dc1aa",
+            "block": "7224f7a9-c1e5-4b95-b56c-8eb42c4b03e5",
             "port": "8974676b-9403-4135-bb4f-b5a12fec6873"
           },
           "vertices": [
@@ -1331,7 +1363,7 @@
             "port": "04e7e589-2c90-4fcd-af98-6892cbb6dbb8"
           },
           "target": {
-            "block": "8540641b-cd59-4ac8-9ec0-bc40f00dc1aa",
+            "block": "7224f7a9-c1e5-4b95-b56c-8eb42c4b03e5",
             "port": "30f0cd5d-bdca-4551-82be-256656f4246d"
           },
           "vertices": [
@@ -1343,11 +1375,11 @@
         },
         {
           "source": {
-            "block": "46d0bc29-c383-4b80-8a9b-6cf830af5417",
+            "block": "6e421f04-1280-4f30-af59-807f5dda8f66",
             "port": "19eda7de-a5f6-4c93-a176-5d13e46a1406"
           },
           "target": {
-            "block": "8540641b-cd59-4ac8-9ec0-bc40f00dc1aa",
+            "block": "7224f7a9-c1e5-4b95-b56c-8eb42c4b03e5",
             "port": "a98d484f-304d-4460-967e-8ca28bfb9f62"
           },
           "vertices": [
@@ -1360,27 +1392,31 @@
         },
         {
           "source": {
-            "block": "7c25be40-d8c1-4c81-a85a-e9125da99da2",
+            "block": "36fdbe7a-ec13-4cb4-b753-6b8f59f7f87c",
             "port": "e6ff0f25-b373-4509-84c1-6742d180b422"
           },
           "target": {
-            "block": "8540641b-cd59-4ac8-9ec0-bc40f00dc1aa",
+            "block": "7224f7a9-c1e5-4b95-b56c-8eb42c4b03e5",
             "port": "bf171a48-793a-41bb-9e34-6a815e513e7d"
           },
           "vertices": [
             {
               "x": -1048,
               "y": 904
+            },
+            {
+              "x": -432,
+              "y": 848
             }
           ]
         },
         {
           "source": {
-            "block": "8540641b-cd59-4ac8-9ec0-bc40f00dc1aa",
+            "block": "7224f7a9-c1e5-4b95-b56c-8eb42c4b03e5",
             "port": "7c3e26d2-abd8-460d-bafa-cafd227e3e1d"
           },
           "target": {
-            "block": "46d0bc29-c383-4b80-8a9b-6cf830af5417",
+            "block": "6e421f04-1280-4f30-af59-807f5dda8f66",
             "port": "f06d6ba1-a3d2-45f5-a908-91f11ca5bcc2"
           },
           "vertices": [
@@ -1392,11 +1428,11 @@
         },
         {
           "source": {
-            "block": "8540641b-cd59-4ac8-9ec0-bc40f00dc1aa",
+            "block": "7224f7a9-c1e5-4b95-b56c-8eb42c4b03e5",
             "port": "3d433526-f7fb-4e7f-9e3e-f2726065ffe2"
           },
           "target": {
-            "block": "7c25be40-d8c1-4c81-a85a-e9125da99da2",
+            "block": "36fdbe7a-ec13-4cb4-b753-6b8f59f7f87c",
             "port": "cc819e09-8224-4e16-a812-8669df6f3ef7"
           },
           "vertices": [
@@ -1409,11 +1445,11 @@
         },
         {
           "source": {
-            "block": "8540641b-cd59-4ac8-9ec0-bc40f00dc1aa",
+            "block": "7224f7a9-c1e5-4b95-b56c-8eb42c4b03e5",
             "port": "82e4ebfc-9f28-4114-a38c-c9cd517f241b"
           },
           "target": {
-            "block": "7c25be40-d8c1-4c81-a85a-e9125da99da2",
+            "block": "36fdbe7a-ec13-4cb4-b753-6b8f59f7f87c",
             "port": "95ba4f5f-ddba-4bd8-ada4-737ee8bb9c32"
           },
           "vertices": [
@@ -1425,11 +1461,11 @@
         },
         {
           "source": {
-            "block": "8540641b-cd59-4ac8-9ec0-bc40f00dc1aa",
+            "block": "7224f7a9-c1e5-4b95-b56c-8eb42c4b03e5",
             "port": "82e4ebfc-9f28-4114-a38c-c9cd517f241b"
           },
           "target": {
-            "block": "f7ab2757-1499-4cf9-8449-0bf5bea61556",
+            "block": "e6028903-361e-448d-b543-4a7cfd3c1665",
             "port": "942a77cc-1405-4818-9909-9bd06978fe1b"
           },
           "vertices": [
@@ -1441,12 +1477,12 @@
         },
         {
           "source": {
-            "block": "8540641b-cd59-4ac8-9ec0-bc40f00dc1aa",
+            "block": "7224f7a9-c1e5-4b95-b56c-8eb42c4b03e5",
             "port": "4c4c00c2-622e-4538-90e5-c5568593ded2"
           },
           "target": {
-            "block": "7c25be40-d8c1-4c81-a85a-e9125da99da2",
-            "port": "6a8d461f-4138-49c9-990f-6faf8d1f49b3"
+            "block": "36fdbe7a-ec13-4cb4-b753-6b8f59f7f87c",
+            "port": "3c3a777c-726a-44cc-a6a2-a12351090455"
           },
           "vertices": [
             {
@@ -1462,11 +1498,11 @@
         },
         {
           "source": {
-            "block": "8540641b-cd59-4ac8-9ec0-bc40f00dc1aa",
+            "block": "7224f7a9-c1e5-4b95-b56c-8eb42c4b03e5",
             "port": "8cbcb203-72af-4eec-850c-13eccfd69213"
           },
           "target": {
-            "block": "f7ab2757-1499-4cf9-8449-0bf5bea61556",
+            "block": "e6028903-361e-448d-b543-4a7cfd3c1665",
             "port": "7654a37e-4ed6-4a99-8e51-86a1e0977834"
           },
           "vertices": [
@@ -1487,7 +1523,7 @@
             "port": "out"
           },
           "target": {
-            "block": "8540641b-cd59-4ac8-9ec0-bc40f00dc1aa",
+            "block": "7224f7a9-c1e5-4b95-b56c-8eb42c4b03e5",
             "port": "27105b11-cd35-4568-9796-4eebe4ec1621"
           }
         },
@@ -1497,7 +1533,7 @@
             "port": "out"
           },
           "target": {
-            "block": "8540641b-cd59-4ac8-9ec0-bc40f00dc1aa",
+            "block": "7224f7a9-c1e5-4b95-b56c-8eb42c4b03e5",
             "port": "b87cb163-330b-48f2-9dbd-f5b487515308"
           }
         },
@@ -1507,7 +1543,7 @@
             "port": "out"
           },
           "target": {
-            "block": "8540641b-cd59-4ac8-9ec0-bc40f00dc1aa",
+            "block": "7224f7a9-c1e5-4b95-b56c-8eb42c4b03e5",
             "port": "9a5ed2b7-4d5c-45ba-8b8f-0a5839ebc304"
           }
         }
@@ -1603,1824 +1639,13 @@
         }
       }
     },
-    "33ad97680213f780349f6124ecec7b3f37efbdb7": {
-      "package": {
-        "name": "hdmi_interface",
-        "version": "",
-        "description": "Receives pixel data from SDRAM to be displayed on monitor",
-        "author": "",
-        "image": "%3Csvg%20version=%221%22%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221314.667%22%20height=%22614.667%22%20viewBox=%220%200%20986.000000%20461.000000%22%3E%3Cpath%20d=%22M213.3%2032.1l-3.3%201v132.8l4.3%201.2c5.2%201.4%2019%20.7%2021.1-1.1%201.4-1.1%201.6-5.1%201.6-29.1V109h50v27.9c0%2024%20.2%2028%201.6%2029.1%202.1%201.8%2015.9%202.5%2021.2%201.1l4.2-1.2V33.1l-4.2-1.2c-5.3-1.4-19.1-.7-21.2%201.1-1.4%201.1-1.6%204.9-1.6%2027.1V86h-50V60.1c0-22.4-.2-26-1.6-27.2-2-1.6-17.6-2.2-22.1-.8zM668.5%2031.7c-4.7%201.2-4.5-1.1-4.5%2067.8%200%2059.5.1%2065.4%201.7%2066.6%201.1%201%204.6%201.4%2011.8%201.4%207.2%200%2010.7-.4%2011.8-1.4%201.6-1.2%201.7-7.1%201.7-66.6%200-58.4-.2-65.4-1.6-66.6-1.6-1.3-17.1-2.3-20.9-1.2zM346.8%2034l-2.8%202.1v126.8l2.8%202.1c2.7%202.2%203.2%202.2%2029.2%201.7%2023-.4%2027.5-.7%2034.5-2.6%2022-5.9%2035.4-18.8%2041.5-40.1%203.1-10.8%203.9-32.5%201.6-44.1-2.6-12.9-8-23.2-16.3-31-7.7-7.2-14.7-11-26.1-14.1-6.7-1.8-11.2-2.2-34.7-2.6-26.5-.4-27.1-.3-29.7%201.8zm50.4%2020.1c19.2%204.1%2029.7%2019.7%2029.8%2043.9%200%2026.5-10.3%2042.3-30.2%2046-2.8.6-9.7%201-15.4%201H371V53h10.5c5.7%200%2012.8.5%2015.7%201.1zM483.4%2033c-5.6%202.2-5.4.1-5.4%2069.1v63.7l3.6%201.2c3.8%201.3%2018%201%2020.2-.4.9-.5%201.2-14.5%201.2-56.9%200-32.1.4-55.7.9-55.2.5.6%209.1%2025.3%2019.1%2055%2010.1%2029.7%2019.2%2054.9%2020.2%2056%201.6%201.8%203.1%202%2012.3%202%208%200%2010.8-.4%2011.9-1.5.9-.8%2010.2-26%2020.7-56s19.6-54.9%2020-55.4c.5-.6.9%2023.5.9%2055.1v56.1l3.6%201.2c3.8%201.3%2018%201%2020.2-.4.9-.5%201.2-16.3%201.2-64.6V38.1l-2.4-2.8c-2.4-2.8-2.5-2.8-16.2-3.1-17-.4-21.2.8-24.8%207.1-1.3%202.3-9.4%2023.2-18.1%2046.5-8.7%2023.3-16.1%2041.9-16.5%2041.5-.4-.4-7.6-20.1-16.1-43.8-16.8-46.9-17.6-48.4-25.3-50.4-5.2-1.3-28.1-1.4-31.2-.1zM812.5%20291.5c-23.8%205.2-39.4%2021.3-45.6%2047-3.1%2012.6-3.1%2033.3-.1%2045.7%206.8%2027.9%2024.7%2042.8%2053.2%2044.5%2015.8.9%2034.6-4.2%2041-11.1%202.3-2.5%202.5-3.6%202.5-11.6%200-5.7-.4-9.3-1.2-10.1-1-1-3.5-.1-11.9%204.2l-10.6%205.4h-10.6c-9.6%200-11.2-.3-15.7-2.7-13.4-7-19.5-20.6-19.5-43.3%200-30.5%2014.2-48%2037.5-46.2%207.8.6%2013.8%202.9%2021.7%208.1%202.9%202%205.8%203.6%206.5%203.6%202.3%200%203.3-3.8%203.3-12.3%200-10.2-1.2-12.2-10.3-16.7-11.5-5.6-27.2-7.4-40.2-4.5zM22.5%20291.7c-4.7%201.2-4.5-1.1-4.5%2067.8%200%2059.5.1%2065.4%201.7%2066.6%202.3%201.9%2021.3%201.9%2023.6%200%201.6-1.2%201.7-7.1%201.7-66.6%200-58.4-.2-65.4-1.6-66.6-1.6-1.3-17.1-2.3-20.9-1.2zM164%20292.3l-2.5%201.3-.5%2047.4-.5%2047.5-4.4-9.5c-7-15.2-40.1-77.9-42.9-81.2-4-4.8-7.7-5.8-20.6-5.8-10.9%200-11.6.1-14.5%202.6l-3.1%202.6v128.6l3.1%201.1c4.1%201.4%2013.7%201.4%2017.8%200l3.1-1.1-.2-51.4c-.2-28.2%200-51%20.3-50.6.4.4%202.1%204.1%203.9%208.2%204.2%209.8%2043.5%2084.5%2046.8%2088.9%203.6%204.8%207.6%206.1%2019.1%206.1%209.2%200%2010.2-.2%2013-2.6l3.1-2.6V293l-2.6-1c-3.6-1.4-15.4-1.2-18.4.3zM676.8%20292.1c-1.4.6-2.9%201.8-3.3%202.7-3.7%209.7-42.8%20124.6-43.3%20127.1-.8%205%201.4%206.1%2011.7%206.1%2012.8%200%2012.7%200%2018.4-17.3l4.8-14.7h50.5l4.9%2015.1c4.1%2012.5%205.4%2015.3%207.3%2016%203.2%201.2%2020.9%201.1%2023.3-.1%201.2-.7%201.9-2.1%201.9-3.9%200-2.1-38.3-115.2-43.1-127.3-.6-1.6-2.3-3.1-4.1-3.7-3.8-1.4-25.3-1.3-29%200zm22.7%2053.1c4.9%2015%209.1%2027.9%209.3%2028.5.3%201-3.9%201.3-18.8%201.3s-19.1-.3-18.7-1.3c.2-.6%204.4-13.4%209.3-28.4%204.9-15%209.1-27.2%209.4-27.3.4%200%204.6%2012.3%209.5%2027.2zM202%20295.6c-1.5%204.4-.9%2014.6.9%2016.8%201.1%201.4%204.1%201.6%2018.7%201.6H239v55.4c0%2050.3.2%2055.5%201.7%2056.7%201.1%201%204.6%201.4%2011.8%201.4%207.2%200%2010.7-.4%2011.8-1.4%201.5-1.2%201.7-6.4%201.7-56.7V314h17.4c20.7%200%2020.1.3%2020.1-11%200-5.1-.5-8.3-1.4-9.3-1.2-1.5-6-1.7-50.1-1.7h-48.8l-1.2%203.6zM322.6%20294.1l-2.6%202v126.8l2.6%202c2.6%202%203.8%202.1%2038.5%202.1%2041.3%200%2037.9.9%2037.9-10.5%200-11.2%201.8-10.5-27-10.5h-25v-39h20.9c17.6%200%2021.1-.2%2022.1-1.6.8-.9%201.3-4.3%201.3-8.9%200-4.6-.5-8-1.3-8.9-1-1.4-4.5-1.6-22.1-1.6H347v-33h24.4c20.8%200%2024.5-.2%2025.7-1.6%201.8-2.2%202.4-11.5.9-15.8l-1.2-3.6h-35.7c-34.7%200-35.9.1-38.5%202.1zM426.6%20294.1l-2.6%202v129.8l4.3%201.2c5.2%201.4%2019%20.7%2021.1-1.1%201.4-1.1%201.6-5%201.6-28.2v-27l7.9.3c13.4.7%2016.5%204.4%2028.2%2033.9%207.1%2018%208.7%2021.4%2010.9%2022.2%201.4.5%207.1.8%2012.8.6%208.7-.2%2010.6-.6%2011.7-2.1%201.8-2.4.9-5-8.9-28.2-8.3-19.7-12.6-26.9-18.6-31l-3.9-2.7%205.9-2.9c10.9-5.5%2017-13.7%2018.9-25.6%202.1-13.2-2.3-26.4-11-33.3-10.4-8.2-19.7-10-52-10-22.4%200-23.8.1-26.3%202.1zm53.1%2021.7c6.1%203.2%208.6%208.5%208.1%2017.1-.4%207.9-2.9%2012.1-9.1%2015.3-3.5%201.8-6.3%202.3-15.9%202.6l-11.8.4v-38.4l12.3.4c10.1.4%2012.9.8%2016.4%202.6zM546.6%20294.1l-2.6%202v64.4c0%2058.5.1%2064.4%201.7%2065.6%202.3%201.9%2021.3%201.9%2023.6%200%201.5-1.2%201.7-4.4%201.7-27.2V373h21.5c24.9%200%2023.5.7%2023.5-11s1.4-11-23.5-11H571v-37h46l1-2.6c.6-1.4%201-5.2%201-8.4s-.4-7-1-8.4l-1-2.6h-33.8c-32.8%200-34%20.1-36.6%202.1zM886.6%20294.1l-2.6%202v126.8l2.6%202c2.6%202%203.8%202.1%2038.5%202.1%2041.3%200%2037.9.9%2037.9-10.5%200-11.2%201.8-10.5-27-10.5h-25v-39h20.9c17.6%200%2021.1-.2%2022.1-1.6.8-.9%201.3-4.3%201.3-8.9%200-4.6-.5-8-1.3-8.9-1-1.4-4.5-1.6-22.1-1.6H911v-33h24.4c20.8%200%2024.5-.2%2025.7-1.6%201.8-2.2%202.4-11.5.9-15.8l-1.2-3.6h-35.7c-34.7%200-35.9.1-38.5%202.1z%22/%3E%3C/svg%3E"
-      },
-      "design": {
-        "graph": {
-          "blocks": [
-            {
-              "id": "88f2c6e3-5876-4951-bc2b-77190b6776cf",
-              "type": "basic.output",
-              "data": {
-                "name": "clk_vga"
-              },
-              "position": {
-                "x": 272,
-                "y": 96
-              }
-            },
-            {
-              "id": "3ea21c4f-6ef8-4639-aefd-4b5f9d4d8208",
-              "type": "basic.input",
-              "data": {
-                "name": "clk",
-                "clock": false
-              },
-              "position": {
-                "x": -120,
-                "y": 232
-              }
-            },
-            {
-              "id": "a9369dbc-67c7-4d86-8f16-e67a6ba01a1d",
-              "type": "basic.output",
-              "data": {
-                "name": "rd_en"
-              },
-              "position": {
-                "x": 1120,
-                "y": 248
-              }
-            },
-            {
-              "id": "e79ac974-3588-490c-88b9-d0408a2bff12",
-              "type": "basic.input",
-              "data": {
-                "name": "rst_n",
-                "clock": false
-              },
-              "position": {
-                "x": -120,
-                "y": 296
-              }
-            },
-            {
-              "id": "942a77cc-1405-4818-9909-9bd06978fe1b",
-              "type": "basic.input",
-              "data": {
-                "name": "sobel",
-                "clock": false
-              },
-              "position": {
-                "x": -120,
-                "y": 344
-              }
-            },
-            {
-              "id": "90e9049e-258b-4765-88d0-ec965fcdd405",
-              "type": "basic.output",
-              "data": {
-                "name": "gpdi_dp",
-                "range": "[3:0]",
-                "size": 4
-              },
-              "position": {
-                "x": 1120,
-                "y": 384
-              }
-            },
-            {
-              "id": "7654a37e-4ed6-4a99-8e51-86a1e0977834",
-              "type": "basic.input",
-              "data": {
-                "name": "threshold",
-                "range": "[7:0]",
-                "clock": false,
-                "size": 8
-              },
-              "position": {
-                "x": -120,
-                "y": 392
-              }
-            },
-            {
-              "id": "3e06c7b8-b07c-49a6-9dfc-099cac26ec35",
-              "type": "basic.input",
-              "data": {
-                "name": "empty_fifo",
-                "clock": false
-              },
-              "position": {
-                "x": -120,
-                "y": 440
-              }
-            },
-            {
-              "id": "de40a194-92fe-4bae-95da-8227716f808c",
-              "type": "basic.input",
-              "data": {
-                "name": "din",
-                "range": "[15:0]",
-                "clock": false,
-                "size": 16
-              },
-              "position": {
-                "x": -120,
-                "y": 488
-              }
-            },
-            {
-              "id": "0d4550b0-b765-4255-9660-d5190b878040",
-              "type": "62743d8c66363d9e92664eaea4dac7e7e3981cd0",
-              "position": {
-                "x": 16,
-                "y": 232
-              },
-              "size": {
-                "width": 96,
-                "height": 64
-              }
-            },
-            {
-              "id": "7c9ab9b3-e58c-4dd5-8224-e22b1d9354fd",
-              "type": "45dab8372de05be9cf77616b5a3febe0a5baedcd",
-              "position": {
-                "x": 1320,
-                "y": 480
-              },
-              "size": {
-                "width": 96,
-                "height": 224
-              }
-            },
-            {
-              "id": "1438ec0d-ec27-4d1e-9473-bd3c24ed700f",
-              "type": "basic.code",
-              "data": {
-                "code": "\t reg rd_en;\r\n\t //FSM state declarations\r\n\t //FSM state declarations\r\n\t localparam delay=0,\r\n\t\t\t\t\tidle=1,\r\n\t\t\t\t\tdisplay=2,\r\n\t\t\t\t\talign_frame=1,\r\n\t\t\t\t\talign_idle=0;\r\n\t\t\t\t\t\r\n\t reg[1:0] state_q,state_d;\r\n\t reg[7:0] red,green,blue;\r\n\t wire[1:0] tmds_red,tmds_green,tmds_blue,tmds_clk;\r\n\t wire clk_5x;\r\n\t reg sobel_prev,state_align_q,state_align_d;\r\n\t reg[4:0] align_count_q,align_count_d;\r\n\t \r\n\t //register operations\r\n\t always @(posedge clk_vga,negedge rst_n) begin\r\n\t\tif(!rst_n) begin\r\n\t\t\tstate_q<=delay;\r\n\t\t\tstate_align_q<=align_idle;\r\n\t\t\talign_count_q<=0;\r\n\t\tend\r\n\t\telse begin\r\n\t\t\tstate_q<=state_d;\r\n\t\t\tsobel_prev<=sobel;\r\n\t\t\tstate_align_q<=state_align_d;\r\n\t\t\talign_count_q<=align_count_d;\r\n\t\tend\r\n\t end\r\n\t \r\n\t //FSM next-state logic\r\n\t always @* begin\r\n\t state_d=state_q;\r\n\t state_align_d=state_align_q;\r\n\t align_count_d=align_count_q;\r\n\t rd_en=0;\r\n\t red=0;\r\n\t green=0;\r\n\t blue=0;\r\n\t\t\t\r\n\t\tcase(state_q)\r\n\t\t delay: if(blank) begin\r\n\t\t\t\t\tstate_d=idle;\r\n\t\t\t\t\tstate_align_d=align_frame;\r\n\t\t\t\t end\r\n\t\t\tidle:  if(pixel_x==0 && pixel_y==0 && !empty_fifo) begin //wait for pixel-data coming from asyn_fifo \t\r\n\t\t\t\t\t\t\tif(sobel) begin\r\n\t\t\t\t\t\t\t\tred=(din>threshold)? 8'hff:0;\r\n    \t\t\t\t\t\t\tgreen=(din>threshold)? 8'hff:0;\r\n    \t\t\t\t\t\t\tblue=(din>threshold)? 8'hff:0;\r\n\t\t\t\t\t\t\t\t/*red=din[7:0]; //grayscale\r\n\t\t\t\t\t\t\t\tgreen=din[7:0];\r\n\t\t\t\t\t\t\t\tblue=din[7:0];*/\r\n\t\t\t\t\t\t\tend\r\n\t\t\t\t\t\t\telse begin\r\n\t\t\t\t\t\t\t\tred=din[15:11]<<3;\r\n\t\t\t\t\t\t\t\tgreen=din[10:5]<<2;\r\n\t\t\t\t\t\t\t\tblue=din[4:0]<<3;\r\n\t\t\t\t\t\t\tend\r\n\t\t\t\t\t\t\trd_en=1;\t\r\n\t\t\t\t\t\t\tstate_d=display;\r\n\t\t\t\t\tend\r\n\t\tdisplay: if(!blank) begin //we will continue to read the asyn_fifo as long as current pixel coordinate is inside the visible screen(640x480) \r\n\t\t\t\t\t\t\tif(sobel) begin\r\n\t\t\t\t\t\t\t\tred=(din>threshold)? 8'hff:0;\r\n    \t\t\t\t\t\t\tgreen=(din>threshold)? 8'hff:0;\r\n    \t\t\t\t\t\t\tblue=(din>threshold)? 8'hff:0;\r\n\t\t\t\t\t\t\tend\r\n\t\t\t\t\t\t\telse begin\r\n\t\t\t\t\t\t\t\tred=din[15:11]<<3;\r\n\t\t\t\t\t\t\t\tgreen=din[10:5]<<2;\r\n\t\t\t\t\t\t\t\tblue=din[4:0]<<3;\r\n\t\t\t\t\t\t\tend\r\n\t\t\t\t\t\t\trd_en=1;\t\r\n\t\t\t\t\tend\r\n\t\tdefault: state_d=delay;\r\n\t\tendcase\r\n\t\t\r\n\t\t\r\n\t\t//automatically aligns frame when display changes (sobel-> rgb or rgb->sobel)\r\n\t\tcase(state_align_q)\r\n\t\t\t align_idle: if(sobel_prev != sobel) begin \r\n\t\t\t\t\t\t\t\tstate_align_d=align_frame;\r\n\t\t\t\t\t\t\t\talign_count_d=0;\r\n\t\t\t\t\t\t end\r\n\t\t\talign_frame:  begin\r\n\t\t\t\t\t\t\tif(sobel && din[8] && din[15:9]==0 && rd_en) begin //align sobel frame \r\n\t\t\t\t\t\t\t\tif(pixel_x==0 && pixel_y==0) begin \r\n\t\t\t\t\t\t\t\t\trd_en=1;\r\n\t\t\t\t\t\t\t\t\talign_count_d=align_count_q+1'b1;\r\n\t\t\t\t\t\t\t\t\tif(align_count_q==5) state_align_d=align_idle; //align for 5 frames\r\n\t\t\t\t\t\t\t\tend\r\n\t\t\t\t\t\t\t\telse rd_en=0;\r\n\t\t\t\t\t\t\tend\r\n\t\t\t\t\t\t\telse if(!sobel && din==16'b00000_000000_11111 && rd_en) begin //align rgb fram\r\n\t\t\t\t\t\t\t\tif(pixel_x==0 && pixel_y==0) begin \r\n\t\t\t\t\t\t\t\t\trd_en=1;\r\n\t\t\t\t\t\t\t\t\talign_count_d=align_count_q+1'b1;\r\n\t\t\t\t\t\t\t\t\tif(align_count_q==5) state_align_d=align_idle; //align for 5 frames\r\n\t\t\t\t\t\t\t\tend\r\n\t\t\t\t\t\t\t\telse rd_en=0;\r\n\t\t\t\t\t\t\tend\r\n\t\t\t\t\t\t  end\r\n\t\t\t\tdefault: state_align_d=align_idle;\r\n\t\tendcase\r\n\t end\r\n \r\n\t\r\n\t//ODDR instantiatons for Double-Data Rate operation\r\n\t\tODDRX1F ddr0_clock (.D0(tmds_clk   [0] ), .D1(tmds_clk   [1] ), .Q(gpdi_dp[3]), .SCLK(clk_5x), .RST(0));\r\n        ODDRX1F ddr0_red   (.D0(tmds_red   [0] ), .D1(tmds_red   [1] ), .Q(gpdi_dp[2]), .SCLK(clk_5x), .RST(0));\r\n        ODDRX1F ddr0_green (.D0(tmds_green [0] ), .D1(tmds_green [1] ), .Q(gpdi_dp[1]), .SCLK(clk_5x), .RST(0));\r\n        ODDRX1F ddr0_blue  (.D0(tmds_blue  [0] ), .D1(tmds_blue  [1] ), .Q(gpdi_dp[0]), .SCLK(clk_5x), .RST(0));\r\n\t\t\r\n\t\t",
-                "params": [],
-                "ports": {
-                  "in": [
-                    {
-                      "name": "clk_5x"
-                    },
-                    {
-                      "name": "clk_vga"
-                    },
-                    {
-                      "name": "rst_n"
-                    },
-                    {
-                      "name": "sobel"
-                    },
-                    {
-                      "name": "threshold",
-                      "range": "[7:0]",
-                      "size": 8
-                    },
-                    {
-                      "name": "empty_fifo"
-                    },
-                    {
-                      "name": "din",
-                      "range": "[15:0]",
-                      "size": 16
-                    },
-                    {
-                      "name": "blank"
-                    },
-                    {
-                      "name": "tmds_red",
-                      "range": "[1:0]",
-                      "size": 2
-                    },
-                    {
-                      "name": "tmds_green",
-                      "range": "[1:0]",
-                      "size": 2
-                    },
-                    {
-                      "name": "tmds_blue",
-                      "range": "[1:0]",
-                      "size": 2
-                    },
-                    {
-                      "name": "tmds_clk",
-                      "range": "[1:0]",
-                      "size": 2
-                    },
-                    {
-                      "name": "pixel_x",
-                      "range": "[10:0]",
-                      "size": 11
-                    },
-                    {
-                      "name": "pixel_y",
-                      "range": "[10:0]",
-                      "size": 11
-                    }
-                  ],
-                  "out": [
-                    {
-                      "name": "rd_en"
-                    },
-                    {
-                      "name": "gpdi_dp",
-                      "range": "[3:0]",
-                      "size": 4
-                    },
-                    {
-                      "name": "red",
-                      "range": "[7:0]",
-                      "size": 8
-                    },
-                    {
-                      "name": "green",
-                      "range": "[7:0]",
-                      "size": 8
-                    },
-                    {
-                      "name": "blue",
-                      "range": "[7:0]",
-                      "size": 8
-                    }
-                  ]
-                }
-              },
-              "position": {
-                "x": 344,
-                "y": 208
-              },
-              "size": {
-                "width": 688,
-                "height": 680
-              }
-            }
-          ],
-          "wires": [
-            {
-              "source": {
-                "block": "1438ec0d-ec27-4d1e-9473-bd3c24ed700f",
-                "port": "red"
-              },
-              "target": {
-                "block": "7c9ab9b3-e58c-4dd5-8224-e22b1d9354fd",
-                "port": "2b501da6-62b0-4cc4-815f-945fa81e35a2"
-              },
-              "vertices": [
-                {
-                  "x": 1240,
-                  "y": 568
-                }
-              ],
-              "size": 8
-            },
-            {
-              "source": {
-                "block": "1438ec0d-ec27-4d1e-9473-bd3c24ed700f",
-                "port": "green"
-              },
-              "target": {
-                "block": "7c9ab9b3-e58c-4dd5-8224-e22b1d9354fd",
-                "port": "0badf6c9-21be-411b-8baa-6e91dc5feae3"
-              },
-              "size": 8
-            },
-            {
-              "source": {
-                "block": "1438ec0d-ec27-4d1e-9473-bd3c24ed700f",
-                "port": "blue"
-              },
-              "target": {
-                "block": "7c9ab9b3-e58c-4dd5-8224-e22b1d9354fd",
-                "port": "ed51d514-0665-4451-9982-7dadf1d7e852"
-              },
-              "size": 8
-            },
-            {
-              "source": {
-                "block": "7c9ab9b3-e58c-4dd5-8224-e22b1d9354fd",
-                "port": "8f37d1b7-81c7-4e77-a70f-5677b75fb7fb"
-              },
-              "target": {
-                "block": "1438ec0d-ec27-4d1e-9473-bd3c24ed700f",
-                "port": "tmds_red"
-              },
-              "vertices": [
-                {
-                  "x": 24,
-                  "y": 1008
-                }
-              ],
-              "size": 2
-            },
-            {
-              "source": {
-                "block": "7c9ab9b3-e58c-4dd5-8224-e22b1d9354fd",
-                "port": "418c1b68-f95e-4ca1-bf3f-dc18eb2481c8"
-              },
-              "target": {
-                "block": "1438ec0d-ec27-4d1e-9473-bd3c24ed700f",
-                "port": "tmds_green"
-              },
-              "vertices": [
-                {
-                  "x": 1512,
-                  "y": 624
-                },
-                {
-                  "x": 48,
-                  "y": 968
-                }
-              ],
-              "size": 2
-            },
-            {
-              "source": {
-                "block": "7c9ab9b3-e58c-4dd5-8224-e22b1d9354fd",
-                "port": "d9458bc6-e414-4691-a36b-327ff5a4b7bb"
-              },
-              "target": {
-                "block": "1438ec0d-ec27-4d1e-9473-bd3c24ed700f",
-                "port": "tmds_blue"
-              },
-              "vertices": [
-                {
-                  "x": 1488,
-                  "y": 656
-                },
-                {
-                  "x": 120,
-                  "y": 928
-                }
-              ],
-              "size": 2
-            },
-            {
-              "source": {
-                "block": "7c9ab9b3-e58c-4dd5-8224-e22b1d9354fd",
-                "port": "6976e704-b765-4dd7-a319-4cf25f8e28ec"
-              },
-              "target": {
-                "block": "1438ec0d-ec27-4d1e-9473-bd3c24ed700f",
-                "port": "tmds_clk"
-              },
-              "vertices": [
-                {
-                  "x": 168,
-                  "y": 904
-                }
-              ],
-              "size": 2
-            },
-            {
-              "source": {
-                "block": "7c9ab9b3-e58c-4dd5-8224-e22b1d9354fd",
-                "port": "4f943a2b-78c6-4818-8358-82eac3707277"
-              },
-              "target": {
-                "block": "1438ec0d-ec27-4d1e-9473-bd3c24ed700f",
-                "port": "pixel_x"
-              },
-              "vertices": [
-                {
-                  "x": 1648,
-                  "y": 536
-                },
-                {
-                  "x": 1608,
-                  "y": 1080
-                },
-                {
-                  "x": 256,
-                  "y": 888
-                }
-              ],
-              "size": 11
-            },
-            {
-              "source": {
-                "block": "7c9ab9b3-e58c-4dd5-8224-e22b1d9354fd",
-                "port": "9d63d0fa-8408-41a7-9932-245fad4c7dfe"
-              },
-              "target": {
-                "block": "1438ec0d-ec27-4d1e-9473-bd3c24ed700f",
-                "port": "pixel_y"
-              },
-              "vertices": [
-                {
-                  "x": 1584,
-                  "y": 560
-                },
-                {
-                  "x": 1632,
-                  "y": 1056
-                },
-                {
-                  "x": 288,
-                  "y": 912
-                }
-              ],
-              "size": 11
-            },
-            {
-              "source": {
-                "block": "e79ac974-3588-490c-88b9-d0408a2bff12",
-                "port": "out"
-              },
-              "target": {
-                "block": "1438ec0d-ec27-4d1e-9473-bd3c24ed700f",
-                "port": "rst_n"
-              }
-            },
-            {
-              "source": {
-                "block": "3e06c7b8-b07c-49a6-9dfc-099cac26ec35",
-                "port": "out"
-              },
-              "target": {
-                "block": "1438ec0d-ec27-4d1e-9473-bd3c24ed700f",
-                "port": "empty_fifo"
-              }
-            },
-            {
-              "source": {
-                "block": "de40a194-92fe-4bae-95da-8227716f808c",
-                "port": "out"
-              },
-              "target": {
-                "block": "1438ec0d-ec27-4d1e-9473-bd3c24ed700f",
-                "port": "din"
-              },
-              "size": 16
-            },
-            {
-              "source": {
-                "block": "1438ec0d-ec27-4d1e-9473-bd3c24ed700f",
-                "port": "rd_en"
-              },
-              "target": {
-                "block": "a9369dbc-67c7-4d86-8f16-e67a6ba01a1d",
-                "port": "in"
-              }
-            },
-            {
-              "source": {
-                "block": "1438ec0d-ec27-4d1e-9473-bd3c24ed700f",
-                "port": "gpdi_dp"
-              },
-              "target": {
-                "block": "90e9049e-258b-4765-88d0-ec965fcdd405",
-                "port": "in"
-              },
-              "size": 4
-            },
-            {
-              "source": {
-                "block": "3ea21c4f-6ef8-4639-aefd-4b5f9d4d8208",
-                "port": "out"
-              },
-              "target": {
-                "block": "0d4550b0-b765-4255-9660-d5190b878040",
-                "port": "869bbfc1-937e-4a73-ba62-a3a16ebdca70"
-              }
-            },
-            {
-              "source": {
-                "block": "0d4550b0-b765-4255-9660-d5190b878040",
-                "port": "e150a394-082b-4969-807f-e7f0e6d74832"
-              },
-              "target": {
-                "block": "1438ec0d-ec27-4d1e-9473-bd3c24ed700f",
-                "port": "clk_5x"
-              }
-            },
-            {
-              "source": {
-                "block": "0d4550b0-b765-4255-9660-d5190b878040",
-                "port": "8767366b-84a6-451b-9041-26852b639852"
-              },
-              "target": {
-                "block": "1438ec0d-ec27-4d1e-9473-bd3c24ed700f",
-                "port": "clk_vga"
-              }
-            },
-            {
-              "source": {
-                "block": "0d4550b0-b765-4255-9660-d5190b878040",
-                "port": "8767366b-84a6-451b-9041-26852b639852"
-              },
-              "target": {
-                "block": "7c9ab9b3-e58c-4dd5-8224-e22b1d9354fd",
-                "port": "f703731c-2ea3-43a2-9a14-c997ef44609c"
-              },
-              "vertices": [
-                {
-                  "x": 208,
-                  "y": 176
-                },
-                {
-                  "x": 1240,
-                  "y": 392
-                }
-              ]
-            },
-            {
-              "source": {
-                "block": "0d4550b0-b765-4255-9660-d5190b878040",
-                "port": "e150a394-082b-4969-807f-e7f0e6d74832"
-              },
-              "target": {
-                "block": "7c9ab9b3-e58c-4dd5-8224-e22b1d9354fd",
-                "port": "89c998ce-e619-4976-9ef2-0fa0d21336b0"
-              },
-              "vertices": [
-                {
-                  "x": 256,
-                  "y": 208
-                },
-                {
-                  "x": 568,
-                  "y": 208
-                },
-                {
-                  "x": 1288,
-                  "y": 360
-                }
-              ]
-            },
-            {
-              "source": {
-                "block": "0d4550b0-b765-4255-9660-d5190b878040",
-                "port": "8767366b-84a6-451b-9041-26852b639852"
-              },
-              "target": {
-                "block": "88f2c6e3-5876-4951-bc2b-77190b6776cf",
-                "port": "in"
-              }
-            },
-            {
-              "source": {
-                "block": "7c9ab9b3-e58c-4dd5-8224-e22b1d9354fd",
-                "port": "2720a2e9-7d0e-4c90-8193-472274d1ef02"
-              },
-              "target": {
-                "block": "1438ec0d-ec27-4d1e-9473-bd3c24ed700f",
-                "port": "blank"
-              },
-              "vertices": [
-                {
-                  "x": 1680,
-                  "y": 512
-                },
-                {
-                  "x": 8,
-                  "y": 1104
-                }
-              ]
-            },
-            {
-              "source": {
-                "block": "942a77cc-1405-4818-9909-9bd06978fe1b",
-                "port": "out"
-              },
-              "target": {
-                "block": "1438ec0d-ec27-4d1e-9473-bd3c24ed700f",
-                "port": "sobel"
-              }
-            },
-            {
-              "source": {
-                "block": "7654a37e-4ed6-4a99-8e51-86a1e0977834",
-                "port": "out"
-              },
-              "target": {
-                "block": "1438ec0d-ec27-4d1e-9473-bd3c24ed700f",
-                "port": "threshold"
-              },
-              "size": 8
-            }
-          ]
-        }
-      }
-    },
-    "62743d8c66363d9e92664eaea4dac7e7e3981cd0": {
-      "package": {
-        "name": "pll_HDMI",
-        "version": "",
-        "description": "Converts 25MHz clk to 25MHz(VGA) and 125MHz(HDMI)",
-        "author": "",
-        "image": ""
-      },
-      "design": {
-        "graph": {
-          "blocks": [
-            {
-              "id": "e150a394-082b-4969-807f-e7f0e6d74832",
-              "type": "basic.output",
-              "data": {
-                "name": "hdmi_clk"
-              },
-              "position": {
-                "x": 1256,
-                "y": 352
-              }
-            },
-            {
-              "id": "869bbfc1-937e-4a73-ba62-a3a16ebdca70",
-              "type": "basic.input",
-              "data": {
-                "name": "clkin",
-                "clock": false
-              },
-              "position": {
-                "x": 336,
-                "y": 480
-              }
-            },
-            {
-              "id": "8767366b-84a6-451b-9041-26852b639852",
-              "type": "basic.output",
-              "data": {
-                "name": "vga_clk"
-              },
-              "position": {
-                "x": 1248,
-                "y": 624
-              }
-            },
-            {
-              "id": "7d850981-f6fe-4a40-92dd-cac41bf2a97e",
-              "type": "basic.code",
-              "data": {
-                "code": "wire locked;\r\n\r\n(* FREQUENCY_PIN_CLKI=\"25\" *)\r\n(* FREQUENCY_PIN_CLKOP=\"125\" *)\r\n(* FREQUENCY_PIN_CLKOS=\"25\" *)\r\n(* ICP_CURRENT=\"12\" *) (* LPF_RESISTOR=\"8\" *) (* MFG_ENABLE_FILTEROPAMP=\"1\" *) (* MFG_GMCREF_SEL=\"2\" *)\r\nEHXPLLL #(\r\n        .PLLRST_ENA(\"DISABLED\"),\r\n        .INTFB_WAKE(\"DISABLED\"),\r\n        .STDBY_ENABLE(\"DISABLED\"),\r\n        .DPHASE_SOURCE(\"DISABLED\"),\r\n        .OUTDIVIDER_MUXA(\"DIVA\"),\r\n        .OUTDIVIDER_MUXB(\"DIVB\"),\r\n        .OUTDIVIDER_MUXC(\"DIVC\"),\r\n        .OUTDIVIDER_MUXD(\"DIVD\"),\r\n        .CLKI_DIV(1),\r\n        .CLKOP_ENABLE(\"ENABLED\"),\r\n        .CLKOP_DIV(5),\r\n        .CLKOP_CPHASE(2),\r\n        .CLKOP_FPHASE(0),\r\n        .CLKOS_ENABLE(\"ENABLED\"),\r\n        .CLKOS_DIV(25),\r\n        .CLKOS_CPHASE(2),\r\n        .CLKOS_FPHASE(0),\r\n        .FEEDBK_PATH(\"CLKOP\"),\r\n        .CLKFB_DIV(5)\r\n    ) pll_i (\r\n        .RST(1'b0),\r\n        .STDBY(1'b0),\r\n        .CLKI(clkin),\r\n        .CLKOP(clkout0),\r\n        .CLKOS(clkout1),\r\n        .CLKFB(clkout0),\r\n        .CLKINTFB(),\r\n        .PHASESEL0(1'b0),\r\n        .PHASESEL1(1'b0),\r\n        .PHASEDIR(1'b1),\r\n        .PHASESTEP(1'b1),\r\n        .PHASELOADREG(1'b1),\r\n        .PLLWAKESYNC(1'b0),\r\n        .ENCLKOP(1'b0),\r\n        .LOCK(locked)\r\n\t);",
-                "params": [],
-                "ports": {
-                  "in": [
-                    {
-                      "name": "clkin"
-                    }
-                  ],
-                  "out": [
-                    {
-                      "name": "clkout0"
-                    },
-                    {
-                      "name": "clkout1"
-                    }
-                  ]
-                }
-              },
-              "position": {
-                "x": 544,
-                "y": 248
-              },
-              "size": {
-                "width": 648,
-                "height": 544
-              }
-            }
-          ],
-          "wires": [
-            {
-              "source": {
-                "block": "869bbfc1-937e-4a73-ba62-a3a16ebdca70",
-                "port": "out"
-              },
-              "target": {
-                "block": "7d850981-f6fe-4a40-92dd-cac41bf2a97e",
-                "port": "clkin"
-              }
-            },
-            {
-              "source": {
-                "block": "7d850981-f6fe-4a40-92dd-cac41bf2a97e",
-                "port": "clkout1"
-              },
-              "target": {
-                "block": "8767366b-84a6-451b-9041-26852b639852",
-                "port": "in"
-              }
-            },
-            {
-              "source": {
-                "block": "7d850981-f6fe-4a40-92dd-cac41bf2a97e",
-                "port": "clkout0"
-              },
-              "target": {
-                "block": "e150a394-082b-4969-807f-e7f0e6d74832",
-                "port": "in"
-              }
-            }
-          ]
-        }
-      }
-    },
-    "45dab8372de05be9cf77616b5a3febe0a5baedcd": {
-      "package": {
-        "name": "HDMI_controller",
-        "version": "",
-        "description": "HDMI controller with DDR enabled",
-        "author": "",
-        "image": ""
-      },
-      "design": {
-        "graph": {
-          "blocks": [
-            {
-              "id": "2720a2e9-7d0e-4c90-8193-472274d1ef02",
-              "type": "basic.output",
-              "data": {
-                "name": "blank"
-              },
-              "position": {
-                "x": 1000,
-                "y": -392
-              }
-            },
-            {
-              "id": "4f943a2b-78c6-4818-8358-82eac3707277",
-              "type": "basic.output",
-              "data": {
-                "name": "hcnt",
-                "range": "[10:0]",
-                "size": 11
-              },
-              "position": {
-                "x": 1000,
-                "y": -328
-              }
-            },
-            {
-              "id": "9d63d0fa-8408-41a7-9932-245fad4c7dfe",
-              "type": "basic.output",
-              "data": {
-                "name": "vcnt",
-                "range": "[10:0]",
-                "size": 11
-              },
-              "position": {
-                "x": 1008,
-                "y": -256
-              }
-            },
-            {
-              "id": "f703731c-2ea3-43a2-9a14-c997ef44609c",
-              "type": "basic.input",
-              "data": {
-                "name": "pclk",
-                "clock": false
-              },
-              "position": {
-                "x": -40,
-                "y": -184
-              }
-            },
-            {
-              "id": "8f37d1b7-81c7-4e77-a70f-5677b75fb7fb",
-              "type": "basic.output",
-              "data": {
-                "name": "tmds_red",
-                "range": "[1:0]",
-                "size": 2
-              },
-              "position": {
-                "x": 2336,
-                "y": 40
-              }
-            },
-            {
-              "id": "89c998ce-e619-4976-9ef2-0fa0d21336b0",
-              "type": "basic.input",
-              "data": {
-                "name": "tmds_clk",
-                "clock": false
-              },
-              "position": {
-                "x": 1096,
-                "y": 40
-              }
-            },
-            {
-              "id": "2b501da6-62b0-4cc4-815f-945fa81e35a2",
-              "type": "basic.input",
-              "data": {
-                "name": "red",
-                "range": "[7:0]",
-                "clock": false,
-                "size": 8
-              },
-              "position": {
-                "x": 632,
-                "y": 96
-              }
-            },
-            {
-              "id": "418c1b68-f95e-4ca1-bf3f-dc18eb2481c8",
-              "type": "basic.output",
-              "data": {
-                "name": "tmds_green",
-                "range": "[1:0]",
-                "size": 2
-              },
-              "position": {
-                "x": 2344,
-                "y": 176
-              }
-            },
-            {
-              "id": "d9458bc6-e414-4691-a36b-327ff5a4b7bb",
-              "type": "basic.output",
-              "data": {
-                "name": "tmds_blue",
-                "range": "[1:0]",
-                "size": 2
-              },
-              "position": {
-                "x": 2352,
-                "y": 312
-              }
-            },
-            {
-              "id": "0badf6c9-21be-411b-8baa-6e91dc5feae3",
-              "type": "basic.input",
-              "data": {
-                "name": "green",
-                "range": "[7:0]",
-                "clock": false,
-                "size": 8
-              },
-              "position": {
-                "x": 632,
-                "y": 312
-              }
-            },
-            {
-              "id": "6976e704-b765-4dd7-a319-4cf25f8e28ec",
-              "type": "basic.output",
-              "data": {
-                "name": "tmds_clk",
-                "range": "[1:0]",
-                "size": 2
-              },
-              "position": {
-                "x": 2352,
-                "y": 448
-              }
-            },
-            {
-              "id": "ed51d514-0665-4451-9982-7dadf1d7e852",
-              "type": "basic.input",
-              "data": {
-                "name": "blue",
-                "range": "[7:0]",
-                "clock": false,
-                "size": 8
-              },
-              "position": {
-                "x": 640,
-                "y": 552
-              }
-            },
-            {
-              "id": "f510dbe7-dd9a-4c15-9c11-13a4920e43fc",
-              "type": "basic.code",
-              "data": {
-                "code": "//Copyright (C) 2021 Hirosh Dabui hirosh@dabui.de\r\n\r\nlocalparam\r\n\t/* VGA_1280x720@60Hz */          \r\n\t\t VPOL            = 1,\t      \r\n\t\t HPOL            = 0,\t      \r\n\t\t FRAME_RATE      = 30,\t    \r\n\t/* vertical timing frame */     \r\n\t\t VBP             = 33,      \r\n\t\t VFP             = 10,      \r\n\t\t VSLEN           = 2,\t      \r\n\t\t VACTIVE         = 480,\t    \r\n\t/* horizontal timing frame */   \r\n\t\t HBP             = 48,\t    \r\n\t\t HFP             = 16,\t    \r\n\t\t HSLEN           = 96,\t    \r\n\t\t HACTIVE         = 640;\r\n//////////////////////////////////////\r\n\r\nlocalparam VTOTAL            = VACTIVE + VFP + VSLEN + VBP;\t\r\nlocalparam HTOTAL            = HACTIVE + HFP + HSLEN + HBP;\t\r\nlocalparam PIXEL_CLK         = (VTOTAL * HTOTAL) * FRAME_RATE;\r\n\r\nreg[10:0] out_hcnt,out_vcnt;\r\n\t//Display Final Values \r\n\tinitial begin \r\n\t  $display(\"VACTIVE:%d\", VACTIVE); \r\n\t  $display(\"HACTIVE:%d\", HACTIVE); \r\n\t  $display(\"VBP:%d\", VBP);\r\n\t  $display(\"VFP:%d\", VFP); \r\n\t  $display(\"HBP:%d\", HBP); \r\n\t  $display(\"HFP:%d\", HFP); \r\n\t  $display(\"VSLEN:%d\", VSLEN); \r\n\t  $display(\"HSLEN:%d\", HSLEN); \r\n\t  $display(\"VTOTAL:%d\", VTOTAL); \r\n\t  $display(\"HTOTAL:%d\", HTOTAL); \r\n\t  $display(\"Framerate:%d\", FRAME_RATE); \r\n\t  $display(\"PIXEL Frequency:%d\", PIXEL_CLK); \r\n\tend \r\n\t\r\n    /*\r\n     *\r\n     *         +\r\n     *         |\r\n     *         | VACTIVE\r\n     *         |\r\n     *         |       HACTIVE            HFP    HSLEN    HBP\r\n     *         ------------------------++-----++-------+------+\r\n     *         |\r\n     *         |\r\n     *         |\r\n     *         |\r\n     *         |\r\n     *         +\r\n     *         | VFP\r\n     *         +\r\n     *         +\r\n     *         |\r\n     *         | VSLEN\r\n     *         |\r\n     *         +\r\n     *         +\r\n     *         |\r\n     *         | HBP\r\n     *         |\r\n     *         +\r\n     *\r\n     */\r\n\r\n\r\n\r\nassign out_vsync = ((out_vcnt >= (VACTIVE + VFP -1)) && (out_vcnt < (VACTIVE + VFP + VSLEN))) ^ ~VPOL;\r\nassign out_hsync = ((out_hcnt >= (HACTIVE + HFP -1)) && (out_hcnt < (HACTIVE + HFP + HSLEN))) ^ ~HPOL;\r\nassign out_blank = (out_hcnt >= HACTIVE) || (out_vcnt >= VACTIVE);\r\n\r\nwire hcycle = out_hcnt == (HTOTAL -1) || ~reset_n;\r\nwire vcycle = out_vcnt == (VTOTAL -1) || ~reset_n;\r\n\r\nalways @(posedge pclk) out_hcnt <= hcycle ? 0 : out_hcnt + 1;\r\n\r\nalways @(posedge pclk) begin\r\n    if (hcycle) out_vcnt <= vcycle ? 0 : out_vcnt + 1;\r\nend\r\n",
-                "params": [],
-                "ports": {
-                  "in": [
-                    {
-                      "name": "pclk"
-                    },
-                    {
-                      "name": "reset_n"
-                    }
-                  ],
-                  "out": [
-                    {
-                      "name": "out_hsync"
-                    },
-                    {
-                      "name": "out_vsync"
-                    },
-                    {
-                      "name": "out_blank"
-                    },
-                    {
-                      "name": "out_hcnt",
-                      "range": "[10:0]",
-                      "size": 11
-                    },
-                    {
-                      "name": "out_vcnt",
-                      "range": "[10:0]",
-                      "size": 11
-                    }
-                  ]
-                }
-              },
-              "position": {
-                "x": 144,
-                "y": -208
-              },
-              "size": {
-                "width": 448,
-                "height": 216
-              }
-            },
-            {
-              "id": "0e297689-f54e-478c-bec8-fad4c31aea51",
-              "type": "c83dcd1d9ab420d911df81b3dfae04681559c623",
-              "position": {
-                "x": -40,
-                "y": -80
-              },
-              "size": {
-                "width": 96,
-                "height": 64
-              }
-            },
-            {
-              "id": "df655023-2e84-4601-918d-656015462d1f",
-              "type": "96f0988f8164f7c1b216c8ee122d6ce3cf6bc139",
-              "position": {
-                "x": 712,
-                "y": -128
-              },
-              "size": {
-                "width": 96,
-                "height": 64
-              }
-            },
-            {
-              "id": "fa347433-0215-454f-b8c4-3edcd2e904d4",
-              "type": "c4dd08263a85a91ba53e2ae2b38de344c5efcb52",
-              "position": {
-                "x": 632,
-                "y": 160
-              },
-              "size": {
-                "width": 96,
-                "height": 64
-              }
-            },
-            {
-              "id": "f6820735-f223-45b4-afc8-08f70c1f68a2",
-              "type": "c4dd08263a85a91ba53e2ae2b38de344c5efcb52",
-              "position": {
-                "x": 632,
-                "y": 376
-              },
-              "size": {
-                "width": 96,
-                "height": 64
-              }
-            },
-            {
-              "id": "f8a915ea-a8ec-44ec-a256-1f6b415c2a27",
-              "type": "basic.code",
-              "data": {
-                "code": "//Copyright (C) 2021 Hirosh Dabui hirosh@dabui.de\r\n\r\nlocalparam DDR_ENABLED=1,\r\n            OUT_TMDS_MSB = DDR_ENABLED ? 1 : 0;\r\n\r\n\r\n/**/\r\nreg       tmds_shift_load   = 0;\r\nreg [3:0] tmds_modulo       = 0;\r\nreg [9:0] tmds_shift_red    = 0;\r\nreg [9:0] tmds_shift_green  = 0;\r\nreg [9:0] tmds_shift_blue   = 0;\r\nreg [9:0] tmds_shift_clk    = 0;\r\n\r\nwire [9:0] tmds_pixel_clk = 10'b00000_11111;\r\n\r\n\r\nwire max_shifts_reached = tmds_modulo == (DDR_ENABLED ? 4 : 9);\r\nalways @(posedge tmds_clk) tmds_modulo      <= max_shifts_reached ? 0 : tmds_modulo + 1;\r\nalways @(posedge tmds_clk) tmds_shift_load  <= max_shifts_reached;\r\n\r\nalways @(posedge tmds_clk) begin //shifts 2-bits at a time if DDR is enabled, else shift 1-bit at a time\r\n    tmds_shift_red    <= tmds_shift_load ? tmds_red       : {DDR_ENABLED ? 2'b00 : 1'b0, tmds_shift_red   [9: DDR_ENABLED ? 2 : 1]};\r\n    tmds_shift_green  <= tmds_shift_load ? tmds_green     : {DDR_ENABLED ? 2'b00 : 1'b0, tmds_shift_green [9: DDR_ENABLED ? 2 : 1]};\r\n    tmds_shift_blue   <= tmds_shift_load ? tmds_blue      : {DDR_ENABLED ? 2'b00 : 1'b0, tmds_shift_blue  [9: DDR_ENABLED ? 2 : 1]};\r\n    tmds_shift_clk    <= tmds_shift_load ? tmds_pixel_clk : {DDR_ENABLED ? 2'b00 : 1'b0, tmds_shift_clk   [9: DDR_ENABLED ? 2 : 1]};\r\nend\r\n\r\nassign out_tmds_clk   = tmds_shift_clk    [ OUT_TMDS_MSB : 0 ];\r\nassign out_tmds_red   = tmds_shift_red    [ OUT_TMDS_MSB : 0 ];\r\nassign out_tmds_green = tmds_shift_green  [ OUT_TMDS_MSB : 0 ];\r\nassign out_tmds_blue  = tmds_shift_blue   [ OUT_TMDS_MSB : 0 ];",
-                "params": [],
-                "ports": {
-                  "in": [
-                    {
-                      "name": "tmds_clk"
-                    },
-                    {
-                      "name": "tmds_red",
-                      "range": "[9:0]",
-                      "size": 10
-                    },
-                    {
-                      "name": "tmds_green",
-                      "range": "[9:0]",
-                      "size": 10
-                    },
-                    {
-                      "name": "tmds_blue",
-                      "range": "[9:0]",
-                      "size": 10
-                    }
-                  ],
-                  "out": [
-                    {
-                      "name": "out_tmds_red",
-                      "range": "[1:0]",
-                      "size": 2
-                    },
-                    {
-                      "name": "out_tmds_green",
-                      "range": "[1:0]",
-                      "size": 2
-                    },
-                    {
-                      "name": "out_tmds_blue",
-                      "range": "[1:0]",
-                      "size": 2
-                    },
-                    {
-                      "name": "out_tmds_clk",
-                      "range": "[1:0]",
-                      "size": 2
-                    }
-                  ]
-                }
-              },
-              "position": {
-                "x": 1256,
-                "y": 0
-              },
-              "size": {
-                "width": 944,
-                "height": 552
-              }
-            },
-            {
-              "id": "38427160-7643-444c-a259-88a8b8d1a807",
-              "type": "cb4e6dba1c122f13b57d602a7e869258a1cef893",
-              "position": {
-                "x": 872,
-                "y": 48
-              },
-              "size": {
-                "width": 96,
-                "height": 160
-              }
-            },
-            {
-              "id": "4d14323d-4ea5-4ec4-a5c2-f6c27ff03c6c",
-              "type": "cb4e6dba1c122f13b57d602a7e869258a1cef893",
-              "position": {
-                "x": 872,
-                "y": 264
-              },
-              "size": {
-                "width": 96,
-                "height": 160
-              }
-            },
-            {
-              "id": "909e6d90-570c-4384-ad8c-775bcc1371d6",
-              "type": "cb4e6dba1c122f13b57d602a7e869258a1cef893",
-              "position": {
-                "x": 872,
-                "y": 504
-              },
-              "size": {
-                "width": 96,
-                "height": 160
-              }
-            }
-          ],
-          "wires": [
-            {
-              "source": {
-                "block": "f703731c-2ea3-43a2-9a14-c997ef44609c",
-                "port": "out"
-              },
-              "target": {
-                "block": "f510dbe7-dd9a-4c15-9c11-13a4920e43fc",
-                "port": "pclk"
-              }
-            },
-            {
-              "source": {
-                "block": "0e297689-f54e-478c-bec8-fad4c31aea51",
-                "port": "19c8f68d-5022-487f-9ab0-f0a3cd58bead"
-              },
-              "target": {
-                "block": "f510dbe7-dd9a-4c15-9c11-13a4920e43fc",
-                "port": "reset_n"
-              }
-            },
-            {
-              "source": {
-                "block": "f703731c-2ea3-43a2-9a14-c997ef44609c",
-                "port": "out"
-              },
-              "target": {
-                "block": "38427160-7643-444c-a259-88a8b8d1a807",
-                "port": "ddf5cdad-539e-4c2e-b9f5-de4dc82d4a6e"
-              }
-            },
-            {
-              "source": {
-                "block": "f703731c-2ea3-43a2-9a14-c997ef44609c",
-                "port": "out"
-              },
-              "target": {
-                "block": "4d14323d-4ea5-4ec4-a5c2-f6c27ff03c6c",
-                "port": "ddf5cdad-539e-4c2e-b9f5-de4dc82d4a6e"
-              }
-            },
-            {
-              "source": {
-                "block": "f703731c-2ea3-43a2-9a14-c997ef44609c",
-                "port": "out"
-              },
-              "target": {
-                "block": "909e6d90-570c-4384-ad8c-775bcc1371d6",
-                "port": "ddf5cdad-539e-4c2e-b9f5-de4dc82d4a6e"
-              }
-            },
-            {
-              "source": {
-                "block": "f510dbe7-dd9a-4c15-9c11-13a4920e43fc",
-                "port": "out_blank"
-              },
-              "target": {
-                "block": "df655023-2e84-4601-918d-656015462d1f",
-                "port": "18c2ebc7-5152-439c-9b3f-851c59bac834"
-              }
-            },
-            {
-              "source": {
-                "block": "df655023-2e84-4601-918d-656015462d1f",
-                "port": "664caf9e-5f40-4df4-800a-b626af702e62"
-              },
-              "target": {
-                "block": "38427160-7643-444c-a259-88a8b8d1a807",
-                "port": "177d44f1-545d-4dbd-ac29-1269435d36ed"
-              }
-            },
-            {
-              "source": {
-                "block": "df655023-2e84-4601-918d-656015462d1f",
-                "port": "664caf9e-5f40-4df4-800a-b626af702e62"
-              },
-              "target": {
-                "block": "4d14323d-4ea5-4ec4-a5c2-f6c27ff03c6c",
-                "port": "177d44f1-545d-4dbd-ac29-1269435d36ed"
-              }
-            },
-            {
-              "source": {
-                "block": "df655023-2e84-4601-918d-656015462d1f",
-                "port": "664caf9e-5f40-4df4-800a-b626af702e62"
-              },
-              "target": {
-                "block": "909e6d90-570c-4384-ad8c-775bcc1371d6",
-                "port": "177d44f1-545d-4dbd-ac29-1269435d36ed"
-              }
-            },
-            {
-              "source": {
-                "block": "2b501da6-62b0-4cc4-815f-945fa81e35a2",
-                "port": "out"
-              },
-              "target": {
-                "block": "38427160-7643-444c-a259-88a8b8d1a807",
-                "port": "83200c4d-8db1-4075-857e-2450b35a653a"
-              },
-              "size": 8
-            },
-            {
-              "source": {
-                "block": "0badf6c9-21be-411b-8baa-6e91dc5feae3",
-                "port": "out"
-              },
-              "target": {
-                "block": "4d14323d-4ea5-4ec4-a5c2-f6c27ff03c6c",
-                "port": "83200c4d-8db1-4075-857e-2450b35a653a"
-              },
-              "size": 8
-            },
-            {
-              "source": {
-                "block": "ed51d514-0665-4451-9982-7dadf1d7e852",
-                "port": "out"
-              },
-              "target": {
-                "block": "909e6d90-570c-4384-ad8c-775bcc1371d6",
-                "port": "83200c4d-8db1-4075-857e-2450b35a653a"
-              },
-              "size": 8
-            },
-            {
-              "source": {
-                "block": "fa347433-0215-454f-b8c4-3edcd2e904d4",
-                "port": "19c8f68d-5022-487f-9ab0-f0a3cd58bead"
-              },
-              "target": {
-                "block": "38427160-7643-444c-a259-88a8b8d1a807",
-                "port": "08915b52-54aa-457b-8578-68d777b8f819"
-              }
-            },
-            {
-              "source": {
-                "block": "fa347433-0215-454f-b8c4-3edcd2e904d4",
-                "port": "19c8f68d-5022-487f-9ab0-f0a3cd58bead"
-              },
-              "target": {
-                "block": "38427160-7643-444c-a259-88a8b8d1a807",
-                "port": "30ae1574-4071-4ad1-bce2-99985a8e8f0f"
-              }
-            },
-            {
-              "source": {
-                "block": "f6820735-f223-45b4-afc8-08f70c1f68a2",
-                "port": "19c8f68d-5022-487f-9ab0-f0a3cd58bead"
-              },
-              "target": {
-                "block": "4d14323d-4ea5-4ec4-a5c2-f6c27ff03c6c",
-                "port": "08915b52-54aa-457b-8578-68d777b8f819"
-              }
-            },
-            {
-              "source": {
-                "block": "f6820735-f223-45b4-afc8-08f70c1f68a2",
-                "port": "19c8f68d-5022-487f-9ab0-f0a3cd58bead"
-              },
-              "target": {
-                "block": "4d14323d-4ea5-4ec4-a5c2-f6c27ff03c6c",
-                "port": "30ae1574-4071-4ad1-bce2-99985a8e8f0f"
-              }
-            },
-            {
-              "source": {
-                "block": "f510dbe7-dd9a-4c15-9c11-13a4920e43fc",
-                "port": "out_vsync"
-              },
-              "target": {
-                "block": "909e6d90-570c-4384-ad8c-775bcc1371d6",
-                "port": "08915b52-54aa-457b-8578-68d777b8f819"
-              },
-              "vertices": [
-                {
-                  "x": 520,
-                  "y": 608
-                },
-                {
-                  "x": 784,
-                  "y": 624
-                }
-              ]
-            },
-            {
-              "source": {
-                "block": "f510dbe7-dd9a-4c15-9c11-13a4920e43fc",
-                "port": "out_hsync"
-              },
-              "target": {
-                "block": "909e6d90-570c-4384-ad8c-775bcc1371d6",
-                "port": "30ae1574-4071-4ad1-bce2-99985a8e8f0f"
-              },
-              "vertices": [
-                {
-                  "x": 560,
-                  "y": 424
-                }
-              ]
-            },
-            {
-              "source": {
-                "block": "909e6d90-570c-4384-ad8c-775bcc1371d6",
-                "port": "d2fbf1ea-4f02-45d9-be5b-93ab007c741d"
-              },
-              "target": {
-                "block": "f8a915ea-a8ec-44ec-a256-1f6b415c2a27",
-                "port": "tmds_blue"
-              },
-              "vertices": [
-                {
-                  "x": 1160,
-                  "y": 568
-                }
-              ],
-              "size": 10
-            },
-            {
-              "source": {
-                "block": "89c998ce-e619-4976-9ef2-0fa0d21336b0",
-                "port": "out"
-              },
-              "target": {
-                "block": "f8a915ea-a8ec-44ec-a256-1f6b415c2a27",
-                "port": "tmds_clk"
-              }
-            },
-            {
-              "source": {
-                "block": "f8a915ea-a8ec-44ec-a256-1f6b415c2a27",
-                "port": "out_tmds_red"
-              },
-              "target": {
-                "block": "8f37d1b7-81c7-4e77-a70f-5677b75fb7fb",
-                "port": "in"
-              },
-              "size": 2
-            },
-            {
-              "source": {
-                "block": "f8a915ea-a8ec-44ec-a256-1f6b415c2a27",
-                "port": "out_tmds_green"
-              },
-              "target": {
-                "block": "418c1b68-f95e-4ca1-bf3f-dc18eb2481c8",
-                "port": "in"
-              },
-              "size": 2
-            },
-            {
-              "source": {
-                "block": "f8a915ea-a8ec-44ec-a256-1f6b415c2a27",
-                "port": "out_tmds_blue"
-              },
-              "target": {
-                "block": "d9458bc6-e414-4691-a36b-327ff5a4b7bb",
-                "port": "in"
-              },
-              "size": 2
-            },
-            {
-              "source": {
-                "block": "f8a915ea-a8ec-44ec-a256-1f6b415c2a27",
-                "port": "out_tmds_clk"
-              },
-              "target": {
-                "block": "6976e704-b765-4dd7-a319-4cf25f8e28ec",
-                "port": "in"
-              },
-              "size": 2
-            },
-            {
-              "source": {
-                "block": "38427160-7643-444c-a259-88a8b8d1a807",
-                "port": "d2fbf1ea-4f02-45d9-be5b-93ab007c741d"
-              },
-              "target": {
-                "block": "f8a915ea-a8ec-44ec-a256-1f6b415c2a27",
-                "port": "tmds_red"
-              },
-              "size": 10
-            },
-            {
-              "source": {
-                "block": "4d14323d-4ea5-4ec4-a5c2-f6c27ff03c6c",
-                "port": "d2fbf1ea-4f02-45d9-be5b-93ab007c741d"
-              },
-              "target": {
-                "block": "f8a915ea-a8ec-44ec-a256-1f6b415c2a27",
-                "port": "tmds_green"
-              },
-              "size": 10
-            },
-            {
-              "source": {
-                "block": "f510dbe7-dd9a-4c15-9c11-13a4920e43fc",
-                "port": "out_hcnt"
-              },
-              "target": {
-                "block": "4f943a2b-78c6-4818-8358-82eac3707277",
-                "port": "in"
-              },
-              "vertices": [
-                {
-                  "x": 928,
-                  "y": -240
-                }
-              ],
-              "size": 11
-            },
-            {
-              "source": {
-                "block": "f510dbe7-dd9a-4c15-9c11-13a4920e43fc",
-                "port": "out_vcnt"
-              },
-              "target": {
-                "block": "9d63d0fa-8408-41a7-9932-245fad4c7dfe",
-                "port": "in"
-              },
-              "size": 11
-            },
-            {
-              "source": {
-                "block": "f510dbe7-dd9a-4c15-9c11-13a4920e43fc",
-                "port": "out_blank"
-              },
-              "target": {
-                "block": "2720a2e9-7d0e-4c90-8193-472274d1ef02",
-                "port": "in"
-              }
-            }
-          ]
-        }
-      }
-    },
-    "c83dcd1d9ab420d911df81b3dfae04681559c623": {
-      "package": {
-        "name": "Bit 1",
-        "version": "1.0.0",
-        "description": "Assign 1 to the output wire",
-        "author": "Jesús Arroyo",
-        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%2247.303%22%20height=%2227.648%22%20viewBox=%220%200%2044.346456%2025.919999%22%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22325.218%22%20y=%22315.455%22%20font-weight=%22400%22%20font-size=%2212.669%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20transform=%22translate(-307.01%20-298.51)%22%3E%3Ctspan%20x=%22325.218%22%20y=%22315.455%22%20style=%22-inkscape-font-specification:'Courier%2010%20Pitch'%22%20font-family=%22Courier%2010%20Pitch%22%3E1%3C/tspan%3E%3C/text%3E%3C/svg%3E"
-      },
-      "design": {
-        "graph": {
-          "blocks": [
-            {
-              "id": "19c8f68d-5022-487f-9ab0-f0a3cd58bead",
-              "type": "basic.output",
-              "data": {
-                "name": ""
-              },
-              "position": {
-                "x": 608,
-                "y": 192
-              }
-            },
-            {
-              "id": "b959fb96-ac67-4aea-90b3-ed35a4c17bf5",
-              "type": "basic.code",
-              "data": {
-                "code": "// Bit 1\n\nassign v = 1'b1;",
-                "params": [],
-                "ports": {
-                  "in": [],
-                  "out": [
-                    {
-                      "name": "v"
-                    }
-                  ]
-                }
-              },
-              "position": {
-                "x": 96,
-                "y": 96
-              },
-              "size": {
-                "width": 384,
-                "height": 256
-              }
-            }
-          ],
-          "wires": [
-            {
-              "source": {
-                "block": "b959fb96-ac67-4aea-90b3-ed35a4c17bf5",
-                "port": "v"
-              },
-              "target": {
-                "block": "19c8f68d-5022-487f-9ab0-f0a3cd58bead",
-                "port": "in"
-              }
-            }
-          ]
-        }
-      }
-    },
-    "96f0988f8164f7c1b216c8ee122d6ce3cf6bc139": {
-      "package": {
-        "name": "NOT",
-        "version": "1.0.0",
-        "description": "NOT logic gate",
-        "author": "Jesús Arroyo",
-        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%2291.33%22%20height=%2245.752%22%20version=%221%22%3E%3Cpath%20d=%22M0%2020.446h27v2H0zM70.322%2020.447h15.3v2h-15.3z%22/%3E%3Cpath%20d=%22M66.05%2026.746c-2.9%200-5.3-2.4-5.3-5.3s2.4-5.3%205.3-5.3%205.3%202.4%205.3%205.3-2.4%205.3-5.3%205.3zm0-8.6c-1.8%200-3.3%201.5-3.3%203.3%200%201.8%201.5%203.3%203.3%203.3%201.8%200%203.3-1.5%203.3-3.3%200-1.8-1.5-3.3-3.3-3.3z%22/%3E%3Cpath%20d=%22M25.962%202.563l33.624%2018.883L25.962%2040.33V2.563z%22%20fill=%22none%22%20stroke=%22#000%22%20stroke-width=%223%22/%3E%3C/svg%3E"
-      },
-      "design": {
-        "graph": {
-          "blocks": [
-            {
-              "id": "18c2ebc7-5152-439c-9b3f-851c59bac834",
-              "type": "basic.input",
-              "data": {
-                "name": ""
-              },
-              "position": {
-                "x": 64,
-                "y": 144
-              }
-            },
-            {
-              "id": "664caf9e-5f40-4df4-800a-b626af702e62",
-              "type": "basic.output",
-              "data": {
-                "name": ""
-              },
-              "position": {
-                "x": 752,
-                "y": 144
-              }
-            },
-            {
-              "id": "5365ed8c-e5db-4445-938f-8d689830ea5c",
-              "type": "basic.code",
-              "data": {
-                "code": "// NOT logic gate\n\nassign c = ~ a;",
-                "params": [],
-                "ports": {
-                  "in": [
-                    {
-                      "name": "a"
-                    }
-                  ],
-                  "out": [
-                    {
-                      "name": "c"
-                    }
-                  ]
-                }
-              },
-              "position": {
-                "x": 256,
-                "y": 48
-              },
-              "size": {
-                "width": 384,
-                "height": 256
-              }
-            }
-          ],
-          "wires": [
-            {
-              "source": {
-                "block": "18c2ebc7-5152-439c-9b3f-851c59bac834",
-                "port": "out"
-              },
-              "target": {
-                "block": "5365ed8c-e5db-4445-938f-8d689830ea5c",
-                "port": "a"
-              }
-            },
-            {
-              "source": {
-                "block": "5365ed8c-e5db-4445-938f-8d689830ea5c",
-                "port": "c"
-              },
-              "target": {
-                "block": "664caf9e-5f40-4df4-800a-b626af702e62",
-                "port": "in"
-              }
-            }
-          ]
-        }
-      }
-    },
-    "c4dd08263a85a91ba53e2ae2b38de344c5efcb52": {
-      "package": {
-        "name": "Bit 0",
-        "version": "1.0.0",
-        "description": "Assign 0 to the output wire",
-        "author": "Jesús Arroyo",
-        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%2247.303%22%20height=%2227.648%22%20viewBox=%220%200%2044.346456%2025.919999%22%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22325.37%22%20y=%22315.373%22%20font-weight=%22400%22%20font-size=%2212.669%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20transform=%22translate(-307.01%20-298.51)%22%3E%3Ctspan%20x=%22325.37%22%20y=%22315.373%22%20style=%22-inkscape-font-specification:'Courier%2010%20Pitch'%22%20font-family=%22Courier%2010%20Pitch%22%3E0%3C/tspan%3E%3C/text%3E%3C/svg%3E"
-      },
-      "design": {
-        "graph": {
-          "blocks": [
-            {
-              "id": "19c8f68d-5022-487f-9ab0-f0a3cd58bead",
-              "type": "basic.output",
-              "data": {
-                "name": ""
-              },
-              "position": {
-                "x": 608,
-                "y": 192
-              }
-            },
-            {
-              "id": "b959fb96-ac67-4aea-90b3-ed35a4c17bf5",
-              "type": "basic.code",
-              "data": {
-                "code": "// Bit 0\n\nassign v = 1'b0;",
-                "params": [],
-                "ports": {
-                  "in": [],
-                  "out": [
-                    {
-                      "name": "v"
-                    }
-                  ]
-                }
-              },
-              "position": {
-                "x": 96,
-                "y": 96
-              },
-              "size": {
-                "width": 384,
-                "height": 256
-              }
-            }
-          ],
-          "wires": [
-            {
-              "source": {
-                "block": "b959fb96-ac67-4aea-90b3-ed35a4c17bf5",
-                "port": "v"
-              },
-              "target": {
-                "block": "19c8f68d-5022-487f-9ab0-f0a3cd58bead",
-                "port": "in"
-              }
-            }
-          ]
-        }
-      }
-    },
-    "cb4e6dba1c122f13b57d602a7e869258a1cef893": {
-      "package": {
-        "name": "tmds_encoder",
-        "version": "",
-        "description": "",
-        "author": "",
-        "image": ""
-      },
-      "design": {
-        "graph": {
-          "blocks": [
-            {
-              "id": "ddf5cdad-539e-4c2e-b9f5-de4dc82d4a6e",
-              "type": "basic.input",
-              "data": {
-                "name": "clk",
-                "clock": false
-              },
-              "position": {
-                "x": 424,
-                "y": 168
-              }
-            },
-            {
-              "id": "177d44f1-545d-4dbd-ac29-1269435d36ed",
-              "type": "basic.input",
-              "data": {
-                "name": "DE",
-                "clock": false
-              },
-              "position": {
-                "x": 432,
-                "y": 256
-              }
-            },
-            {
-              "id": "83200c4d-8db1-4075-857e-2450b35a653a",
-              "type": "basic.input",
-              "data": {
-                "name": "D",
-                "range": "[7:0]",
-                "clock": false,
-                "size": 8
-              },
-              "position": {
-                "x": 432,
-                "y": 352
-              }
-            },
-            {
-              "id": "d2fbf1ea-4f02-45d9-be5b-93ab007c741d",
-              "type": "basic.output",
-              "data": {
-                "name": "q_out",
-                "range": "[9:0]",
-                "size": 10
-              },
-              "position": {
-                "x": 1160,
-                "y": 352
-              }
-            },
-            {
-              "id": "08915b52-54aa-457b-8578-68d777b8f819",
-              "type": "basic.input",
-              "data": {
-                "name": "C1",
-                "clock": false
-              },
-              "position": {
-                "x": 440,
-                "y": 448
-              }
-            },
-            {
-              "id": "30ae1574-4071-4ad1-bce2-99985a8e8f0f",
-              "type": "basic.input",
-              "data": {
-                "name": "C0",
-                "clock": false
-              },
-              "position": {
-                "x": 440,
-                "y": 536
-              }
-            },
-            {
-              "id": "10297cc2-a310-415d-b6f4-423124baa4f9",
-              "type": "basic.code",
-              "data": {
-                "code": "//Copyright (C) 2021 Hirosh Dabui hirosh@dabui.de\r\n\r\nparameter LEGACY_DVI_CONTROL_LUT = 0;\r\nreg[9:0] q_out;\r\nfunction [3:0] N0;\r\n    input [7:0] d;\r\n    integer i;\r\n    begin\r\n        N0 = 0;\r\n        for (i = 0; i < 8; i=i+1)\r\n            N0 = N0 + !d[i];\r\n    end\r\nendfunction\r\n\r\nfunction [3:0] N1;\r\n    input [7:0] d;\r\n    integer i;\r\n    begin\r\n        N1 = 0;\r\n        for (i = 0; i < 8; i=i+1)\r\n            N1 = N1 + d[i];\r\n    end\r\nendfunction\r\n\r\nreg signed [7:0] cnt_prev = 0;\r\nreg signed [7:0] cnt = 0;\r\n\r\nreg [8:0] q_m;\r\n\r\nalways @(*) begin\r\n\r\n    if ( (N1(D) > 4) | (N1(D) == 4) & (D[0] == 0) ) begin\r\n\r\n        q_m[0] =           D[0];\r\n        q_m[1] = q_m[0] ~^ D[1];\r\n        q_m[2] = q_m[1] ~^ D[2];\r\n        q_m[3] = q_m[2] ~^ D[3];\r\n        q_m[4] = q_m[3] ~^ D[4];\r\n        q_m[5] = q_m[4] ~^ D[5];\r\n        q_m[6] = q_m[5] ~^ D[6];\r\n        q_m[7] = q_m[6] ~^ D[7];\r\n        q_m[8] = 1'b0;\r\n\r\n    end else begin\r\n\r\n        q_m[0] =          D[0];\r\n        q_m[1] = q_m[0] ^ D[1];\r\n        q_m[2] = q_m[1] ^ D[2];\r\n        q_m[3] = q_m[2] ^ D[3];\r\n        q_m[4] = q_m[3] ^ D[4];\r\n        q_m[5] = q_m[4] ^ D[5];\r\n        q_m[6] = q_m[5] ^ D[6];\r\n        q_m[7] = q_m[6] ^ D[7];\r\n        q_m[8] = 1'b1;\r\n\r\n    end /* (N1(D) > 4) | (N1(D) == 4) & (D[0] == 0) */\r\n\r\nend\r\n\r\nalways @(posedge clk) begin\r\n\r\n    if (DE) begin\r\n\r\n        if ((cnt_prev == 0) | (N1(q_m[7:0]) == N0(q_m[7:0]))) begin\r\n\r\n            q_out[9]   <= ~q_m[8];\r\n            q_out[8]   <=  q_m[8];\r\n            q_out[7:0] <= q_m[8] ? q_m[7:0] : ~q_m[7:0];\r\n\r\n            if (q_m[8] == 0) begin\r\n                cnt = cnt_prev + (N0(q_m[7:0]) - N1(q_m[7:0]));\r\n            end else begin\r\n                cnt = cnt_prev + (N1(q_m[7:0]) - N0(q_m[7:0]));\r\n            end /*q_m[8] == 0*/\r\n\r\n        end else begin\r\n\r\n            if ( (cnt_prev > 0 & (N1(q_m[7:0]) > N0(q_m[7:0]))) |\r\n                    (cnt_prev < 0 & (N0(q_m[7:0]) > N1(q_m[7:0]))) ) begin\r\n                q_out[9] <= 1;\r\n                q_out[8] <= q_m[8];\r\n                q_out[7:0] <= ~q_m[7:0];\r\n                cnt = cnt_prev + 2*q_m[8] + (N0(q_m[7:0]) - N1(q_m[7:0]));\r\n            end else begin\r\n                q_out[9] <= 0;\r\n                q_out[8] <= q_m[8];\r\n                q_out[7:0] <= q_m[7:0];\r\n                cnt = cnt_prev + 2*(~q_m[8]) + (N1(q_m[7:0]) - N0(q_m[7:0]));\r\n            end /*\r\n                (cnt_prev > 0 & N1(q_m[7:0]) > N0(q_m[7:0]))) |\r\n                (cnt_prev < 0 & N0(q_m[7:0]) > N1(q_m[7:0])))\r\n              */\r\n\r\n        end /* ((cnt_prev == 0) | (N1(q_m[7:0]) == N0(q_m[7:0]))) */\r\n\r\n    end else begin\r\n        /* !DE */\r\n        cnt = 0;\r\n        /* hsync -> c0 | vsync -> c1 */\r\n        case ({C1, C0})\r\n`ifdef LEGACY_DVI_CONTROL_LUT\r\n            /* dvi control data lut */\r\n            2'b00: q_out <= 10'b00101_01011;\r\n            2'b01: q_out <= 10'b11010_10100;\r\n            2'b10: q_out <= 10'b00101_01010;\r\n            2'b11: q_out <= 10'b11010_10101;\r\n`else\r\n            /* hdmi control data period */\r\n            2'b00: q_out <= 10'b1101010100;\r\n            2'b01: q_out <= 10'b0010101011;\r\n            2'b10: q_out <= 10'b0101010100;\r\n            2'b11: q_out <= 10'b1010101011;\r\n`endif\r\n        endcase\r\n\r\n    end /* DE */\r\n\r\n    cnt_prev <= cnt;\r\n\r\nend\r\n",
-                "params": [],
-                "ports": {
-                  "in": [
-                    {
-                      "name": "clk"
-                    },
-                    {
-                      "name": "DE"
-                    },
-                    {
-                      "name": "D",
-                      "range": "[7:0]",
-                      "size": 8
-                    },
-                    {
-                      "name": "C1"
-                    },
-                    {
-                      "name": "C0"
-                    }
-                  ],
-                  "out": [
-                    {
-                      "name": "q_out",
-                      "range": "[9:0]",
-                      "size": 10
-                    }
-                  ]
-                }
-              },
-              "position": {
-                "x": 600,
-                "y": 152
-              },
-              "size": {
-                "width": 480,
-                "height": 464
-              }
-            }
-          ],
-          "wires": [
-            {
-              "source": {
-                "block": "10297cc2-a310-415d-b6f4-423124baa4f9",
-                "port": "q_out"
-              },
-              "target": {
-                "block": "d2fbf1ea-4f02-45d9-be5b-93ab007c741d",
-                "port": "in"
-              },
-              "size": 10
-            },
-            {
-              "source": {
-                "block": "ddf5cdad-539e-4c2e-b9f5-de4dc82d4a6e",
-                "port": "out"
-              },
-              "target": {
-                "block": "10297cc2-a310-415d-b6f4-423124baa4f9",
-                "port": "clk"
-              }
-            },
-            {
-              "source": {
-                "block": "177d44f1-545d-4dbd-ac29-1269435d36ed",
-                "port": "out"
-              },
-              "target": {
-                "block": "10297cc2-a310-415d-b6f4-423124baa4f9",
-                "port": "DE"
-              }
-            },
-            {
-              "source": {
-                "block": "83200c4d-8db1-4075-857e-2450b35a653a",
-                "port": "out"
-              },
-              "target": {
-                "block": "10297cc2-a310-415d-b6f4-423124baa4f9",
-                "port": "D"
-              },
-              "size": 8
-            },
-            {
-              "source": {
-                "block": "08915b52-54aa-457b-8578-68d777b8f819",
-                "port": "out"
-              },
-              "target": {
-                "block": "10297cc2-a310-415d-b6f4-423124baa4f9",
-                "port": "C1"
-              }
-            },
-            {
-              "source": {
-                "block": "30ae1574-4071-4ad1-bce2-99985a8e8f0f",
-                "port": "out"
-              },
-              "target": {
-                "block": "10297cc2-a310-415d-b6f4-423124baa4f9",
-                "port": "C0"
-              }
-            }
-          ]
-        }
-      }
-    },
-    "0a1725af2452eb3a106264d596f313715cdefd07": {
+    "f72cc6f8c7ad81966d4780824d373d5c77793022": {
       "package": {
         "name": "camera_interface",
         "version": "",
         "description": "communicates with OV7670 and set register configurations",
-        "author": "",
-        "image": "%3Csvg%20version=%221%22%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221300%22%20height=%22718.667%22%20viewBox=%220%200%20975.000000%20539.000000%22%3E%3Cpath%20d=%22M104.5%2061.5c-23.8%205.2-39.4%2021.3-45.6%2047-3.1%2012.6-3.1%2033.3-.1%2045.7%206.8%2027.9%2024.7%2042.8%2053.2%2044.5%2015.8.9%2034.6-4.2%2041-11.1%202.3-2.5%202.5-3.6%202.5-11.6%200-5.7-.4-9.3-1.2-10.1-1-1-3.5-.1-11.9%204.2l-10.6%205.4h-10.6c-9.6%200-11.2-.3-15.7-2.7-13.4-7-19.5-20.6-19.5-43.3%200-30.5%2014.2-48%2037.5-46.2%207.8.6%2013.8%202.9%2021.7%208.1%202.9%202%205.8%203.6%206.5%203.6%202.3%200%203.3-3.8%203.3-12.3%200-10.2-1.2-12.2-10.3-16.7-11.5-5.6-27.2-7.4-40.2-4.5zM210.8%2062.1c-1.4.6-2.9%201.8-3.3%202.7-3.7%209.7-42.8%20124.6-43.3%20127.1-.8%205%201.4%206.1%2011.7%206.1%2012.8%200%2012.7%200%2018.4-17.3l4.8-14.7h50.5l4.9%2015.1c4.1%2012.5%205.4%2015.3%207.3%2016%203.2%201.2%2020.9%201.1%2023.3-.1%201.2-.7%201.9-2.1%201.9-3.9%200-2.1-38.3-115.2-43.1-127.3-.6-1.6-2.3-3.1-4.1-3.7-3.8-1.4-25.3-1.3-29%200zm22.7%2053.1c4.9%2015%209.1%2027.9%209.3%2028.5.3%201-3.9%201.3-18.8%201.3s-19.1-.3-18.7-1.3c.2-.6%204.4-13.4%209.3-28.4%204.9-15%209.1-27.2%209.4-27.3.4%200%204.6%2012.3%209.5%2027.2zM749.8%2062.1c-1.4.6-2.9%201.8-3.3%202.7-3.7%209.7-42.8%20124.6-43.3%20127.1-.8%205%201.4%206.1%2011.7%206.1%2012.8%200%2012.7%200%2018.4-17.3l4.8-14.7h50.5l4.9%2015.1c4.1%2012.5%205.4%2015.3%207.3%2016%203.2%201.2%2020.9%201.1%2023.3-.1%201.2-.7%201.9-2.1%201.9-3.9%200-2.1-38.3-115.2-43.1-127.3-.6-1.6-2.3-3.1-4.1-3.7-3.8-1.4-25.3-1.3-29%200zm22.7%2053.1c4.9%2015%209.1%2027.9%209.3%2028.5.3%201-3.9%201.3-18.8%201.3s-19.1-.3-18.7-1.3c.2-.6%204.4-13.4%209.3-28.4%204.9-15%209.1-27.2%209.4-27.3.4%200%204.6%2012.3%209.5%2027.2zM310.4%2063c-5.6%202.2-5.4.1-5.4%2069.1v63.7l3.6%201.2c3.8%201.3%2018%201%2020.2-.4.9-.5%201.2-14.5%201.2-56.9%200-32.1.4-55.7.9-55.2.5.6%209.1%2025.3%2019.1%2055%2010.1%2029.7%2019.2%2054.9%2020.2%2056%201.6%201.8%203.1%202%2012.3%202%208%200%2010.8-.4%2011.9-1.5.9-.8%2010.2-26%2020.7-56s19.6-54.9%2020-55.4c.5-.6.9%2023.5.9%2055.1v56.1l3.6%201.2c3.8%201.3%2018%201%2020.2-.4.9-.5%201.2-16.3%201.2-64.6V68.1l-2.4-2.8c-2.4-2.8-2.5-2.8-16.2-3.1-17-.4-21.2.8-24.8%207.1-1.3%202.3-9.4%2023.2-18.1%2046.5-8.7%2023.3-16.1%2041.9-16.5%2041.5-.4-.4-7.6-20.1-16.1-43.8-16.8-46.9-17.6-48.4-25.3-50.4-5.2-1.3-28.1-1.4-31.2-.1zM493.6%2064.1l-2.6%202v126.8l2.6%202c2.6%202%203.8%202.1%2038.5%202.1%2041.3%200%2037.9.9%2037.9-10.5%200-11.2%201.8-10.5-27-10.5h-25v-39h20.9c17.6%200%2021.1-.2%2022.1-1.6.8-.9%201.3-4.3%201.3-8.9%200-4.6-.5-8-1.3-8.9-1-1.4-4.5-1.6-22.1-1.6H518V83h24.4c20.8%200%2024.5-.2%2025.7-1.6%201.8-2.2%202.4-11.5.9-15.8l-1.2-3.6h-35.7c-34.7%200-35.9.1-38.5%202.1zM597.6%2064.1l-2.6%202v129.8l4.3%201.2c5.2%201.4%2019%20.7%2021.1-1.1%201.4-1.1%201.6-5%201.6-28.2v-27l7.9.3c13.4.7%2016.5%204.4%2028.2%2033.9%207.1%2018%208.7%2021.4%2010.9%2022.2%201.4.5%207.1.8%2012.8.6%208.7-.2%2010.6-.6%2011.7-2.1%201.8-2.4.9-5-8.9-28.2-8.3-19.7-12.6-26.9-18.6-31l-3.9-2.7%205.9-2.9c10.9-5.5%2017-13.7%2018.9-25.6%202.1-13.2-2.3-26.4-11-33.3-10.4-8.2-19.7-10-52-10-22.4%200-23.8.1-26.3%202.1zm53.1%2021.7c6.1%203.2%208.6%208.5%208.1%2017.1-.4%207.9-2.9%2012.1-9.1%2015.3-3.5%201.8-6.3%202.3-15.9%202.6l-11.8.4V82.8l12.3.4c10.1.4%2012.9.8%2016.4%202.6zM809.5%20321.5c-23.8%205.2-39.4%2021.3-45.6%2047-3.1%2012.6-3.1%2033.3-.1%2045.7%206.8%2027.9%2024.7%2042.8%2053.2%2044.5%2015.8.9%2034.6-4.2%2041-11.1%202.3-2.5%202.5-3.6%202.5-11.6%200-5.7-.4-9.3-1.2-10.1-1-1-3.5-.1-11.9%204.2l-10.6%205.4h-10.6c-9.6%200-11.2-.3-15.7-2.7-13.4-7-19.5-20.6-19.5-43.3%200-30.5%2014.2-48%2037.5-46.2%207.8.6%2013.8%202.9%2021.7%208.1%202.9%202%205.8%203.6%206.5%203.6%202.3%200%203.3-3.8%203.3-12.3%200-10.2-1.2-12.2-10.3-16.7-11.5-5.6-27.2-7.4-40.2-4.5zM19.5%20321.7c-4.7%201.2-4.5-1.1-4.5%2067.8%200%2059.5.1%2065.4%201.7%2066.6%202.3%201.9%2021.3%201.9%2023.6%200%201.6-1.2%201.7-7.1%201.7-66.6%200-58.4-.2-65.4-1.6-66.6-1.6-1.3-17.1-2.3-20.9-1.2zM161%20322.3l-2.5%201.3-.5%2047.4-.5%2047.5-4.4-9.5c-7-15.2-40.1-77.9-42.9-81.2-4-4.8-7.7-5.8-20.6-5.8-10.9%200-11.6.1-14.5%202.6l-3.1%202.6v128.6l3.1%201.1c4.1%201.4%2013.7%201.4%2017.8%200l3.1-1.1-.2-51.4c-.2-28.2%200-51%20.3-50.6.4.4%202.1%204.1%203.9%208.2%204.2%209.8%2043.5%2084.5%2046.8%2088.9%203.6%204.8%207.6%206.1%2019.1%206.1%209.2%200%2010.2-.2%2013-2.6l3.1-2.6V323l-2.6-1c-3.6-1.4-15.4-1.2-18.4.3zM673.8%20322.1c-1.4.6-2.9%201.8-3.3%202.7-3.7%209.7-42.8%20124.6-43.3%20127.1-.8%205%201.4%206.1%2011.7%206.1%2012.8%200%2012.7%200%2018.4-17.3l4.8-14.7h50.5l4.9%2015.1c4.1%2012.5%205.4%2015.3%207.3%2016%203.2%201.2%2020.9%201.1%2023.3-.1%201.2-.7%201.9-2.1%201.9-3.9%200-2.1-38.3-115.2-43.1-127.3-.6-1.6-2.3-3.1-4.1-3.7-3.8-1.4-25.3-1.3-29%200zm22.7%2053.1c4.9%2015%209.1%2027.9%209.3%2028.5.3%201-3.9%201.3-18.8%201.3s-19.1-.3-18.7-1.3c.2-.6%204.4-13.4%209.3-28.4%204.9-15%209.1-27.2%209.4-27.3.4%200%204.6%2012.3%209.5%2027.2zM199%20325.6c-1.5%204.4-.9%2014.6.9%2016.8%201.1%201.4%204.1%201.6%2018.7%201.6H236v55.4c0%2050.3.2%2055.5%201.7%2056.7%201.1%201%204.6%201.4%2011.8%201.4%207.2%200%2010.7-.4%2011.8-1.4%201.5-1.2%201.7-6.4%201.7-56.7V344h17.4c20.7%200%2020.1.3%2020.1-11%200-5.1-.5-8.3-1.4-9.3-1.2-1.5-6-1.7-50.1-1.7h-48.8l-1.2%203.6zM319.6%20324.1l-2.6%202v126.8l2.6%202c2.6%202%203.8%202.1%2038.5%202.1%2041.3%200%2037.9.9%2037.9-10.5%200-11.2%201.8-10.5-27-10.5h-25v-39h20.9c17.6%200%2021.1-.2%2022.1-1.6.8-.9%201.3-4.3%201.3-8.9%200-4.6-.5-8-1.3-8.9-1-1.4-4.5-1.6-22.1-1.6H344v-33h24.4c20.8%200%2024.5-.2%2025.7-1.6%201.8-2.2%202.4-11.5.9-15.8l-1.2-3.6h-35.7c-34.7%200-35.9.1-38.5%202.1zM423.6%20324.1l-2.6%202v129.8l4.3%201.2c5.2%201.4%2019%20.7%2021.1-1.1%201.4-1.1%201.6-5%201.6-28.2v-27l7.9.3c13.4.7%2016.5%204.4%2028.2%2033.9%207.1%2018%208.7%2021.4%2010.9%2022.2%201.4.5%207.1.8%2012.8.6%208.7-.2%2010.6-.6%2011.7-2.1%201.8-2.4.9-5-8.9-28.2-8.3-19.7-12.6-26.9-18.6-31l-3.9-2.7%205.9-2.9c10.9-5.5%2017-13.7%2018.9-25.6%202.1-13.2-2.3-26.4-11-33.3-10.4-8.2-19.7-10-52-10-22.4%200-23.8.1-26.3%202.1zm53.1%2021.7c6.1%203.2%208.6%208.5%208.1%2017.1-.4%207.9-2.9%2012.1-9.1%2015.3-3.5%201.8-6.3%202.3-15.9%202.6l-11.8.4v-38.4l12.3.4c10.1.4%2012.9.8%2016.4%202.6zM543.6%20324.1l-2.6%202v64.4c0%2058.5.1%2064.4%201.7%2065.6%201.1%201%204.6%201.4%2011.8%201.4%207.2%200%2010.7-.4%2011.8-1.4%201.5-1.2%201.7-4.4%201.7-27.2V403h21.5c24.9%200%2023.5.7%2023.5-11s1.4-11-23.5-11H568v-37h46l1-2.6c.6-1.4%201-5.2%201-8.4s-.4-7-1-8.4l-1-2.6h-33.8c-32.8%200-34%20.1-36.6%202.1zM883.6%20324.1l-2.6%202v126.8l2.6%202c2.6%202%203.8%202.1%2038.5%202.1%2041.3%200%2037.9.9%2037.9-10.5%200-11.2%201.8-10.5-27-10.5h-25v-39h20.9c17.6%200%2021.1-.2%2022.1-1.6.8-.9%201.3-4.3%201.3-8.9%200-4.6-.5-8-1.3-8.9-1-1.4-4.5-1.6-22.1-1.6H908v-33h24.4c20.8%200%2024.5-.2%2025.7-1.6%201.8-2.2%202.4-11.5.9-15.8l-1.2-3.6h-35.7c-34.7%200-35.9.1-38.5%202.1z%22/%3E%3C/svg%3E"
+        "author": "Angelo Jacobo",
+        "image": "%3Csvg%20version=%221%22%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221770.667%22%20height=%222154.667%22%20viewBox=%220%200%201328.000000%201616.000000%22%3E%3Cpath%20d=%22M146.1%2081c-15.5%202.2-31.7%209.4-42%2018.7-14.1%2012.7-23.8%2032-27.1%2053.8-1.7%2011.1-1.5%2036%20.4%2046.7%205.9%2032.5%2023.9%2053.6%2053.1%2062%207%202%2010.1%202.3%2024.5%202.2%2019-.1%2027.3-1.8%2040-8.1%2010.8-5.5%2012-7.7%2012-21.4%200-12-.4-13.9-3-13.9-1%200-7.7%202.9-14.9%206.5l-13.2%206.5h-27.6l-7.1-3.5c-11.8-5.9-19.5-16.1-23.7-31-2.3-8.3-3.2-33.1-1.5-43.3%204.1-25.8%2016.7-40.9%2037-44.4%2013.5-2.3%2027.2%201.4%2043.4%2011.9l5.8%203.7%201.8-2.1c3.4-4.3%203.7-22%20.4-28.4-1.5-2.9-8.1-7.3-15.9-10.6-11-4.6-30-7-42.4-5.3zM280.5%2083.6c-1.6.8-3.1%201.6-3.2%201.8-.6.6-11.8%2033-34.9%20101-15.1%2044.3-23.4%2070.1-23.2%2072%20.5%204.8%203.4%205.7%2017.2%205.4l11.8-.3%202.8-3.3c1.8-2.2%204.8-9.3%208.6-20.8l5.8-17.4h67.4l6.1%2018.2c3.4%2010.1%207%2019.4%208.1%2020.8%201.8%202.3%202.5%202.5%2013.5%202.8%206.3.3%2013.6.1%2016.1-.3%208.2-1.2%208.4.1-9.5-53.4-18.8-56.3-38.5-113.7-41.3-120.3-3-7.1-5.2-7.8-25.5-7.8-13.2%200-17.4.3-19.8%201.6zm31.4%2072c6.5%2019.7%2011.7%2036.2%2011.4%2036.6-.2.5-11.4.8-24.9.8-18.8%200-24.4-.3-24.4-1.2%200-3.3%2024.3-73.9%2025.1-73.1.5.5%206.3%2017.1%2012.8%2036.9zM999.1%2083.7c-4%202.1-1.8-3.8-36.1%2096.8-29.4%2086.3-27.8%2080.3-21.8%2082.4%204.2%201.5%2022.1%201.4%2025.3-.1%203.9-1.7%206-6%2012-23.9l5.5-16.4%2033.7-.3%2033.8-.2%204.9%2014.7c6.8%2020.6%208.9%2025.1%2012.3%2026.4%201.7.6%208.1.9%2015.9.7%2014.2-.3%2016.4-1.1%2016.4-5.5%200-2.9-7.5-25.8-29-89.3-24-70.6-27.9-81.3-30.6-84-2.4-2.5-2.7-2.5-20.7-2.8-15.9-.2-18.6-.1-21.6%201.5zm31.5%2072.1c6.3%2019%2011.4%2035.1%2011.4%2035.9%200%201-4.8%201.3-24.3%201.3-13.4%200-24.6-.3-24.9-.6-.5-.4%2020.8-65.6%2023.7-72.8.8-1.7.9-1.7%201.8-.1.5%201%206.1%2017.3%2012.3%2036.3zM415.1%2084c-4.6%201.1-5.9%202.7-7.1%208.9-.6%203.4-1%2035.8-1%2087.2v81.8l5.8%201.2c6.7%201.4%2023.8.7%2025.5-1%20.9-.9%201.3-19.8%201.7-74.1.3-40%20.8-73.1%201.1-73.5.4-.3%201.6%202%202.7%205.2s9.2%2026.7%2018%2052.3c22%2064.1%2030.9%2088.3%2032.9%2089.7%201.9%201.4%2027.9%201.8%2029.9.5%202.4-1.6%206.3-11.8%2032.9-86.7%2021-59%2021.6-60.6%2022.6-59.9.5.3.9%2030.8.9%2073V261l2.8%201.2c1.5.7%207.9%201.2%2014.9%201.3%2010.2%200%2012.5-.3%2013.9-1.7%201.6-1.5%201.7-8.6%202.1-86l.5-84.3-2.9-3.3c-3.6-4.3-7.6-5.1-25-5.2-21.7%200-27.2%202.2-31.9%2012.9-1.4%203.1-10.6%2026.9-20.6%2053.1-21%2055.1-23.6%2061.2-24.8%2059-.5-.9-8.7-23.2-18.3-49.5-26.6-73.3-26.1-72.4-39.2-74.5-7-1.2-32.5-1.2-37.4%200zM662.2%2084c-1.8.4-4.2%201.6-5.2%202.5-2%201.8-2%203.4-1.8%2086.9l.3%2085%203.5%202c3.3%202%205.3%202.1%2043.5%202.4%2042.3.4%2054-.3%2056.2-3.4.8-1.2%201.3-5.1%201.3-10.9%200-13.9%202.6-12.9-36.6-13.3l-32.4-.3v-51.7l27.5-.4c24.6-.3%2027.6-.5%2029.2-2.1%201.4-1.4%201.8-3.5%201.8-11.7%200-14.4%202.3-13.4-31-13.8l-27.5-.3v-43.7l31.8-.4c17.4-.2%2032.5-.8%2033.4-1.2%203.6-1.6%204.7-16.6%201.8-24.1l-1-2.5-45.7.1c-25.2.1-47.3.5-49.1.9zM798%2085.2l-4.5%202.5-.3%2086.7-.2%2086.6%202.7%201.2c3.2%201.3%2024.3%201.7%2028.6.5%201.6-.4%203.2-1.8%203.7-3.3.6-1.4%201-17.3%201-37.1v-34.6l9.5.6c19.3%201.1%2022.6%204.9%2038.5%2044.2%209.6%2023.9%2012%2028.7%2015.1%2030.3%201.7.9%206.2%201.2%2016.3.9%2013-.3%2014-.5%2015.7-2.6%202.4-3%202.2-3.9-5.8-24.1-13.6-34.2-21.6-48.5-30.8-55.1l-4.5-3.3%206.8-3.6c9.3-4.8%2014.2-8.9%2018.5-15.2%205.5-8.2%207.9-16.5%207.9-27.8-.1-25-13.1-40.8-38.3-46.5-5.8-1.3-14.6-1.8-41.4-2.2l-34-.5-4.5%202.4zm67.5%2028.7c9.6%204.2%2012.5%209.2%2012.5%2021.6%200%2012.1-4.3%2019.2-13.9%2023.2-3.4%201.5-32.6%203.7-34.2%202.7-.5-.3-.9-11.8-.9-25.6v-25.1l15.8.5c13.3.4%2016.6.9%2020.7%202.7zM1083.4%20428c-33.1%206-56.1%2028.3-64.5%2062.5-4.3%2017.7-4.3%2046.6.1%2064%201.1%204.4%204.3%2012.7%207.2%2018.4%206.7%2013.8%2016.1%2023.5%2028.8%2029.9%2013.5%206.7%2021.8%208.5%2039.5%208.5%2012.9%200%2016.3-.4%2024.6-2.5%2011.8-3.2%2020.6-7.5%2024.7-12.3%203.2-3.5%203.2-3.7%203.2-14.5%200-5.9-.3-11.5-.6-12.4-1.1-2.8-4.8-1.8-18.5%205l-13.4%206.6-13.5-.4c-12.5-.3-14-.5-19.5-3.3-19-9.2-27.3-29-26.2-61.8.8-22.9%205-35.2%2016.1-46.3%208.7-8.7%2014.5-10.8%2029.6-10.9%2013.5%200%2018.3%201.5%2031.3%209.4%204.5%202.8%209%205.1%209.9%205.1%202.5%200%203.5-2.6%204.3-10.5.9-8.9-.7-18.1-3.8-21.3-3.2-3.5-14.3-8.8-23.3-11.2-9-2.4-27.9-3.4-36-2zM28.2%20428.9c-2.3.4-4.7%201.2-5.3%201.8-2.5%202.5-3%2021.3-2.7%2096.8.3%2073.7.4%2078.5%202.1%2080.2%201.5%201.6%203.7%201.8%2015.7%201.8s14.2-.2%2015.7-1.8c1.7-1.7%201.8-6.6%201.8-88.1%200-70.4-.2-86.6-1.3-87.9-2-2.3-18.2-4-26-2.8zM219%20428.9c-1.9.4-4.5%201.3-5.7%202l-2.3%201.2v27.8c0%2015.3-.3%2043.3-.7%2062.2l-.6%2034.4-15.1-30c-24-47.5-44.6-85.3-49.1-90.1-5.3-5.5-8.8-6.4-26.6-6.4h-14.6l-4.1%203-4.2%203v171.8l3.8%201.4c4.8%201.7%2019.6%201.7%2024.4%200l3.8-1.4.2-67.6c.3-57%20.5-67.2%201.6-64.7%202.3%205.2%2021.6%2043.3%2031.7%2062.5%2032.7%2062.3%2035.9%2067.6%2043.3%2069.8%202.2.7%209.8%201.2%2016.9%201.2h12.9l4.2-3.2%204.2-3.2V431l-2.7-1.1c-3.6-1.4-16.8-2-21.3-1zM904%20428.9c-7.6%201.1-8.6%201.7-10.5%206.4-2.6%206.2-25.2%2071.9-42.5%20123.4-15.5%2046-16.3%2049.2-12.3%2050.8%202.9%201.1%2016.7%201.8%2021.7%201.1%207.9-1.2%209.2-3.1%2016.1-23.7l6.2-18.4h67.4l6.3%2018.8c3.9%2011.6%207.2%2019.7%208.5%2021%202%202%203.1%202.2%2015.4%202.2%2015.6%200%2018.4-.6%2019.3-4%20.9-3.6-53.8-166.6-58.1-173.2-.9-1.3-2.8-2.8-4.2-3.4-3.4-1.3-26.2-2-33.3-1zm25%2072.8c9.4%2028.4%2011.8%2036.8%2010.8%2037.4-1.7%201.1-45.9%201.1-47.5.1-1-.6%201.8-10.2%2010.9-37.5%206.6-20.2%2012.4-36.7%2012.9-36.7.4%200%206.2%2016.5%2012.9%2036.7zM266%20432.5c-2.9%207.7-1.8%2023.4%201.8%2025.1.9.4%2011.9%201%2024.4%201.2l22.7.4.3%2073.8c.2%2059%20.6%2074.2%201.6%2075.2.9.9%205.2%201.3%2015.8%201.3%2012.6%200%2014.7-.2%2015.8-1.7%201.8-2.5%202.6-31.7%202.6-95.5v-53.1l22.5-.4c28.1-.4%2027%20.2%2027-14.8-.1-8.2-.4-10.3-1.8-11.8-1.6-1.6-6.5-1.7-66.8-2L267%20430l-1%202.5zM429%20430.8c-.8.4-2.5%201.4-3.7%202.2l-2.3%201.5v85l.1%2085%202.7%202c2.5%201.8%204.9%202.1%2031.2%202.7%2027.3.6%2057.9.3%2064.7-.8%205.5-.8%206.3-2.5%206.3-12.8%200-12.7-.1-12.8-13.6-13.7-6-.3-20.9-.4-33.1-.1l-22.3.5v-52.1l27.5-.7c21.1-.6%2027.9-1%2028.9-2.1%203.2-3.1%203.1-20.7%200-23.9-1.3-1.3-5.9-1.5-29-1.5H459v-43.8l32.1-.7c29-.7%2032.3-.9%2033.9-2.5%202.7-2.7%203.6-12.2%201.9-19l-1.4-5.5-47.5-.2c-26.1-.1-48.2.1-49%20.5zM564.8%20432.5l-3.8%202.6v172.8l4.3%201.2c5%201.4%2018.2%201.7%2025%20.6%203.8-.7%205-1.3%205.8-3.3.5-1.4.9-17.7.9-37.1v-34.5l9.8.4c19%20.8%2022.2%204.6%2039.2%2046.4%209.5%2023.2%2011.4%2027.1%2013.7%2027.7%205.3%201.5%2010.8%201.8%2020.1%201.2%2012.3-.9%2014.8-2.3%2013.7-7.8-1.2-5.3-13.2-34.3-20.5-49.4-7-14.4-11.3-20.3-18.3-25.4l-3.9-2.8%207.3-3.6c17.6-8.9%2026.4-23.8%2026.1-44-.3-23.5-13.4-39.3-37.2-45.1-6.3-1.5-13-1.8-43-2.1l-35.5-.4-3.7%202.6zm59.9%2026.1c7.6.7%2013.7%203.7%2017.7%208.7%202.9%203.6%203.1%204.6%203.4%2013.2.4%2011-1.5%2016.6-7%2020.8-6.5%205-10.3%205.9-26.5%206.5l-15.3.5v-25c0-13.7.3-25.3.7-25.7.7-.6%2013.5-.2%2027%201zM728%20430.7c-.8.3-2.7%201.5-4.2%202.5l-2.8%201.9v64.3c0%2075%20.7%20105.9%202.6%20108.4%201.1%201.5%203.2%201.7%2015.8%201.7%2010.6%200%2014.9-.4%2015.8-1.3%201-1%201.4-9.1%201.6-35.6l.3-34.3%2027.5-.6c22.8-.5%2028-.8%2030-2.2%202.3-1.5%202.4-2%202.4-12.4%200-15.6%202.3-14.5-32.1-14.9l-27.9-.3V459h61.8l1.1-3.1c1.4-4.1%201.4-18.7%200-22.8l-1.1-3.1-44.6.1c-24.6%200-45.4.3-46.2.6zM1181%20430.8c-.8.4-2.5%201.4-3.7%202.2l-2.3%201.5v85l.1%2085%202.7%202c2.5%201.8%204.9%202.1%2031.2%202.7%2027.3.6%2057.9.3%2064.7-.8%205.5-.8%206.3-2.5%206.3-12.8%200-12.7-.1-12.8-13.6-13.7-6-.3-20.9-.4-33.1-.1l-22.3.5v-52.1l27.5-.7c21.1-.6%2027.9-1%2028.9-2.1%203.2-3.1%203.1-20.7%200-23.9-1.3-1.3-5.9-1.5-29-1.5H1211v-43.8l32.1-.7c29-.7%2032.3-.9%2033.9-2.5%202.7-2.7%203.6-12.2%201.9-19l-1.4-5.5-47.5-.2c-26.1-.1-48.2.1-49%20.5zM500%20771.5c0%201.1-1.1%201.5-3.7%201.5-2.1%200-6.2.3-9%20.6-4.1.5-5.3%201.1-5.3%202.4%200%201.3-1.2%201.9-4.7%202.5-4.5.7-7.3%202.3-7.3%204.4%200%20.6-1.2%201.1-2.6%201.1-2.6%200-5.4%202-5.4%203.9%200%20.6-.5%201.1-1.1%201.1-.7%200-1.9.8-2.8%201.8-.9%201.1-2.8%202.2-4.3%202.6-1.6.3-2.8%201.3-2.8%202.1s-.4%201.5-1%201.5c-.5%200-1%20.9-1%202s-.7%202-1.5%202-1.5.7-1.5%201.5-.7%201.5-1.5%201.5c-.9%200-1.5.9-1.5%202.5%200%201.4-.4%202.5-1%202.5-.5%200-1%20.7-1%201.5s-.7%201.5-1.5%201.5c-.9%200-1.5.9-1.5%202.5%200%201.4-.4%202.5-1%202.5-.5%200-1%20.9-1%202s-.4%202-1%202c-.5%200-1%20.9-1%202%200%201.3-.7%202-2%202-1.6%200-2%20.7-2%203.5%200%201.9-.4%203.5-1%203.5-.5%200-1%20.7-1%201.5s-.4%201.5-1%201.5c-.5%200-1%20.9-1%202s-.7%202-1.5%202c-.9%200-1.5.9-1.5%202.5%200%201.4-.4%202.5-1%202.5-.5%200-1%20.7-1%201.5s-.7%201.5-1.5%201.5-1.5.9-1.5%202-.7%202-1.5%202c-1%200-1.5%201.1-1.5%203.5%200%201.9-.4%203.5-1%203.5-.5%200-1%20.9-1%202s-.7%202-1.5%202-1.5.7-1.5%201.5-.7%201.5-1.5%201.5c-.9%200-1.5.9-1.5%202.5%200%201.4-.4%202.5-1%202.5-.5%200-1%20.9-1%202s-.7%202-1.5%202-1.5.9-1.5%202-.4%202-1%202c-.5%200-1%201.1-1%202.5s-.4%202.5-1%202.5c-.5%200-1%201.1-1%202.5%200%201.8-.5%202.5-2%202.5-1.3%200-2%20.7-2%202%200%201.1-.4%202-1%202-.5%200-1%20.9-1%202s-.4%202-1%202c-.5%200-1%201.1-1%202.5%200%201.6-.6%202.5-1.5%202.5-.8%200-1.5.9-1.5%202s-.4%202-1%202c-.5%200-1%201.1-1%202.5%200%201.6-.6%202.5-1.5%202.5-.8%200-1.5.4-1.5%201%200%20.7-50.7%201-150%201s-150%20.3-150%201c0%20.6-2.7%201-6%201s-6%20.4-6%201c0%20.5-1.3%201-3%201-2%200-3%20.5-3%201.5s-1%201.5-2.7%201.5c-4.3%200-7.3%201.1-7.3%202.6%200%20.8-.9%201.4-2.1%201.4-2.2%200-4.9%202.2-4.9%203.9%200%20.6-1.3%201.1-2.8%201.1-1.6%200-3.4.8-4.2%202-.8%201.1-2%202-2.7%202-.7%200-1.3.7-1.3%201.5%200%20.9-1.2%201.8-3%202.1-2.3.5-3%201.2-3%203%200%201.4-.8%202.5-2%202.9-1.4.4-2%201.5-2%203.6%200%201.6-.5%202.9-1.1%202.9-1.9%200-3.9%202.8-3.9%205.4%200%201.6-.6%202.6-1.5%202.6s-1.5.9-1.5%202.5-.6%202.5-1.5%202.5c-1.1%200-1.5%201.2-1.5%204.5%200%202.5-.4%204.5-1%204.5-.7%200-1%2098.7-1%20294s.3%20294%201%20294c.6%200%201%202.7%201%206%200%204.7.3%206%201.5%206%20.9%200%201.5.9%201.5%202.5s.6%202.5%201.5%202.5c1%200%201.5%201%201.5%203%200%201.6.5%203%201%203%20.6%200%201%20.9%201%202s.7%202%201.5%202%201.5.8%201.5%201.8.9%202.4%202%203.2c1.1.8%202%202.5%202%203.7%200%201.6.6%202.3%201.9%202.3%201.1%200%202.6.7%203.5%201.5.8.8%201.7%201.5%202.1%201.5%201%200%203.5%202.8%203.5%203.9%200%20.6%201.2%201.1%202.6%201.1%202.6%200%205.4%202%205.4%203.9%200%20.6%201.1%201.1%202.5%201.1s2.5.4%202.5.9%202.2%201.2%205%201.6c4%20.6%205%201.1%205%202.6%200%201.9%2010.6%201.9%20605%201.9s605%200%20605-1.9c0-1.5%201-2%205-2.6%202.8-.4%205-1.1%205-1.6s1.1-.9%202.5-.9%202.5-.5%202.5-1.1c0-1.9%202.8-3.9%205.4-3.9%201.4%200%202.6-.5%202.6-1.1%200-1.1%202.5-3.9%203.5-3.9.4%200%201.3-.7%202.1-1.5.9-.8%202.4-1.5%203.5-1.5%201.3%200%201.9-.7%201.9-2.3%200-1.2.9-2.9%202-3.7%201.1-.8%202-2.2%202-3.2s.7-1.8%201.5-1.8c.9%200%201.5-.9%201.5-2.5%200-1.4.5-2.5%201-2.5.6%200%201-1.1%201-2.5%200-1.6.6-2.5%201.5-2.5s1.5-.9%201.5-2.5.6-2.5%201.5-2.5c1.2%200%201.5-1.3%201.5-6%200-3.3.4-6%201-6%20.7%200%201-98.2%201-292.5s-.3-292.5-1-292.5c-.6%200-1-2.7-1-6%200-4.7-.3-6-1.5-6-.9%200-1.5-.9-1.5-2.5s-.6-2.5-1.5-2.5c-.8%200-1.5-.9-1.5-2s-.4-2-1-2c-.5%200-1-.9-1-2s-.7-2-1.5-2c-1%200-1.5-1-1.5-2.9%200-2.1-.6-3.2-2-3.6-1.2-.4-2-1.5-2-2.9%200-1.8-.7-2.5-3-3-1.8-.3-3-1.2-3-2.1%200-.8-.6-1.5-1.3-1.5-.7%200-1.9-.9-2.7-2-.8-1.2-2.6-2-4.2-2-1.5%200-2.8-.5-2.8-1.1%200-1.7-2.7-3.9-4.9-3.9-1.2%200-2.1-.6-2.1-1.4%200-1.5-3-2.6-7.2-2.6-1.8%200-2.8-.5-2.8-1.5s-1-1.5-3-1.5c-1.6%200-3-.5-3-1%200-.6-2.7-1-6-1s-6-.4-6-1-2.8-1-6.5-1h-6.5v-5.5c0-4.2-.3-5.5-1.5-5.5s-1.5-1.3-1.5-6c0-3.3-.4-6-1-6-.5%200-1-.7-1-1.5s-.4-1.5-1-1.5c-.5%200-1-.9-1-2%200-1.3-.7-2-2-2-1.6%200-2-.7-2-3%200-1.7-.4-3-1-3-.5%200-1-.7-1-1.6%200-1.8-2.3-4.4-3.9-4.4-.6%200-1.1-.9-1.1-2.1%200-2.6-2-4.6-5.4-5.5-1.4-.3-2.6-1.2-2.6-1.9%200-1.5-2.2-2.5-5.6-2.5-1.7%200-2.4-.6-2.4-2%200-1.1-.4-2-1-2-.5%200-1-.7-1-1.5s-.9-1.5-1.9-1.5c-2.9%200-5.1-1.1-5.1-2.5%200-.8-2.3-1.5-6.2-1.9-3.5-.3-6.4-1.1-6.6-1.6-.2-.6-3.3-1-6.8-1-5.7%200-6.4-.2-6.4-2%200-2-.7-2-54-2s-54%200-54%202c0%201.8-.7%202-6%202-3.3%200-6%20.4-6%20.9s-2.9%201.3-6.5%201.6c-4.5.5-6.5%201.2-6.5%202.1%200%20.8-1.6%201.6-4%202-2.4.4-4%201.2-4%202s-.4%201.4-1%201.4c-.5%200-1%20.9-1%202%200%201.4-.7%202-2.4%202-3.4%200-5.6%201-5.6%202.5%200%20.7-1.1%201.6-2.5%201.9-1.4.4-2.5%201.1-2.5%201.6%200%20.6-.9%201-2%201-1.4%200-2%20.7-2%202.3%200%201.2-.9%202.9-2%203.7-1.1.8-2%202.2-2%203.2s-.5%201.8-1.1%201.8c-2.1%200-3.9%202.9-3.9%206.4%200%202.5-.4%203.6-1.5%203.6-.8%200-1.5.7-1.5%201.5s-.7%201.5-1.5%201.5c-1.1%200-1.5%201.2-1.5%205%200%202.7-.4%205-1%205s-1%202.8-1%206.5v6.5h-20.5c-13%200-20.5-.4-20.5-1s-.7-1-1.5-1c-.9%200-1.5-.9-1.5-2.5%200-1.4-.4-2.5-1-2.5-.5%200-1-.9-1-2s-.7-2-1.5-2c-.9%200-1.5-.9-1.5-2.5%200-1.4-.4-2.5-1-2.5-.5%200-1-.9-1-2s-.4-2-1-2c-.5%200-1-.9-1-2%200-1.3-.7-2-2-2-1.5%200-2-.7-2-2.5%200-1.4-.4-2.5-1-2.5-.5%200-1-1.1-1-2.5s-.4-2.5-1-2.5c-.5%200-1-.9-1-2s-.7-2-1.5-2-1.5-.9-1.5-2-.4-2-1-2c-.5%200-1-1.1-1-2.5%200-1.6-.6-2.5-1.5-2.5-.8%200-1.5-.7-1.5-1.5s-.7-1.5-1.5-1.5-1.5-.9-1.5-2-.4-2-1-2c-.5%200-1-1.6-1-3.5%200-2.4-.5-3.5-1.5-3.5-.8%200-1.5-.9-1.5-2s-.7-2-1.5-2-1.5-.7-1.5-1.5-.4-1.5-1-1.5c-.5%200-1-1.1-1-2.5%200-1.6-.6-2.5-1.5-2.5-.8%200-1.5-.9-1.5-2s-.4-2-1-2c-.5%200-1-.7-1-1.5s-.4-1.5-1-1.5c-.5%200-1-1.6-1-3.5%200-2.8-.4-3.5-2-3.5-1.3%200-2-.7-2-2%200-1.1-.4-2-1-2-.5%200-1-.9-1-2s-.4-2-1-2c-.5%200-1-1.1-1-2.5%200-1.6-.6-2.5-1.5-2.5-.8%200-1.5-.7-1.5-1.5s-.4-1.5-1-1.5c-.5%200-1-1.1-1-2.5%200-1.6-.6-2.5-1.5-2.5-.8%200-1.5-.7-1.5-1.5s-.7-1.5-1.5-1.5-1.5-.9-1.5-2-.4-2-1-2c-.5%200-1-.7-1-1.5s-1.2-1.8-2.7-2.1c-1.6-.4-3.5-1.5-4.4-2.6-.9-1-2.1-1.8-2.8-1.8-.6%200-1.1-.5-1.1-1.1%200-1.9-2.8-3.9-5.4-3.9-1.4%200-2.6-.5-2.6-1.1%200-2.1-2.8-3.7-7.3-4.4-3.5-.6-4.7-1.2-4.7-2.5s-1.2-1.9-5.2-2.4c-2.9-.3-7-.6-9-.6-2.7%200-3.8-.4-3.8-1.5%200-1.3-19.4-1.5-169-1.5s-169%20.2-169%201.5zm199.8%20248.2c11.7.5%2015.2.9%2015.2%202%200%201%201.9%201.3%207.5%201.3%204.3%200%207.5.4%207.5%201%200%20.5%202.5%201%205.5%201s5.5.4%205.5%201c0%20.5%202.3%201%205%201%203.6%200%205%20.4%205%201.4%200%201%202%201.6%207.5%202.1%204.1.4%207.5%201.1%207.5%201.6s1.1.9%202.5.9%202.5.4%202.5%201c0%20.5%201.8%201%204%201%202.9%200%204%20.4%204%201.5%200%201%201%201.5%203%201.5%201.7%200%203%20.4%203%201%200%20.5%201.1%201%202.5%201%201.6%200%202.5.6%202.5%201.5%200%20.8.9%201.5%202%201.5s2%20.4%202%20.9%202.5%201.2%205.5%201.6c4.4.5%205.5%201%205.5%202.5%200%201.4%201.1%202%205%202.5%202.8.4%205%201.1%205%201.6s1.1.9%202.5.9c1.5%200%202.5.6%202.5%201.5%200%201%201.4%201.7%204%202.1%202.9.5%204%201.1%204%202.4%200%201.9%201.9%203%205.2%203%202.1%200%204.8%202.2%204.8%203.9%200%20.6.7%201.1%201.5%201.1s1.5.4%201.5%201c0%20.5%201.1%201%202.5%201%201.6%200%202.5.6%202.5%201.5%200%20.8.5%201.5%201%201.5.6%200%202.2%201.1%203.6%202.5s3.1%202.5%203.9%202.5c.8%200%201.5.7%201.5%201.5%200%20.9.9%201.5%202.5%201.5%201.4%200%202.5.4%202.5%201%200%20.5.5%201%201.1%201%201.4%200%203.9%202.5%203.9%204%200%20.6%201.4%201.3%203%201.6%202%20.5%203%201.2%203%202.5%200%201%20.9%202.1%202%202.4%201.1.3%202%201.1%202%201.6s.7.9%201.5.9%201.5.5%201.5%201.1c0%201.6%202.6%203.9%204.4%203.9.9%200%201.6.7%201.6%201.5%200%201.8%204.3%206.5%206%206.5.5%200%201%20.4%201%201%200%20.5.7%201%201.5%201%20.9%200%201.5.9%201.5%202.5%200%201.4.5%202.5%201%202.5.6%200%201%20.6%201%201.4%200%20.8%201.1%201.7%202.5%202%201.4.4%202.5%201.3%202.5%202.1s.5%201.5%201%201.5c.6%200%201%201.1%201%202.5%200%201.6.6%202.5%201.6%202.5%202%200%204.4%202.4%204.4%204.4%200%20.9%201.1%201.8%202.5%202.2%202.1.5%202.5%201.2%202.5%204%200%201.9.5%203.4%201%203.4.6%200%201%20.9%201%202s.7%202%201.5%202%201.5.7%201.5%201.5.7%201.5%201.5%201.5c.9%200%201.5.9%201.5%202.5%200%201.4.5%202.5%201%202.5.6%200%201%20.9%201%202s.7%202%201.5%202%201.5.9%201.5%202%20.7%202%201.5%202c.9%200%201.5.9%201.5%202.5%200%201.4.5%202.5%201%202.5.6%200%201%201.1%201%202.5%200%201.6.6%202.5%201.5%202.5%201%200%201.5%201%201.5%203%200%201.6.5%203%201%203%20.6%200%201%201.1%201%202.5s.5%202.5%201%202.5c.6%200%201%201.3%201%203%200%202.3.4%203%202%203%201.7%200%202%20.7%202%204.5%200%202.5.5%204.5%201%204.5.6%200%201%201.3%201%203%200%201.6.5%203%201%203%20.6%200%201%202.2%201%205%200%203.8.4%205%201.5%205%201.2%200%201.5%201.3%201.5%206%200%203.3.4%206%201%206s1%203.8%201%209.5c0%207.8.3%209.5%201.5%209.5%201.3%200%201.5%203.1%201.5%2021.5s-.2%2021.5-1.5%2021.5c-1.2%200-1.5%201.7-1.5%209.5%200%205.7-.4%209.5-1%209.5-.5%200-1%202.2-1%205%200%203.8-.4%205-1.5%205-1.2%200-1.5%201.3-1.5%206%200%203.3-.4%206-1%206-.5%200-1%201.3-1%203%200%201.6-.4%203-1%203-.5%200-1%202.2-1%205%200%204.3-.3%205-2%205-1.6%200-2%20.7-2%203%200%201.6-.4%203-1%203-.5%200-1%201.1-1%202.5s-.4%202.5-1%202.5c-.5%200-1%201.1-1%202.5%200%201.6-.6%202.5-1.5%202.5s-1.5.9-1.5%202.5c0%201.4-.4%202.5-1%202.5-.5%200-1%201.1-1%202.5%200%201.6-.6%202.5-1.5%202.5s-1.5.9-1.5%202.5-.6%202.5-1.5%202.5c-.8%200-1.5.7-1.5%201.5s-.4%201.5-1%201.5c-.5%200-1%201.1-1%202.5%200%201.6-.6%202.5-1.5%202.5-.8%200-1.5.9-1.5%202s-.7%202-1.5%202-1.5.7-1.5%201.6c0%201.8-2.3%204.4-3.9%204.4-.6%200-1.1%201.3-1.1%203%200%201.6-.4%203-1%203-.5%200-1%20.7-1%201.5s-.4%201.5-1%201.5c-.5%200-1%20.7-1%201.5s-.9%201.5-2%201.5c-1.4%200-2%20.7-2%202.1%200%202.3-3.4%205.9-5.7%205.9-.7%200-1.3.9-1.3%202s-.4%202-1%202c-.5%200-1%20.7-1%201.5s-.7%201.5-1.5%201.5-1.5.9-1.5%201.9c0%201.2-.9%202.1-2.5%202.5-1.4.4-2.5%201.3-2.5%202.1s-.4%201.5-1%201.5c-.5%200-1%20.7-1%201.5s-.9%201.5-2%201.5-2%20.5-2%201.1c0%201.2-2.5%203.9-3.5%203.9-.4%200-2%201.3-3.5%203-1.5%201.6-3.3%203-4%203-1.6%200-4%202.6-4%204.4%200%20.9-1.1%201.8-2.5%202.2-1.4.3-2.5%201.2-2.5%202s-1%201.4-2.5%201.4c-1.4%200-2.5.4-2.5.9s-1.1%201.2-2.5%201.5c-1.4.4-2.5%201.1-2.5%201.7%200%201.4-2.6%203.9-3.9%203.9-.6%200-1.1.4-1.1%201%200%20.5-1.1%201-2.5%201-1.6%200-2.5.6-2.5%201.5%200%20.8-.5%201.5-1.1%201.5-1.4%200-3.9%202.5-3.9%203.9%200%20.6-1.1%201.1-2.4%201.1-3.5%200-5.6%201-5.6%202.6%200%20.8-1%201.4-2.5%201.4-1.4%200-2.5.4-2.5%201%200%20.5-1.3%201-2.8%201-1.6%200-3.4.8-4.2%202-.8%201.1-2.5%202-3.7%202-1.3%200-2.3.4-2.3%201%200%20.5-1.1%201-2.5%201-1.5%200-2.5.6-2.5%201.4%200%201-1.7%201.7-5.5%202.1-3.7.5-5.5%201.2-5.5%202.1%200%20.8-.9%201.4-2%201.4s-2%20.4-2%201c0%20.5-1.1%201-2.5%201-1.6%200-2.5.6-2.5%201.5%200%201-1%201.5-3%201.5-1.6%200-3%20.4-3%201%200%20.5-1.8%201-4%201s-4%20.4-4%201c0%20.5-1.1%201-2.5%201-1.5%200-2.5.6-2.5%201.4%200%201.1-2.2%201.6-8.5%202.1-4.7.4-8.5%201.1-8.5%201.6s-1.8.9-4%20.9c-2.7%200-4%20.4-4%201.4%200%201.3-10.2%202.6-21.2%202.6-4.1%200-4.8.3-4.8%202%200%201.9-.7%202-10%202-6%200-10%20.4-10%201s-9.3%201-26%201-26-.4-26-1-4-1-10-1c-9.3%200-10-.1-10-2%200-1.7-.7-2-4.7-2-11.1%200-21.3-1.3-21.3-2.6%200-1-1.3-1.4-4-1.4-2.2%200-4-.4-4-.9s-3.8-1.2-8.5-1.6c-6.3-.5-8.5-1-8.5-2.1%200-.8-1-1.4-2.5-1.4-1.4%200-2.5-.5-2.5-1%200-.6-1.8-1-4-1s-4-.5-4-1c0-.6-1.3-1-3-1-2%200-3-.5-3-1.5%200-.9-.9-1.5-2.5-1.5-1.4%200-2.5-.5-2.5-1%200-.6-.9-1-2-1s-2-.6-2-1.4c0-.9-1.8-1.6-5.5-2.1-3.8-.4-5.5-1.1-5.5-2.1%200-.8-1-1.4-2.5-1.4-1.4%200-2.5-.5-2.5-1%200-.6-1.1-1-2.5-1s-2.5-.5-2.5-1c0-.6-1.1-1-2.5-1s-2.5-.5-2.5-1c0-.6-.7-1-1.5-1s-1.5-.5-1.5-1c0-.6-1.1-1-2.5-1-1.6%200-2.5-.6-2.5-1.5s-1.2-1.8-3-2.2c-1.6-.3-3-1.2-3-1.9%200-.8-.9-1.4-2-1.4s-2-.5-2-1c0-.6-.7-1-1.5-1s-1.5-.7-1.5-1.5c0-.9-.9-1.5-2.5-1.5-1.4%200-2.5-.5-2.5-1%200-.6-.5-1-1.1-1-1.3%200-3.9-2.5-3.9-3.9%200-.6-1.1-1.3-2.5-1.7-1.4-.3-2.5-1-2.5-1.5s-1.1-.9-2.5-.9c-1.5%200-2.5-.6-2.5-1.4%200-.8-1.1-1.7-2.5-2-1.4-.4-2.5-1.3-2.5-2.2%200-1.8-2.4-4.4-4-4.4-.7%200-2.5-1.4-4-3-1.5-1.7-3.1-3-3.5-3-1%200-3.5-2.7-3.5-3.9%200-.6-.9-1.1-2-1.1s-2-.7-2-1.5-.4-1.5-1-1.5c-.5%200-1-.7-1-1.5s-1.1-1.7-2.5-2.1c-1.6-.4-2.5-1.3-2.5-2.5%200-1-.7-1.9-1.5-1.9s-1.5-.7-1.5-1.5-.4-1.5-1-1.5c-.5%200-1-.9-1-2s-.6-2-1.3-2c-2.3%200-5.7-3.6-5.7-5.9%200-1.4-.6-2.1-2-2.1-1.1%200-2-.7-2-1.5s-.4-1.5-1-1.5c-.5%200-1-.7-1-1.5s-1.1-1.7-2.5-2.1c-2.1-.5-2.5-1.2-2.5-4%200-1.9-.4-3.4-1-3.4-.5%200-1-.9-1-2s-.7-2-1.5-2-1.5-.9-1.5-2-.7-2-1.5-2c-.9%200-1.5-.9-1.5-2.5%200-1.4-.4-2.5-1-2.5-.5%200-1-.7-1-1.5s-.7-1.5-1.5-1.5c-.9%200-1.5-.9-1.5-2.5s-.6-2.5-1.5-2.5-1.5-.9-1.5-2.5c0-1.4-.4-2.5-1-2.5-.5%200-1-1.1-1-2.5%200-1.6-.6-2.5-1.5-2.5s-1.5-.9-1.5-2.5c0-1.4-.4-2.5-1-2.5-.5%200-1-1.1-1-2.5s-.4-2.5-1-2.5c-.5%200-1-1.4-1-3%200-2.3-.4-3-2-3-1.7%200-2-.7-2-5%200-2.8-.4-5-1-5-.5%200-1-1.4-1-3%200-1.7-.4-3-1-3-.5%200-1-2.3-1-5%200-3.8-.4-5-1.5-5-1.2%200-1.5-1.3-1.5-6%200-3.3-.4-6-1-6s-1-3.8-1-9.5c0-7.8-.3-9.5-1.5-9.5-1.3%200-1.5-3.2-1.5-22.5s.2-22.5%201.5-22.5c1.2%200%201.5-1.6%201.5-8.5%200-5%20.4-8.5%201-8.5s1-2.7%201-6c0-4.7.3-6%201.5-6%201.1%200%201.5-1.2%201.5-5%200-2.8.5-5%201-5%20.6%200%201-1.4%201-3%200-1.7.5-3%201-3%20.6%200%201-2%201-4.5%200-3.8.3-4.5%202-4.5%201.6%200%202-.7%202-3%200-1.7.5-3%201-3%20.6%200%201-1.1%201-2.5s.5-2.5%201-2.5c.6%200%201-1.4%201-3%200-2%20.5-3%201.5-3%20.9%200%201.5-.9%201.5-2.5%200-1.4.5-2.5%201-2.5.6%200%201-1.1%201-2.5%200-1.6.6-2.5%201.5-2.5.8%200%201.5-.9%201.5-2s.7-2%201.5-2%201.5-.9%201.5-2%20.5-2%201-2c.6%200%201-1.1%201-2.5%200-1.6.6-2.5%201.5-2.5.8%200%201.5-.7%201.5-1.5s.7-1.5%201.5-1.5%201.5-.9%201.5-2%20.5-2%201-2c.6%200%201-1.5%201-3.4%200-2.8.4-3.5%202.5-4%201.4-.4%202.5-1.3%202.5-2.2%200-2%202.4-4.4%204.4-4.4%201%200%201.6-.9%201.6-2.5%200-1.4.5-2.5%201-2.5.6%200%201-.7%201-1.5s1.1-1.7%202.5-2.1c1.4-.3%202.5-1.2%202.5-2s.5-1.4%201-1.4c.6%200%201-1.1%201-2.5%200-1.6.6-2.5%201.5-2.5.8%200%201.5-.5%201.5-1%200-.6.5-1%201-1%201.7%200%206-4.7%206-6.5%200-.8.7-1.5%201.6-1.5%201.8%200%204.4-2.3%204.4-3.9%200-.6.7-1.1%201.5-1.1s1.5-.4%201.5-.9.9-1.3%202-1.6c1.1-.3%202-1.4%202-2.4%200-1.3%201-2%203-2.5%201.7-.3%203-1%203-1.6%200-1.5%202.5-4%203.9-4%20.6%200%201.1-.5%201.1-1%200-.6%201.1-1%202.5-1%201.6%200%202.5-.6%202.5-1.5%200-.8.7-1.5%201.5-1.5s2.5-1.1%203.9-2.5%203-2.5%203.6-2.5c.5%200%201-.7%201-1.5%200-.9.9-1.5%202.5-1.5%201.4%200%202.5-.5%202.5-1%200-.6.7-1%201.5-1s1.5-.7%201.5-1.5.9-1.5%202-1.5%202-.4%202-.9%201.4-1.1%203-1.5c2.1-.4%203-1.1%203-2.4%200-1.5%201-2.1%204-2.6%202.6-.4%204-1.1%204-2.1%200-.9%201-1.5%202.5-1.5%201.4%200%202.5-.4%202.5-.9s2.3-1.2%205-1.6c3.9-.5%205-1.1%205-2.5%200-1.5%201.1-2%205.5-2.5%203-.4%205.5-1.1%205.5-1.6s.9-.9%202-.9%202-.7%202-1.5c0-.9.9-1.5%202.5-1.5%201.4%200%202.5-.5%202.5-1%200-.6%201.4-1%203-1%202%200%203-.5%203-1.5%200-1.1%201.1-1.5%204-1.5%202.2%200%204-.5%204-1%200-.6%201.1-1%202.5-1s2.5-.4%202.5-.9%203.8-1.2%208.5-1.6c6.2-.5%208.5-1.1%208.5-2.1s1.3-1.4%204-1.4c2.2%200%204-.5%204-1%200-.6%202.5-1%205.5-1s5.5-.5%205.5-1c0-.6%203.2-1%207.5-1%205.9%200%207.5-.3%207.5-1.5%200-1.1%202.1-1.5%2010.3-1.8%2021.4-.6%2052-.7%2066.5%200z%22/%3E%3Cpath%20d=%22M648%201125c0%201.8-.7%202-7.5%202-4.3%200-7.5.4-7.5%201%200%20.5-1.5%201-3.2%201-7.2%200-13.8%201.3-13.8%202.6%200%20.9-1.1%201.4-2.7%201.4-5.5%200-10.3%201.3-10.3%202.6%200%20.9-1.1%201.4-3%201.4-2.3%200-3%20.5-3%201.9%200%201.5-1%202-5%202.6-3.3.5-5%201.2-5%202.1%200%20.8-1%201.4-2.4%201.4s-3.1.7-4%201.5c-.8.8-2.6%201.5-4%201.5s-2.6.5-2.6%201.1c0%201.4-2.5%203.9-3.9%203.9-.6%200-1.1.4-1.1%201%200%20.5-1.1%201-2.5%201s-2.5.4-2.5%201c0%20.5-.5%201-1%201-1.6%200-6%204.7-6%206.3%200%20.8-1.3%201.7-3%202-1.8.4-3%201.3-3%202.2%200%20.8-.7%201.5-1.5%201.5s-1.5.4-1.5.9-.9%201.3-2%201.6c-1.1.3-2%201.3-2%202.1s-.9%201.4-2%201.4c-1.3%200-2%20.7-2%202%200%201.1-.4%202-1%202-.5%200-1%20.5-1%201.1%200%201.4-2.5%203.9-3.9%203.9-.6%200-1.1.9-1.1%202s-.4%202-1%202c-.5%200-1%20.7-1%201.5s-.7%201.5-1.5%201.5-1.5.9-1.5%202-.7%202-1.5%202-1.5.9-1.5%202-.4%202-1%202c-.5%200-1%20.9-1%202s-.4%202-1%202c-.5%200-1%201.1-1%202.5%200%201.6-.6%202.5-1.5%202.5s-1.5.9-1.5%202.5-.6%202.5-1.5%202.5c-1%200-1.5%201-1.5%203%200%201.6-.4%203-1%203-.5%200-1%201.3-1%203%200%202-.5%203-1.5%203-1.1%200-1.5%201.2-1.5%205%200%202.7-.4%205-1%205s-1%202.8-1%206.5c0%205.8-.2%206.5-2%206.5-1.9%200-2%20.7-2%2018s.1%2018%202%2018c1.8%200%202%20.7%202%206.5%200%203.7.4%206.5%201%206.5s1%202%201%204.5c0%203.3.4%204.5%201.5%204.5%201%200%201.5%201.1%201.5%203.5%200%201.9.5%203.5%201%203.5.6%200%201%201.1%201%202.5%200%201.6.6%202.5%201.5%202.5s1.5.9%201.5%202.5.6%202.5%201.5%202.5%201.5.9%201.5%202.5c0%201.4.5%202.5%201%202.5.6%200%201%201.1%201%202.5s.5%202.5%201%202.5c.6%200%201%20.7%201%201.5s.7%201.5%201.5%201.5%201.5.9%201.5%202%20.7%202%201.5%202%201.5.9%201.5%202%20.5%202%201%202c.6%200%201%20.7%201%201.5s.7%201.5%201.5%201.5%201.5.6%201.5%201.3c0%20.7.9%201.9%202%202.7%201.1.8%202%202.5%202%203.7%200%201.6.6%202.3%202%202.3%201.1%200%202%20.4%202%20.9s.9%201.3%202%201.6c1.1.3%202%201.3%202%202.1s.6%201.4%201.3%201.4c.7%200%201.9.9%202.7%202%20.8%201.1%202.2%202%203.2%202s1.8.6%201.8%201.4c0%20.8.9%201.8%202%202.1%201.1.3%202%201.5%202%202.6%200%201.4.9%202%204%202.5%202.2.4%204%201%204%201.5s.7.9%201.5.9%201.5.5%201.5%201.1c0%201.9%202.8%203.9%205.4%203.9%201.6%200%202.6.6%202.6%201.4%200%20.8%201.5%201.7%203.5%202%201.9.4%203.5%201.1%203.5%201.6%200%20.6%201.1%201%202.5%201s2.5.4%202.5%201c0%20.5%201.1%201%202.5%201s2.5.4%202.5%201c0%20.5%201.4%201%203%201%202.5%200%203%20.4%203%202.4%200%202.1.5%202.4%206.2%203%203.5.4%206.5%201.2%206.8%201.6.3.5%204.3%201.2%208.8%201.6%205.3.4%208.2%201.1%208.2%201.9%200%20.8%203.5%201.4%2011.3%201.8%2024.7%201.5%2060.7.4%2060.7-1.8%200-.8%202.9-1.5%208.3-1.9%204.5-.4%208.4-1.1%208.5-1.6.2-.6%201.6-1%203-1%201.5%200%204.4-.3%206.5-.6%203.1-.6%203.7-1.1%203.7-3%200-2%20.5-2.4%203-2.4%201.7%200%203-.5%203-1%200-.6%201.1-1%202.5-1s2.5-.5%202.5-1c0-.6%201.1-1%202.5-1s2.5-.5%202.5-1c0-.6.9-1%201.9-1%203%200%205.1-1.1%205.1-2.6%200-.8%201-1.4%202.6-1.4%202.6%200%205.4-2%205.4-3.9%200-.6.7-1.1%201.5-1.1s1.5-.4%201.5-.9%201.8-1.1%204-1.5c3.1-.5%204-1.1%204-2.5%200-1.1.9-2.3%202-2.6%201.1-.3%202-1.3%202-2.1s.8-1.4%201.8-1.4%202.4-.9%203.2-2c.8-1.1%202-2%202.7-2%20.7%200%201.3-.6%201.3-1.4%200-.8.9-1.8%202-2.1%201.1-.3%202-1.1%202-1.6s.9-.9%202-.9c1.4%200%202-.7%202-2.3%200-1.2.9-2.9%202-3.7%201.1-.8%202-2%202-2.7%200-.7.7-1.3%201.5-1.3s1.5-.7%201.5-1.5.5-1.5%201-1.5c.6%200%201-1.1%201-2.5%200-1.6.6-2.5%201.5-2.5.8%200%201.5-.7%201.5-1.5s.7-1.5%201.5-1.5%201.5-.7%201.5-1.5.5-1.5%201-1.5c.6%200%201-1.1%201-2.5s.5-2.5%201-2.5c.6%200%201-1.1%201-2.5%200-1.6.6-2.5%201.5-2.5s1.5-.9%201.5-2.5.6-2.5%201.5-2.5%201.5-.9%201.5-2.5c0-1.4.5-2.5%201-2.5.6%200%201-1.6%201-3.5%200-2.4.5-3.5%201.5-3.5%201.1%200%201.5-1.2%201.5-4.5%200-2.5.5-4.5%201-4.5.6%200%201-2.8%201-6.5s.4-6.5%201-6.5%201-6.7%201-18-.4-18-1-18-1-2.8-1-6.5-.4-6.5-1-6.5c-.5%200-1-2.3-1-5%200-3.8-.4-5-1.5-5-1%200-1.5-1-1.5-3%200-1.7-.4-3-1-3-.5%200-1-1.4-1-3%200-2-.5-3-1.5-3-.9%200-1.5-.9-1.5-2.5s-.6-2.5-1.5-2.5-1.5-.9-1.5-2.5c0-1.4-.4-2.5-1-2.5-.5%200-1-.9-1-2s-.4-2-1-2c-.5%200-1-.9-1-2s-.7-2-1.5-2-1.5-.5-1.5-1c0-.6-.7-1-1.5-1-.9%200-1.5-.9-1.5-2.5%200-1.4-.4-2.5-1-2.5-.5%200-1-.9-1-2s-.5-2-1.1-2c-1.4%200-3.9-2.5-3.9-3.9%200-.6-.4-1.1-1-1.1-.5%200-1-.9-1-2%200-1.3-.7-2-2-2-1.1%200-2-.6-2-1.4%200-.8-.9-1.8-2-2.1-1.1-.3-2-1.1-2-1.6s-.7-.9-1.5-.9-1.5-.7-1.5-1.5c0-.9-1.2-1.8-3-2.2-1.6-.3-3-1.2-3-2%200-1.6-4.4-6.3-6-6.3-.5%200-1-.5-1-1%200-.6-1.1-1-2.5-1s-2.5-.5-2.5-1c0-.6-.5-1-1.1-1-1.4%200-3.9-2.5-3.9-3.9%200-.6-1.2-1.1-2.6-1.1-1.4%200-3.2-.7-4-1.5-.9-.8-2.6-1.5-4-1.5s-2.4-.6-2.4-1.4c0-.9-1.7-1.6-5-2.1-4-.6-5-1.1-5-2.6%200-1.4-.7-1.9-3-1.9-1.9%200-3-.5-3-1.4%200-1.3-4.8-2.6-10.2-2.6-1.7%200-2.8-.5-2.8-1.4%200-1.3-6.6-2.6-13.7-2.6-1.8%200-3.3-.5-3.3-1%200-.6-3.2-1-7.5-1-6.8%200-7.5-.2-7.5-2%200-1.9-.7-2-21-2s-21%20.1-21%202z%22/%3E%3C/svg%3E"
       },
       "design": {
         "graph": {
@@ -6418,13 +4643,13 @@
         }
       }
     },
-    "9a753e019f716e1dacc0b7f4103b8f8dc4cb669a": {
+    "2b8124443c947264c554e14f2b424b1730c7c533": {
       "package": {
         "name": "sdram_interface",
         "version": "",
         "description": "stores pixel data from camera then send data to HDMI",
         "author": "",
-        "image": "%3Csvg%20version=%221%22%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221298.667%22%20height=%22601.333%22%20viewBox=%220%200%20974.000000%20451.000000%22%3E%3Cpath%20d=%22M185.3%2025.5c-13.1%202.9-23%2010.4-28.2%2021.4-2.2%204.9-2.6%206.9-2.6%2015.6s.3%2010.7%202.6%2015.5c5.1%2010.9%2011.4%2016.2%2029.6%2024.5%2020.4%209.4%2024.3%2013%2024.3%2022.1%200%209.8-6.7%2015.3-19.5%2016.2-9%20.6-17.3-1.5-28.3-7.1-8.1-4.1-8.4-4.1-9.8-2.3-.9%201.4-1.4%204.7-1.4%2010.4%200%208.1.1%208.5%203%2011.2%205.7%205.3%2021.9%2010%2034.5%2010%2014.5%200%2029.4-5.1%2037.9-13%2012.2-11.3%2015.8-32.8%207.8-47.3-4.5-8.3-11-13.1-29.7-22.2-20.6-10-23.5-12.5-23.5-21%200-4.6.4-5.9%203.1-8.9%206.6-7.6%2019.3-7.6%2036%20.1%205.7%202.6%208.3%203.3%209%202.6%201.5-1.5%202.3-13%201.2-17.3-.7-2.9-1.8-4-6.3-6.3-10.7-5.3-26.7-7-39.7-4.2zM549.8%2026.1c-1.4.6-2.9%201.8-3.3%202.7-3.7%209.7-42.8%20124.6-43.3%20127.1-.8%205%201.4%206.1%2011.7%206.1%2012.8%200%2012.7%200%2018.4-17.3l4.8-14.7h50.5l4.9%2015.1c4.1%2012.5%205.4%2015.3%207.3%2016%203.2%201.2%2020.9%201.1%2023.3-.1%201.2-.7%201.9-2.1%201.9-3.9%200-2.1-38.3-115.2-43.1-127.3-.6-1.6-2.3-3.1-4.1-3.7-3.8-1.4-25.3-1.3-29%200zm22.7%2053.1c4.9%2015%209.1%2027.9%209.3%2028.5.3%201-3.9%201.3-18.8%201.3s-19.1-.3-18.7-1.3c.2-.6%204.4-13.4%209.3-28.4%204.9-15%209.1-27.2%209.4-27.3.4%200%204.6%2012.3%209.5%2027.2zM263.8%2028l-2.8%202.1v126.8l2.8%202.1c2.7%202.2%203.2%202.2%2029.2%201.7%2023-.4%2027.5-.7%2034.5-2.6%2022-5.9%2035.4-18.8%2041.5-40.1%203.1-10.8%203.9-32.5%201.6-44.1-2.6-12.9-8-23.2-16.3-31-7.7-7.2-14.7-11-26.1-14.1-6.7-1.8-11.2-2.2-34.7-2.6-26.5-.4-27.1-.3-29.7%201.8zm50.4%2020.1c19.2%204.1%2029.7%2019.7%2029.8%2043.9%200%2026.5-10.3%2042.3-30.2%2046-2.8.6-9.7%201-15.4%201H288V47h10.5c5.7%200%2012.8.5%2015.7%201.1zM397.6%2028.1l-2.6%202v129.8l4.3%201.2c5.2%201.4%2019%20.7%2021.1-1.1%201.4-1.1%201.6-5%201.6-28.2v-27l7.9.3c13.4.7%2016.5%204.4%2028.2%2033.9%207.1%2018%208.7%2021.4%2010.9%2022.2%201.4.5%207.1.8%2012.8.6%208.7-.2%2010.6-.6%2011.7-2.1%201.8-2.4.9-5-8.9-28.2-8.3-19.7-12.6-26.9-18.6-31l-3.9-2.7%205.9-2.9c10.9-5.5%2017-13.7%2018.9-25.6%202.1-13.2-2.3-26.4-11-33.3-10.4-8.2-19.7-10-52-10-22.4%200-23.8.1-26.3%202.1zm53.1%2021.7c6.1%203.2%208.6%208.5%208.1%2017.1-.4%207.9-2.9%2012.1-9.1%2015.3-3.5%201.8-6.3%202.3-15.9%202.6l-11.8.4V46.8l12.3.4c10.1.4%2012.9.8%2016.4%202.6zM649.4%2027c-5.6%202.2-5.4.1-5.4%2069.1v63.7l3.6%201.2c3.8%201.3%2018%201%2020.2-.4.9-.5%201.2-14.5%201.2-56.9%200-32.1.4-55.7.9-55.2.5.6%209.1%2025.3%2019.1%2055%2010.1%2029.7%2019.2%2054.9%2020.2%2056%201.6%201.8%203.1%202%2012.3%202%208%200%2010.8-.4%2011.9-1.5.9-.8%2010.2-26%2020.7-56s19.6-54.9%2020-55.4c.5-.6.9%2023.5.9%2055.1v56.1l3.6%201.2c3.8%201.3%2018%201%2020.2-.4.9-.5%201.2-16.3%201.2-64.6V32.1l-2.4-2.8c-2.4-2.8-2.5-2.8-16.2-3.1-17-.4-21.2.8-24.8%207.1-1.3%202.3-9.4%2023.2-18.1%2046.5-8.7%2023.3-16.1%2041.9-16.5%2041.5-.4-.4-7.6-20.1-16.1-43.8-16.8-46.9-17.6-48.4-25.3-50.4-5.2-1.3-28.1-1.4-31.2-.1zM810.5%20285.5c-23.8%205.2-39.4%2021.3-45.6%2047-3.1%2012.6-3.1%2033.3-.1%2045.7%206.8%2027.9%2024.7%2042.8%2053.2%2044.5%2015.8.9%2034.6-4.2%2041-11.1%202.3-2.5%202.5-3.6%202.5-11.6%200-5.7-.4-9.3-1.2-10.1-1-1-3.5-.1-11.9%204.2l-10.6%205.4h-10.6c-9.6%200-11.2-.3-15.7-2.7-13.4-7-19.5-20.6-19.5-43.3%200-30.5%2014.2-48%2037.5-46.2%207.8.6%2013.8%202.9%2021.7%208.1%202.9%202%205.8%203.6%206.5%203.6%202.3%200%203.3-3.8%203.3-12.3%200-10.2-1.2-12.2-10.3-16.7-11.5-5.6-27.2-7.4-40.2-4.5zM20.5%20285.7c-4.7%201.2-4.5-1.1-4.5%2067.8%200%2059.5.1%2065.4%201.7%2066.6%202.3%201.9%2021.3%201.9%2023.6%200%201.6-1.2%201.7-7.1%201.7-66.6%200-58.4-.2-65.4-1.6-66.6-1.6-1.3-17.1-2.3-20.9-1.2zM162%20286.3l-2.5%201.3-.5%2047.4-.5%2047.5-4.4-9.5c-7-15.2-40.1-77.9-42.9-81.2-4-4.8-7.7-5.8-20.6-5.8-10.9%200-11.6.1-14.5%202.6l-3.1%202.6v128.6l3.1%201.1c4.1%201.4%2013.7%201.4%2017.8%200l3.1-1.1-.2-51.4c-.2-28.2%200-51%20.3-50.6.4.4%202.1%204.1%203.9%208.2%204.2%209.8%2043.5%2084.5%2046.8%2088.9%203.6%204.8%207.6%206.1%2019.1%206.1%209.2%200%2010.2-.2%2013-2.6l3.1-2.6V287l-2.6-1c-3.6-1.4-15.4-1.2-18.4.3zM674.8%20286.1c-1.4.6-2.9%201.8-3.3%202.7-3.7%209.7-42.8%20124.6-43.3%20127.1-.8%205%201.4%206.1%2011.7%206.1%2012.8%200%2012.7%200%2018.4-17.3l4.8-14.7h50.5l4.9%2015.1c4.1%2012.5%205.4%2015.3%207.3%2016%203.2%201.2%2020.9%201.1%2023.3-.1%201.2-.7%201.9-2.1%201.9-3.9%200-2.1-38.3-115.2-43.1-127.3-.6-1.6-2.3-3.1-4.1-3.7-3.8-1.4-25.3-1.3-29%200zm22.7%2053.1c4.9%2015%209.1%2027.9%209.3%2028.5.3%201-3.9%201.3-18.8%201.3s-19.1-.3-18.7-1.3c.2-.6%204.4-13.4%209.3-28.4%204.9-15%209.1-27.2%209.4-27.3.4%200%204.6%2012.3%209.5%2027.2zM200%20289.6c-1.5%204.4-.9%2014.6.9%2016.8%201.1%201.4%204.1%201.6%2018.7%201.6H237v55.4c0%2050.3.2%2055.5%201.7%2056.7%201.1%201%204.6%201.4%2011.8%201.4%207.2%200%2010.7-.4%2011.8-1.4%201.5-1.2%201.7-6.4%201.7-56.7V308h17.4c20.7%200%2020.1.3%2020.1-11%200-5.1-.5-8.3-1.4-9.3-1.2-1.5-6-1.7-50.1-1.7h-48.8l-1.2%203.6zM320.6%20288.1l-2.6%202v126.8l2.6%202c2.6%202%203.8%202.1%2038.5%202.1%2041.3%200%2037.9.9%2037.9-10.5%200-11.2%201.8-10.5-27-10.5h-25v-39h20.9c17.6%200%2021.1-.2%2022.1-1.6.8-.9%201.3-4.3%201.3-8.9%200-4.6-.5-8-1.3-8.9-1-1.4-4.5-1.6-22.1-1.6H345v-33h24.4c20.8%200%2024.5-.2%2025.7-1.6%201.8-2.2%202.4-11.5.9-15.8l-1.2-3.6h-35.7c-34.7%200-35.9.1-38.5%202.1zM424.6%20288.1l-2.6%202v129.8l4.3%201.2c5.2%201.4%2019%20.7%2021.1-1.1%201.4-1.1%201.6-5%201.6-28.2v-27l7.9.3c13.4.7%2016.5%204.4%2028.2%2033.9%207.1%2018%208.7%2021.4%2010.9%2022.2%201.4.5%207.1.8%2012.8.6%208.7-.2%2010.6-.6%2011.7-2.1%201.8-2.4.9-5-8.9-28.2-8.3-19.7-12.6-26.9-18.6-31l-3.9-2.7%205.9-2.9c10.9-5.5%2017-13.7%2018.9-25.6%202.1-13.2-2.3-26.4-11-33.3-10.4-8.2-19.7-10-52-10-22.4%200-23.8.1-26.3%202.1zm53.1%2021.7c6.1%203.2%208.6%208.5%208.1%2017.1-.4%207.9-2.9%2012.1-9.1%2015.3-3.5%201.8-6.3%202.3-15.9%202.6l-11.8.4v-38.4l12.3.4c10.1.4%2012.9.8%2016.4%202.6zM544.6%20288.1l-2.6%202v64.4c0%2058.5.1%2064.4%201.7%2065.6%201.1%201%204.6%201.4%2011.8%201.4%207.2%200%2010.7-.4%2011.8-1.4%201.5-1.2%201.7-4.4%201.7-27.2V367h21.5c24.9%200%2023.5.7%2023.5-11s1.4-11-23.5-11H569v-37h46l1-2.6c.6-1.4%201-5.2%201-8.4s-.4-7-1-8.4l-1-2.6h-33.8c-32.8%200-34%20.1-36.6%202.1zM884.6%20288.1l-2.6%202v126.8l2.6%202c2.6%202%203.8%202.1%2038.5%202.1%2041.3%200%2037.9.9%2037.9-10.5%200-11.2%201.8-10.5-27-10.5h-25v-39h20.9c17.6%200%2021.1-.2%2022.1-1.6.8-.9%201.3-4.3%201.3-8.9%200-4.6-.5-8-1.3-8.9-1-1.4-4.5-1.6-22.1-1.6H909v-33h24.4c20.8%200%2024.5-.2%2025.7-1.6%201.8-2.2%202.4-11.5.9-15.8l-1.2-3.6h-35.7c-34.7%200-35.9.1-38.5%202.1z%22/%3E%3C/svg%3E"
+        "image": "%3Csvg%20version=%221%22%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221730.667%22%20height=%222298.667%22%20viewBox=%220%200%201298.000000%201724.000000%22%3E%3Cpath%20d=%22M252.5%2033c-14.2%202.3-26.2%208.4-34.7%2017.9-9.2%2010.2-12.6%2021.9-11.2%2039%20.5%207%201.3%209.7%204.6%2016.2%206.2%2012.4%2012.7%2017.7%2037.1%2029.9%2022.7%2011.5%2027.7%2014.6%2030.5%2019.2%204.7%207.8%203.5%2018.5-2.8%2024.8-5.3%205.3-12.2%207.4-24%207.4-11.2%200-19.2-2.1-33.2-8.9-5-2.5-10.2-4.5-11.5-4.5-3.1%200-3.8%203-3.8%2015.9v10.3l4.3%203.8c5.3%204.8%2014.1%208.3%2027.4%2011.1%2025.3%205.2%2053.9-1.4%2068.9-16.1%2015-14.7%2019.8-40.2%2011-59.3-5.8-12.5-13.7-18.8-41.5-32.9-21.8-11-26.4-14.1-28.9-19.6-2.7-6.2-2-13.8%201.7-18.6%208.1-10.7%2024.3-11.2%2047.4-1.6%205.2%202.2%2010.4%204%2011.4%204%202.7%200%203.8-4%203.8-14.4%200-10.9-1.2-13.1-9.1-17.1-10.7-5.5-33.7-8.6-47.4-6.5zM741%2033.9c-6.2.6-12%202.2-12%203.5%200%20.1-3%208.8-6.6%2019.2-25%2071.8-51.5%20151.2-51.2%20153.9.4%204%204.5%205.4%2016.1%205.4%209.9.1%2014.4-1.3%2017-5.3%201-1.4%204.4-10.4%207.6-19.9l5.8-17.2%2033.6-.3%2033.5-.2%205.8%2017.7c3.2%209.7%206.8%2019%207.9%2020.7%202.4%203.5%205.9%204.5%2017.1%204.5%2011.4.1%2016.3-.8%2018.1-3.5%201.4-2.3.7-4.8-12.7-45.1C807.9%20128%20784.5%2059.6%20778.9%2044c-2-5.4-3-6.8-5.9-8.2-4.2-2-20.8-3-32-1.9zm23%2073.6c8.8%2026.4%2011.6%2036.1%2010.7%2036.7-1.6%201-45.9%201-47.5-.1-1.1-.6%201.2-8.6%2010.8-37.6%207.6-23%2012.5-36.4%2013.1-35.8.6.6%206.3%2017.1%2012.9%2036.8zM351.8%2037.5l-3.8%202.6v168.8l3.7%202.6%203.8%202.5H383c34.9%200%2047.5-1.1%2059.4-5.1%2022.8-7.6%2037.7-21.1%2046.4-42.2%205.4-12.9%206.7-21.7%206.6-45.2%200-19.9-.2-21.5-2.7-29.8-8.8-28.6-26.6-45.8-55.3-53.3-9.5-2.5-11.2-2.6-45.9-3.1l-36-.5-3.7%202.7zm73.6%2028.4c15.9%205.7%2025.8%2016.8%2030.7%2034.4%203.1%2010.9%203.3%2034.3.5%2045.2-5.6%2021.6-17.6%2033.9-37.1%2038-4.3.9-12.6%201.5-21.2%201.5H384V62.8l17.8.4c14.8.4%2018.7.9%2023.6%202.7zM533%2036.1c-1.3.5-3.3%201.7-4.2%202.6-1.7%201.5-1.8%206.6-1.8%2087.9%200%2049.1.4%2086.5.9%2086.8.5.3%204.3%201.1%208.4%201.7%209%201.3%2022.1%200%2024.6-2.6%201.4-1.4%201.6-6%201.9-37l.3-35.5h6.4c10.4%200%2016.2%201.7%2021%206.1%205.5%205.1%209.7%2013.3%2021.2%2040.9%205.1%2012.4%2010.1%2023.6%2011.1%2025%202.6%203.4%208.2%204.3%2021.7%203.5%2012-.7%2014.5-1.8%2014.5-6.4%200-3.6-11.8-32.7-20.5-50.6-7.2-14.9-11.6-20.9-19-26.1l-2.9-2.1%207.3-3.8c10.4-5.5%2016.4-11.2%2020.6-19.8%2011.3-23.2%205-49.6-15-62.2-12.4-7.8-17.7-8.7-59-9.1-23-.3-35.8%200-37.5.7zM591.8%2064c8.3%201.2%2014.5%204.9%2017.5%2010.3%201.8%203.5%202.2%205.8%202.2%2013.2%200%207.7-.4%209.6-2.4%2013.2-2.5%204.4-7.3%208.3-12.6%2010.3-1.6.7-9.9%201.5-18.3%201.9l-15.2.6V62.4l11.3.3c6.1.2%2014%20.8%2017.5%201.3zM865.2%2036.4c-1.7.8-3.8%202.8-4.5%204.3-.9%202.1-1.3%2022.7-1.5%2087.6l-.3%2084.7%202.8%201.1c3.1%201.3%2022.4%201.7%2026.4.6%202.5-.6%202.6-1.1%203.2-8.9.4-4.6.7-33.1.7-63.3%200-30.3.3-60.2.7-66.5.6-11.4.6-11.4%202.1-7.5.7%202.2%208.5%2024.7%2017.2%2050%2027.8%2080.9%2032.2%2092.8%2035.3%2095%203.1%202.1%2026.3%202.2%2029.4%200%202.4-1.7%206.5-12.5%2032-84%209.6-27%2018.6-52.3%2020.1-56.3%202-5.5%202.8-6.9%203.3-5.5.4%201%20.8%2034.1.8%2073.5l.1%2071.6%203.8%201.3c2.3.8%208.1%201.3%2015.1%201.3%209.3-.1%2011.7-.4%2012.6-1.7%201.5-2.1%202.5-47.9%202.5-117.9V43l-3.4-3.8-3.4-3.7-17.4-.3c-20.6-.5-26.1.5-30.6%205.1-3.6%203.7-6.4%2010.4-24.4%2057.7-15.9%2042.1-23.8%2061.9-24.8%2062.5-.9.5-1.8-1.9-21.4-56C920.8%2047%20918%2040.7%20911.3%2037.4c-3.2-1.6-6.8-1.9-23.3-2.1-15.5-.3-20.2%200-22.8%201.1zM1082.1%20380c-31.3%206.5-52.8%2028-61.8%2061.5-2.5%209.3-2.7%2011.4-2.7%2031.5-.1%2022.2.5%2027.2%204.6%2039.5%206.5%2019.3%2019.1%2034.6%2034.8%2042.2%2011.8%205.7%2019.2%207.4%2035%208%2010.2.4%2015.7.1%2022.5-1.2%2012.1-2.2%2023.4-6.7%2028.6-11.3%203.7-3.3%204.3-4.5%205-9.7.8-5.5.5-13.5-.7-19.3-.2-1.3-1.2-2.2-2.2-2.2-1%200-7.6%203-14.7%206.6l-13%206.5-15-.3c-13.4-.3-15.5-.6-19.8-2.7-11.5-5.7-19.5-16.3-23.9-31.6-2-7-2.3-10.3-2.3-25.5%200-19%201.5-26.7%207.1-38.6%203.6-7.5%2011.6-15.9%2018.5-19.4%2015.5-7.9%2033.5-5.7%2052.9%206.3%204.1%202.6%208%204.7%208.7%204.7%202.7%200%203.8-4.5%203.8-15.5%200-14-1.2-16.3-11-21.6-10.9-5.9-20.6-8.2-36.5-8.5-7.4-.2-15.5.1-17.9.6zM27.2%20380.6c-1.3.3-2.8%201.8-3.5%203.2-.9%202-1.2%2024.1-1.2%2088.5%200%2098.1-1.1%2088%2010.1%2089.2%208.1.8%2021.1-.3%2022.8-2.1%201-.9%201.6-5.8%202.1-15.6.9-18.1.1-157.7-.9-160-.4-.9-1.7-1.9-2.9-2.2-3-.9-23.7-1.6-26.5-1zM216.9%20381.6l-3.6%201.5-.6%2041.2c-.4%2022.7-.7%2051-.7%2063.1v21.8l-15.8-31.3c-27.1-53.7-45.1-86.6-49.9-91.1-4.4-4.2-7.8-5-22.4-5.6-14.8-.5-18.5.2-23.2%204.3l-2.7%202.4v171.8l4.5%201.3c5.5%201.5%2022%20.9%2025.4-.9l2.4-1.3-.5-58.2c-.4-31.9-.3-62.2%200-67.3l.7-9.2%203.9%208.7c6.8%2014.9%2049.5%2096.7%2059.7%20114.3%202.1%203.7%205.2%207.8%206.9%209.2%204.1%203.5%2012.1%204.9%2024.8%204.5%2010-.3%2011-.5%2014.5-3.2l3.7-2.8V382.1l-3.7-1c-5.6-1.6-19.2-1.3-23.4.5zM902.3%20380.8c-5.1%201.1-6.8%203.3-10.1%2012.8-1.6%204.9-8%2023.5-14.2%2041.4-25.1%2072.8-40.1%20118.2-40.2%20121.1-.1%201.6.4%203.5%201.1%204.2%201.6%201.6%2023.6%202.2%2027.3.8%204.1-1.5%206.1-5.7%2012.4-24.4l5.6-16.7H951.5l5.4%2016.2c6%2018.3%208.2%2023.3%2011%2024.8%201.1.5%208%201%2015.3%201%2014.8%200%2017.8-1%2017.8-5.7%200-3.5-45.7-139.8-55.2-164.6-4.2-11-4.5-11.2-24.3-11.4-8.8-.1-17.5.2-19.2.5zm27.7%2071.8c6.6%2019.7%2012%2036.3%2012%2037%200%201.5-9.3%202.4-24.5%202.4-15.4%200-24.5-.9-24.5-2.5%200-1.3%2016.8-53.1%2021.2-65.3%201.7-4.6%203.2-8.1%203.5-7.9.2.3%205.8%2016.6%2012.3%2036.3zM267.9%20383.7c-1.6%203.8-2.3%2013.2-1.5%2018.8%201.2%207.6.8%207.5%2026.5%207.5h22.8l.6%2072.7c.3%2040.1.8%2073.8%201.2%2075.1%201%203.1%204.1%203.7%2018.2%203.7%2010.4%200%2012.6-.3%2014-1.8%201.7-1.6%201.8-6.8%202.3-75.5l.5-73.7%2023.3-.5c28-.6%2026.2.4%2026.2-14.1%200-8-.3-10.1-1.9-12l-1.9-2.4-64.6-.3-64.6-.3-1.1%202.8zM433.8%20381.9c-2.9.4-5.7%201.6-7.3%203.1l-2.5%202.3v168.2l3.7%202.5%203.6%202.5%2041.1.3c22.6.2%2043.9.1%2047.3-.3%209.4-1%209.8-1.5%209.8-13.4%200-6.1-.4-10.4-1.1-11.1-2.4-2.4-9.8-3-38.6-3H460v-51.9l28-.3c21.2-.2%2028.2-.6%2029.2-1.6%201.8-1.8%201.8-22.6%200-24.4-1-1-8-1.4-29.2-1.6l-28-.3v-43.8l32.5-.3c29.4-.3%2032.6-.5%2034.2-2.1%202.3-2.2%203-15%201.3-21.3l-1.3-4.4-44.1.1c-24.2.1-46.2.5-48.8.8zM571.5%20381.9c-1.7.4-4.3%201.6-5.8%202.5l-2.7%201.8v173.7l5.4%201.2c6.3%201.4%2024%20.8%2027.2-.9%203-1.6%203.4-6.5%203.4-43.1v-31.4l8.3.7c12%201%2015.3%202.1%2020.2%207.1%205%205%2010.3%2015.4%2019.4%2038.2%209.1%2022.7%2011.9%2028.3%2015%2029.4%201.5.6%208.5.9%2016.2.7%2016-.4%2017.4-1%2016.6-7.3-1-6.9-18.8-48.9-25.7-60.6-3.6-6.1-12.9-15.9-15.1-15.9-2.5%200-.2-1.9%205.7-4.8%2024.3-12%2033.3-40.5%2020.9-65.9-5.6-11.3-15.9-19.1-30.1-22.8-3.2-.8-11.7-2-18.9-2.5-14.7-1.1-55.4-1.2-60-.1zm52.1%2028c17.2%201.7%2024.4%208.6%2024.4%2023.4%200%208.3-1.9%2013.7-6.6%2018.3-5.5%205.6-11%207.1-28.6%208l-13.8.7V409h7.8c4.2%200%2011.8.5%2016.8.9zM732.5%20381.9c-2.2.4-5.3%201.5-6.8%202.5l-2.8%201.9.3%2085.8c.3%2080.4.4%2085.9%202.1%2087.6%201.4%201.5%203.6%201.8%2014%201.8%2013.5%200%2017.1-.6%2018.3-3.2.4-1%20.9-17%201.2-35.5l.4-33.7%2027.9-.3c25.1-.3%2028-.5%2029.6-2.1%202.6-2.6%202.6-21.8%200-24.4-1.6-1.6-4.5-1.8-29.7-2.1l-28-.3V410h60.9l1.3-2.3c1.5-2.8%201.6-20.2%200-24L820%20381l-41.7.1c-23%20.1-43.6.5-45.8.8zM1185.5%20381.9c-2.2.4-5.2%201.5-6.8%202.5l-2.7%201.8.2%2085.1.3%2085.1%203.5%202c3.4%202%204.9%202.1%2049.5%202.1%2056%200%2051.5%201.2%2051.5-13.4s2.8-13.5-36.6-13.9l-32.4-.3v-51.8l27.5-.3c33.3-.4%2031%20.6%2031-13.8s2.3-13.4-31-13.8l-27.5-.3V409l30.8-.1c16.9-.1%2031.8-.4%2033.2-.8%203.5-1%205.3-6.8%204.7-15.1-.3-3.6-1-7.7-1.6-9.3l-1.1-2.7-44.2.1c-24.4.1-46.1.5-48.3.8zM376%20614v3h-6.5c-5.8%200-6.5.2-6.5%202%200%201.6-.7%202-3%202s-3%20.4-3%202c0%201.3-.7%202-2%202s-2%20.7-2%202c0%201.5-.7%202-2.5%202-2.5%200-2.5.1-2.5%208.5v8.5h-6v156h-26c-25.3%200-26%20.1-26%202%200%201.7-.7%202-5%202s-5%20.3-5%202-.7%202-4.5%202-4.5.3-4.5%202-.7%202-4.5%202c-4.3%200-4.5.1-4.5%203%200%202.7-.3%203-3%203-2.3%200-3%20.4-3%202%200%201.3-.7%202-2%202s-2%20.7-2%202c0%201.5-.7%202-2.5%202-1.6%200-2.5.6-2.5%201.5%200%201-1%201.5-3%201.5-2.7%200-3%20.3-3%203%200%202.3-.4%203-2%203-1.3%200-2%20.7-2%202%200%201.5-.7%202-2.5%202-2.2%200-2.5.4-2.5%204%200%203.3-.3%204-2%204s-2%20.7-2%204.5c0%204.1-.2%204.5-2.5%204.5-2.2%200-2.5.4-2.5%204s-.2%204-2.5%204c-2%200-2.5.5-2.5%202.5v2.5h-89.5c-88.8%200-89.5%200-89.5%202%200%201.8-.7%202-6.5%202s-6.5.2-6.5%202c0%201.6-.7%202-3%202s-3%20.4-3%202c0%201.3-.7%202-2%202-1.7%200-2%20.7-2%204.5%200%204.1-.2%204.5-2.5%204.5H11v22h2.5c2.3%200%202.5.4%202.5%204.5%200%203.8.3%204.5%202%204.5%201.3%200%202%20.7%202%202%200%201.6.7%202%203%202s3%20.4%203%202c0%201.3.7%202%202%202s2%20.7%202%202c0%202%20.7%202%2091.5%202H213v99H30v3c0%202.3-.4%203-2%203-1.3%200-2%20.7-2%202%200%201.6-.7%202-3%202s-3%20.4-3%202c0%201.3-.7%202-2%202-1.7%200-2%20.7-2%204.5%200%204.1-.2%204.5-2.5%204.5H11v21h2.5c2.3%200%202.5.4%202.5%204%200%203.3.3%204%202%204%201.5%200%202%20.7%202%202.5%200%202.3.3%202.5%205%202.5%204.3%200%205%20.3%205%202s.7%202%204.5%202%204.5.3%204.5%202c0%202%20.7%202%2087%202h87v96h-89c-88.3%200-89%200-89%202%200%201.7-.7%202-4.5%202s-4.5.3-4.5%202c0%201.6-.7%202-3%202-2.5%200-3%20.4-3%202.5%200%201.8-.5%202.5-2%202.5-1.7%200-2%20.7-2%204%200%203.6-.2%204-2.5%204H11v21h2.5c2.3%200%202.5.4%202.5%204.5%200%203.8.3%204.5%202%204.5%201.3%200%202%20.7%202%202%200%201.6.7%202%203%202s3%20.4%203%202c0%201.7.7%202%204.5%202%204.3%200%204.5.1%204.5%203v3h178v94H45v2.5c0%202.4-.2%202.5-7.5%202.5-6.8%200-7.5.2-7.5%202%200%201.7-.7%202-5%202h-5v4c0%203.3-.3%204-2%204-1.5%200-2%20.7-2%202.5%200%202-.5%202.5-2.5%202.5H11v26h2.5c1.6%200%202.5.6%202.5%201.5%200%20.8.9%201.5%202%201.5%201.7%200%202%20.7%202%205v5h5c4.3%200%205%20.3%205%202%200%202%20.7%202%2094%202s94%200%2094%202c0%201.5.7%202%202.5%202%202.4%200%202.5.2%202.5%206.5s.1%206.5%202.5%206.5c2.3%200%202.5.4%202.5%204.5%200%203.8.3%204.5%202%204.5%201.3%200%202%20.7%202%202%200%201.5.7%202%202.5%202%202.3%200%202.5.4%202.5%204%200%203.3.3%204%202%204%201.6%200%202%20.7%202%203%200%202.7.3%203%203%203%202%200%203%20.5%203%201.5%200%20.9.9%201.5%202.5%201.5%201.8%200%202.5.5%202.5%202%200%201.3.7%202%202%202s2%20.7%202%202c0%201.7.7%202%205%202%204.9%200%205%20.1%205%203%200%202.5.4%203%202.5%203%201.8%200%202.5.5%202.5%202%200%201.7.7%202%204.5%202s4.5.3%204.5%202c0%201.9.7%202%209.5%202s9.5.1%209.5%202%20.7%202%2021.5%202H342v156h6v8.5c0%208.4%200%208.5%202.5%208.5%201.8%200%202.5.5%202.5%202%200%201.3.7%202%202%202s2%20.7%202%202c0%201.6.7%202%203%202s3%20.4%203%202c0%201.8.7%202%206.5%202h6.5v3c0%203%20.1%203%205.5%203s5.5%200%205.5-3v-3h6.5c5.8%200%206.5-.2%206.5-2%200-1.6.7-2%203-2s3-.4%203-2c0-1.3.7-2%202-2s2-.7%202-2c0-1.5.7-2%202.5-2%202.5%200%202.5-.1%202.5-8.5v-8.5h6v-156h105v168h2.5c2.3%200%202.5.4%202.5%204.5%200%203.8.3%204.5%202%204.5%201.3%200%202%20.7%202%202%200%201.7.7%202%205%202s5%20.3%205%202c0%201.8.7%202%207%202h7v3c0%202.7.3%203%203%203s3-.3%203-3v-3h6.5c5.8%200%206.5-.2%206.5-2s.7-2%205.5-2h5.5v-4c0-3.3.3-4%202-4s2-.7%202-4.5c0-4.1.2-4.5%202.5-4.5h2.5v-164h106v164h2.5c2.3%200%202.5.4%202.5%204.5%200%203.8.3%204.5%202%204.5%201.3%200%202%20.7%202%202%200%201.5.7%202%202.5%202s2.5.5%202.5%202c0%201.6.7%202%203%202s3%20.4%203%202c0%201.8.7%202%206.5%202h6.5v3c0%202.9.1%203%205%203s5-.1%205-3v-3h7c6.3%200%207-.2%207-2%200-1.6.7-2%203-2s3-.4%203-2c0-1.3.7-2%202-2%201.7%200%202-.7%202-4.5%200-4.1.2-4.5%202.5-4.5h2.5v-168h111v168h2.5c2.3%200%202.5.4%202.5%204.5%200%203.8.3%204.5%202%204.5%201.3%200%202%20.7%202%202%200%201.6.7%202%203%202s3%20.4%203%202c0%201.9.7%202%209%202h9v3c0%202.7.3%203%203%203s3-.3%203-3v-3h6.5c5.8%200%206.5-.2%206.5-2%200-1.6.7-2%203-2s3-.4%203-2c0-1.3.7-2%202-2s2-.7%202-2c0-1.5.7-2%202.5-2%202.3%200%202.5-.4%202.5-4.5%200-4.3.1-4.5%203-4.5h3v-164h23.5c22.8%200%2023.5-.1%2023.5-2%200-1.8.7-2%207.5-2s7.5-.2%207.5-2c0-1.7.7-2%204.5-2s4.5-.3%204.5-2%20.7-2%204.5-2c4.3%200%204.5-.1%204.5-3%200-2.7.3-3%203-3%202.3%200%203-.4%203-2%200-1.3.7-2%202-2s2-.7%202-2c0-1.5.7-2%202.5-2%201.6%200%202.5-.6%202.5-1.5%200-1%201-1.5%203-1.5%202.7%200%203-.3%203-3%200-2.3.4-3%202-3%201.3%200%202-.7%202-2%200-1.5.7-2%202.5-2%202.3%200%202.5-.4%202.5-4%200-3.3.3-4%202-4s2-.7%202-4.5c0-4.1.2-4.5%202.5-4.5s2.5-.4%202.5-4%20.3-4%202.5-4c2.3%200%202.5-.4%202.5-4.5v-4.5h94c93.3%200%2094%200%2094-2%200-1.7.7-2%205-2h5v-5c0-4.3.3-5%202-5%201.1%200%202-.7%202-1.5%200-.9.9-1.5%202.5-1.5h2.5v-26h-2.5c-2%200-2.5-.5-2.5-2.5%200-1.8-.5-2.5-2-2.5-1.7%200-2-.7-2-4v-4h-5c-4.3%200-5-.3-5-2%200-1.8-.7-2-7.5-2-7.3%200-7.5-.1-7.5-2.5v-2.5h-168v-94h178v-3c0-2.9.2-3%204.5-3%203.8%200%204.5-.3%204.5-2%200-1.6.7-2%203-2s3-.4%203-2c0-1.3.7-2%202-2%201.7%200%202-.7%202-4.5%200-4.1.2-4.5%202.5-4.5h2.5v-21h-2.5c-2.2%200-2.5-.4-2.5-4%200-3.3-.3-4-2-4-1.5%200-2-.7-2-2.5%200-2.1-.5-2.5-3-2.5-2.3%200-3-.4-3-2%200-1.7-.7-2-4.5-2s-4.5-.3-4.5-2c0-2-.7-2-89-2h-89v-96h87c86.3%200%2087%200%2087-2%200-1.7.7-2%204.5-2s4.5-.3%204.5-2%20.7-2%205-2c4.7%200%205-.2%205-2.5%200-1.8.5-2.5%202-2.5%201.7%200%202-.7%202-4%200-3.6.3-4%202.5-4h2.5v-21h-2.5c-2.3%200-2.5-.4-2.5-4.5%200-3.8-.3-4.5-2-4.5-1.3%200-2-.7-2-2%200-1.6-.7-2-3-2s-3-.4-3-2c0-1.3-.7-2-2-2-1.6%200-2-.7-2-3v-3h-183v-99h91.5c90.8%200%2091.5%200%2091.5-2%200-1.3.7-2%202-2s2-.7%202-2c0-1.6.7-2%203-2s3-.4%203-2c0-1.3.7-2%202-2%201.7%200%202-.7%202-4.5%200-4.1.2-4.5%202.5-4.5h2.5v-22h-2.5c-2.3%200-2.5-.4-2.5-4.5%200-3.8-.3-4.5-2-4.5-1.3%200-2-.7-2-2%200-1.6-.7-2-3-2s-3-.4-3-2c0-1.8-.7-2-6.5-2s-6.5-.2-6.5-2c0-2-.7-2-89.5-2H1084v-2.5c0-2-.5-2.5-2.5-2.5-2.4%200-2.5-.3-2.5-6s-.1-6-2.5-6c-2.3%200-2.5-.4-2.5-4.5%200-3.8-.3-4.5-2-4.5-1.3%200-2-.7-2-2%200-1.5-.7-2-2.5-2s-2.5-.5-2.5-2c0-1.3-.7-2-2-2-1.6%200-2-.7-2-3%200-2.7-.3-3-3-3-2.8%200-3-.3-3-3.5%200-3.5%200-3.5-4.5-3.5-3.8%200-4.5-.3-4.5-2%200-1.6-.7-2-3-2-2.7%200-3-.3-3-3%200-2.9-.2-3-4.5-3-3.8%200-4.5-.3-4.5-2s-.7-2-4.5-2-4.5-.3-4.5-2-.7-2-5-2-5-.3-5-2c0-1.9-.7-2-26-2h-26V638h-3c-2.9%200-3-.2-3-4.5%200-4.1-.2-4.5-2.5-4.5-1.8%200-2.5-.5-2.5-2%200-1.3-.7-2-2-2s-2-.7-2-2c0-1.6-.7-2-3-2s-3-.4-3-2c0-1.8-.7-2-6.5-2H926v-3c0-2.7-.3-3-3-3s-3%20.3-3%203v3h-9c-8.3%200-9%20.1-9%202%200%201.6-.7%202-3%202s-3%20.4-3%202c0%201.3-.7%202-2%202-1.7%200-2%20.7-2%204.5%200%204.1-.2%204.5-2.5%204.5H887v163h-3c-2.5%200-3%20.4-3%202.5v2.5H780v-2.5c0-1.8-.5-2.5-2-2.5-2%200-2-.7-2-81.5V634h-2.5c-2.3%200-2.5-.4-2.5-4.5%200-3.8-.3-4.5-2-4.5-1.3%200-2-.7-2-2%200-1.6-.7-2-3-2s-3-.4-3-2c0-1.8-.7-2-7-2h-7v-3c0-2.9-.1-3-5-3s-5%20.1-5%203v3h-6.5c-5.8%200-6.5.2-6.5%202%200%201.6-.7%202-3%202s-3%20.4-3%202c0%201.5-.7%202-2.5%202s-2.5.5-2.5%202c0%201.3-.7%202-2%202-1.7%200-2%20.7-2%204.5%200%204.1-.2%204.5-2.5%204.5H704v164H598V638h-2.5c-2.3%200-2.5-.4-2.5-4.5%200-3.8-.3-4.5-2-4.5s-2-.7-2-4v-4h-5.5c-4.8%200-5.5-.2-5.5-2s-.7-2-6.5-2H565v-3c0-2.7-.3-3-3-3s-3%20.3-3%203v3h-7c-6.3%200-7%20.2-7%202%200%201.7-.7%202-5%202s-5%20.3-5%202c0%201.3-.7%202-2%202-1.7%200-2%20.7-2%204.5%200%204.1-.2%204.5-2.5%204.5H526v81.5c0%2080.8%200%2081.5-2%2081.5-1.5%200-2%20.7-2%202.5v2.5H421V646h-6v-8.5c0-8.4%200-8.5-2.5-8.5-1.8%200-2.5-.5-2.5-2%200-1.3-.7-2-2-2s-2-.7-2-2c0-1.6-.7-2-3-2s-3-.4-3-2c0-1.8-.7-2-6.5-2H387v-3c0-3-.1-3-5.5-3s-5.5%200-5.5%203zm621%20254.5c0%202.1.5%202.5%203%202.5%202.3%200%203%20.4%203%202%200%201.3.7%202%202%202s2%20.7%202%202c0%201.5.7%202%202.5%202%202.3%200%202.5.3%202.5%205%200%204.3.3%205%202%205%202%200%202%20.7%202%20256.5s0%20256.5-2%20256.5c-1.8%200-2%20.7-2%206.5%200%206.3-.1%206.5-2.5%206.5-1.8%200-2.5.5-2.5%202%200%201.3-.7%202-2%202s-2%20.7-2%202c0%201.7-.7%202-5%202-4.7%200-5%20.2-5%202.5v2.5H309v-2.5c0-2.3-.3-2.5-5-2.5-4.3%200-5-.3-5-2%200-1.3-.7-2-2-2-1.7%200-2-.7-2-4%200-3.6-.2-4-2.5-4H290v-15.5c0-14.8-.1-15.5-2-15.5-2%200-2-.7-2-73.5s0-73.5%202-73.5c1.8%200%202-.7%202-6.5s-.2-6.5-2-6.5c-2%200-2-.7-2-73s0-73%202-73c1.8%200%202-.7%202-8.5s-.2-8.5-2-8.5c-2%200-2-.7-2-71.5s0-71.5%202-71.5c1.9%200%202-.7%202-17.5V879h2.5c1.8%200%202.5-.5%202.5-2%200-1.3.7-2%202-2s2-.7%202-2c0-1.6.7-2%203-2%202.5%200%203-.4%203-2.5V866h692v2.5z%22/%3E%3C/svg%3E"
       },
       "design": {
         "graph": {
@@ -6477,60 +4702,13 @@
               }
             },
             {
-              "id": "6a8d461f-4138-49c9-990f-6faf8d1f49b3",
+              "id": "3c3a777c-726a-44cc-a6a2-a12351090455",
               "type": "basic.input",
               "data": {
                 "name": "sobel_data",
                 "range": "[8:0]",
-                "pins": [
-                  {
-                    "index": "8",
-                    "name": "",
-                    "value": ""
-                  },
-                  {
-                    "index": "7",
-                    "name": "",
-                    "value": ""
-                  },
-                  {
-                    "index": "6",
-                    "name": "",
-                    "value": ""
-                  },
-                  {
-                    "index": "5",
-                    "name": "",
-                    "value": ""
-                  },
-                  {
-                    "index": "4",
-                    "name": "",
-                    "value": ""
-                  },
-                  {
-                    "index": "3",
-                    "name": "",
-                    "value": ""
-                  },
-                  {
-                    "index": "2",
-                    "name": "",
-                    "value": ""
-                  },
-                  {
-                    "index": "1",
-                    "name": "",
-                    "value": ""
-                  },
-                  {
-                    "index": "0",
-                    "name": "",
-                    "value": ""
-                  }
-                ],
-                "virtual": false,
-                "clock": false
+                "clock": false,
+                "size": 9
               },
               "position": {
                 "x": -224,
@@ -6784,7 +4962,7 @@
               "id": "2aa4fc3c-c374-4d6f-b0d6-3899fa683438",
               "type": "basic.code",
               "data": {
-                "code": " \t //FSM state declarations\r\n localparam idle=0,\r\n\t\t\t\tburst_op=1;\r\n\t\t\t\t\r\n reg state_q=0,state_d;\t \r\n reg[10:0] colored_addr_q=0,colored_addr_d,sobel_addr_q=0,sobel_addr_d;\r\n reg[10:0] rd_addr_q=0,rd_addr_d;\r\n reg rw,rw_en;\r\n reg orig_q=0,orig_d;\r\n reg[14:0] f_addr;\r\n reg[15:0] f2s_data;\r\n \r\n \r\n //register operation\r\n always @(posedge clk,negedge rst_n) begin\r\n\tif(!rst_n) begin\r\n\t\tstate_q<=0;\r\n\t\tcolored_addr_q<=0;\r\n\t\trd_addr_q<=0;\r\n\t\torig_q<=0;\r\n\t\tsobel_addr_q<=0;\r\n\tend\r\n\telse begin\r\n\t\tstate_q<=state_d;\r\n\t\tcolored_addr_q<=colored_addr_d;\r\n\t\trd_addr_q<=rd_addr_d;\r\n\t\torig_q<=orig_d;\r\n\t\tsobel_addr_q<=sobel_addr_d;\r\n\tend\r\n end\r\n \r\n //FSM next-state declarations\r\n always @* begin\r\n\tstate_d=state_q;\r\n\tcolored_addr_d=colored_addr_q;\r\n\trd_addr_d=rd_addr_q;\r\n\tsobel_addr_d=sobel_addr_q;\r\n\tf_addr=0;\r\n\trw=0;\r\n\trw_en=0;\r\n\torig_d=orig_q;\r\n\t\r\n\tcase(state_q)\r\n\t\t    idle: if(data_count_camera_fifo>512 && ready) begin //wait for the first 512 pixel-data to fill the asyn_fifo then burst-write it to sdram\r\n\t\t\t\t\t\trw_en=1;\r\n\t\t\t\t\t\trw=0;\r\n\t\t\t\t\t\tsobel_addr_d=600;\r\n\t\t\t\t\t\tcolored_addr_d=1;\r\n\t\t\t\t\t\tf_addr=colored_addr_q;\r\n\t\t\t\t\t\tstate_d=burst_op;\r\n\t\t\t\t\t\torig_d=1;\r\n\t\t\t\t\t end\r\n\t\tburst_op: if(ready) begin //choose whether to read the colored image or edge detected image OR write to the fifo of VGA\r\n\t\t\t\t\t\t\tif(data_count_camera_fifo>512) begin //colored image container is filled to 512 thus we can now burst-write(full-page has 512 data) it to SDRAM \r\n\t\t\t\t\t\t\t\t\trw_en=1;\r\n\t\t\t\t\t\t\t\t\trw=0;\r\n\t\t\t\t\t\t\t\t\tcolored_addr_d=(colored_addr_q==599)? 0:colored_addr_q+1'b1; //One frame(640x480) fills the addresses 0-to-599\r\n\t\t\t\t\t\t\t\t\tf_addr=colored_addr_q;\r\n\t\t\t\t\t\t\t\t\torig_d=1;\r\n\t\t\t\t\t\t\t\tend\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\telse if(data_count_w<250) begin //asyn_fifo of VGA has only 250 pixel data left, we will now fill it by another 512 pixel data via burst reading the sdram\r\n\t\t\t\t\t\t\t\t\trw_en=1;\r\n\t\t\t\t\t\t\t\t\trw=1;\r\n\t\t\t\t\t\t\t\t\trd_addr_d=(rd_addr_q==599)? 0:rd_addr_q+1'b1;\r\n\t\t\t\t\t\t\t\t\tf_addr= sobel? (rd_addr_q+600):rd_addr_q;\r\n\t\t\t\t\t\t\t\tend\r\n\t\t\t\t\t\t\t\telse if(data_count_r>512) begin //burst write the edge detected image to SDRAM\r\n\t\t\t\t\t\t\t\t\trw_en=1;\r\n\t\t\t\t\t\t\t\t\trw=0;\r\n\t\t\t\t\t\t\t\t\tsobel_addr_d=(sobel_addr_q==1199)? 600:sobel_addr_q+1'b1;\r\n\t\t\t\t\t\t\t\t\tf_addr=sobel_addr_q;\r\n\t\t\t\t\t\t\t\t\torig_d=0;\r\n\t\t\t\t\t\t\t\tend\r\n\t\t\t\t\t end\r\n\t\t default: state_d=idle;\r\n\tendcase\r\n\r\n\tf2s_data= orig_d? (din[16]? 16'b00000_000000_11111:din[15:0]): {7'b000_0000,sobel_data};\r\n\t                   //used as placeholder for first pixel for RGB\r\n\t//debug\r\n\t/*if(colored_addr_q<75) f2s_data={{5{1'b0}},{6{1'b0}},{5{1'b0}}};\r\n\telse if(colored_addr_q<150) f2s_data={{5{1'b0}},{6{1'b0}},{5{1'b1}}};\r\n\telse if(colored_addr_q<225) f2s_data={{5{1'b0}},{6{1'b1}},{5{1'b0}}};\r\n\telse if(colored_addr_q<300) f2s_data={{5{1'b0}},{6{1'b1}},{5{1'b1}}};\r\n\telse if(colored_addr_q<375) f2s_data={{5{1'b1}},{6{1'b0}},{5{1'b0}}};\r\n\telse if(colored_addr_q<450) f2s_data={{5{1'b1}},{6{1'b0}},{5{1'b1}}};\r\n\telse if(colored_addr_q<525) f2s_data={{5{1'b1}},{6{1'b1}},{5{1'b0}}};\r\n\telse if(colored_addr_q<600) f2s_data={{5{1'b1}},{6{1'b1}},{5{1'b1}}};*/\r\n end\r\n \r\n\r\n assign rd_camera= f2s_data_valid && orig_d;\r\n assign rd_sobel= f2s_data_valid && !orig_d;\r\n ",
+                "code": " \t //FSM state declarations\r\n localparam idle=0,\r\n\t\t\t\tburst_op=1;\r\n\t\t\t\t\r\n reg state_q=0,state_d;\t \r\n reg[14:0] colored_addr_q=0,colored_addr_d,sobel_addr_q=0,sobel_addr_d;\r\n reg[14:0] rd_addr_q=0,rd_addr_d;\r\n reg rw,rw_en;\r\n reg orig_q=0,orig_d;\r\n reg[14:0] f_addr;\r\n reg[15:0] f2s_data;\r\n \r\n \r\n //register operation\r\n always @(posedge clk,negedge rst_n) begin\r\n\tif(!rst_n) begin\r\n\t\tstate_q<=0;\r\n\t\tcolored_addr_q<=0;\r\n\t\trd_addr_q<=0;\r\n\t\torig_q<=0;\r\n\t\tsobel_addr_q<=0;\r\n\tend\r\n\telse begin\r\n\t\tstate_q<=state_d;\r\n\t\tcolored_addr_q<=colored_addr_d;\r\n\t\trd_addr_q<=rd_addr_d;\r\n\t\torig_q<=orig_d;\r\n\t\tsobel_addr_q<=sobel_addr_d;\r\n\tend\r\n end\r\n \r\n //FSM next-state declarations\r\n always @* begin\r\n\tstate_d=state_q;\r\n\tcolored_addr_d=colored_addr_q;\r\n\trd_addr_d=rd_addr_q;\r\n\tsobel_addr_d=sobel_addr_q;\r\n\tf_addr=0;\r\n\trw=0;\r\n\trw_en=0;\r\n\torig_d=orig_q;\r\n\t\r\n\tcase(state_q)\r\n\t\t    idle: if(data_count_camera_fifo>512 && ready) begin //wait for the first 512 pixel-data to fill the asyn_fifo then burst-write it to sdram\r\n\t\t\t\t\t\trw_en=1;\r\n\t\t\t\t\t\trw=0;\r\n\t\t\t\t\t\tsobel_addr_d=600;\r\n\t\t\t\t\t\tcolored_addr_d=1;\r\n\t\t\t\t\t\tf_addr=colored_addr_q;\r\n\t\t\t\t\t\tstate_d=burst_op;\r\n\t\t\t\t\t\torig_d=1;\r\n\t\t\t\t\t end\r\n\t\tburst_op: if(ready) begin //choose whether to read the colored image or edge detected image OR write to the fifo of VGA\r\n\t\t\t\t\t\t\tif(data_count_camera_fifo>512) begin //colored image container is filled to 512 thus we can now burst-write(full-page has 512 data) it to SDRAM \r\n\t\t\t\t\t\t\t\trw_en=1;\r\n\t\t\t\t\t\t\t\trw=0;\r\n\t\t\t\t\t\t\t\tcolored_addr_d=(colored_addr_q==599)? 0:colored_addr_q+1'b1; //One frame(640x480) fills the addresses 0-to-599\r\n\t\t\t\t\t\t\t\tf_addr=colored_addr_q;\r\n\t\t\t\t\t\t\t\torig_d=1;\r\n\t\t\t\t\t\t\tend\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\telse if(data_count_w<250) begin //asyn_fifo of VGA has only 250 pixel data left, we will now fill it by another 512 pixel data via burst reading the sdram\r\n\t\t\t\t\t\t\t\trw_en=1;\r\n\t\t\t\t\t\t\t\trw=1;\r\n\t\t\t\t\t\t\t\trd_addr_d=(rd_addr_q==599)? 0:rd_addr_q+1'b1;\r\n\t\t\t\t\t\t\t\tf_addr= sobel? (rd_addr_q+600):rd_addr_q;\r\n\t\t\t\t\t\t\tend\r\n\t\t\t\t\t\t\telse if(data_count_r>500) begin //burst write the edge detected image to SDRAM\r\n\t\t\t\t\t\t\t\trw_en=1;\r\n\t\t\t\t\t\t\t\trw=0;\r\n\t\t\t\t\t\t\t\tsobel_addr_d=(sobel_addr_q==1199)? 600:sobel_addr_q+1'b1;\r\n\t\t\t\t\t\t\t\tf_addr=sobel_addr_q;\r\n\t\t\t\t\t\t\t\torig_d=0;\r\n\t\t\t\t\t\t\tend\r\n\t\t\t\t\t end\r\n\t\t default: state_d=idle;\r\n\tendcase\r\n\tf2s_data= orig_d? (din[16]? 16'b00000_000000_11111:din[15:0]): {7'b000_0000,sobel_data};\r\n\t                   //used as placeholder for first pixel for RGB\r\n\t//debug\r\n\t/*if(colored_addr_q<75) f2s_data={{5{1'b0}},{6{1'b0}},{5{1'b0}}};\r\n\telse if(colored_addr_q<150) f2s_data={{5{1'b0}},{6{1'b0}},{5{1'b1}}};\r\n\telse if(colored_addr_q<225) f2s_data={{5{1'b0}},{6{1'b1}},{5{1'b0}}};\r\n\telse if(colored_addr_q<300) f2s_data={{5{1'b0}},{6{1'b1}},{5{1'b1}}};\r\n\telse if(colored_addr_q<375) f2s_data={{5{1'b1}},{6{1'b0}},{5{1'b0}}};\r\n\telse if(colored_addr_q<450) f2s_data={{5{1'b1}},{6{1'b0}},{5{1'b1}}};\r\n\telse if(colored_addr_q<525) f2s_data={{5{1'b1}},{6{1'b1}},{5{1'b0}}};\r\n\telse if(colored_addr_q<600) f2s_data={{5{1'b1}},{6{1'b1}},{5{1'b1}}};*/\r\n end\r\n \r\n\r\n assign rd_camera= f2s_data_valid && orig_d;\r\n assign rd_sobel= f2s_data_valid && !orig_d;\r\n ",
                 "params": [],
                 "ports": {
                   "in": [
@@ -7315,6 +5493,17 @@
             },
             {
               "source": {
+                "block": "3c3a777c-726a-44cc-a6a2-a12351090455",
+                "port": "out"
+              },
+              "target": {
+                "block": "2aa4fc3c-c374-4d6f-b0d6-3899fa683438",
+                "port": "sobel_data"
+              },
+              "size": 9
+            },
+            {
+              "source": {
                 "block": "07781eaf-93bc-4cb3-8b9e-38c5ff903e41",
                 "port": "out"
               },
@@ -7323,17 +5512,6 @@
                 "port": "din"
               },
               "size": 17
-            },
-            {
-              "source": {
-                "block": "6a8d461f-4138-49c9-990f-6faf8d1f49b3",
-                "port": "out"
-              },
-              "target": {
-                "block": "2aa4fc3c-c374-4d6f-b0d6-3899fa683438",
-                "port": "sobel_data"
-              },
-              "size": 9
             }
           ]
         }
@@ -8584,13 +6762,1824 @@
         }
       }
     },
-    "deb29256b1bed15854715f99cf37080dab8433be": {
+    "acc707d864c487157af14f847fe5609ae9427f9d": {
+      "package": {
+        "name": "hdmi_interface",
+        "version": "",
+        "description": "Receives pixel data from SDRAM to be displayed on monitor",
+        "author": "Angelo Jacobo",
+        "image": "%3Csvg%20version=%221%22%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221730.667%22%20height=%222157.333%22%20viewBox=%220%200%201298.000000%201618.000000%22%3E%3Cpath%20d=%22M283.3%2043.1l-3.3%201V221l2.8%201.1c6.8%202.7%2028.6%201.9%2031.7-1.2.6-.6%201.2-14.3%201.5-38.2l.5-37.2h66l.5%2037.3c.5%2034.8.6%2037.5%202.3%2038.7%203.9%202.8%2024.1%203.2%2031%20.6l2.7-1.1V44.1l-5.3-1.1c-8-1.8-26.2-1-28.4%201.3-1.6%201.6-1.8%204.9-2.1%2036.2l-.3%2034.5h-66.8l-.3-34.5c-.3-31.2-.5-34.6-2-36.2-1.5-1.4-4-1.8-14.5-2-7.1-.1-14.3.2-16%20.8zM889%2043.8l-2.5%202V133c0%2085.1%200%2087.2%201.9%2088.6%202.8%202%2027.4%202%2030.2%200%201.8-1.3%202-3.4%202.7-28.3.9-27.5.1-143.1-.9-147-.9-3.1-2.5-3.5-16.4-4.1-11.5-.4-12.7-.3-15%201.6zM462.9%2045.3l-3.4%202.3-.3%2085.1-.2%2085.1%203.7%202.4c3.8%202.3%203.8%202.3%2034.3%202%2035.1-.3%2044.1-1.2%2056.5-5.3%2013.5-4.5%2020.8-9%2030.5-18.8%209.1-9.2%2013.8-17.2%2017.9-30.1%205.7-18%206.4-48.8%201.6-67.5-.8-3.3-3.6-10.3-6.1-15.5-4-8.1-6-10.8-13.8-18.5-7.3-7.3-10.8-9.9-17.6-13.2-17.2-8.5-29.9-10.2-74.1-10.3-25.1%200-25.7%200-29%202.3zM528%2072.1c9.9%201.6%2019.7%206.7%2026.3%2013.8%2010.4%2011.3%2014.7%2024.5%2014.7%2045.3%200%2022.4-5%2037.9-15.5%2048.4-10.2%2010.3-20.3%2013.4-43.2%2013.4H495V71h13.3c7.2%200%2016.1.5%2019.7%201.1zM645.3%2044.1c-6.8%202-6.7%201.2-7.4%2052.9-.4%2025.6-.7%2063.9-.8%2085.3L637%20221l2.8%201.2c3.9%201.7%2027.7%201.7%2029.4%200%201-1%201.4-15%201.6-68.5.1-37%20.5-70.1.8-73.7.8-8.1-.8-11.9%2018.9%2045.5%2026.2%2076.7%2032.7%2094.3%2035.2%2096.2%202.5%202%2028.7%201.8%2030.6-.1%201.8-1.8%209-21.1%2029.7-79.6%2024.8-69.6%2024.4-68.7%2025.1-65.4.4%201.6.7%2034.7.8%2073.7l.1%2070.7%202.8%201.2c1.5.7%207.9%201.2%2015%201.3%2010.6%200%2012.5-.3%2013.6-1.7%201.4-1.9%202.6-63.5%202.6-132.8V51.4l-3.3-3.6c-4.1-4.5-8.5-5.2-29.4-4.6-16.2.4-18.9%201.2-23.6%206.7-2.7%203.3-5.6%2010.4-26.2%2064.6-14.7%2038.7-20.2%2052.5-21.5%2053.8-.9%201-1.2.4-19.1-49.2-23.6-65.2-26.1-70.5-33.7-73.9-2.9-1.2-7.8-1.6-22.2-1.9-10.2-.1-19.9.2-21.7.8zM1087.8%20388c-26%204.1-47.2%2020.3-58.4%2044.5-6.2%2013.4-8.5%2024.6-9.1%2044-.7%2020.1.6%2031.3%204.8%2043.9%209.1%2027.3%2025.5%2042.5%2052.8%2049.3%2010.6%202.7%2033.2%202.3%2044.6-.6%2011.5-3%2020-6.9%2024.6-11.2%203.3-3.1%203.8-4.2%204.4-10%20.4-3.7.3-9.5-.1-13-.8-5.5-1.2-6.4-3.1-6.7-1.1-.2-8.1%202.7-15.4%206.3l-13.3%206.7-14.1-.4c-13.2-.3-14.4-.5-20-3.3-11.9-6-20.3-17.4-24.2-33.1-2.6-10.6-2.4-39.2.5-49.6%207-25.5%2022.3-37.8%2045.6-36.5%2011.6.6%2017.1%202.4%2028.4%209.2%2013.3%208%2014%207.7%2014.9-5.6.8-10.3-.3-16.2-3.4-20-3.3-3.9-14.5-9.5-24.2-12-8.7-2.3-26.7-3.3-35.3-1.9zM223%20388.9c-1.9.4-4.5%201.3-5.7%202l-2.3%201.2v31.7c0%2017.4-.3%2045.4-.7%2062.2l-.6%2030.5-15.1-30c-23.5-46.6-44.5-85.3-49.1-90.1-5.3-5.5-8.8-6.4-26.6-6.4h-14.5l-4.2%203.1-4.2%203.1v171.6l3.3%201.3c3.9%201.7%2021.9%201.7%2025.9.1l2.8-1.1.2-67.8c.3-56.7.5-67.3%201.6-64.8%205.1%2011.6%2041.9%2082.5%2058%20111.9%2011.2%2020.4%2013.7%2022%2034.5%2022%2011.5-.1%2011.8-.1%2016-3.1l4.2-3.1.3-86.1.2-86.1-2.7-1.1c-3.6-1.4-16.8-2-21.3-1zM907.8%20388.8c-3.7.5-6.5%201.4-7.8%202.7-2.1%202.2-6.5%2014.4-37.4%20105.5-24.8%2073.1-23.5%2068.5-20.7%2071.3%202%202%203.2%202.2%2014.5%202.2%2016.9%200%2016.5.4%2025.5-26.8l5.3-15.7%2033.5.2%2033.6.3%206.1%2018.1c3.4%2010%206.9%2019.3%207.9%2020.7%201.4%202.1%202.7%202.6%208.4%203.3%208.4.9%2024-.1%2025.9-1.7.8-.6%201.4-2.3%201.4-3.8%200-3.9-52.4-159.7-56.9-169-3-6.3-5.1-7.1-20.1-7.5-7.4-.3-16.1-.1-19.2.2zm26.3%2075.6c9%2027.2%2010.9%2034%209.8%2034.7-1.7%201.1-45.9%201.2-47.5.1-.8-.5%202.4-11.5%2010.1-34.7%206.2-18.7%2011.8-35.4%2012.5-37l1.2-3%201.4%203c.7%201.6%206.4%2018.2%2012.5%2036.9zM27.7%20390.2c-3.4%202.5-3.8%2015.5-3.5%2097.3.3%2073.7.4%2078.5%202.1%2080.2%201.5%201.6%203.7%201.8%2015.7%201.8s14.2-.2%2015.7-1.8c1.7-1.7%201.8-6.6%201.8-88.2%200-81.6-.1-86.5-1.8-88.2-1.5-1.5-3.9-1.9-15-2.1-10.1-.3-13.6%200-15%201zM269.8%20392.7c-1.8%204.4-1.5%2019.5.4%2022.5%202.2%203.4%205.4%203.8%2029%203.8h19.7l.3%2074c.2%2059%20.6%2074.2%201.6%2075.2.9.9%205.2%201.3%2015.8%201.3%2012.6%200%2014.7-.2%2015.8-1.7%202-2.7%202.6-25.4%202.6-90.4v-58.2l22.3-.4c12.2-.2%2023-.8%2023.9-1.2%202.8-1.3%204.1-7.2%203.5-15.5-.7-9.6-1.1-10.7-4.9-11.5-1.7-.3-31.4-.6-65.9-.6H271l-1.2%202.7zM433.5%20390.8c-1.1.4-3%201.4-4.2%202.2l-2.3%201.5v85l.1%2085%202.7%202c3.7%202.7%2025.7%203.8%2064.7%203.2%2029.5-.5%2034.8-1%2036.7-4%20.4-.7.8-5.3.8-10.3%200-14%203.1-12.8-35.9-13.2l-33.1-.3v-51.6l27-.6c15.1-.4%2027.9-1.1%2029-1.7%203.7-2%204-22%20.3-24.8-1.3-.9-8.7-1.2-29-1.2H463v-44h13.3c28.7%200%2050.8-1.2%2052.8-2.9%202.6-2.1%203.6-12.9%201.9-20l-1.2-5.1-47.1.1c-26%20.1-48.1.4-49.2.7zM572%20390.7c-.8.3-2.7%201.5-4.2%202.5l-2.8%201.9v172.7l3%201c8.6%203%2029.1%202.1%2031.7-1.4%201-1.4%201.3-10.2%201.3-37.2v-35.5l9.8.5c20.1%201%2021.7%203.1%2044.2%2057.9%202.8%207%206%2013.6%207%2014.7%203.7%204%2029.4%204.1%2034.3.2%202.1-1.7%202.1-2.1.9-6.6-1.8-6.7-14.2-36.4-20.8-50-5.5-11.4-11-18.6-17.6-23.4l-3.8-2.8%203.3-1.3c6.9-2.9%2017.3-10.8%2021.5-16.4%207-9.6%2010.3-24%208.2-37-2.3-14.7-10.5-26.3-23-32.9-11.9-6.3-16.1-6.8-56-7.2-19.5-.2-36.2-.1-37%20.3zm55.9%2027.9c7.7.6%2012.6%202.5%2016.8%206.6%204.2%204.1%205.7%208.7%205.6%2017.3%200%2011.7-4.1%2018.4-13.7%2022.6-4.3%201.9-7.5%202.3-20.3%202.7l-15.3.5v-25c0-13.7.3-25.3.7-25.6.6-.7%2011.9-.3%2026.2.9zM730%20391.9l-3.5%201.8v86.6c0%2068.9.3%2086.9%201.3%2087.9.8.8%205%201.4%2011.7%201.6%2012.9.5%2019.2-.3%2020.4-2.7.6-.9%201.3-16.9%201.7-35.4l.7-33.7%2020.1-.1c25.1-.1%2035-.9%2037.2-3.1%201.2-1.1%201.8-4%202.2-9%20.5-8.3-1-15.2-3.6-16.4-.9-.5-14-1-28.9-1.2l-27.3-.3V419h60.8l1.3-3.7c1.4-4.4%201.4-18.7%200-22.6L823%20390h-44.7c-41.9%200-45.1.1-48.3%201.9zM1185%20391.1c-1.3.6-3.3%201.7-4.2%202.6-1.7%201.5-1.8%206.5-1.8%2086.3v84.6l4.3%202.4%204.2%202.5h45c38.2%200%2045.5-.2%2048-1.5l3-1.5v-11c0-10.7-.1-11-2.5-12.2-1.9-.9-10.7-1.3-34.2-1.3H1215v-52h13.8c21.8%200%2041-1.2%2043-2.6%201.4-1%201.7-3%201.7-11.9%200-9.4-.2-10.8-1.9-12.1-1.6-1.1-7.3-1.4-29.3-1.4H1215v-43.7l32-.7c17.7-.4%2032.7-.9%2033.5-1.2%203.2-1.3%204.6-14.9%202.3-22.5l-1.1-3.9-47.1.1c-28.6%200-48.1.4-49.6%201zM23%20625c0%20.5-1.1%201-2.5%201-1.6%200-2.5.6-2.5%201.5%200%20.8-.5%201.5-1.1%201.5-1.4%200-3.9%202.5-3.9%203.9%200%20.6-.5%201.1-1.1%201.1-1.7%200-3.9%202.7-3.9%204.9%200%201.2-.6%202.1-1.5%202.1-1.3%200-1.5%2044.4-1.5%20394s.2%20394%201.5%20394c.9%200%201.5.9%201.5%202.5%200%201.4.5%202.5%201%202.5.6%200%201%20.9%201%202s.7%202%201.5%202%201.5.7%201.5%201.5c0%20.9.9%201.5%202.5%201.5%201.4%200%202.5.4%202.5%201%200%20.5%201.1%201%202.5%201%201.6%200%202.5.6%202.5%201.5%200%201.3%207.6%201.5%2062%201.5h62v6c0%204.7-.3%206-1.5%206s-1.5%201.4-1.5%207c0%204-.4%207-1%207s-1%203.2-1%207.5c0%206-.3%207.5-1.5%207.5s-1.5%201.4-1.5%207c0%204-.4%207-1%207s-1%203.2-1%207.5c0%206-.3%207.5-1.5%207.5s-1.5%201.4-1.5%207c0%204-.4%207-1%207s-1%203.2-1%207.5c0%206-.3%207.5-1.5%207.5s-1.5%201.4-1.5%207-.3%207-1.5%207-1.5%201.5-1.5%207.5c0%204.3-.4%207.5-1%207.5s-1%203.8-1%209.5.4%209.5%201%209.5%201%201.1%201%202.5c0%201.6.6%202.5%201.5%202.5s1.5.9%201.5%202.5c0%202%20.5%202.5%202.5%202.5%201.4%200%202.5.4%202.5%201%200%20.5.7%201%201.5%201s1.5.7%201.5%201.5c0%20.9.9%201.5%202.5%201.5%201.4%200%202.5.4%202.5%201%200%20.7%20171%201%20511%201s511-.3%20511-1c0-.6%201.1-1%202.5-1%201.6%200%202.5-.6%202.5-1.5%200-.8.7-1.5%201.5-1.5s1.5-.5%201.5-1c0-.6%201.1-1%202.5-1%202%200%202.5-.5%202.5-2.5%200-1.4.5-2.5%201-2.5.6%200%201-1.1%201-2.5%200-1.6.6-2.5%201.5-2.5%201.2%200%201.5-1.7%201.5-9.5s-.3-9.5-1.5-9.5-1.5-1.5-1.5-7.5c0-4.3-.4-7.5-1-7.5s-1-3-1-7c0-5.6-.3-7-1.5-7s-1.5-1.5-1.5-7.5c0-4.3-.4-7.5-1-7.5s-1-3-1-7c0-5.6-.3-7-1.5-7s-1.5-1.5-1.5-7.5c0-4.3-.4-7.5-1-7.5s-1-3-1-7c0-5.6-.3-7-1.5-7s-1.5-1.5-1.5-7.5c0-4.3-.4-7.5-1-7.5s-1-3-1-7c0-5.6-.3-7-1.5-7s-1.5-1.3-1.5-6v-6h62c54.4%200%2062-.2%2062-1.5%200-.9.9-1.5%202.5-1.5%201.4%200%202.5-.5%202.5-1%200-.6%201.1-1%202.5-1%201.6%200%202.5-.6%202.5-1.5%200-.8.7-1.5%201.5-1.5s1.5-.9%201.5-2%20.5-2%201-2c.7%200%201-133.5%201-398.6%200-419.7.2-401.4-3.9-401.4-.6%200-1.1-.5-1.1-1.1%200-1.4-2.5-3.9-3.9-3.9-.6%200-1.1-.7-1.1-1.5%200-.9-.9-1.5-2.5-1.5-1.4%200-2.5-.5-2.5-1%200-.7-210.7-1-630-1s-630%20.3-630%201zm1225%2048.5c0%20.8.5%201.5%201%201.5.7%200%201%20120.5%201%20359.6%200%20310.3-.2%20359.7-1.4%20361-2.2%202.1-1189%202.1-1191.2%200-1.2-1.3-1.4-50.7-1.4-361%200-239.1.3-359.6%201-359.6.6%200%201-.7%201-1.5%200-1.3%2066.8-1.5%20595-1.5s595%20.2%20595%201.5zm-1010%20782c0%207.8-.3%209.5-1.5%209.5s-1.5%201.9-1.5%2011c0%206.7-.4%2011-1%2011s-1%204.7-1%2012%20.4%2012%201%2012%201%201.1%201%202.5.5%202.5%201.1%202.5c1.4%200%203.9%202.5%203.9%203.9%200%20.6.6%201.1%201.3%201.1.7%200%201.9.9%202.7%202%201%201.4%202.6%202%205.2%202%202.7%200%203.8.4%203.8%201.5%200%201.3%2045.1%201.5%20400%201.5s400-.2%20400-1.5c0-1.1%201.1-1.5%203.8-1.5%202.6%200%204.2-.6%205.2-2%20.8-1.1%202-2%202.7-2%20.7%200%201.3-.5%201.3-1.1%200-1.4%202.5-3.9%203.9-3.9.6%200%201.1-1.1%201.1-2.5s.5-2.5%201-2.5c.6%200%201-4.7%201-12s-.4-12-1-12-1-4-1-10c0-8.2-.3-10-1.5-10s-1.5-1.8-1.5-10.5V1446h38v3.5c0%202.4.5%203.5%201.5%203.5%201.2%200%201.5%201.4%201.5%207%200%204%20.4%207%201%207s1%203.2%201%207.5c0%206%20.3%207.5%201.5%207.5s1.5%201.4%201.5%207c0%204%20.4%207%201%207s1%203.2%201%207.5c0%206%20.3%207.5%201.5%207.5s1.5%201.4%201.5%207c0%204%20.4%207%201%207s1%203.2%201%207.5c0%206%20.3%207.5%201.5%207.5s1.5%201.4%201.5%207c0%204%20.4%207%201%207s1%201.1%201%202.5-.4%202.5-1%202.5c-.5%200-1%20.7-1%201.5%200%201.3-53%201.5-471%201.5s-471-.2-471-1.5c0-.8-.4-1.5-1-1.5-.5%200-1-1.1-1-2.5s.5-2.5%201-2.5c.6%200%201-3%201-7%200-5.6.3-7%201.5-7s1.5-1.5%201.5-7.5c0-4.3.4-7.5%201-7.5s1-3%201-7c0-5.6.3-7%201.5-7s1.5-1.5%201.5-7.5c0-4.3.4-7.5%201-7.5s1-3%201-7c0-5.6.3-7%201.5-7s1.5-1.5%201.5-7.5c0-4.3.4-7.5%201-7.5s1-3%201-7c0-5.6.3-7%201.5-7%201%200%201.5-1.1%201.5-3.5v-3.5h38v9.5zm777-3.5c0%203.3.4%206%201%206s1%203.8%201%209.5v9.5H288v-9.5c0-7.8.3-9.5%201.5-9.5s1.5-1.3%201.5-6v-6h724v6z%22/%3E%3Cpath%20d=%22M101%20697.5c0%20.9-.9%201.5-2.5%201.5-1.4%200-2.5.4-2.5%201%200%20.5-1.1%201-2.5%201-1.6%200-2.5.6-2.5%201.5%200%20.8-.4%201.5-1%201.5-.5%200-1%201.1-1%202.5%200%201.6-.6%202.5-1.5%202.5-.8%200-1.5.4-1.5%201%200%20.5-.7%201-1.5%201-1.3%200-1.5%2036.7-1.5%20324s.2%20324%201.5%20324c.9%200%201.5.9%201.5%202.5%200%201.4.6%202.5%201.3%202.5.7%200%201.9.9%202.7%202%20.8%201.1%202.5%202%203.7%202%201.4%200%202.3.6%202.3%201.5s.9%201.5%202.5%201.5c1.4%200%202.5.4%202.5%201%200%20.7%20184.7%201%20552%201s552-.3%20552-1c0-.6%201.1-1%202.5-1%201.6%200%202.5-.6%202.5-1.5s.9-1.5%202.3-1.5c1.2%200%202.9-.9%203.7-2%20.8-1.1%202-2%202.7-2%20.7%200%201.3-1.1%201.3-2.5%200-1.6.6-2.5%201.5-2.5%201.3%200%201.5-36.7%201.5-324s-.2-324-1.5-324c-.8%200-1.5-.5-1.5-1%200-.6-.7-1-1.5-1-.9%200-1.5-.9-1.5-2.5%200-1.4-.4-2.5-1-2.5-.5%200-1-.7-1-1.5%200-.9-.9-1.5-2.5-1.5-1.4%200-2.5-.5-2.5-1%200-.6-1.1-1-2.5-1-1.6%200-2.5-.6-2.5-1.5%200-1.3-62-1.5-552-1.5s-552%20.2-552%201.5zM1172%201036v289H134V747h1038v289z%22/%3E%3Cpath%20d=%22M787%201251c0%20.5-1.1%201-2.5%201s-2.5.5-2.5%201.1c0%201.4-2.5%203.9-3.9%203.9-.6%200-1.1.7-1.1%201.5s-.7%201.5-1.5%201.5c-1%200-1.5%201.1-1.5%203.5%200%201.9-.4%203.5-1%203.5s-1%203-1%207%20.4%207%201%207%201%201.1%201%202.5c0%201.6.6%202.5%201.5%202.5s1.5.9%201.5%202.5.6%202.5%201.5%202.5c.8%200%201.5.4%201.5%201%200%20.5%201.1%201%202.5%201%201.6%200%202.5.6%202.5%201.5s.9%201.5%202.5%201.5c1.4%200%202.5.4%202.5%201s5.3%201%2014%201%2014-.4%2014-1%201.6-1%203.5-1c2.4%200%203.5-.5%203.5-1.5%200-.8.6-1.5%201.3-1.5.7%200%201.9-.9%202.7-2%20.8-1.1%202-2%202.7-2%20.7%200%201.3-1.1%201.3-2.5s.5-2.5%201-2.5c.6%200%201-4%201-10s-.4-10-1-10c-.5%200-1-.9-1-2s-.7-2-1.5-2-1.5-.5-1.5-1.1c0-1.4-2.5-3.9-3.9-3.9-.6%200-1.1-.7-1.1-1.5%200-.9-.9-1.5-2.5-1.5-1.4%200-2.5-.5-2.5-1%200-.6-6.2-1-16.5-1s-16.5.4-16.5%201zM893%201251c0%20.5-1.1%201-2.5%201s-2.5.5-2.5%201.1c0%201.4-2.5%203.9-3.9%203.9-.6%200-1.1.7-1.1%201.5s-.4%201.5-1%201.5c-.5%200-1%20.9-1%202s-.7%202-1.5%202c-1.2%200-1.5%201.8-1.5%2010s.3%2010%201.5%2010c.9%200%201.5.9%201.5%202.1%200%202.2%202.2%204.9%203.9%204.9.6%200%201.1.4%201.1%201%200%20.5%201.1%201%202.5%201%201.6%200%202.5.6%202.5%201.5s.9%201.5%202.5%201.5c1.4%200%202.5.4%202.5%201%200%20.7%2038.2%201%20112.5%201s112.5-.3%20112.5-1c0-.6%201.1-1%202.5-1%201.6%200%202.5-.6%202.5-1.5%200-.8.6-1.5%201.3-1.5.7%200%201.9-.9%202.7-2%20.8-1.1%202-2%202.7-2%20.7%200%201.3-.7%201.3-1.5s.5-1.5%201-1.5c.6%200%201-1.6%201-3.5%200-2.4.5-3.5%201.5-3.5%201.1%200%201.5-1.2%201.5-5s-.4-5-1.5-5c-1%200-1.5-1-1.5-3.1%200-3-1.9-5.9-3.9-5.9-.6%200-1.1-1.1-1.1-2.5%200-2-.5-2.5-2.5-2.5-1.4%200-2.5-.5-2.5-1.1%200-4%202.5-3.9-117.9-3.9-76.1%200-115.1.3-115.1%201z%22/%3E%3C/svg%3E"
+      },
+      "design": {
+        "graph": {
+          "blocks": [
+            {
+              "id": "88f2c6e3-5876-4951-bc2b-77190b6776cf",
+              "type": "basic.output",
+              "data": {
+                "name": "clk_vga"
+              },
+              "position": {
+                "x": 272,
+                "y": 96
+              }
+            },
+            {
+              "id": "3ea21c4f-6ef8-4639-aefd-4b5f9d4d8208",
+              "type": "basic.input",
+              "data": {
+                "name": "clk",
+                "clock": false
+              },
+              "position": {
+                "x": -120,
+                "y": 232
+              }
+            },
+            {
+              "id": "a9369dbc-67c7-4d86-8f16-e67a6ba01a1d",
+              "type": "basic.output",
+              "data": {
+                "name": "rd_en"
+              },
+              "position": {
+                "x": 1120,
+                "y": 248
+              }
+            },
+            {
+              "id": "e79ac974-3588-490c-88b9-d0408a2bff12",
+              "type": "basic.input",
+              "data": {
+                "name": "rst_n",
+                "clock": false
+              },
+              "position": {
+                "x": -120,
+                "y": 296
+              }
+            },
+            {
+              "id": "942a77cc-1405-4818-9909-9bd06978fe1b",
+              "type": "basic.input",
+              "data": {
+                "name": "sobel",
+                "clock": false
+              },
+              "position": {
+                "x": -120,
+                "y": 344
+              }
+            },
+            {
+              "id": "90e9049e-258b-4765-88d0-ec965fcdd405",
+              "type": "basic.output",
+              "data": {
+                "name": "gpdi_dp",
+                "range": "[3:0]",
+                "size": 4
+              },
+              "position": {
+                "x": 1120,
+                "y": 384
+              }
+            },
+            {
+              "id": "7654a37e-4ed6-4a99-8e51-86a1e0977834",
+              "type": "basic.input",
+              "data": {
+                "name": "threshold",
+                "range": "[7:0]",
+                "clock": false,
+                "size": 8
+              },
+              "position": {
+                "x": -120,
+                "y": 392
+              }
+            },
+            {
+              "id": "3e06c7b8-b07c-49a6-9dfc-099cac26ec35",
+              "type": "basic.input",
+              "data": {
+                "name": "empty_fifo",
+                "clock": false
+              },
+              "position": {
+                "x": -120,
+                "y": 440
+              }
+            },
+            {
+              "id": "de40a194-92fe-4bae-95da-8227716f808c",
+              "type": "basic.input",
+              "data": {
+                "name": "din",
+                "range": "[15:0]",
+                "clock": false,
+                "size": 16
+              },
+              "position": {
+                "x": -120,
+                "y": 488
+              }
+            },
+            {
+              "id": "0d4550b0-b765-4255-9660-d5190b878040",
+              "type": "62743d8c66363d9e92664eaea4dac7e7e3981cd0",
+              "position": {
+                "x": 16,
+                "y": 232
+              },
+              "size": {
+                "width": 96,
+                "height": 64
+              }
+            },
+            {
+              "id": "7c9ab9b3-e58c-4dd5-8224-e22b1d9354fd",
+              "type": "45dab8372de05be9cf77616b5a3febe0a5baedcd",
+              "position": {
+                "x": 1320,
+                "y": 480
+              },
+              "size": {
+                "width": 96,
+                "height": 224
+              }
+            },
+            {
+              "id": "1438ec0d-ec27-4d1e-9473-bd3c24ed700f",
+              "type": "basic.code",
+              "data": {
+                "code": "\t reg rd_en;\r\n\t //FSM state declarations\r\n\t //FSM state declarations\r\n\t localparam delay=0,\r\n\t\t\t\t\tidle=1,\r\n\t\t\t\t\tdisplay=2,\r\n\t\t\t\t\talign_frame=1,\r\n\t\t\t\t\talign_idle=0;\r\n\t\t\t\t\t\r\n\t reg[1:0] state_q,state_d;\r\n\t reg[7:0] red,green,blue;\r\n\t wire[1:0] tmds_red,tmds_green,tmds_blue,tmds_clk;\r\n\t wire clk_5x;\r\n\t reg sobel_prev,state_align_q,state_align_d;\r\n\t reg[4:0] align_count_q,align_count_d;\r\n\t \r\n\t //register operations\r\n\t always @(posedge clk_vga,negedge rst_n) begin\r\n\t\tif(!rst_n) begin\r\n\t\t\tstate_q<=delay;\r\n\t\t\tstate_align_q<=align_idle;\r\n\t\t\talign_count_q<=0;\r\n\t\tend\r\n\t\telse begin\r\n\t\t\tstate_q<=state_d;\r\n\t\t\tsobel_prev<=sobel;\r\n\t\t\tstate_align_q<=state_align_d;\r\n\t\t\talign_count_q<=align_count_d;\r\n\t\tend\r\n\t end\r\n\t \r\n\t //FSM next-state logic\r\n\t always @* begin\r\n\t state_d=state_q;\r\n\t state_align_d=state_align_q;\r\n\t align_count_d=align_count_q;\r\n\t rd_en=0;\r\n\t red=0;\r\n\t green=0;\r\n\t blue=0;\r\n\t\t\t\r\n\t\tcase(state_q)\r\n\t\t delay: if(blank) begin\r\n\t\t\t\t\tstate_d=idle;\r\n\t\t\t\t\tstate_align_d=align_frame;\r\n\t\t\t\t end\r\n\t\t\tidle:  if(pixel_x==0 && pixel_y==0 && !empty_fifo) begin //wait for pixel-data coming from asyn_fifo \t\r\n\t\t\t\t\t\t\tif(sobel) begin\r\n\t\t\t\t\t\t\t\tred=(din>threshold)? 8'hff:0;\r\n    \t\t\t\t\t\t\tgreen=(din>threshold)? 8'hff:0;\r\n    \t\t\t\t\t\t\tblue=(din>threshold)? 8'hff:0;\r\n\t\t\t\t\t\t\t\t/*red=din[7:0]; //grayscale\r\n\t\t\t\t\t\t\t\tgreen=din[7:0];\r\n\t\t\t\t\t\t\t\tblue=din[7:0];*/\r\n\t\t\t\t\t\t\tend\r\n\t\t\t\t\t\t\telse begin\r\n\t\t\t\t\t\t\t\tred=din[15:11]<<3;\r\n\t\t\t\t\t\t\t\tgreen=din[10:5]<<2;\r\n\t\t\t\t\t\t\t\tblue=din[4:0]<<3;\r\n\t\t\t\t\t\t\tend\r\n\t\t\t\t\t\t\trd_en=1;\t\r\n\t\t\t\t\t\t\tstate_d=display;\r\n\t\t\t\t\tend\r\n\t\tdisplay: if(!blank) begin //we will continue to read the asyn_fifo as long as current pixel coordinate is inside the visible screen(640x480) \r\n\t\t\t\t\t\t\tif(sobel) begin\r\n\t\t\t\t\t\t\t\tred=(din>threshold)? 8'hff:0;\r\n\t\t\t\t\t\t\t\tgreen=(din>threshold)? 8'hff:0;\r\n\t\t\t\t\t\t\t\tblue=(din>threshold)? 8'hff:0;\r\n\t\t\t\t\t\t\tend\r\n\t\t\t\t\t\t\telse begin\r\n\t\t\t\t\t\t\t\tred=din[15:11]<<3;\r\n\t\t\t\t\t\t\t\tgreen=din[10:5]<<2;\r\n\t\t\t\t\t\t\t\tblue=din[4:0]<<3;\r\n\t\t\t\t\t\t\tend\r\n\t\t\t\t\t\t\trd_en=1;\t\r\n\t\t\t\t\tend\r\n\t\tdefault: state_d=delay;\r\n\t\tendcase\r\n\t\t\r\n\t\t\r\n\t\t//automatically aligns frame when display changes (sobel-> rgb or rgb->sobel)\r\n\t\tcase(state_align_q)\r\n\t\t\t align_idle: if(sobel_prev != sobel) begin \r\n\t\t\t\t\t\t\t\tstate_align_d=align_frame;\r\n\t\t\t\t\t\t\t\talign_count_d=0;\r\n\t\t\t\t\t\t end\r\n\t\t\talign_frame:  begin\r\n\t\t\t\t\t\t\tif(sobel && din[8] && din[15:9]==0 && rd_en) begin //align sobel frame \r\n\t\t\t\t\t\t\t\tif(pixel_x==0 && pixel_y==0) begin \r\n\t\t\t\t\t\t\t\t\trd_en=1;\r\n\t\t\t\t\t\t\t\t\talign_count_d=align_count_q+1'b1;\r\n\t\t\t\t\t\t\t\t\tif(align_count_q==5) state_align_d=align_idle; //align for 5 frames\r\n\t\t\t\t\t\t\t\tend\r\n\t\t\t\t\t\t\t\telse rd_en=0;\r\n\t\t\t\t\t\t\tend\r\n\t\t\t\t\t\t\telse if(!sobel && din==16'b00000_000000_11111 && rd_en) begin //align rgb fram\r\n\t\t\t\t\t\t\t\tif(pixel_x==0 && pixel_y==0) begin \r\n\t\t\t\t\t\t\t\t\trd_en=1;\r\n\t\t\t\t\t\t\t\t\talign_count_d=align_count_q+1'b1;\r\n\t\t\t\t\t\t\t\t\tif(align_count_q==5) state_align_d=align_idle; //align for 5 frames\r\n\t\t\t\t\t\t\t\tend\r\n\t\t\t\t\t\t\t\telse rd_en=0;\r\n\t\t\t\t\t\t\tend\r\n\t\t\t\t\t\t  end\r\n\t\t\t\tdefault: state_align_d=align_idle;\r\n\t\tendcase\r\n\t end\r\n \r\n\t\r\n\t//ODDR instantiatons for Double-Data Rate operation\r\n\t\tODDRX1F ddr0_clock (.D0(tmds_clk   [0] ), .D1(tmds_clk   [1] ), .Q(gpdi_dp[3]), .SCLK(clk_5x), .RST(0));\r\n        ODDRX1F ddr0_red   (.D0(tmds_red   [0] ), .D1(tmds_red   [1] ), .Q(gpdi_dp[2]), .SCLK(clk_5x), .RST(0));\r\n        ODDRX1F ddr0_green (.D0(tmds_green [0] ), .D1(tmds_green [1] ), .Q(gpdi_dp[1]), .SCLK(clk_5x), .RST(0));\r\n        ODDRX1F ddr0_blue  (.D0(tmds_blue  [0] ), .D1(tmds_blue  [1] ), .Q(gpdi_dp[0]), .SCLK(clk_5x), .RST(0));\r\n\t\t\r\n\t\t",
+                "params": [],
+                "ports": {
+                  "in": [
+                    {
+                      "name": "clk_5x"
+                    },
+                    {
+                      "name": "clk_vga"
+                    },
+                    {
+                      "name": "rst_n"
+                    },
+                    {
+                      "name": "sobel"
+                    },
+                    {
+                      "name": "threshold",
+                      "range": "[7:0]",
+                      "size": 8
+                    },
+                    {
+                      "name": "empty_fifo"
+                    },
+                    {
+                      "name": "din",
+                      "range": "[15:0]",
+                      "size": 16
+                    },
+                    {
+                      "name": "blank"
+                    },
+                    {
+                      "name": "tmds_red",
+                      "range": "[1:0]",
+                      "size": 2
+                    },
+                    {
+                      "name": "tmds_green",
+                      "range": "[1:0]",
+                      "size": 2
+                    },
+                    {
+                      "name": "tmds_blue",
+                      "range": "[1:0]",
+                      "size": 2
+                    },
+                    {
+                      "name": "tmds_clk",
+                      "range": "[1:0]",
+                      "size": 2
+                    },
+                    {
+                      "name": "pixel_x",
+                      "range": "[10:0]",
+                      "size": 11
+                    },
+                    {
+                      "name": "pixel_y",
+                      "range": "[10:0]",
+                      "size": 11
+                    }
+                  ],
+                  "out": [
+                    {
+                      "name": "rd_en"
+                    },
+                    {
+                      "name": "gpdi_dp",
+                      "range": "[3:0]",
+                      "size": 4
+                    },
+                    {
+                      "name": "red",
+                      "range": "[7:0]",
+                      "size": 8
+                    },
+                    {
+                      "name": "green",
+                      "range": "[7:0]",
+                      "size": 8
+                    },
+                    {
+                      "name": "blue",
+                      "range": "[7:0]",
+                      "size": 8
+                    }
+                  ]
+                }
+              },
+              "position": {
+                "x": 344,
+                "y": 208
+              },
+              "size": {
+                "width": 688,
+                "height": 680
+              }
+            }
+          ],
+          "wires": [
+            {
+              "source": {
+                "block": "1438ec0d-ec27-4d1e-9473-bd3c24ed700f",
+                "port": "red"
+              },
+              "target": {
+                "block": "7c9ab9b3-e58c-4dd5-8224-e22b1d9354fd",
+                "port": "2b501da6-62b0-4cc4-815f-945fa81e35a2"
+              },
+              "vertices": [
+                {
+                  "x": 1240,
+                  "y": 568
+                }
+              ],
+              "size": 8
+            },
+            {
+              "source": {
+                "block": "1438ec0d-ec27-4d1e-9473-bd3c24ed700f",
+                "port": "green"
+              },
+              "target": {
+                "block": "7c9ab9b3-e58c-4dd5-8224-e22b1d9354fd",
+                "port": "0badf6c9-21be-411b-8baa-6e91dc5feae3"
+              },
+              "size": 8
+            },
+            {
+              "source": {
+                "block": "1438ec0d-ec27-4d1e-9473-bd3c24ed700f",
+                "port": "blue"
+              },
+              "target": {
+                "block": "7c9ab9b3-e58c-4dd5-8224-e22b1d9354fd",
+                "port": "ed51d514-0665-4451-9982-7dadf1d7e852"
+              },
+              "size": 8
+            },
+            {
+              "source": {
+                "block": "7c9ab9b3-e58c-4dd5-8224-e22b1d9354fd",
+                "port": "8f37d1b7-81c7-4e77-a70f-5677b75fb7fb"
+              },
+              "target": {
+                "block": "1438ec0d-ec27-4d1e-9473-bd3c24ed700f",
+                "port": "tmds_red"
+              },
+              "vertices": [
+                {
+                  "x": 24,
+                  "y": 1008
+                }
+              ],
+              "size": 2
+            },
+            {
+              "source": {
+                "block": "7c9ab9b3-e58c-4dd5-8224-e22b1d9354fd",
+                "port": "418c1b68-f95e-4ca1-bf3f-dc18eb2481c8"
+              },
+              "target": {
+                "block": "1438ec0d-ec27-4d1e-9473-bd3c24ed700f",
+                "port": "tmds_green"
+              },
+              "vertices": [
+                {
+                  "x": 1512,
+                  "y": 624
+                },
+                {
+                  "x": 48,
+                  "y": 968
+                }
+              ],
+              "size": 2
+            },
+            {
+              "source": {
+                "block": "7c9ab9b3-e58c-4dd5-8224-e22b1d9354fd",
+                "port": "d9458bc6-e414-4691-a36b-327ff5a4b7bb"
+              },
+              "target": {
+                "block": "1438ec0d-ec27-4d1e-9473-bd3c24ed700f",
+                "port": "tmds_blue"
+              },
+              "vertices": [
+                {
+                  "x": 1488,
+                  "y": 656
+                },
+                {
+                  "x": 120,
+                  "y": 928
+                }
+              ],
+              "size": 2
+            },
+            {
+              "source": {
+                "block": "7c9ab9b3-e58c-4dd5-8224-e22b1d9354fd",
+                "port": "6976e704-b765-4dd7-a319-4cf25f8e28ec"
+              },
+              "target": {
+                "block": "1438ec0d-ec27-4d1e-9473-bd3c24ed700f",
+                "port": "tmds_clk"
+              },
+              "vertices": [
+                {
+                  "x": 168,
+                  "y": 904
+                }
+              ],
+              "size": 2
+            },
+            {
+              "source": {
+                "block": "7c9ab9b3-e58c-4dd5-8224-e22b1d9354fd",
+                "port": "4f943a2b-78c6-4818-8358-82eac3707277"
+              },
+              "target": {
+                "block": "1438ec0d-ec27-4d1e-9473-bd3c24ed700f",
+                "port": "pixel_x"
+              },
+              "vertices": [
+                {
+                  "x": 1648,
+                  "y": 536
+                },
+                {
+                  "x": 1608,
+                  "y": 1080
+                },
+                {
+                  "x": 256,
+                  "y": 888
+                }
+              ],
+              "size": 11
+            },
+            {
+              "source": {
+                "block": "7c9ab9b3-e58c-4dd5-8224-e22b1d9354fd",
+                "port": "9d63d0fa-8408-41a7-9932-245fad4c7dfe"
+              },
+              "target": {
+                "block": "1438ec0d-ec27-4d1e-9473-bd3c24ed700f",
+                "port": "pixel_y"
+              },
+              "vertices": [
+                {
+                  "x": 1584,
+                  "y": 560
+                },
+                {
+                  "x": 1632,
+                  "y": 1056
+                },
+                {
+                  "x": 288,
+                  "y": 912
+                }
+              ],
+              "size": 11
+            },
+            {
+              "source": {
+                "block": "e79ac974-3588-490c-88b9-d0408a2bff12",
+                "port": "out"
+              },
+              "target": {
+                "block": "1438ec0d-ec27-4d1e-9473-bd3c24ed700f",
+                "port": "rst_n"
+              }
+            },
+            {
+              "source": {
+                "block": "3e06c7b8-b07c-49a6-9dfc-099cac26ec35",
+                "port": "out"
+              },
+              "target": {
+                "block": "1438ec0d-ec27-4d1e-9473-bd3c24ed700f",
+                "port": "empty_fifo"
+              }
+            },
+            {
+              "source": {
+                "block": "de40a194-92fe-4bae-95da-8227716f808c",
+                "port": "out"
+              },
+              "target": {
+                "block": "1438ec0d-ec27-4d1e-9473-bd3c24ed700f",
+                "port": "din"
+              },
+              "size": 16
+            },
+            {
+              "source": {
+                "block": "1438ec0d-ec27-4d1e-9473-bd3c24ed700f",
+                "port": "rd_en"
+              },
+              "target": {
+                "block": "a9369dbc-67c7-4d86-8f16-e67a6ba01a1d",
+                "port": "in"
+              }
+            },
+            {
+              "source": {
+                "block": "1438ec0d-ec27-4d1e-9473-bd3c24ed700f",
+                "port": "gpdi_dp"
+              },
+              "target": {
+                "block": "90e9049e-258b-4765-88d0-ec965fcdd405",
+                "port": "in"
+              },
+              "size": 4
+            },
+            {
+              "source": {
+                "block": "3ea21c4f-6ef8-4639-aefd-4b5f9d4d8208",
+                "port": "out"
+              },
+              "target": {
+                "block": "0d4550b0-b765-4255-9660-d5190b878040",
+                "port": "869bbfc1-937e-4a73-ba62-a3a16ebdca70"
+              }
+            },
+            {
+              "source": {
+                "block": "0d4550b0-b765-4255-9660-d5190b878040",
+                "port": "e150a394-082b-4969-807f-e7f0e6d74832"
+              },
+              "target": {
+                "block": "1438ec0d-ec27-4d1e-9473-bd3c24ed700f",
+                "port": "clk_5x"
+              }
+            },
+            {
+              "source": {
+                "block": "0d4550b0-b765-4255-9660-d5190b878040",
+                "port": "8767366b-84a6-451b-9041-26852b639852"
+              },
+              "target": {
+                "block": "1438ec0d-ec27-4d1e-9473-bd3c24ed700f",
+                "port": "clk_vga"
+              }
+            },
+            {
+              "source": {
+                "block": "0d4550b0-b765-4255-9660-d5190b878040",
+                "port": "8767366b-84a6-451b-9041-26852b639852"
+              },
+              "target": {
+                "block": "7c9ab9b3-e58c-4dd5-8224-e22b1d9354fd",
+                "port": "f703731c-2ea3-43a2-9a14-c997ef44609c"
+              },
+              "vertices": [
+                {
+                  "x": 208,
+                  "y": 176
+                },
+                {
+                  "x": 1240,
+                  "y": 392
+                }
+              ]
+            },
+            {
+              "source": {
+                "block": "0d4550b0-b765-4255-9660-d5190b878040",
+                "port": "e150a394-082b-4969-807f-e7f0e6d74832"
+              },
+              "target": {
+                "block": "7c9ab9b3-e58c-4dd5-8224-e22b1d9354fd",
+                "port": "89c998ce-e619-4976-9ef2-0fa0d21336b0"
+              },
+              "vertices": [
+                {
+                  "x": 256,
+                  "y": 208
+                },
+                {
+                  "x": 568,
+                  "y": 208
+                },
+                {
+                  "x": 1288,
+                  "y": 360
+                }
+              ]
+            },
+            {
+              "source": {
+                "block": "0d4550b0-b765-4255-9660-d5190b878040",
+                "port": "8767366b-84a6-451b-9041-26852b639852"
+              },
+              "target": {
+                "block": "88f2c6e3-5876-4951-bc2b-77190b6776cf",
+                "port": "in"
+              }
+            },
+            {
+              "source": {
+                "block": "7c9ab9b3-e58c-4dd5-8224-e22b1d9354fd",
+                "port": "2720a2e9-7d0e-4c90-8193-472274d1ef02"
+              },
+              "target": {
+                "block": "1438ec0d-ec27-4d1e-9473-bd3c24ed700f",
+                "port": "blank"
+              },
+              "vertices": [
+                {
+                  "x": 1680,
+                  "y": 512
+                },
+                {
+                  "x": 8,
+                  "y": 1104
+                }
+              ]
+            },
+            {
+              "source": {
+                "block": "942a77cc-1405-4818-9909-9bd06978fe1b",
+                "port": "out"
+              },
+              "target": {
+                "block": "1438ec0d-ec27-4d1e-9473-bd3c24ed700f",
+                "port": "sobel"
+              }
+            },
+            {
+              "source": {
+                "block": "7654a37e-4ed6-4a99-8e51-86a1e0977834",
+                "port": "out"
+              },
+              "target": {
+                "block": "1438ec0d-ec27-4d1e-9473-bd3c24ed700f",
+                "port": "threshold"
+              },
+              "size": 8
+            }
+          ]
+        }
+      }
+    },
+    "62743d8c66363d9e92664eaea4dac7e7e3981cd0": {
+      "package": {
+        "name": "pll_HDMI",
+        "version": "",
+        "description": "Converts 25MHz clk to 25MHz(VGA) and 125MHz(HDMI)",
+        "author": "",
+        "image": ""
+      },
+      "design": {
+        "graph": {
+          "blocks": [
+            {
+              "id": "e150a394-082b-4969-807f-e7f0e6d74832",
+              "type": "basic.output",
+              "data": {
+                "name": "hdmi_clk"
+              },
+              "position": {
+                "x": 1256,
+                "y": 352
+              }
+            },
+            {
+              "id": "869bbfc1-937e-4a73-ba62-a3a16ebdca70",
+              "type": "basic.input",
+              "data": {
+                "name": "clkin",
+                "clock": false
+              },
+              "position": {
+                "x": 336,
+                "y": 480
+              }
+            },
+            {
+              "id": "8767366b-84a6-451b-9041-26852b639852",
+              "type": "basic.output",
+              "data": {
+                "name": "vga_clk"
+              },
+              "position": {
+                "x": 1248,
+                "y": 624
+              }
+            },
+            {
+              "id": "7d850981-f6fe-4a40-92dd-cac41bf2a97e",
+              "type": "basic.code",
+              "data": {
+                "code": "wire locked;\r\n\r\n(* FREQUENCY_PIN_CLKI=\"25\" *)\r\n(* FREQUENCY_PIN_CLKOP=\"125\" *)\r\n(* FREQUENCY_PIN_CLKOS=\"25\" *)\r\n(* ICP_CURRENT=\"12\" *) (* LPF_RESISTOR=\"8\" *) (* MFG_ENABLE_FILTEROPAMP=\"1\" *) (* MFG_GMCREF_SEL=\"2\" *)\r\nEHXPLLL #(\r\n        .PLLRST_ENA(\"DISABLED\"),\r\n        .INTFB_WAKE(\"DISABLED\"),\r\n        .STDBY_ENABLE(\"DISABLED\"),\r\n        .DPHASE_SOURCE(\"DISABLED\"),\r\n        .OUTDIVIDER_MUXA(\"DIVA\"),\r\n        .OUTDIVIDER_MUXB(\"DIVB\"),\r\n        .OUTDIVIDER_MUXC(\"DIVC\"),\r\n        .OUTDIVIDER_MUXD(\"DIVD\"),\r\n        .CLKI_DIV(1),\r\n        .CLKOP_ENABLE(\"ENABLED\"),\r\n        .CLKOP_DIV(5),\r\n        .CLKOP_CPHASE(2),\r\n        .CLKOP_FPHASE(0),\r\n        .CLKOS_ENABLE(\"ENABLED\"),\r\n        .CLKOS_DIV(25),\r\n        .CLKOS_CPHASE(2),\r\n        .CLKOS_FPHASE(0),\r\n        .FEEDBK_PATH(\"CLKOP\"),\r\n        .CLKFB_DIV(5)\r\n    ) pll_i (\r\n        .RST(1'b0),\r\n        .STDBY(1'b0),\r\n        .CLKI(clkin),\r\n        .CLKOP(clkout0),\r\n        .CLKOS(clkout1),\r\n        .CLKFB(clkout0),\r\n        .CLKINTFB(),\r\n        .PHASESEL0(1'b0),\r\n        .PHASESEL1(1'b0),\r\n        .PHASEDIR(1'b1),\r\n        .PHASESTEP(1'b1),\r\n        .PHASELOADREG(1'b1),\r\n        .PLLWAKESYNC(1'b0),\r\n        .ENCLKOP(1'b0),\r\n        .LOCK(locked)\r\n\t);",
+                "params": [],
+                "ports": {
+                  "in": [
+                    {
+                      "name": "clkin"
+                    }
+                  ],
+                  "out": [
+                    {
+                      "name": "clkout0"
+                    },
+                    {
+                      "name": "clkout1"
+                    }
+                  ]
+                }
+              },
+              "position": {
+                "x": 544,
+                "y": 248
+              },
+              "size": {
+                "width": 648,
+                "height": 544
+              }
+            }
+          ],
+          "wires": [
+            {
+              "source": {
+                "block": "869bbfc1-937e-4a73-ba62-a3a16ebdca70",
+                "port": "out"
+              },
+              "target": {
+                "block": "7d850981-f6fe-4a40-92dd-cac41bf2a97e",
+                "port": "clkin"
+              }
+            },
+            {
+              "source": {
+                "block": "7d850981-f6fe-4a40-92dd-cac41bf2a97e",
+                "port": "clkout1"
+              },
+              "target": {
+                "block": "8767366b-84a6-451b-9041-26852b639852",
+                "port": "in"
+              }
+            },
+            {
+              "source": {
+                "block": "7d850981-f6fe-4a40-92dd-cac41bf2a97e",
+                "port": "clkout0"
+              },
+              "target": {
+                "block": "e150a394-082b-4969-807f-e7f0e6d74832",
+                "port": "in"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "45dab8372de05be9cf77616b5a3febe0a5baedcd": {
+      "package": {
+        "name": "HDMI_controller",
+        "version": "",
+        "description": "HDMI controller with DDR enabled",
+        "author": "",
+        "image": ""
+      },
+      "design": {
+        "graph": {
+          "blocks": [
+            {
+              "id": "2720a2e9-7d0e-4c90-8193-472274d1ef02",
+              "type": "basic.output",
+              "data": {
+                "name": "blank"
+              },
+              "position": {
+                "x": 1000,
+                "y": -392
+              }
+            },
+            {
+              "id": "4f943a2b-78c6-4818-8358-82eac3707277",
+              "type": "basic.output",
+              "data": {
+                "name": "hcnt",
+                "range": "[10:0]",
+                "size": 11
+              },
+              "position": {
+                "x": 1000,
+                "y": -328
+              }
+            },
+            {
+              "id": "9d63d0fa-8408-41a7-9932-245fad4c7dfe",
+              "type": "basic.output",
+              "data": {
+                "name": "vcnt",
+                "range": "[10:0]",
+                "size": 11
+              },
+              "position": {
+                "x": 1008,
+                "y": -256
+              }
+            },
+            {
+              "id": "f703731c-2ea3-43a2-9a14-c997ef44609c",
+              "type": "basic.input",
+              "data": {
+                "name": "pclk",
+                "clock": false
+              },
+              "position": {
+                "x": -40,
+                "y": -184
+              }
+            },
+            {
+              "id": "8f37d1b7-81c7-4e77-a70f-5677b75fb7fb",
+              "type": "basic.output",
+              "data": {
+                "name": "tmds_red",
+                "range": "[1:0]",
+                "size": 2
+              },
+              "position": {
+                "x": 2336,
+                "y": 40
+              }
+            },
+            {
+              "id": "89c998ce-e619-4976-9ef2-0fa0d21336b0",
+              "type": "basic.input",
+              "data": {
+                "name": "tmds_clk",
+                "clock": false
+              },
+              "position": {
+                "x": 1096,
+                "y": 40
+              }
+            },
+            {
+              "id": "2b501da6-62b0-4cc4-815f-945fa81e35a2",
+              "type": "basic.input",
+              "data": {
+                "name": "red",
+                "range": "[7:0]",
+                "clock": false,
+                "size": 8
+              },
+              "position": {
+                "x": 632,
+                "y": 96
+              }
+            },
+            {
+              "id": "418c1b68-f95e-4ca1-bf3f-dc18eb2481c8",
+              "type": "basic.output",
+              "data": {
+                "name": "tmds_green",
+                "range": "[1:0]",
+                "size": 2
+              },
+              "position": {
+                "x": 2344,
+                "y": 176
+              }
+            },
+            {
+              "id": "d9458bc6-e414-4691-a36b-327ff5a4b7bb",
+              "type": "basic.output",
+              "data": {
+                "name": "tmds_blue",
+                "range": "[1:0]",
+                "size": 2
+              },
+              "position": {
+                "x": 2352,
+                "y": 312
+              }
+            },
+            {
+              "id": "0badf6c9-21be-411b-8baa-6e91dc5feae3",
+              "type": "basic.input",
+              "data": {
+                "name": "green",
+                "range": "[7:0]",
+                "clock": false,
+                "size": 8
+              },
+              "position": {
+                "x": 632,
+                "y": 312
+              }
+            },
+            {
+              "id": "6976e704-b765-4dd7-a319-4cf25f8e28ec",
+              "type": "basic.output",
+              "data": {
+                "name": "tmds_clk",
+                "range": "[1:0]",
+                "size": 2
+              },
+              "position": {
+                "x": 2352,
+                "y": 448
+              }
+            },
+            {
+              "id": "ed51d514-0665-4451-9982-7dadf1d7e852",
+              "type": "basic.input",
+              "data": {
+                "name": "blue",
+                "range": "[7:0]",
+                "clock": false,
+                "size": 8
+              },
+              "position": {
+                "x": 640,
+                "y": 552
+              }
+            },
+            {
+              "id": "f510dbe7-dd9a-4c15-9c11-13a4920e43fc",
+              "type": "basic.code",
+              "data": {
+                "code": "//Copyright (C) 2021 Hirosh Dabui hirosh@dabui.de\r\n\r\nlocalparam\r\n\t/* VGA_1280x720@60Hz */          \r\n\t\t VPOL            = 1,\t      \r\n\t\t HPOL            = 0,\t      \r\n\t\t FRAME_RATE      = 30,\t    \r\n\t/* vertical timing frame */     \r\n\t\t VBP             = 33,      \r\n\t\t VFP             = 10,      \r\n\t\t VSLEN           = 2,\t      \r\n\t\t VACTIVE         = 480,\t    \r\n\t/* horizontal timing frame */   \r\n\t\t HBP             = 48,\t    \r\n\t\t HFP             = 16,\t    \r\n\t\t HSLEN           = 96,\t    \r\n\t\t HACTIVE         = 640;\r\n//////////////////////////////////////\r\n\r\nlocalparam VTOTAL            = VACTIVE + VFP + VSLEN + VBP;\t\r\nlocalparam HTOTAL            = HACTIVE + HFP + HSLEN + HBP;\t\r\nlocalparam PIXEL_CLK         = (VTOTAL * HTOTAL) * FRAME_RATE;\r\n\r\nreg[10:0] out_hcnt,out_vcnt;\r\n\t//Display Final Values \r\n\tinitial begin \r\n\t  $display(\"VACTIVE:%d\", VACTIVE); \r\n\t  $display(\"HACTIVE:%d\", HACTIVE); \r\n\t  $display(\"VBP:%d\", VBP);\r\n\t  $display(\"VFP:%d\", VFP); \r\n\t  $display(\"HBP:%d\", HBP); \r\n\t  $display(\"HFP:%d\", HFP); \r\n\t  $display(\"VSLEN:%d\", VSLEN); \r\n\t  $display(\"HSLEN:%d\", HSLEN); \r\n\t  $display(\"VTOTAL:%d\", VTOTAL); \r\n\t  $display(\"HTOTAL:%d\", HTOTAL); \r\n\t  $display(\"Framerate:%d\", FRAME_RATE); \r\n\t  $display(\"PIXEL Frequency:%d\", PIXEL_CLK); \r\n\tend \r\n\t\r\n    /*\r\n     *\r\n     *         +\r\n     *         |\r\n     *         | VACTIVE\r\n     *         |\r\n     *         |       HACTIVE            HFP    HSLEN    HBP\r\n     *         ------------------------++-----++-------+------+\r\n     *         |\r\n     *         |\r\n     *         |\r\n     *         |\r\n     *         |\r\n     *         +\r\n     *         | VFP\r\n     *         +\r\n     *         +\r\n     *         |\r\n     *         | VSLEN\r\n     *         |\r\n     *         +\r\n     *         +\r\n     *         |\r\n     *         | HBP\r\n     *         |\r\n     *         +\r\n     *\r\n     */\r\n\r\n\r\n\r\nassign out_vsync = ((out_vcnt >= (VACTIVE + VFP -1)) && (out_vcnt < (VACTIVE + VFP + VSLEN))) ^ ~VPOL;\r\nassign out_hsync = ((out_hcnt >= (HACTIVE + HFP -1)) && (out_hcnt < (HACTIVE + HFP + HSLEN))) ^ ~HPOL;\r\nassign out_blank = (out_hcnt >= HACTIVE) || (out_vcnt >= VACTIVE);\r\n\r\nwire hcycle = out_hcnt == (HTOTAL -1) || ~reset_n;\r\nwire vcycle = out_vcnt == (VTOTAL -1) || ~reset_n;\r\n\r\nalways @(posedge pclk) out_hcnt <= hcycle ? 0 : out_hcnt + 1;\r\n\r\nalways @(posedge pclk) begin\r\n    if (hcycle) out_vcnt <= vcycle ? 0 : out_vcnt + 1;\r\nend\r\n",
+                "params": [],
+                "ports": {
+                  "in": [
+                    {
+                      "name": "pclk"
+                    },
+                    {
+                      "name": "reset_n"
+                    }
+                  ],
+                  "out": [
+                    {
+                      "name": "out_hsync"
+                    },
+                    {
+                      "name": "out_vsync"
+                    },
+                    {
+                      "name": "out_blank"
+                    },
+                    {
+                      "name": "out_hcnt",
+                      "range": "[10:0]",
+                      "size": 11
+                    },
+                    {
+                      "name": "out_vcnt",
+                      "range": "[10:0]",
+                      "size": 11
+                    }
+                  ]
+                }
+              },
+              "position": {
+                "x": 144,
+                "y": -208
+              },
+              "size": {
+                "width": 448,
+                "height": 216
+              }
+            },
+            {
+              "id": "0e297689-f54e-478c-bec8-fad4c31aea51",
+              "type": "c83dcd1d9ab420d911df81b3dfae04681559c623",
+              "position": {
+                "x": -40,
+                "y": -80
+              },
+              "size": {
+                "width": 96,
+                "height": 64
+              }
+            },
+            {
+              "id": "df655023-2e84-4601-918d-656015462d1f",
+              "type": "96f0988f8164f7c1b216c8ee122d6ce3cf6bc139",
+              "position": {
+                "x": 712,
+                "y": -128
+              },
+              "size": {
+                "width": 96,
+                "height": 64
+              }
+            },
+            {
+              "id": "fa347433-0215-454f-b8c4-3edcd2e904d4",
+              "type": "c4dd08263a85a91ba53e2ae2b38de344c5efcb52",
+              "position": {
+                "x": 632,
+                "y": 160
+              },
+              "size": {
+                "width": 96,
+                "height": 64
+              }
+            },
+            {
+              "id": "f6820735-f223-45b4-afc8-08f70c1f68a2",
+              "type": "c4dd08263a85a91ba53e2ae2b38de344c5efcb52",
+              "position": {
+                "x": 632,
+                "y": 376
+              },
+              "size": {
+                "width": 96,
+                "height": 64
+              }
+            },
+            {
+              "id": "f8a915ea-a8ec-44ec-a256-1f6b415c2a27",
+              "type": "basic.code",
+              "data": {
+                "code": "//Copyright (C) 2021 Hirosh Dabui hirosh@dabui.de\r\n\r\nlocalparam DDR_ENABLED=1,\r\n            OUT_TMDS_MSB = DDR_ENABLED ? 1 : 0;\r\n\r\n\r\n/**/\r\nreg       tmds_shift_load   = 0;\r\nreg [3:0] tmds_modulo       = 0;\r\nreg [9:0] tmds_shift_red    = 0;\r\nreg [9:0] tmds_shift_green  = 0;\r\nreg [9:0] tmds_shift_blue   = 0;\r\nreg [9:0] tmds_shift_clk    = 0;\r\n\r\nwire [9:0] tmds_pixel_clk = 10'b00000_11111;\r\n\r\n\r\nwire max_shifts_reached = tmds_modulo == (DDR_ENABLED ? 4 : 9);\r\nalways @(posedge tmds_clk) tmds_modulo      <= max_shifts_reached ? 0 : tmds_modulo + 1;\r\nalways @(posedge tmds_clk) tmds_shift_load  <= max_shifts_reached;\r\n\r\nalways @(posedge tmds_clk) begin //shifts 2-bits at a time if DDR is enabled, else shift 1-bit at a time\r\n    tmds_shift_red    <= tmds_shift_load ? tmds_red       : {DDR_ENABLED ? 2'b00 : 1'b0, tmds_shift_red   [9: DDR_ENABLED ? 2 : 1]};\r\n    tmds_shift_green  <= tmds_shift_load ? tmds_green     : {DDR_ENABLED ? 2'b00 : 1'b0, tmds_shift_green [9: DDR_ENABLED ? 2 : 1]};\r\n    tmds_shift_blue   <= tmds_shift_load ? tmds_blue      : {DDR_ENABLED ? 2'b00 : 1'b0, tmds_shift_blue  [9: DDR_ENABLED ? 2 : 1]};\r\n    tmds_shift_clk    <= tmds_shift_load ? tmds_pixel_clk : {DDR_ENABLED ? 2'b00 : 1'b0, tmds_shift_clk   [9: DDR_ENABLED ? 2 : 1]};\r\nend\r\n\r\nassign out_tmds_clk   = tmds_shift_clk    [ OUT_TMDS_MSB : 0 ];\r\nassign out_tmds_red   = tmds_shift_red    [ OUT_TMDS_MSB : 0 ];\r\nassign out_tmds_green = tmds_shift_green  [ OUT_TMDS_MSB : 0 ];\r\nassign out_tmds_blue  = tmds_shift_blue   [ OUT_TMDS_MSB : 0 ];",
+                "params": [],
+                "ports": {
+                  "in": [
+                    {
+                      "name": "tmds_clk"
+                    },
+                    {
+                      "name": "tmds_red",
+                      "range": "[9:0]",
+                      "size": 10
+                    },
+                    {
+                      "name": "tmds_green",
+                      "range": "[9:0]",
+                      "size": 10
+                    },
+                    {
+                      "name": "tmds_blue",
+                      "range": "[9:0]",
+                      "size": 10
+                    }
+                  ],
+                  "out": [
+                    {
+                      "name": "out_tmds_red",
+                      "range": "[1:0]",
+                      "size": 2
+                    },
+                    {
+                      "name": "out_tmds_green",
+                      "range": "[1:0]",
+                      "size": 2
+                    },
+                    {
+                      "name": "out_tmds_blue",
+                      "range": "[1:0]",
+                      "size": 2
+                    },
+                    {
+                      "name": "out_tmds_clk",
+                      "range": "[1:0]",
+                      "size": 2
+                    }
+                  ]
+                }
+              },
+              "position": {
+                "x": 1256,
+                "y": 0
+              },
+              "size": {
+                "width": 944,
+                "height": 552
+              }
+            },
+            {
+              "id": "38427160-7643-444c-a259-88a8b8d1a807",
+              "type": "cb4e6dba1c122f13b57d602a7e869258a1cef893",
+              "position": {
+                "x": 872,
+                "y": 48
+              },
+              "size": {
+                "width": 96,
+                "height": 160
+              }
+            },
+            {
+              "id": "4d14323d-4ea5-4ec4-a5c2-f6c27ff03c6c",
+              "type": "cb4e6dba1c122f13b57d602a7e869258a1cef893",
+              "position": {
+                "x": 872,
+                "y": 264
+              },
+              "size": {
+                "width": 96,
+                "height": 160
+              }
+            },
+            {
+              "id": "909e6d90-570c-4384-ad8c-775bcc1371d6",
+              "type": "cb4e6dba1c122f13b57d602a7e869258a1cef893",
+              "position": {
+                "x": 872,
+                "y": 504
+              },
+              "size": {
+                "width": 96,
+                "height": 160
+              }
+            }
+          ],
+          "wires": [
+            {
+              "source": {
+                "block": "f703731c-2ea3-43a2-9a14-c997ef44609c",
+                "port": "out"
+              },
+              "target": {
+                "block": "f510dbe7-dd9a-4c15-9c11-13a4920e43fc",
+                "port": "pclk"
+              }
+            },
+            {
+              "source": {
+                "block": "0e297689-f54e-478c-bec8-fad4c31aea51",
+                "port": "19c8f68d-5022-487f-9ab0-f0a3cd58bead"
+              },
+              "target": {
+                "block": "f510dbe7-dd9a-4c15-9c11-13a4920e43fc",
+                "port": "reset_n"
+              }
+            },
+            {
+              "source": {
+                "block": "f703731c-2ea3-43a2-9a14-c997ef44609c",
+                "port": "out"
+              },
+              "target": {
+                "block": "38427160-7643-444c-a259-88a8b8d1a807",
+                "port": "ddf5cdad-539e-4c2e-b9f5-de4dc82d4a6e"
+              }
+            },
+            {
+              "source": {
+                "block": "f703731c-2ea3-43a2-9a14-c997ef44609c",
+                "port": "out"
+              },
+              "target": {
+                "block": "4d14323d-4ea5-4ec4-a5c2-f6c27ff03c6c",
+                "port": "ddf5cdad-539e-4c2e-b9f5-de4dc82d4a6e"
+              }
+            },
+            {
+              "source": {
+                "block": "f703731c-2ea3-43a2-9a14-c997ef44609c",
+                "port": "out"
+              },
+              "target": {
+                "block": "909e6d90-570c-4384-ad8c-775bcc1371d6",
+                "port": "ddf5cdad-539e-4c2e-b9f5-de4dc82d4a6e"
+              }
+            },
+            {
+              "source": {
+                "block": "f510dbe7-dd9a-4c15-9c11-13a4920e43fc",
+                "port": "out_blank"
+              },
+              "target": {
+                "block": "df655023-2e84-4601-918d-656015462d1f",
+                "port": "18c2ebc7-5152-439c-9b3f-851c59bac834"
+              }
+            },
+            {
+              "source": {
+                "block": "df655023-2e84-4601-918d-656015462d1f",
+                "port": "664caf9e-5f40-4df4-800a-b626af702e62"
+              },
+              "target": {
+                "block": "38427160-7643-444c-a259-88a8b8d1a807",
+                "port": "177d44f1-545d-4dbd-ac29-1269435d36ed"
+              }
+            },
+            {
+              "source": {
+                "block": "df655023-2e84-4601-918d-656015462d1f",
+                "port": "664caf9e-5f40-4df4-800a-b626af702e62"
+              },
+              "target": {
+                "block": "4d14323d-4ea5-4ec4-a5c2-f6c27ff03c6c",
+                "port": "177d44f1-545d-4dbd-ac29-1269435d36ed"
+              }
+            },
+            {
+              "source": {
+                "block": "df655023-2e84-4601-918d-656015462d1f",
+                "port": "664caf9e-5f40-4df4-800a-b626af702e62"
+              },
+              "target": {
+                "block": "909e6d90-570c-4384-ad8c-775bcc1371d6",
+                "port": "177d44f1-545d-4dbd-ac29-1269435d36ed"
+              }
+            },
+            {
+              "source": {
+                "block": "2b501da6-62b0-4cc4-815f-945fa81e35a2",
+                "port": "out"
+              },
+              "target": {
+                "block": "38427160-7643-444c-a259-88a8b8d1a807",
+                "port": "83200c4d-8db1-4075-857e-2450b35a653a"
+              },
+              "size": 8
+            },
+            {
+              "source": {
+                "block": "0badf6c9-21be-411b-8baa-6e91dc5feae3",
+                "port": "out"
+              },
+              "target": {
+                "block": "4d14323d-4ea5-4ec4-a5c2-f6c27ff03c6c",
+                "port": "83200c4d-8db1-4075-857e-2450b35a653a"
+              },
+              "size": 8
+            },
+            {
+              "source": {
+                "block": "ed51d514-0665-4451-9982-7dadf1d7e852",
+                "port": "out"
+              },
+              "target": {
+                "block": "909e6d90-570c-4384-ad8c-775bcc1371d6",
+                "port": "83200c4d-8db1-4075-857e-2450b35a653a"
+              },
+              "size": 8
+            },
+            {
+              "source": {
+                "block": "fa347433-0215-454f-b8c4-3edcd2e904d4",
+                "port": "19c8f68d-5022-487f-9ab0-f0a3cd58bead"
+              },
+              "target": {
+                "block": "38427160-7643-444c-a259-88a8b8d1a807",
+                "port": "08915b52-54aa-457b-8578-68d777b8f819"
+              }
+            },
+            {
+              "source": {
+                "block": "fa347433-0215-454f-b8c4-3edcd2e904d4",
+                "port": "19c8f68d-5022-487f-9ab0-f0a3cd58bead"
+              },
+              "target": {
+                "block": "38427160-7643-444c-a259-88a8b8d1a807",
+                "port": "30ae1574-4071-4ad1-bce2-99985a8e8f0f"
+              }
+            },
+            {
+              "source": {
+                "block": "f6820735-f223-45b4-afc8-08f70c1f68a2",
+                "port": "19c8f68d-5022-487f-9ab0-f0a3cd58bead"
+              },
+              "target": {
+                "block": "4d14323d-4ea5-4ec4-a5c2-f6c27ff03c6c",
+                "port": "08915b52-54aa-457b-8578-68d777b8f819"
+              }
+            },
+            {
+              "source": {
+                "block": "f6820735-f223-45b4-afc8-08f70c1f68a2",
+                "port": "19c8f68d-5022-487f-9ab0-f0a3cd58bead"
+              },
+              "target": {
+                "block": "4d14323d-4ea5-4ec4-a5c2-f6c27ff03c6c",
+                "port": "30ae1574-4071-4ad1-bce2-99985a8e8f0f"
+              }
+            },
+            {
+              "source": {
+                "block": "f510dbe7-dd9a-4c15-9c11-13a4920e43fc",
+                "port": "out_vsync"
+              },
+              "target": {
+                "block": "909e6d90-570c-4384-ad8c-775bcc1371d6",
+                "port": "08915b52-54aa-457b-8578-68d777b8f819"
+              },
+              "vertices": [
+                {
+                  "x": 520,
+                  "y": 608
+                },
+                {
+                  "x": 784,
+                  "y": 624
+                }
+              ]
+            },
+            {
+              "source": {
+                "block": "f510dbe7-dd9a-4c15-9c11-13a4920e43fc",
+                "port": "out_hsync"
+              },
+              "target": {
+                "block": "909e6d90-570c-4384-ad8c-775bcc1371d6",
+                "port": "30ae1574-4071-4ad1-bce2-99985a8e8f0f"
+              },
+              "vertices": [
+                {
+                  "x": 560,
+                  "y": 424
+                }
+              ]
+            },
+            {
+              "source": {
+                "block": "909e6d90-570c-4384-ad8c-775bcc1371d6",
+                "port": "d2fbf1ea-4f02-45d9-be5b-93ab007c741d"
+              },
+              "target": {
+                "block": "f8a915ea-a8ec-44ec-a256-1f6b415c2a27",
+                "port": "tmds_blue"
+              },
+              "vertices": [
+                {
+                  "x": 1160,
+                  "y": 568
+                }
+              ],
+              "size": 10
+            },
+            {
+              "source": {
+                "block": "89c998ce-e619-4976-9ef2-0fa0d21336b0",
+                "port": "out"
+              },
+              "target": {
+                "block": "f8a915ea-a8ec-44ec-a256-1f6b415c2a27",
+                "port": "tmds_clk"
+              }
+            },
+            {
+              "source": {
+                "block": "f8a915ea-a8ec-44ec-a256-1f6b415c2a27",
+                "port": "out_tmds_red"
+              },
+              "target": {
+                "block": "8f37d1b7-81c7-4e77-a70f-5677b75fb7fb",
+                "port": "in"
+              },
+              "size": 2
+            },
+            {
+              "source": {
+                "block": "f8a915ea-a8ec-44ec-a256-1f6b415c2a27",
+                "port": "out_tmds_green"
+              },
+              "target": {
+                "block": "418c1b68-f95e-4ca1-bf3f-dc18eb2481c8",
+                "port": "in"
+              },
+              "size": 2
+            },
+            {
+              "source": {
+                "block": "f8a915ea-a8ec-44ec-a256-1f6b415c2a27",
+                "port": "out_tmds_blue"
+              },
+              "target": {
+                "block": "d9458bc6-e414-4691-a36b-327ff5a4b7bb",
+                "port": "in"
+              },
+              "size": 2
+            },
+            {
+              "source": {
+                "block": "f8a915ea-a8ec-44ec-a256-1f6b415c2a27",
+                "port": "out_tmds_clk"
+              },
+              "target": {
+                "block": "6976e704-b765-4dd7-a319-4cf25f8e28ec",
+                "port": "in"
+              },
+              "size": 2
+            },
+            {
+              "source": {
+                "block": "38427160-7643-444c-a259-88a8b8d1a807",
+                "port": "d2fbf1ea-4f02-45d9-be5b-93ab007c741d"
+              },
+              "target": {
+                "block": "f8a915ea-a8ec-44ec-a256-1f6b415c2a27",
+                "port": "tmds_red"
+              },
+              "size": 10
+            },
+            {
+              "source": {
+                "block": "4d14323d-4ea5-4ec4-a5c2-f6c27ff03c6c",
+                "port": "d2fbf1ea-4f02-45d9-be5b-93ab007c741d"
+              },
+              "target": {
+                "block": "f8a915ea-a8ec-44ec-a256-1f6b415c2a27",
+                "port": "tmds_green"
+              },
+              "size": 10
+            },
+            {
+              "source": {
+                "block": "f510dbe7-dd9a-4c15-9c11-13a4920e43fc",
+                "port": "out_hcnt"
+              },
+              "target": {
+                "block": "4f943a2b-78c6-4818-8358-82eac3707277",
+                "port": "in"
+              },
+              "vertices": [
+                {
+                  "x": 928,
+                  "y": -240
+                }
+              ],
+              "size": 11
+            },
+            {
+              "source": {
+                "block": "f510dbe7-dd9a-4c15-9c11-13a4920e43fc",
+                "port": "out_vcnt"
+              },
+              "target": {
+                "block": "9d63d0fa-8408-41a7-9932-245fad4c7dfe",
+                "port": "in"
+              },
+              "size": 11
+            },
+            {
+              "source": {
+                "block": "f510dbe7-dd9a-4c15-9c11-13a4920e43fc",
+                "port": "out_blank"
+              },
+              "target": {
+                "block": "2720a2e9-7d0e-4c90-8193-472274d1ef02",
+                "port": "in"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "c83dcd1d9ab420d911df81b3dfae04681559c623": {
+      "package": {
+        "name": "Bit 1",
+        "version": "1.0.0",
+        "description": "Assign 1 to the output wire",
+        "author": "Jesús Arroyo",
+        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%2247.303%22%20height=%2227.648%22%20viewBox=%220%200%2044.346456%2025.919999%22%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22325.218%22%20y=%22315.455%22%20font-weight=%22400%22%20font-size=%2212.669%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20transform=%22translate(-307.01%20-298.51)%22%3E%3Ctspan%20x=%22325.218%22%20y=%22315.455%22%20style=%22-inkscape-font-specification:'Courier%2010%20Pitch'%22%20font-family=%22Courier%2010%20Pitch%22%3E1%3C/tspan%3E%3C/text%3E%3C/svg%3E"
+      },
+      "design": {
+        "graph": {
+          "blocks": [
+            {
+              "id": "19c8f68d-5022-487f-9ab0-f0a3cd58bead",
+              "type": "basic.output",
+              "data": {
+                "name": ""
+              },
+              "position": {
+                "x": 608,
+                "y": 192
+              }
+            },
+            {
+              "id": "b959fb96-ac67-4aea-90b3-ed35a4c17bf5",
+              "type": "basic.code",
+              "data": {
+                "code": "// Bit 1\n\nassign v = 1'b1;",
+                "params": [],
+                "ports": {
+                  "in": [],
+                  "out": [
+                    {
+                      "name": "v"
+                    }
+                  ]
+                }
+              },
+              "position": {
+                "x": 96,
+                "y": 96
+              },
+              "size": {
+                "width": 384,
+                "height": 256
+              }
+            }
+          ],
+          "wires": [
+            {
+              "source": {
+                "block": "b959fb96-ac67-4aea-90b3-ed35a4c17bf5",
+                "port": "v"
+              },
+              "target": {
+                "block": "19c8f68d-5022-487f-9ab0-f0a3cd58bead",
+                "port": "in"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "96f0988f8164f7c1b216c8ee122d6ce3cf6bc139": {
+      "package": {
+        "name": "NOT",
+        "version": "1.0.0",
+        "description": "NOT logic gate",
+        "author": "Jesús Arroyo",
+        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%2291.33%22%20height=%2245.752%22%20version=%221%22%3E%3Cpath%20d=%22M0%2020.446h27v2H0zM70.322%2020.447h15.3v2h-15.3z%22/%3E%3Cpath%20d=%22M66.05%2026.746c-2.9%200-5.3-2.4-5.3-5.3s2.4-5.3%205.3-5.3%205.3%202.4%205.3%205.3-2.4%205.3-5.3%205.3zm0-8.6c-1.8%200-3.3%201.5-3.3%203.3%200%201.8%201.5%203.3%203.3%203.3%201.8%200%203.3-1.5%203.3-3.3%200-1.8-1.5-3.3-3.3-3.3z%22/%3E%3Cpath%20d=%22M25.962%202.563l33.624%2018.883L25.962%2040.33V2.563z%22%20fill=%22none%22%20stroke=%22#000%22%20stroke-width=%223%22/%3E%3C/svg%3E"
+      },
+      "design": {
+        "graph": {
+          "blocks": [
+            {
+              "id": "18c2ebc7-5152-439c-9b3f-851c59bac834",
+              "type": "basic.input",
+              "data": {
+                "name": ""
+              },
+              "position": {
+                "x": 64,
+                "y": 144
+              }
+            },
+            {
+              "id": "664caf9e-5f40-4df4-800a-b626af702e62",
+              "type": "basic.output",
+              "data": {
+                "name": ""
+              },
+              "position": {
+                "x": 752,
+                "y": 144
+              }
+            },
+            {
+              "id": "5365ed8c-e5db-4445-938f-8d689830ea5c",
+              "type": "basic.code",
+              "data": {
+                "code": "// NOT logic gate\n\nassign c = ~ a;",
+                "params": [],
+                "ports": {
+                  "in": [
+                    {
+                      "name": "a"
+                    }
+                  ],
+                  "out": [
+                    {
+                      "name": "c"
+                    }
+                  ]
+                }
+              },
+              "position": {
+                "x": 256,
+                "y": 48
+              },
+              "size": {
+                "width": 384,
+                "height": 256
+              }
+            }
+          ],
+          "wires": [
+            {
+              "source": {
+                "block": "18c2ebc7-5152-439c-9b3f-851c59bac834",
+                "port": "out"
+              },
+              "target": {
+                "block": "5365ed8c-e5db-4445-938f-8d689830ea5c",
+                "port": "a"
+              }
+            },
+            {
+              "source": {
+                "block": "5365ed8c-e5db-4445-938f-8d689830ea5c",
+                "port": "c"
+              },
+              "target": {
+                "block": "664caf9e-5f40-4df4-800a-b626af702e62",
+                "port": "in"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "c4dd08263a85a91ba53e2ae2b38de344c5efcb52": {
+      "package": {
+        "name": "Bit 0",
+        "version": "1.0.0",
+        "description": "Assign 0 to the output wire",
+        "author": "Jesús Arroyo",
+        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%2247.303%22%20height=%2227.648%22%20viewBox=%220%200%2044.346456%2025.919999%22%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22325.37%22%20y=%22315.373%22%20font-weight=%22400%22%20font-size=%2212.669%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20transform=%22translate(-307.01%20-298.51)%22%3E%3Ctspan%20x=%22325.37%22%20y=%22315.373%22%20style=%22-inkscape-font-specification:'Courier%2010%20Pitch'%22%20font-family=%22Courier%2010%20Pitch%22%3E0%3C/tspan%3E%3C/text%3E%3C/svg%3E"
+      },
+      "design": {
+        "graph": {
+          "blocks": [
+            {
+              "id": "19c8f68d-5022-487f-9ab0-f0a3cd58bead",
+              "type": "basic.output",
+              "data": {
+                "name": ""
+              },
+              "position": {
+                "x": 608,
+                "y": 192
+              }
+            },
+            {
+              "id": "b959fb96-ac67-4aea-90b3-ed35a4c17bf5",
+              "type": "basic.code",
+              "data": {
+                "code": "// Bit 0\n\nassign v = 1'b0;",
+                "params": [],
+                "ports": {
+                  "in": [],
+                  "out": [
+                    {
+                      "name": "v"
+                    }
+                  ]
+                }
+              },
+              "position": {
+                "x": 96,
+                "y": 96
+              },
+              "size": {
+                "width": 384,
+                "height": 256
+              }
+            }
+          ],
+          "wires": [
+            {
+              "source": {
+                "block": "b959fb96-ac67-4aea-90b3-ed35a4c17bf5",
+                "port": "v"
+              },
+              "target": {
+                "block": "19c8f68d-5022-487f-9ab0-f0a3cd58bead",
+                "port": "in"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "cb4e6dba1c122f13b57d602a7e869258a1cef893": {
+      "package": {
+        "name": "tmds_encoder",
+        "version": "",
+        "description": "",
+        "author": "",
+        "image": ""
+      },
+      "design": {
+        "graph": {
+          "blocks": [
+            {
+              "id": "ddf5cdad-539e-4c2e-b9f5-de4dc82d4a6e",
+              "type": "basic.input",
+              "data": {
+                "name": "clk",
+                "clock": false
+              },
+              "position": {
+                "x": 424,
+                "y": 168
+              }
+            },
+            {
+              "id": "177d44f1-545d-4dbd-ac29-1269435d36ed",
+              "type": "basic.input",
+              "data": {
+                "name": "DE",
+                "clock": false
+              },
+              "position": {
+                "x": 432,
+                "y": 256
+              }
+            },
+            {
+              "id": "83200c4d-8db1-4075-857e-2450b35a653a",
+              "type": "basic.input",
+              "data": {
+                "name": "D",
+                "range": "[7:0]",
+                "clock": false,
+                "size": 8
+              },
+              "position": {
+                "x": 432,
+                "y": 352
+              }
+            },
+            {
+              "id": "d2fbf1ea-4f02-45d9-be5b-93ab007c741d",
+              "type": "basic.output",
+              "data": {
+                "name": "q_out",
+                "range": "[9:0]",
+                "size": 10
+              },
+              "position": {
+                "x": 1160,
+                "y": 352
+              }
+            },
+            {
+              "id": "08915b52-54aa-457b-8578-68d777b8f819",
+              "type": "basic.input",
+              "data": {
+                "name": "C1",
+                "clock": false
+              },
+              "position": {
+                "x": 440,
+                "y": 448
+              }
+            },
+            {
+              "id": "30ae1574-4071-4ad1-bce2-99985a8e8f0f",
+              "type": "basic.input",
+              "data": {
+                "name": "C0",
+                "clock": false
+              },
+              "position": {
+                "x": 440,
+                "y": 536
+              }
+            },
+            {
+              "id": "10297cc2-a310-415d-b6f4-423124baa4f9",
+              "type": "basic.code",
+              "data": {
+                "code": "//Copyright (C) 2021 Hirosh Dabui hirosh@dabui.de\r\n\r\nparameter LEGACY_DVI_CONTROL_LUT = 0;\r\nreg[9:0] q_out;\r\nfunction [3:0] N0;\r\n    input [7:0] d;\r\n    integer i;\r\n    begin\r\n        N0 = 0;\r\n        for (i = 0; i < 8; i=i+1)\r\n            N0 = N0 + !d[i];\r\n    end\r\nendfunction\r\n\r\nfunction [3:0] N1;\r\n    input [7:0] d;\r\n    integer i;\r\n    begin\r\n        N1 = 0;\r\n        for (i = 0; i < 8; i=i+1)\r\n            N1 = N1 + d[i];\r\n    end\r\nendfunction\r\n\r\nreg signed [7:0] cnt_prev = 0;\r\nreg signed [7:0] cnt = 0;\r\n\r\nreg [8:0] q_m;\r\n\r\nalways @(*) begin\r\n\r\n    if ( (N1(D) > 4) | (N1(D) == 4) & (D[0] == 0) ) begin\r\n\r\n        q_m[0] =           D[0];\r\n        q_m[1] = q_m[0] ~^ D[1];\r\n        q_m[2] = q_m[1] ~^ D[2];\r\n        q_m[3] = q_m[2] ~^ D[3];\r\n        q_m[4] = q_m[3] ~^ D[4];\r\n        q_m[5] = q_m[4] ~^ D[5];\r\n        q_m[6] = q_m[5] ~^ D[6];\r\n        q_m[7] = q_m[6] ~^ D[7];\r\n        q_m[8] = 1'b0;\r\n\r\n    end else begin\r\n\r\n        q_m[0] =          D[0];\r\n        q_m[1] = q_m[0] ^ D[1];\r\n        q_m[2] = q_m[1] ^ D[2];\r\n        q_m[3] = q_m[2] ^ D[3];\r\n        q_m[4] = q_m[3] ^ D[4];\r\n        q_m[5] = q_m[4] ^ D[5];\r\n        q_m[6] = q_m[5] ^ D[6];\r\n        q_m[7] = q_m[6] ^ D[7];\r\n        q_m[8] = 1'b1;\r\n\r\n    end /* (N1(D) > 4) | (N1(D) == 4) & (D[0] == 0) */\r\n\r\nend\r\n\r\nalways @(posedge clk) begin\r\n\r\n    if (DE) begin\r\n\r\n        if ((cnt_prev == 0) | (N1(q_m[7:0]) == N0(q_m[7:0]))) begin\r\n\r\n            q_out[9]   <= ~q_m[8];\r\n            q_out[8]   <=  q_m[8];\r\n            q_out[7:0] <= q_m[8] ? q_m[7:0] : ~q_m[7:0];\r\n\r\n            if (q_m[8] == 0) begin\r\n                cnt = cnt_prev + (N0(q_m[7:0]) - N1(q_m[7:0]));\r\n            end else begin\r\n                cnt = cnt_prev + (N1(q_m[7:0]) - N0(q_m[7:0]));\r\n            end /*q_m[8] == 0*/\r\n\r\n        end else begin\r\n\r\n            if ( (cnt_prev > 0 & (N1(q_m[7:0]) > N0(q_m[7:0]))) |\r\n                    (cnt_prev < 0 & (N0(q_m[7:0]) > N1(q_m[7:0]))) ) begin\r\n                q_out[9] <= 1;\r\n                q_out[8] <= q_m[8];\r\n                q_out[7:0] <= ~q_m[7:0];\r\n                cnt = cnt_prev + 2*q_m[8] + (N0(q_m[7:0]) - N1(q_m[7:0]));\r\n            end else begin\r\n                q_out[9] <= 0;\r\n                q_out[8] <= q_m[8];\r\n                q_out[7:0] <= q_m[7:0];\r\n                cnt = cnt_prev + 2*(~q_m[8]) + (N1(q_m[7:0]) - N0(q_m[7:0]));\r\n            end /*\r\n                (cnt_prev > 0 & N1(q_m[7:0]) > N0(q_m[7:0]))) |\r\n                (cnt_prev < 0 & N0(q_m[7:0]) > N1(q_m[7:0])))\r\n              */\r\n\r\n        end /* ((cnt_prev == 0) | (N1(q_m[7:0]) == N0(q_m[7:0]))) */\r\n\r\n    end else begin\r\n        /* !DE */\r\n        cnt = 0;\r\n        /* hsync -> c0 | vsync -> c1 */\r\n        case ({C1, C0})\r\n`ifdef LEGACY_DVI_CONTROL_LUT\r\n            /* dvi control data lut */\r\n            2'b00: q_out <= 10'b00101_01011;\r\n            2'b01: q_out <= 10'b11010_10100;\r\n            2'b10: q_out <= 10'b00101_01010;\r\n            2'b11: q_out <= 10'b11010_10101;\r\n`else\r\n            /* hdmi control data period */\r\n            2'b00: q_out <= 10'b1101010100;\r\n            2'b01: q_out <= 10'b0010101011;\r\n            2'b10: q_out <= 10'b0101010100;\r\n            2'b11: q_out <= 10'b1010101011;\r\n`endif\r\n        endcase\r\n\r\n    end /* DE */\r\n\r\n    cnt_prev <= cnt;\r\n\r\nend\r\n",
+                "params": [],
+                "ports": {
+                  "in": [
+                    {
+                      "name": "clk"
+                    },
+                    {
+                      "name": "DE"
+                    },
+                    {
+                      "name": "D",
+                      "range": "[7:0]",
+                      "size": 8
+                    },
+                    {
+                      "name": "C1"
+                    },
+                    {
+                      "name": "C0"
+                    }
+                  ],
+                  "out": [
+                    {
+                      "name": "q_out",
+                      "range": "[9:0]",
+                      "size": 10
+                    }
+                  ]
+                }
+              },
+              "position": {
+                "x": 600,
+                "y": 152
+              },
+              "size": {
+                "width": 480,
+                "height": 464
+              }
+            }
+          ],
+          "wires": [
+            {
+              "source": {
+                "block": "10297cc2-a310-415d-b6f4-423124baa4f9",
+                "port": "q_out"
+              },
+              "target": {
+                "block": "d2fbf1ea-4f02-45d9-be5b-93ab007c741d",
+                "port": "in"
+              },
+              "size": 10
+            },
+            {
+              "source": {
+                "block": "ddf5cdad-539e-4c2e-b9f5-de4dc82d4a6e",
+                "port": "out"
+              },
+              "target": {
+                "block": "10297cc2-a310-415d-b6f4-423124baa4f9",
+                "port": "clk"
+              }
+            },
+            {
+              "source": {
+                "block": "177d44f1-545d-4dbd-ac29-1269435d36ed",
+                "port": "out"
+              },
+              "target": {
+                "block": "10297cc2-a310-415d-b6f4-423124baa4f9",
+                "port": "DE"
+              }
+            },
+            {
+              "source": {
+                "block": "83200c4d-8db1-4075-857e-2450b35a653a",
+                "port": "out"
+              },
+              "target": {
+                "block": "10297cc2-a310-415d-b6f4-423124baa4f9",
+                "port": "D"
+              },
+              "size": 8
+            },
+            {
+              "source": {
+                "block": "08915b52-54aa-457b-8578-68d777b8f819",
+                "port": "out"
+              },
+              "target": {
+                "block": "10297cc2-a310-415d-b6f4-423124baa4f9",
+                "port": "C1"
+              }
+            },
+            {
+              "source": {
+                "block": "30ae1574-4071-4ad1-bce2-99985a8e8f0f",
+                "port": "out"
+              },
+              "target": {
+                "block": "10297cc2-a310-415d-b6f4-423124baa4f9",
+                "port": "C0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "215c2916a835b74d09e6348d0d037d2c0f1fc7ef": {
       "package": {
         "name": "sobel_convolution",
         "version": "",
         "description": "pipelined sobel convolution logic",
-        "author": "",
-        "image": "%3Csvg%20version=%221%22%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221681.333%22%20height=%22468%22%20viewBox=%220%200%201261.000000%20351.000000%22%3E%3Cpath%20d=%22M344%2015.7c-6.6%201.1-15.5%204.9-20%208.4-16.3%2012.8-16.8%2039.2-1%2053.1%202.7%202.5%2011%207.2%2020.7%2011.9%2018.7%209.1%2021.3%2011.5%2021.3%2019.3%200%209.4-6%2014.5-18.1%2015.4-8.6.6-15.4-1-25.7-6-4.5-2.2-8.8-3.8-9.6-3.5-1.9.7-3%208.5-2.2%2014.5.4%203.7%201.3%205.3%203.8%207.5%204.7%204%2017.5%207.8%2028.3%208.4%2021.8%201.2%2039.1-7.1%2046.7-22.5%203.1-6.2%203.3-7.4%203.3-16.7%200-9.5-.2-10.3-3.5-16.4-5.3-9.8-8.8-12.2-37.8-25.8-10.9-5.1-15.2-12.6-11.6-19.9%203.2-6.4%206.3-7.9%2016.2-7.9%207.8%200%209.7.4%2018.1%203.9%205.2%202.1%209.7%203.4%2010.2%202.9%201.5-1.5%202.2-11.7%201-16-.9-3.5-1.8-4.5-5.5-6.2-8.3-4.1-24.5-6.1-34.6-4.4zM450.5%2016.6c-21.4%204.6-36%2018.8-42.2%2041.4-2.5%209.4-2.5%2037.6.1%2047.5%206.7%2025.5%2022.7%2037.7%2051.6%2039.2%2034.2%201.8%2056.6-14.7%2063.2-46.4%201.7-8.1%201.9-12.2%201.5-23.8-.8-21-5.1-33.7-14.8-44-12.2-12.9-36.8-18.6-59.4-13.9zm30.9%2022.8c6.5%203.2%2010.4%207.8%2013.7%2016.5%201.8%204.5%202.3%208.3%202.6%2020.1.7%2020.8-2.1%2031.3-10.4%2039.6-6.1%206.1-11.2%207.9-22.8%207.9-8.8-.1-10.6-.4-15-2.7-7.3-3.8-10.8-8.1-14.1-17.8-2.6-7.6-2.8-35.7-.2-44%203.4-10.9%2010.4-18.5%2020-21.6%207.1-2.3%2019.3-1.4%2026.2%202zM759.8%2017.1l-2.8%201.1V138.9l2.6%202c2.6%202%203.8%202.1%2033.5%202.1%2035.5%200%2032.9.8%2032.9-10.5%200-11%201.2-10.5-22.5-10.5H783V70.6c0-45.7-.2-51.5-1.6-52.7-2-1.6-17.9-2.3-21.6-.8zM550.5%2018.2c-1.1.6-2.3%201.6-2.7%202.2-.4.6-.8%2027.5-.8%2059.8%200%2063.9-.3%2060.9%205.5%2062.4%201.4.3%2013.4.4%2026.7.2%2023.1-.4%2024.7-.6%2032.3-3.1%2017.6-5.9%2026.5-17.4%2026.5-34.3%200-12.8-7.4-24.3-18.1-28.1-4.3-1.6-6.5-3.3-4-3.3.5%200%203.1-2%205.9-4.5%206-5.4%208.5-11.2%208.6-19.9.1-8.6-2-14.8-6.7-20.2-5-5.6-11.7-9.1-21.4-11-9.4-1.8-48.7-1.9-51.8-.2zM598%2038.5c5%203%207.2%207.7%206.7%2014.8-.4%206.1-2.2%209.5-7.1%2013.1-2.3%201.8-4.5%202.2-14.2%202.4l-11.4.4V35.8l11.3.3c9%20.3%2011.9.8%2014.7%202.4zm4.6%2052.3c9.9%205.1%2012%2018.8%204%2026.8-4.3%204.3-8.9%205.4-22.8%205.4H572V87.8l13.3.4c11.1.3%2013.9.8%2017.3%202.6zM661.6%2019.1l-2.6%202v117.8l2.6%202c2.6%202%203.8%202.1%2035.9%202.1%2029.3%200%2033.4-.2%2034.6-1.6.8-1%201.3-4.2%201.3-8.4%200-10.5%201.2-10-26-10H684V87h20c23%200%2022%20.5%2022-10s1-10-22-10h-20V37h23.5c27%200%2025.5.6%2025.5-10%200-10.8%202.9-10-35.4-10-32.2%200-33.4.1-36%202.1zM51%20201.6C30.6%20206%2015.6%20221.3%209.4%20244c-2.6%209.2-2.6%2035.8-.1%2045%207.2%2026.7%2025.8%2040.9%2053.4%2041%2014.5%200%2033.1-6.2%2036-12%201.3-2.6%201.8-15.6.7-18.4-.9-2.3-3.1-2-8.5%201.4-8.6%205.2-16.3%207.3-25.4%206.7-18.3-1.1-28-11.8-30.5-33.6-1.1-9.8-.1-21.8%202.5-29.6%202.4-6.9%203.1-8.2%208.2-13.7%2010.6-11.2%2027.1-11.8%2044.2-1.4%203.2%202%206.3%203.6%206.9%203.6%201.9%200%203.5-7.1%202.9-13.7-.4-4.9-1-7-2.8-9-7.8-8.3-29.1-12.4-45.9-8.7zM157.5%20201.6c-21.4%204.6-36%2018.8-42.2%2041.4-2.5%209.4-2.5%2037.6.1%2047.5%206.7%2025.5%2022.7%2037.7%2051.6%2039.2%2034.2%201.8%2056.6-14.7%2063.2-46.4%201.7-8.1%201.9-12.2%201.5-23.8-.8-21-5.1-33.7-14.8-44-12.2-12.9-36.8-18.6-59.4-13.9zm30.9%2022.8c6.5%203.2%2010.4%207.8%2013.7%2016.5%201.8%204.5%202.3%208.3%202.6%2020.1.7%2020.8-2.1%2031.3-10.4%2039.6-6.1%206.1-11.2%207.9-22.8%207.9-8.8-.1-10.6-.4-15-2.7-7.3-3.8-10.8-8.1-14.1-17.8-2.6-7.6-2.8-35.7-.2-44%203.4-10.9%2010.4-18.5%2020-21.6%207.1-2.3%2019.3-1.4%2026.2%202zM542.5%20201.6c-21.4%204.6-36%2018.8-42.2%2041.4-2.5%209.4-2.5%2037.6.1%2047.5%206.7%2025.5%2022.7%2037.7%2051.6%2039.2%2034.2%201.8%2056.6-14.7%2063.2-46.4%201.7-8.1%201.9-12.2%201.5-23.8-.8-21-5.1-33.7-14.8-44-12.2-12.9-36.8-18.6-59.4-13.9zm30.9%2022.8c6.5%203.2%2010.4%207.8%2013.7%2016.5%201.8%204.5%202.3%208.3%202.6%2020.1.7%2020.8-2.1%2031.3-10.4%2039.6-6.1%206.1-11.2%207.9-22.8%207.9-8.8-.1-10.6-.4-15-2.7-7.3-3.8-10.8-8.1-14.1-17.8-2.6-7.6-2.8-35.7-.2-44%203.4-10.9%2010.4-18.5%2020-21.6%207.1-2.3%2019.3-1.4%2026.2%202zM1045.5%20201.6c-21.4%204.6-36%2018.8-42.2%2041.4-2.5%209.4-2.5%2037.6.1%2047.5%206.7%2025.5%2022.7%2037.7%2051.6%2039.2%2034.2%201.8%2056.6-14.7%2063.2-46.4%201.7-8.1%201.9-12.2%201.5-23.8-.8-21-5.1-33.7-14.8-44-12.2-12.9-36.8-18.6-59.4-13.9zm30.9%2022.8c6.5%203.2%2010.4%207.8%2013.7%2016.5%201.8%204.5%202.3%208.3%202.6%2020.1.7%2020.8-2.1%2031.3-10.4%2039.6-6.1%206.1-11.2%207.9-22.8%207.9-8.8-.1-10.6-.4-15-2.7-7.3-3.8-10.8-8.1-14.1-17.8-2.6-7.6-2.8-35.7-.2-44%203.4-10.9%2010.4-18.5%2020-21.6%207.1-2.3%2019.3-1.4%2026.2%202zM338%20202.3l-2.5%201.3v44.2c0%2024.3-.1%2044.2-.2%2044.2-.2%200-3.2-6-6.7-13.3-6.6-13.4-34.7-66-37.9-70.9-2.8-4.2-8.4-5.8-19.8-5.8-10.4%200-15%201.3-16.3%204.5-.3.9-.6%2028.4-.6%2061.1%200%2055.7.1%2059.5%201.8%2060.2%203.2%201.3%2017.8.8%2019.6-.7%201.6-1.4%201.7-4.9%201.4-48.8l-.3-47.3%205.1%2010.8c2.8%205.9%2011.4%2022.4%2019.1%2036.7%207.7%2014.3%2015.9%2029.6%2018.2%2034.1%202.3%204.4%205.7%209.6%207.7%2011.5%203.5%203.4%203.5%203.4%2014.4%203.7l10.9.4%203.1-3%203-3V203l-2.6-1c-3.6-1.4-14.4-1.2-17.4.3zM376.8%20201.7c-.9.2-1.9%201.1-2.2%202-.8%202.1%2039%20121.7%2041.1%20123.5%202.3%201.9%2028.3%201.9%2030.6%200%201.2-1.1%2041.7-119.8%2041.7-122.4%200-.4-.7-1.4-1.6-2.2-2.3-2.4-18.4-2.3-21.3.1-1.5%201.3-6%2014.5-17.1%2050.7-8.3%2027-15.2%2049.2-15.5%2049.4-.2.2-1.7-3.9-3.3-9.1-26.8-85.8-28.6-90.9-31-91.8-2.3-.9-18.2-1.1-21.4-.2zM641.8%20202.1l-2.8%201.1V323.9l2.6%202c2.6%202%203.8%202.1%2033.5%202.1%2035.5%200%2032.9.8%2032.9-10.5%200-11%201.2-10.5-22.5-10.5H665v-51.4c0-45.7-.2-51.5-1.6-52.7-2-1.6-17.9-2.3-21.6-.8zM726.8%20202.2l-2.8%201v43.3c0%2027.7.4%2045.3%201.1%2048.7%202.5%2012.1%2010.8%2023.7%2020.5%2028.6%2015.4%207.9%2041.2%208.1%2057.4.4%206.6-3.1%2015.8-12%2018.8-18.2%204.9-10.4%205.2-13.5%205.2-59.7%200-32.3-.3-43.4-1.2-43.9-2.2-1.4-16.4-1.7-20.2-.4l-3.6%201.2v41.7c0%2046.2-.3%2049-6.2%2055.7-9.2%2010.4-29%2011.2-38.7%201.5-7.3-7.3-7.4-8.3-8-56.6l-.6-42.9-2.5-.7c-3.8-1.1-16.1-.9-19.2.3zM957%20201.8l-2.5.8-.3%2062.2c-.2%2058.6-.1%2062.3%201.5%2063%202.3.9%2019.3.9%2021.6%200%201.6-.7%201.7-4.6%201.7-62.7%200-48.1-.3-62.2-1.2-62.7-1.7-1.1-17.7-1.5-20.8-.6zM1226%20202.3l-2.5%201.3v44.2c0%2024.3-.1%2044.2-.2%2044.2-.2%200-3.2-6-6.7-13.3-6.6-13.4-34.7-66-37.9-70.9-2.8-4.2-8.4-5.8-19.8-5.8-10.4%200-15%201.3-16.3%204.5-.3.9-.6%2028.4-.6%2061.1%200%2055.7.1%2059.5%201.8%2060.2%203.2%201.3%2017.8.8%2019.6-.7%201.6-1.4%201.7-4.9%201.4-48.8l-.3-47.3%205.1%2010.8c2.8%205.9%2011.4%2022.4%2019.1%2036.7%207.7%2014.3%2015.9%2029.6%2018.2%2034.1%202.3%204.4%205.7%209.6%207.7%2011.5%203.5%203.4%203.5%203.4%2014.4%203.7l10.9.4%203.1-3%203-3V203l-2.6-1c-3.6-1.4-14.4-1.2-17.4.3zM842.9%20206.2c-1.2%204.8-.6%2013.2%201.2%2015.4.9%201.1%204.7%201.4%2017.5%201.4H878v52c0%2048.6.1%2052.1%201.8%2052.8%202.2.9%2019.2.9%2021.5%200%201.6-.7%201.7-4.2%201.7-52.8v-52h16.4c13.6%200%2016.6-.3%2017.7-1.6%201.8-2.2%202.4-11.5.9-15.8l-1.2-3.6H844.1l-1.2%204.2z%22/%3E%3C/svg%3E"
+        "author": "Angelo Jacobo",
+        "image": "%3Csvg%20version=%221%22%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%222237.333%22%20height=%222325.333%22%20viewBox=%220%200%201678.000000%201744.000000%22%3E%3Cpath%20d=%22M460.5%2020.6c-11.6%201.8-25.6%208.4-32.5%2015.3-17.2%2017.2-16.8%2047.7%201%2065.1%204.4%204.4%209.3%207.4%2023.8%2014.9%2030.7%2015.7%2033.6%2018.2%2033.5%2029.2-.2%2012.8-7.8%2018.8-25.3%2019.7-11.4.5-17.9-1-31.9-7.2-5.3-2.4-10.6-4.6-11.8-5-3.5-1.1-4.8%202.5-4.8%2013.4%200%208.3.3%209.9%202.3%2012.7%202.8%203.9%2011.9%208.5%2022.7%2011.5%2010.7%202.9%2033.7%203.2%2043.5.5%2016.8-4.5%2029.9-14.7%2036.8-28.6%203.5-7.1%203.7-8.1%204.1-18.7.4-13.5-1-19.1-7.1-28.4-5.8-8.8-11.1-12.5-33.8-23.7-20.9-10.2-26.8-14.2-29.4-19.7-3.4-7.2-.7-16.6%206.1-21.2%206.8-4.6%2022.2-4.2%2035.8.9%2014.6%205.4%2016.2%205.8%2017.7%204%20.8-1%201.3-4.8%201.3-11.2%200-7.7-.4-10.3-1.8-12.5-3.7-5.6-19.5-10.3-36.9-11-5.7-.3-11.6-.2-13.3%200zM606.5%2021c-8.9%201.4-21.7%205.8-28.2%209.7-13%207.8-20.8%2016.4-27.8%2030.8-7.4%2015.2-8%2018.4-8%2047%200%2028.7.7%2032.8%208.1%2048.2%2010%2020.9%2026.8%2032%2053.8%2035.3%2020.1%202.6%2040.4-.3%2055.5-7.7%2010.7-5.3%2023.2-17.7%2028.9-28.8%208.9-17.5%2012.1-35.9%2010.3-59.8-2.1-28.8-7.1-42.1-20.8-56-6.9-6.9-19.6-13.6-31.8-16.8-9.2-2.3-30.4-3.3-40-1.9zm29.4%2029.6c10.4%203%2017.2%209.2%2022.2%2019.9%204.1%208.7%205%2014.8%205.1%2035.5.1%2026.2-2.7%2036.2-13%2047.2-6%206.4-12.3%209.5-21.9%2010.9-22.5%203.2-37.8-3.8-45.4-20.7-3.8-8.3-4.9-16.4-4.9-35.9%200-20.3%201-26.9%205.4-36.1%205.5-11.7%2015.5-20%2027-22.4%205.6-1.2%2018.9-.4%2025.5%201.6zM1011.8%2023.1l-2.8%201.1v80.2c0%2075.2.1%2080.4%201.8%2081.8%204.5%204%205.9%204.2%2038.2%204.6%2034.7.4%2048.6-.5%2050.7-3.4%201.4-1.9%201.8-19%20.5-21-2-3-5.5-3.4-30.6-3.4H1044l-.1-59.3c-.1-62.8-.6-77.8-2.7-79.9-1.6-1.6-25.6-2.2-29.4-.7zM735.4%2024c-6.2%201.9-5.9-2.8-5.9%2080.9%200%2080.2.1%2082.9%204.3%2084.6%202.6%201%2062.8.6%2069.8-.5%2020.2-3.2%2037.9-15.3%2043.5-29.7%203.1-8.1%203.8-24%201.4-31.5-3.9-11.9-10.8-19.6-22.2-24.8l-6.8-3.2%202.5-1.6c5.3-3.6%2011.8-10.4%2014.6-15.4%202.8-5%202.9-5.9%202.9-17.3%200-10.9-.2-12.5-2.7-17.7-3.4-7.2-10-13.8-17.7-17.8-11.2-5.6-15.6-6.2-49.6-6.6-18.2-.2-32.3.1-34.1.6zm59.8%2026.8c6.8%203%2010%207.8%2010.6%2016.1.5%208.1-.8%2012.9-5.1%2017.7-5%205.8-7.5%206.6-23.4%207.2l-14.3.5V47.7l13.9.6c10.8.4%2014.9.9%2018.3%202.5zM785%20117.9c15.2.9%2019.6%202.4%2024.5%208.3%204.3%205%205.8%209.5%205.3%2015.8-.8%2011.4-7.7%2018.9-19.1%2020.9-3.5.6-12.3%201.1-19.5%201.1H763v-47h4.3c2.3.1%2010.3.5%2017.7.9zM884.5%2024.4c-7%203-6.5-3.7-6.5%2082.5%200%2072.8.1%2077.9%201.8%2079.3%204.9%204.3%204.9%204.3%2048.7%204.3%2023.1%200%2043.2-.3%2044.7-.8%201.8-.5%203-1.7%203.5-3.5%201.2-4.2%201-17.9-.3-19.2-2.4-2.4-9.7-3-36.6-3H912v-47.9l26.1-.3%2026.1-.3%202-2.5c1.7-2.1%201.9-3.6%201.6-11.2-.2-5.1-.8-9.2-1.5-9.9-2-2-10.6-2.7-33-2.8L912%2089V49.1l31.1-.3c36.6-.4%2033.9.7%2033.9-12.7%200-4.7-.4-9.2-.8-9.9-1.8-2.7-8.7-3.2-48.2-3.2-31.4.1-41.2.4-43.5%201.4zM69.9%20268.4c-15%203.2-26.9%209.8-37.2%2020.7-8.5%208.9-12.8%2015.9-17.3%2027.8-3.9%2010.4-5.4%2021-5.4%2038.6%200%2024.7%203.6%2039.5%2012.9%2053.8%2017.8%2027.2%2052.3%2037.3%2088.6%2026%208.9-2.8%2017.4-7.4%2019.5-10.7%201.5-2.3%202.7-19.8%201.6-24.1-.9-3.7-4-3.2-13.7%201.9-11.2%205.9-17.5%207.6-27.8%207.6-23.2%200-36.4-10.3-42.2-32.7-5.9-22.9-2.1-51.9%208.6-65.5%2014.4-18.4%2036.7-20.6%2061.8-6.2%204.3%202.5%208.6%204.4%209.5%204.2%203.5-.7%205.4-14%203.3-23.2-1.7-7.1-9.5-12.7-23.1-16.6-9.7-2.8-29.6-3.6-39.1-1.6zM210%20268.9c-27.1%205.9-47.3%2024.9-55.4%2052.1-4.9%2016.1-4.3%2056.1%201%2071.8%207.2%2021.5%2020.3%2035.4%2039.2%2041.6%2012%203.9%2019.6%205%2035.2%204.9%2017.1-.1%2025.8-2%2039-8.4%2011.9-5.8%2023.8-17.8%2029.8-30%208.7-17.6%2011.9-39.9%209.3-65.1-1.6-15-3.5-22.6-8.3-32.8-7.8-16.2-22.3-27.5-42.5-33.1-11.3-3.1-35.4-3.6-47.3-1zm31.2%2027.2c17.8%203.8%2028.5%2016.9%2030.9%2038%201.4%2011.6.5%2038.6-1.4%2045.4-3.7%2013.2-11.4%2023.2-21.6%2028.2-5.3%202.7-6.3%202.8-20.1%202.8-14.1%200-14.7-.1-20.3-3-12.4-6.2-18.9-17.7-20.8-36.3-1.6-14.8-.5-38%202.1-46.4%204.6-14.8%2015.1-25.5%2028.5-28.8%204.6-1.2%2016.8-1.1%2022.7.1zM725%20268.5c-28.6%205.8-48.2%2023.7-56.9%2052-2.9%209.1-4.1%2029.7-3%2049.1.7%2012.1%201.4%2016%203.9%2023.7%203.9%2011.5%207.7%2018.2%2014.7%2025.7%2012.9%2014%2031.8%2020.5%2059.3%2020.4%2040.1-.2%2065.8-19.4%2076-56.9%203-11%203.9-38.5%201.6-53.2-5.3-34.9-22.3-53.6-55.1-60.4-10.7-2.2-30.5-2.4-40.5-.4zm36.1%2029.4c10.2%203.9%2017.3%2011.8%2022.1%2024.7%202%205.4%202.2%207.8%202.2%2028.9.1%2019.6-.2%2023.9-1.7%2029-2.8%208.8-5.3%2013.3-11.4%2019.6-8.1%208.5-12.8%2010.2-29%2010.7-13%20.4-13.4.3-19.6-2.6-3.5-1.6-8-4.4-10-6.2-4.5-3.9-10.3-15.4-11.9-23.5-1.4-7.8-1.5-41.3%200-48.7%203.1-16%2013.9-28.5%2028.7-33.5%206.1-2%2023.5-1.1%2030.6%201.6zM1397.8%20268c-25.8%204.6-44.6%2019-55.2%2042.2-6.3%2013.7-7.1%2018.5-7%2045.3%200%2020%20.3%2025.2%201.8%2030.8%205.7%2021.5%2016.1%2036%2031.6%2044.1%2013.6%207.2%2035.3%2010.6%2054.1%208.7%2020.7-2.2%2033.8-8%2046.5-20.6%206.6-6.6%208.9-9.8%2012.8-17.5%202.5-5.2%205.8-14%207.3-19.5%202.5-9.1%202.7-11.6%202.7-28-.1-49.1-14.1-72.3-49.9-83.1-7.8-2.3-11.1-2.7-24.5-3-8.5-.1-17.6.1-20.2.6zm27.4%2028.1c13%202.7%2022%2010.5%2027.2%2023.5%204.8%2012%205.9%2042.7%202.1%2059.1-3%2013-11.1%2024-21.4%2029-5.4%202.7-6.2%202.8-20.6%202.8-14.7%200-15.1-.1-20.2-2.9-11.6-6.4-18.2-17.2-20.4-33.1-1.5-11.6-.7-42.2%201.3-48.5%205-15.3%2013.5-24.8%2026.1-29.1%206-2.1%2017.9-2.5%2025.9-.8zM454.5%20268.7c-1.1.2-3.2.9-4.7%201.5l-2.8%201-.2%2058.7-.3%2058.6-12.2-24c-20.7-40.6-44.8-84.8-48.4-88.6-2.1-2.3-5.1-4.2-7.9-5-5.8-1.6-27.4-1.7-32.1-.1-7.5%202.6-7-4.3-6.7%2085%20.2%2044%20.7%2080.4%201.1%2080.9%201.1%201%2021.2%201.1%2024.8.1%201.9-.6%202.8-1.6%203.3-3.9.3-1.7.6-30.2.6-63.3v-60.1l10.3%2020.5c5.7%2011.3%2015.5%2029.9%2021.7%2041.5%206.2%2011.5%2014.9%2027.9%2019.4%2036.3%208.6%2016.2%2013.3%2023.2%2017.9%2026.6%202.4%201.8%204.7%202.1%2016.8%202.6l14%20.5%203.9-4%204-4.1V270.2l-4.4-1.1c-4.4-1.1-14.1-1.3-18.1-.4zM503.5%20268.7c-5.4%201.3-5.5.7%204.5%2032.3%2018.6%2058.7%2044.1%20132.5%2046.6%20135%201.2%201.2%204.9%201.5%2019.9%201.5%2015.1%200%2018.7-.3%2019.9-1.5%202-2.1%2012.3-31.3%2040.2-114.4%208.5-25.3%2015.4-47%2015.4-48.3%200-3.5-5.1-5.3-14.8-5.3-11.2%200-14.1.8-16.2%204.3-2.2%203.5-10.5%2029.1-28.1%2085.7-7.2%2023.4-13.4%2043.1-13.9%2043.9-1%201.9-1.9-.6-15.5-44.4-15.5-49.4-26.1-81.3-28.4-85.1-1.4-2.3-2.9-3.3-5.7-3.7-4.4-.8-20.9-.7-23.9%200zM858.1%20269c-2.5.5-4.8%201.3-5.3%201.8-.4.4-.7%2037-.6%2081.1l.3%2080.4%202.8%202.1c2.8%202.1%203.7%202.1%2043.9%202.1h41l2-2.5c1.7-2.1%201.9-3.6%201.6-11.7-.2-5.4-.8-9.7-1.5-10.4-2.1-2.1-10.2-2.8-33.5-2.8L886%20409v-66.9c0-38.7-.4-68-.9-69.4-.5-1.3-2-2.7-3.3-3-4.7-1.2-19.4-1.6-23.7-.7zM971.6%20269c-2.7.5-5.3%201.3-5.9%201.9-.6.6-.8%2022-.5%2060.8l.5%2059.8%202.7%207.9c9.3%2027.2%2029.1%2039.8%2063.1%2040%2021.8.1%2037-4.2%2048.8-13.9%2012.5-10.3%2018.7-21.2%2020.7-36.6%201.6-12.6.9-117.4-.8-119.1-1.6-1.6-24.5-1.7-28.4%200l-2.6%201.1-.4%2057.3c-.5%2066.3-.3%2064.4-9.2%2073.3-7.1%207.2-14.2%209.8-26.1%209.9-8.3.1-9.6-.2-15.7-3.2-7.6-3.7-14.2-10.4-15.8-16.1-2-6.7-2.9-25.4-3.6-73.8-.6-43.1-.8-48.3-2.3-48.8-2.7-1.1-19.3-1.4-24.5-.5zM1279%20268.6c-1.4.3-3.5.7-4.8%201l-2.3.5.3%2082.8c.2%2045.6.7%2083.3%201.1%2083.8%201.5%201.4%2028.4%201%2029.9-.5%201-1%201.4-15.9%201.6-73.5.4-79.2%200-92.3-2.6-93.1-2.6-.7-20.4-1.5-23.2-1zM1635.5%20269.5c-2.2.8-4.1%201.5-4.2%201.5-.2%200-.4%2026.4-.5%2058.7l-.3%2058.8-7.4-14.5c-8.3-16.4-28.9-55.3-42.3-80-4.9-9.1-10.2-17.7-11.8-19.2-4-3.7-9.6-5-22-5.2-12.7-.1-19%20.8-21.7%203.4-2%201.8-2.1%203.4-2.8%2052.7-.7%2046.6-.1%20105.4%201.1%20109.5.7%202.4%205.9%203.2%2016.6%202.6%206.5-.4%209.4-1%2010.6-2.2%201.6-1.5%201.7-7.3%201.7-64.1%200-34.3%200-62.3.1-62.2.1.1%205.3%2010.3%2011.6%2022.7%206.2%2012.4%2019.9%2038.4%2030.3%2057.9%2014.6%2027.2%2020.2%2036.8%2024.1%2041l5.2%205.6%2014.3.5%2014.4.6%204.3-4%204.2-4V270.2l-4.4-1.1c-6.1-1.5-16.3-1.3-21.1.4zM1124.1%20273.4c-1.4%205.7-1.4%2015.4%200%2019.4.6%201.7%202%203.2%203.2%203.6%201.2.3%2011.3.6%2022.5.6h20.2v47.2c0%2052.1.9%2090%202.1%2092%20.6%201%204.4%201.3%2014.8%201.3%207.7%200%2014.3-.4%2014.8-.8%201.6-1.7%202.1-20%202.2-79.5l.1-60.2h20.4c11.3%200%2021.6-.4%2022.9-.9%201.7-.7%202.8-2.1%203.2-4.2%201.1-4.8.8-15.5-.5-19.4l-1.2-3.5h-123.6l-1.1%204.4zM38.8%20495.7c-3.2.2-5.8.7-5.8%201.1%200%20.5-1.6%201.4-3.6%202.1-4.2%201.5-7.4%204-7.4%205.8%200%20.6-.8%201.4-1.9%201.8-1.8.5-3.1%204.3-3.1%209.1%200%201.5-.6%202.4-1.5%202.4-1.3%200-1.5%2056.8-1.5%20505.5s.2%20505.5%201.5%20505.5c1.1%200%201.5%201.2%201.5%204.4%200%202.6.6%205.1%201.5%206%20.8.8%201.5%201.8%201.5%202.2%200%20.6%203.8%204.2%206.5%206.2%202.4%201.7%206.8%203.2%209.5%203.2%201.7%200%203%20.4%203%201%200%20.7%20128.8%201%20384.5%201%20341.1%200%20384.5-.2%20384.5-1.5%200-.8-.4-1.5-.9-1.5s-1.2-1.8-1.6-4c-.4-2.2-1-4-1.5-4-.4%200-1.1-2.5-1.5-5.5-.4-3.8-1.1-5.5-2.1-5.5-.8%200-1.4-.9-1.4-2s-.4-2-.9-2-1.2-2.9-1.6-6.5c-.3-3.6-1.1-6.5-1.6-6.5s-.9-1.6-.9-3.5-.4-3.5-.9-3.5-1.2-3.6-1.6-8c-.4-4.4-1.1-8-1.6-8s-.9-2.2-.9-4.9c0-3.1-.5-5.1-1.2-5.3-1-.4-1.3-10-1.3-43.8s.3-43.4%201.3-43.7c.7-.3%201.2-2.2%201.2-4.9%200-2.4.4-4.4.9-4.4.4%200%201.1-3.7%201.5-8.3.4-4.5%201.1-8.4%201.6-8.5.6-.2%201-1.9%201-3.8s.4-3.4.9-3.4%201.3-2.5%201.6-5.5c.4-3%201.1-5.5%201.6-5.5s.9-1.1.9-2.5c0-1.5.6-2.5%201.4-2.5.9%200%201.6-1.8%202-5%20.4-2.7%201.1-5%201.6-5s1.2-2.3%201.6-5c.4-2.8%201-5%201.5-5s.9-.9.9-2%20.4-2%20.9-2%201.2-1.6%201.5-3.5c.4-1.9%201.1-3.5%201.6-3.5.6%200%201-.9%201-2s.4-2%20.9-2%201.2-1.6%201.5-3.5c.4-2.1%201.3-3.5%202.1-3.5s1.5-.9%201.5-2%20.4-2%201-2c.5%200%201.2-1.1%201.6-2.5.3-1.4%201-2.5%201.5-2.5s.9-.9.9-2%20.4-2%20.9-2%201.2-1.3%201.6-3c.4-1.6%201.1-3%201.6-3s.9-.7.9-1.5.4-1.5%201-1.5c.5%200%201.2-1.1%201.6-2.5.3-1.4%201-2.5%201.5-2.5s.9-.7.9-1.5.4-1.5.9-1.5%201.2-1.1%201.5-2.5c.4-1.4%201.1-2.5%201.6-2.5.6%200%201-.7%201-1.5s.4-1.5.9-1.5%201.2-1.3%201.6-2.9c.3-1.6%201.3-3.2%202.1-3.5.8-.3%201.4-1.1%201.4-1.8%200-.8.9-2%202-2.8%201.1-.8%202-2%202-2.6%200-.7%201.4-2.6%203-4.4%201.7-1.8%203-3.8%203-4.5%200-.8.9-1.7%202-2%201.1-.3%202-1.3%202-2.1s.7-1.7%201.5-2c.8-.4%201.5-1.2%201.5-1.9s.7-1.5%201.5-1.9c.8-.3%201.5-1.2%201.5-2%200-.9%201.1-1.8%202.5-2.2%201.4-.3%202.5-1.2%202.5-1.9s1.1-2.1%202.5-3.1%202.5-2.5%202.5-3.2c0-.7%201.1-1.8%202.5-2.4%201.4-.6%202.5-1.6%202.5-2.2%200-1.4%204.4-5.6%205.9-5.6.6%200%201.1-.5%201.1-1%200-1.3%203.2-4.5%205.9-6%201.2-.6%202.1-1.6%202.1-2.3%200-.7%201.2-2.1%202.6-3.1%201.4-1.1%203.7-3%205.2-4.3%201.5-1.3%203-2.3%203.5-2.3.4%200%20.7-.6.7-1.3%200-.6%201.1-2.1%202.5-3.2s3.5-2.9%204.8-4c1.3-1.1%203.4-2.7%204.6-3.5%201.3-.8%203.5-2.5%204.9-3.8%204.5-3.8%205.1-4.2%206.1-4.2.6%200%202.1-1%203.5-2.3%205.8-5.2%207.8-6.7%208.7-6.7%202%200%20.8-2-1.6-2.6-1.4-.3-2.5-1.2-2.5-2s-.4-1.4-.9-1.4c-.4%200-2-1-3.4-2.3-1.4-1.2-3.7-3.1-5.1-4.2-1.4-1.1-4.2-3.5-6.2-5.3-1.9-1.7-3.9-3.2-4.3-3.2-.5%200-2-1-3.4-2.3-2.9-2.6-9.1-7.8-12.7-10.7-3.6-2.9-9.8-8.1-12.7-10.8-1.4-1.2-3-2.2-3.6-2.2-.5%200-2.5-1.5-4.3-3.3-1.8-1.7-4.5-4.1-6-5.2-1.4-1.1-3.5-2.8-4.5-3.8-1.1-.9-2.3-1.7-2.8-1.7-.4%200-2-1-3.4-2.3-1.4-1.2-3.7-3.1-5.1-4.2-1.4-1.1-4.1-3.4-5.9-5-1.9-1.7-4.8-4.1-6.6-5.5-1.8-1.3-4.8-3.8-6.5-5.5-1.8-1.6-4.8-4.1-6.6-5.5-1.8-1.4-4.8-3.9-6.7-5.5-1.9-1.7-4.6-4-6-5.3-1.4-1.2-3.1-2.2-3.7-2.2-.6%200-1.9-.8-2.8-1.8-.8-.9-2.8-2.6-4.2-3.7-1.5-1.1-4.2-3.5-6.1-5.3-2-1.7-3.9-3.2-4.4-3.2-.4%200-2-1-3.4-2.3-1.4-1.2-3.7-3.1-5.1-4.2-1.4-1.1-4.1-3.4-5.9-5-1.9-1.7-4.9-4.1-6.7-5.5-1.9-1.4-4.6-3.7-6.2-5.2-1.5-1.5-3.7-3.2-4.9-3.8-2.2-1.2-4.2-2.8-9.5-7.5-1.9-1.7-4.6-3.9-6-5-1.4-1.1-3.7-2.9-4.9-4-1.3-1.1-3.5-2.9-4.9-4-5.2-4.1-10.6-8.7-19.5-16.6-2.4-2.1-5-3.9-5.8-3.9-.7%200-1.3-.5-1.3-1%200-.6-.6-1-1.3-1-.8%200-3.3-1.7-5.6-3.8-8-7.1-9.4-8.2-10.5-8.2-1.3%200-5%202.8-10.3%207.7-1.9%201.8-4%203.3-4.7%203.3-1.2%200-3.5%201.7-9.6%207.3-1.4%201.3-3.9%202.8-5.5%203.4-1.7.6-4.8%202.7-6.9%204.7-2.2%202-4.5%203.6-5.2%203.6-.8%200-2.9%201.5-4.8%203.2-5.8%205.4-8.7%207.8-9.8%207.8-.5%200-1.6.6-2.3%201.2-.8.7-2.6%202.2-4%203.3-1.4%201.1-3.5%202.8-4.7%203.7-1.2%201-2.8%201.8-3.6%201.8-.9%200-2.2.7-3.1%201.5-5.2%204.7-6.2%205.5-6.9%205.5-.4%200-1.5.9-2.5%202-.9%201.1-2.3%202-3%202-1.4%200-5.3%202.9-9.9%207.2-1.6%201.6-3.4%202.8-4.1%202.8-1.3%200-6.1%203.7-10.9%208.3-1.6%201.5-3.4%202.7-4.1%202.7-1.1%200-4.8%202.9-9.8%207.5-.9.8-2.3%201.5-3.2%201.5-1%200-2.5.8-3.6%201.7-1%201-3.1%202.7-4.5%203.8-1.5%201.1-3.3%202.6-4.1%203.2-.7.7-1.8%201.3-2.3%201.3-.8%200-3.1%201.8-8.2%206.4-.8.7-2.5%201.7-3.7%202-1.3.4-2.3%201.2-2.3%201.7s-.5.9-1.2.9c-.6%200-1.8.7-2.7%201.5-4.7%204.3-7.5%206.5-9.4%207.1-1.2.4-3.4%201.9-4.9%203.5-1.6%201.5-3.7%203.1-4.8%203.4-1.1.4-2%201-2%201.4%200%20.5-1.5%201.5-3.2%202.2-1.8.7-4.4%202.3-5.8%203.6-6.3%205.7-8.4%207.3-9.5%207.3-.7%200-2.8%201.5-4.7%203.2-5.6%205.1-7.4%206.5-9.6%207.2-1.1.4-3.6%202.1-5.5%203.9-5.8%205.3-7.7%206.7-9.2%206.7-.8%200-2.6%201.1-4.1%202.5-1.5%201.4-3.3%202.5-4%202.5-.8%200-1.4.5-1.4%201%200%20.6-1.2%201.6-2.7%202.3-1.6.6-3.4%201.6-4%202.2-.7.5-2.4%201.9-3.9%203-1.4%201.1-3.4%202.8-4.2%203.7-.9%201-2.3%201.8-3.2%201.8-.9%200-2.3.8-3.2%201.7-.9%201-2.9%202.7-4.3%203.8-1.5%201.1-3.3%202.6-4%203.2-.8.7-1.7%201.3-2.2%201.3-.4%200-2%201-3.5%202.3-5.8%204.9-6.4%205.4-8.1%206-.9.3-1.7%201.1-1.7%201.7%200%20.5-.8%201-1.7%201-1%200-3%201-4.4%202.3-5.4%204.5-8.4%206.7-9.2%206.7-.5%200-1.4.6-2.1%201.2-.7.7-2.8%202.4-4.6%203.8-1.9%201.4-4.1%203.3-4.9%204.2-.9%201-2.1%201.8-2.8%201.8-.7%200-2.3.9-3.6%202-4.7%204.3-5.3%204.8-7.4%205.4-1.3.4-2.3%201.1-2.3%201.6%200%20.4-1.1%201.1-2.5%201.4-1.4.4-3.4%201.4-4.4%202.4-4.2%203.8-7.3%206.2-8.2%206.2-1.1%200-1.9.6-8%206.2-2.2%202-5%204-6.2%204.4-1.1.4-3.2%201.7-4.6%203-6.2%205.6-8.5%207.4-9.7%207.4-.7%200-2.9%201.6-5%203.5-2%201.9-4.3%203.5-5.1%203.5-.7%200-1.6.6-1.9%201.4-.3.8-1.6%201.7-2.8%202-1.3.3-3.9%202-5.8%203.8-5.3%204.9-7.7%206.8-8.7%206.8-.4%200-1.7.8-2.9%201.7-5.5%204.8-9.5%207.3-11.2%207.3-.5%200-2.3%201.2-3.9%202.7-6.8%206.5-8%207.3-9.5%207.3-.9%200-1.9.7-2.2%201.5-.4.8-1.2%201.5-1.9%201.5-1.1%200-3.9%202.1-8.6%206.5-.9.8-2.2%201.5-3%201.5-.8%200-2.2.8-3.1%201.7-.8%201-2.8%202.7-4.2%203.8-1.5%201.1-3.3%202.6-4.1%203.2-.7.7-1.9%201.3-2.5%201.3-.6%200-2.6%201.6-4.6%203.5-1.9%201.9-4.1%203.5-4.9%203.5-.7%200-1.7.4-2%201-.3.5-1.7%201-3.1%201-1.3%200-2.4.4-2.4%201s-3.3%201-8%201-8-.4-8-1-1.1-1-2.4-1c-3.8%200-7.5-1.7-10.8-5-1.6-1.7-3.3-3-3.8-3s-1.2-1.6-1.6-3.5c-.3-1.9-1-3.5-1.5-3.5s-.9-2.7-.9-6%20.4-6%20.9-6%201.2-1.6%201.5-3.5c.4-1.9%201.1-3.5%201.5-3.5.5%200%202.4-1.5%204.3-3.3%205.9-5.3%207.8-6.7%209.3-6.7.8%200%202.5-1%203.9-2.2%206.2-5.6%207.9-6.8%209.2-6.8.8%200%201.4-.5%201.4-1%200-.6.6-1%201.4-1%20.7%200%202.5-1%203.9-2.2%206-5.3%207.9-6.8%208.8-6.8.6%200%202.2-1.1%203.7-2.5%206.1-5.6%208.5-7.5%2010.5-8.1%201.2-.4%203.4-1.8%204.9-3.3%201.6-1.4%203.8-3.4%204.9-4.4%201.1-1%203.4-2.3%205-2.9%201.6-.5%202.9-1.4%202.9-1.9s.5-.9%201.2-.9c.6%200%201.8-.7%202.7-1.5%204.7-4.3%207.5-6.5%208.6-6.5.6%200%203.1-1.8%205.5-4s4.9-4%205.7-4c.7%200%201.3-.4%201.3-.9s1.1-1.1%202.3-1.5c1.3-.3%204-2%205.9-3.8%205.6-5.2%207.4-6.5%209.7-7.3%201.2-.3%203.6-2.1%205.4-3.9%201.7-1.9%204.3-3.7%205.7-4.1%201.3-.4%203-1.3%203.7-1.9.7-.6%202.4-2%203.9-3.1%201.4-1.1%203.4-2.8%204.2-3.8.9-.9%202.3-1.7%203.2-1.7.9%200%202.3-.8%203.2-1.8.9-.9%202.9-2.6%204.4-3.7%201.4-1.1%203.4-2.8%204.2-3.8.9-.9%202.1-1.7%202.7-1.7%201.2%200%205.4-3.1%209.7-7.2%201.6-1.6%203.3-2.8%203.8-2.8%201.7%200%207-3.4%2010.4-6.6.7-.6%202.3-1.5%203.6-1.9%201.3-.4%202.9-1.3%203.5-1.9.7-.6%202.7-2.2%204.5-3.6%201.9-1.4%204.1-3.3%204.9-4.3.9-.9%202.1-1.7%202.8-1.7.7%200%202.1-.8%203.2-1.8%201-.9%203.1-2.6%204.5-3.7%201.5-1.1%203.3-2.6%204.1-3.3.7-.6%201.8-1.2%202.3-1.2.8%200%203.1-1.8%208.2-6.4.8-.7%202.6-1.7%203.9-2.1%202.6-.8%203-1.1%209.2-6.7%202.2-2%205-4%206.2-4.4%201.1-.4%203.2-1.7%204.6-3%206.2-5.6%208.5-7.4%209.7-7.4.7%200%203-1.5%205.1-3.4%202.1-1.9%204.6-4.2%205.6-5%20.9-.9%202.5-1.6%203.5-1.6.9%200%202.9-1%204.4-2.3%206.7-5.5%208.4-6.7%209.6-6.7.6%200%202-.7%203-1.6%208.1-7.3%2010.7-9.4%2011.9-9.4%201.3%200%202.7-1.1%208.9-7%201.7-1.7%203.8-3%204.5-3%20.8%200%202.2-.8%203.1-1.8.9-.9%202.9-2.6%204.3-3.7%201.5-1.1%203.3-2.6%204-3.3.8-.6%202-1.2%202.9-1.2.8%200%202.6-1%204.1-2.3%201.4-1.2%203.7-3.1%205.1-4.2%201.4-1.1%203.2-2.6%203.9-3.3.8-.6%201.8-1.2%202.4-1.2.5%200%202.1-1%203.5-2.3%204.8-4.3%206.4-5.5%208.7-6.2%201.3-.4%202.8-1.3%203.4-1.9.7-.6%202.7-2.2%204.5-3.6%201.8-1.4%204.2-3.3%205.3-4.2%201.1-1%202.6-1.8%203.4-1.8.7%200%201.3-.4%201.3-.8%200-.5%201.2-1.5%202.7-2.3%202.8-1.4%205.3-3.2%207.8-5.7.8-.6%201.8-1.2%202.3-1.2.9%200%202-.9%209.7-7.7%202-1.8%204.3-3.3%204.9-3.3%201.2%200%203.6-1.8%209.7-7.4%201.4-1.3%203.4-2.6%204.6-3%201.9-.6%204.7-2.8%209.4-7.1.9-.8%202.1-1.5%202.7-1.5.7%200%201.2-.5%201.2-1%200-.6.7-1%201.4-1%20.8%200%202.7-1.1%204.2-2.5%201.4-1.3%203.5-2.7%204.5-3%201.1-.4%201.9-1%201.9-1.5s1-1.2%202.2-1.6c1.2-.3%202.8-1.2%203.5-1.8.7-.6%202.4-2%203.9-3.1%201.4-1.1%203.7-3%205.1-4.3%201.4-1.2%203-2.2%203.5-2.2s1.5-.6%202.2-1.3c.7-.6%202.8-2.3%204.6-3.7%201.8-1.4%203.8-3%204.5-3.6.6-.6%202.1-1.5%203.3-1.8%201.2-.4%202.2-1.2%202.2-1.7s.6-.9%201.3-.9c.6%200%202.4-1%203.9-2.3%201.4-1.2%203.5-2.9%204.6-3.8%201.1-1%202.9-2%204.1-2.4%201.2-.3%202.1-1%202.1-1.5s1.8-1.5%204-2.1c2.2-.7%204-1.6%204-2.1%200-.4%204.1-.8%209-.8%205%200%209%20.4%209%20.8%200%20.5%202.6%201.5%205.7%202.2%203.1.7%206.2%201.7%206.9%202.4.7.6%202.4%202%203.8%203.1s4.4%203.6%206.6%205.5c4.1%203.6%207.1%206.1%2011.4%209.5%201.4%201.1%204.1%203.3%205.9%205%201.9%201.6%204.9%204.1%206.7%205.5%201.9%201.4%204.6%203.7%206.2%205.2%201.5%201.5%203.7%203.2%204.9%203.8%202.2%201.2%204.2%202.8%209.5%207.5%201.9%201.6%204.6%203.9%206%205%201.4%201.1%203.7%202.9%204.9%204%201.3%201.1%203.5%202.9%204.9%204%201.4%201.1%203.7%203%205.1%204.2%201.5%201.3%203%202.3%203.5%202.3s2.5%201.5%204.3%203.2c6.3%206%2012.1%2010.8%2013%2010.8.4%200%201.4.6%202.2%201.2%202.2%202.1%2012.9%2011%2017.1%2014.3%201.4%201.1%204.3%203.6%206.5%205.5%202.1%201.9%205.1%204.4%206.5%205.5%201.4%201.1%203.2%202.6%203.9%203.2.8.7%201.6%201.3%201.9%201.3%201.2%200%204.6-3.5%204.6-4.7%200-.7.4-1.3.9-1.3.4%200%202-1.1%203.5-2.5s3.1-2.5%203.6-2.5%202.5-1.6%204.6-3.5c2-1.9%204.1-3.5%204.5-3.5.5%200%20.9-.4.9-1%200-1.2%206.8-8%208-8%20.5%200%202-1%203.5-2.2%201.4-1.3%203.6-3.2%205-4.3%201.4-1.1%202.5-2.6%202.5-3.3%200-.6.4-1.2.8-1.2.5%200%202.8-1.7%205.1-3.7%207.7-6.9%209.4-8.3%2010.3-8.3.4%200%20.8-.6.8-1.3%200-1.4%202.6-3.9%206-5.7%202.7-1.5%209.2-7.2%2014.7-13.2.7-.7%202.4-2.2%203.8-3.3%201.4-1.1%203.7-2.9%205-4%201.2-1.1%203.5-2.9%204.9-4%201.4-1.1%202.5-2.5%202.6-3%200-.6%201.5-2.1%203.1-3.5%201.7-1.4%203.9-3.2%204.9-4%20.9-.8%203.1-2.6%204.9-3.9%201.7-1.3%203.1-3%203.1-3.6%200-.7%201.1-1.6%202.5-1.9%201.4-.4%203.4-1.4%204.4-2.4%201-.9%203.8-3.3%206.1-5.2%203.8-3.2%206.6-5.8%209.7-9.2.6-.7%203-2.9%205.3-4.8s5.3-4.5%206.7-5.8c1.4-1.2%203-2.2%203.4-2.2.5%200%20.9-.6.9-1.4%200-.7%201.4-2.4%203.2-3.7%201.7-1.3%204.3-3.5%205.8-4.9%201.4-1.4%203.8-3.1%205.3-3.7%201.5-.7%202.7-1.9%202.7-2.8%200-.8.4-1.5.9-1.5.4%200%202.4-1.5%204.3-3.3%206.3-5.8%2010-8.7%2010.9-8.7.5%200%201.1-1.1%201.5-2.5.3-1.4%201-2.5%201.5-2.5.4%200%201.9-1%203.4-2.3%201.4-1.2%203.7-3.1%205.1-4.2%201.4-1.1%203.4-2.8%204.6-3.8%201.2-.9%202.5-1.7%203-1.7.4%200%20.8-.7.8-1.5s.4-1.5.9-1.5c.4%200%202.5-1.6%204.5-3.5%202.1-1.9%204-3.5%204.4-3.5.4%200%202.3-1.4%204.2-3%201.9-1.6%203.8-3%204.3-3%20.4%200%20.7-.5.7-1.1%200-1.2%202.5-3.6%207.4-7.4%202.4-1.8%207.9-7.1%2011.3-10.7.7-.7%202.4-2.2%203.9-3.3%201.4-1.1%205.7-5%209.5-8.8%203.7-3.7%207.2-6.7%207.6-6.7.4%200%202-1%203.5-2.3%201.5-1.3%203.8-3.2%205.2-4.3%201.4-1%202.6-2.4%202.6-3.1%200-.7%201-1.8%202.3-2.4%201.2-.7%202.6-1.8%203-2.5.4-.8%201.7-1.4%202.8-1.4%201.1%200%202.2-.6%202.5-1.4.3-.8%202.5-1.7%205-2.1%202.4-.3%204.4-1%204.4-1.6%200-.5%203.2-.9%207-.9%204%200%207%20.4%207%201%200%20.5%201.1%201%202.4%201%201.4%200%203.1.7%204%201.5.8.8%202.1%201.5%202.8%201.5.7%200%202.6%201.1%204.2%202.5s3.5%202.5%204.1%202.5c.7%200%203.1%201.7%205.3%203.7%202.2%202.1%205.2%204.7%206.6%205.8%201.5%201.1%203.5%202.8%204.4%203.7.9%201%202.2%201.8%202.9%201.8.7%200%202.1.8%203.2%201.7%201%201%203%202.7%204.5%203.8%201.4%201.1%204.2%203.5%206.2%205.2%201.9%201.8%204.6%203.6%206%203.9%201.3.3%202.4%201%202.4%201.4%200%20.5%201%201.2%202.3%201.6%201.2.3%202.9%201.4%203.9%202.3.9.9%202.8%202.5%204.2%203.6%201.4%201.1%203.7%203%205.1%204.2%201.5%201.3%203%202.3%203.6%202.3.5%200%201.5.5%202.2%201%20.7.6%202.4%202%203.9%203.3%201.4%201.2%203.8%203.1%205.2%204.2%201.5%201.1%203.9%203.2%205.5%204.7%201.6%201.6%203.4%202.8%204%202.8.5%200%202.2%201.1%203.7%202.5s3.2%202.5%203.8%202.5c.6%200%201.9.8%202.8%201.7.8%201%202.8%202.7%204.2%203.8%201.5%201.1%203.3%202.6%204.1%203.2.7.7%201.8%201.3%202.4%201.3.5%200%202.1%201%203.5%202.2%201.4%201.3%203.7%203.2%205.1%204.3%201.4%201.1%204.1%203.5%206%205.2%202%201.8%204.1%203.3%204.7%203.3.6%200%201.8.7%202.7%201.5%205.3%204.8%206.2%205.5%207%205.5.6%200%202.2%201.1%203.7%202.5s3.3%202.5%203.9%202.5c.7%200%201.5.7%201.9%201.5.3.8%201.4%201.5%202.3%201.5%201%200%202.6.8%203.5%201.7.9%201%202.9%202.7%204.3%203.8%201.4%201.1%204.4%203.7%206.7%205.7%202.2%202.1%204.6%203.8%205.4%203.8.7%200%202.9%201.5%204.8%203.2%202%201.8%204.8%204.2%206.2%205.3%201.4%201.1%203.7%203%205.1%204.2%201.4%201.3%203.2%202.3%203.9%202.3.8%200%201.4.4%201.4.9s1%201.3%202.3%201.7c1.2.3%202.9%201.4%203.9%202.3.9.9%203.5%203.2%205.8%205.1%202.3%201.9%205.1%204.3%206.1%205.2%201.1%201%202.5%201.8%203.2%201.8.8%200%203.3%201.8%205.7%204%202.4%202.2%204.8%204%205.3%204%20.6%200%201.7.7%202.6%201.5.9.8%202.6%202.3%203.9%203.5%201.2%201.1%202.7%202%203.3%202%20.6%200%202.1.9%203.3%202%204.4%204.1%208.1%207%209%207%20.5%200%201.9%201.1%203.2%202.5%201.3%201.4%202.9%202.5%203.6%202.5.7%200%202.7%201.1%204.3%202.5%201.7%201.4%204.7%204%206.9%205.8%202.1%201.7%204.7%204%205.7%205%201.1.9%202.5%201.7%203.2%201.7.7%200%203.2%201.7%205.4%203.7%202.3%202.1%205.9%205.3%208%207.2%202.1%201.8%205.1%203.8%206.7%204.4%203.1%201.1%204.7%202.2%2010.4%207.5%201.9%201.7%204%203.2%204.6%203.2.6%200%201.9.9%202.9%202%20.9%201.1%202.3%202%203.1%202%20.7%200%202.9%201.5%204.8%203.2%201.9%201.8%205%204.4%206.8%205.8%201.8%201.4%203.9%203.1%204.6%203.7.7.7%201.7%201.3%202.2%201.3.5%200%201.8.8%202.9%201.7%201.1%201%203.5%202.9%205.3%204.3%201.8%201.4%203.9%203.1%204.6%203.7.7.7%201.7%201.3%202.3%201.3.6%200%201.1.6%201.1%201.4%200%20.8.8%202.2%201.8%203.2%201.3%201.4%201.7%203.5%201.7%209.6%200%204.9-.4%208.1-1.2%208.6-.6.4-1.4%201.9-1.8%203.3-.5%201.9-1.7%203-4.6%203.9-2.1.7-3.9%201.7-3.9%202.1%200%20.4-1%201.1-2.3%201.5-1.2.4-2.5%201.2-2.9%201.8-.5.7-4.6%201.1-11.3%201.1-6.7%200-10.8-.4-11.3-1.1-.4-.6-1.8-1.5-3.1-1.9-1.4-.4-3.4-1.6-4.5-2.6-1.1-1.1-2.8-1.9-3.8-1.9s-1.8-.5-1.8-1c0-.6-1.2-1.6-2.7-2.3-1.5-.6-3.9-2.3-5.3-3.7-1.5-1.4-4.1-3.6-6-5-1.8-1.4-3.9-3.1-4.6-3.8-.7-.6-1.7-1.2-2.2-1.2-.5%200-2.1-1-3.5-2.3-1.4-1.2-3.7-3.1-5.1-4.2-1.4-1.1-4.2-3.5-6.2-5.3-1.9-1.7-4.1-3.2-4.8-3.2-1.2%200-3.6-1.8-9.8-7.5-1.5-1.4-3-2.5-3.5-2.5-.4%200-2.1-1.1-3.7-2.5s-3.4-2.5-4-2.5c-.7%200-1.9-.8-2.8-1.8-.8-.9-2.8-2.6-4.2-3.7-1.5-1.1-3.5-2.8-4.4-3.8-.9-.9-2.2-1.7-2.9-1.7-.7%200-2.1-.9-3-2-1-1.1-2.3-2-3-2-.7%200-2.1-.8-3.2-1.7-1-1-3-2.7-4.5-3.8-1.4-1.1-4.1-3.4-6-5-6.1-5.4-7.6-6.5-9-6.5-.7%200-2.5-1-3.9-2.3-1.4-1.2-3.7-3.1-5.1-4.2-1.4-1.1-4.2-3.5-6.2-5.3-1.9-1.7-4.1-3.2-4.8-3.2-.7%200-2.6-1.1-4.2-2.5s-4.6-4-6.7-5.8c-2-1.8-4.5-4-5.4-5-1-.9-2.4-1.7-3.3-1.7-.9%200-2.3-.8-3.2-1.8-3.6-3.7-5.5-5.2-6.5-5.2-.5%200-2.2-1.1-3.7-2.5s-3.3-2.5-4-2.5c-.8%200-1.6-.7-2-1.5-.3-.8-1.2-1.5-2.1-1.5-.8%200-2.4-.8-3.4-1.8-1.1-.9-3.8-3.3-6-5.2-2.3-1.9-5.3-4.5-6.7-5.8-1.4-1.2-2.9-2.2-3.5-2.2-1%200-1.5-.3-6.1-4.2-1.5-1.3-3.9-3.2-5.3-4.3-1.4-1.1-3.3-2.7-4.3-3.6-.9-.9-2.8-2-4.2-2.4-1.3-.4-3-1.3-3.7-1.9-.6-.6-3.1-2.7-5.3-4.6-2.3-1.9-5.3-4.5-6.7-5.8-1.4-1.2-3-2.2-3.5-2.2-.9%200-1.2-.2-6.1-4.2-1.5-1.3-3.9-3.2-5.3-4.3-1.4-1.1-3.6-3-5-4.3-1.4-1.2-3.2-2.2-4-2.2-.7%200-1.4-.5-1.4-1%200-.6-.7-1-1.4-1-.8%200-2.6-1-4-2.3-1.3-1.2-3.4-2.9-4.7-3.7-1.2-.8-3.3-2.5-4.7-3.7-1.3-1.2-3.4-2.5-4.5-2.9-1.2-.4-3.4-1.8-4.9-3.3-1.5-1.4-3.9-3.5-5.4-4.6-1.4-1.1-3.8-3-5.2-4.2-1.5-1.3-3.2-2.7-3.9-3.3-.7-.5-1.6-1-2-1-.9%200-6-4-11-8.7-1.9-1.8-4.4-3.5-5.4-3.8-1-.4-1.9-1.1-1.9-1.6s-.8-.9-1.7-.9c-1%200-3.1-1.1-4.7-2.5-4.3-3.7-4.1-3.8-14.7%205.7-2.3%202.1-4.8%203.8-5.5%203.8-.8%200-1.4.6-1.4%201.4%200%20.7-1.4%202.4-3.2%203.7-4.6%203.5-9.5%207.8-14.3%2012.6-2.3%202.4-4.6%204.3-5%204.3-.3%200-1.2.6-1.9%201.2-.7.7-2.8%202.4-4.6%203.8-4.7%203.6-6%205-6%206.6%200%20.8-.4%201.4-.9%201.4-.6%200-2.1%201-3.6%202.2-1.4%201.3-3.7%203.2-5.1%204.3-1.4%201.1-3.6%203-5%204.2-1.4%201.3-2.9%202.3-3.5%202.3-.5%200-.9.6-.9%201.2%200%20.7-1.9%202.9-4.1%204.8-2.3%201.9-4.9%204.3-5.9%205.2-1%20.9-2.8%202.1-3.9%202.8-1.2.6-2.1%201.7-2.1%202.5s-.4%201.5-1%201.5c-.5%200-1.8.8-2.9%201.7-1%201-3%202.7-4.5%203.8-1.4%201.1-3.4%202.7-4.5%203.5-1.1.8-3.1%202.4-4.5%203.4s-2.6%202.5-2.6%203.2c0%20.8-.4%201.4-.9%201.4-.6%200-2.1%201-3.5%202.2-1.4%201.3-3.6%203.2-5%204.3-5%203.9-7.6%206.4-7.6%207.3%200%20.5-1.4%202-3.1%203.3-1.8%201.3-4%203.1-4.9%203.9-5.2%204.4-6.1%205-6.6%205-.4%200-2.6%201.9-4.9%204.2-4.8%204.9-9.7%209.2-14.3%2012.7-1.8%201.3-3.2%202.8-3.2%203.3%200%20.9-2.8%203.6-7.6%207.3-1.4%201.1-3.7%203-5.1%204.2-1.4%201.3-3%202.3-3.4%202.3-.5%200-.9.5-.9%201.1%200%201.6-6.6%207.6-9.2%208.5-1.3.3-3.1%201.4-4%202.3-1%20.9-2.9%202.5-4.3%203.6-1.3%201.1-2.5%202.6-2.5%203.2%200%20.7-.3%201.3-.8%201.3-.4%200-2.2%201.2-3.9%202.7-1.7%201.6-5%204.4-7.2%206.3-2.2%201.9-4.1%204.1-4.1%204.7%200%20.7-.4%201.3-.9%201.3-.6%200-2.1%201-3.5%202.2-1.4%201.3-3.6%203.2-5%204.3-1.4%201.1-3.7%203-5.1%204.3-1.5%201.2-3%202.2-3.4%202.2-.5%200-1.1%201-1.5%202.3-.3%201.3-1.7%202.9-3%203.5-3.1%201.4-5.4%203.3-12.6%2010.2-3.2%203-6.9%206.4-8.3%207.5-3.3%202.5-3.3%203.5-.1%206%201.4%201.1%203.7%202.9%204.9%204%201.3%201.1%203.5%202.9%204.9%204%201.4%201.1%203.6%202.9%204.9%204%201.3%201.1%203.4%202.7%204.6%203.5%201.3.8%203.3%202.4%204.6%203.5%201.3%201.1%203.5%202.9%204.9%204%201.4%201.1%204.1%203.3%205.9%205%201.9%201.6%204.9%204.1%206.7%205.5%201.8%201.4%204.8%203.8%206.7%205.5%201.8%201.6%204.7%204.1%206.4%205.5%202.8%202.2%206.6%205.5%2012.1%2010.3.9.8%202.7%201.8%204%202.2%201.2.4%203%201.5%204%202.4.9.9%202.8%202.5%204.2%203.6%201.4%201.1%203.8%203%205.3%204.3%204.9%204%205.2%204.2%206.3%204.2.5%200%201-.4%201-.9s1.4-1.4%203-2c1.7-.5%203-1.5%203-2%200-.6.9-1.1%201.9-1.1%201.1%200%202.3-.5%202.6-1%20.3-.6%201.5-1%202.6-1%201%200%201.9-.5%201.9-1%200-.6.6-1%201.4-1%20.8%200%202.1-.7%202.9-1.5.8-.8%203.7-2%206.4-2.7%202.6-.7%205.1-1.8%205.5-2.4.4-.7%202.4-1.5%204.3-1.8%201.9-.4%203.5-1.1%203.5-1.6%200-.4%201.4-1.1%203-1.5%201.7-.4%203-1%203-1.4%200-.4%202.3-1.3%205-2%202.8-.7%205-1.6%205-2%200-.8%208.1-3.1%2011-3.1%201.1%200%202-.4%202-1%200-.5%201.6-1.2%203.5-1.6%201.9-.3%203.5-.9%203.5-1.3s3-1.3%206.8-2.1c3.7-.7%207-1.7%207.3-2.2.3-.5%203.3-1.4%206.7-2%203.4-.6%206.2-1.5%206.2-1.9%200-.4%202.3-1%205-1.4%202.8-.4%205-1%205-1.4%200-.8%2012.5-3.1%2016.5-3.1%201.4%200%202.5-.4%202.5-.9s4.1-1.5%209-2.2c4.9-.6%209-1.5%209-1.9%200-.4%204.1-1.1%209-1.5%205-.4%209-1%209-1.4%200-.8%2023.2-3.1%2030.7-3.1%202.4%200%204.3-.5%204.5-1.3.6-1.6%20101.5-1.8%20102.6-.1.4.7%208.2%201.6%2019.2%202.3%2010.2.7%2018.7%201.6%2019%202.1.3.4%204%201.1%208.3%201.5%204.2.4%207.7%201.1%207.7%201.6s1%20.9%202.3.9c4.1%200%2020.7%202.4%2020.7%203.1%200%20.3%204.1%201.2%209%202%205%20.7%209%201.6%209%202%200%20.4%202.5%201.1%205.5%201.4%203%20.4%205.5%201%205.5%201.4%200%20.4%202.8%201.3%206.2%201.9%203.4.6%206.4%201.5%206.7%202%20.3.4%203.5%201.3%207%202%203.6.6%206.7%201.6%207%202%20.3.5%202.5%201.3%204.9%201.7%202.3.4%204.2%201%204.2%201.4%200%20.3%202.3%201.2%205.2%201.9%202.8.6%205.4%201.6%205.8%202.1.3.5%202.7%201.5%205.3%202.1%202.6.7%204.7%201.6%204.7%202.1%200%20.4%201.6%201.1%203.5%201.5%201.9.3%203.5%201%203.5%201.4%200%20.4%202.5%201.3%205.5%202s5.5%201.6%205.5%202c0%20.4%202%201.3%204.5%202s4.5%201.7%204.5%202.1c0%20.5.6.9%201.4.9.8%200%202.1.6%202.8%201.3.7.8%203%202%205.1%202.6%202%20.7%203.7%201.6%203.7%202%200%20.4%201.7%201.3%203.7%202%202.1.8%204.3%202%205.1%202.7.7.8%202%201.4%202.8%201.4.8%200%201.4.4%201.4.9s1.6%201.5%203.5%202.2c1.9.7%203.5%201.6%203.5%202%200%20.4%201.2%201%202.8%201.4%201.5.4%203.5%201.4%204.4%202.3%202.6%202.6%204.1%203.6%207.1%204.9%201.5.7%202.7%201.7%202.7%202.3%200%20.5.8%201%201.8%201%201.6%200%204.1%201.9%2012.5%209.4.9.9%202.3%201.6%203%201.6.8%200%203.2%201.7%205.5%203.7%206.5%206%207.9%207.1%2010.1%207.8%201.2.4%203.5%202%205.1%203.5%201.7%201.6%203.9%203.4%205%204%201.1.6%202%201.7%202%202.4s1.4%201.6%203.1%202c1.7.3%2021.3.6%2043.5.6h40.4V848.2c0-335.6%200-336.8-2-338.2-1.1-.8-2-2-2-2.8%200-.7-.7-1.5-1.5-1.8-.8-.4-1.5-1.2-1.5-2s-.5-1.4-1.1-1.4c-.6%200-1.7-.7-2.5-1.5-.9-.8-2.7-1.8-4.2-2.2-1.5-.3-3-1.1-3.4-1.7-.5-.8-222.5-1.1-803-1.2-441.3%200-804.9.1-808%20.3zm463%20139.9c.4.6%205.1%201.7%2010.5%202.4%205.3.7%209.7%201.6%209.7%202%200%20.3%202.8%201.2%206.2%201.8%203.4.6%206.4%201.5%206.7%202%20.3.5%201.7%201.3%203.1%201.7%201.4.4%202.7%201.1%203%201.4.3.3%202.8%201.2%205.5%201.9%202.8.7%205.1%201.7%205.3%202.2.2.5%201.9%201.4%203.8%202%201.9.6%203.4%201.6%203.4%202.1s.6.9%201.4.9c.8%200%202.1.6%202.8%201.3.7.8%203%201.9%205%202.6%202%20.7%203.9%201.8%204.2%202.6.3.8%201.3%201.5%202.2%201.5.9%200%203.2%201.5%205%203.2%201.8%201.8%204.5%204.2%206%205.3%204.7%203.6%207.4%206.2%207.4%207.2%200%20.5%201.1%201.6%202.5%202.3%201.4.7%202.5%201.7%202.5%202.2%200%20.5%201.1%201.9%202.5%203.2%201.4%201.3%202.5%202.6%202.5%203%200%20.7%201.3%202.4%204.7%206.1%201.2%201.3%202.5%203.5%202.9%204.9.3%201.4%201%202.6%201.5%202.6s.9.7.9%201.5.4%201.5%201%201.5c.5%200%201.2%201.1%201.6%202.5.3%201.4%201.2%202.5%202%202.5.7%200%201.6%201.6%202%203.5.3%201.9%201%203.5%201.5%203.5s.9.9.9%201.9c0%201.1.5%202.1%201%202.3.6.2%201.3%202.7%201.7%205.6.3%202.8%201%205.2%201.4%205.2.5%200%20.9%201.6.9%203.5s.5%203.5%201%203.5c.6%200%201%202.8%201%206.5s.4%206.5%201%206.5%201%203.8%201%209.5-.4%209.5-1%209.5c-.5%200-1%202-1%204.5s-.4%204.5-1%204.5c-.5%200-1%201.6-1%203.5s-.4%203.5-.9%203.5-1.2%202.5-1.6%205.5c-.3%203-1.1%205.5-1.6%205.5s-.9.9-.9%202-.4%202-1%202c-.5%200-1%20.9-1%201.9%200%202.9-1.1%205.1-2.5%205.1-.7%200-1.6%201.3-2%203-.4%201.6-1.1%203-1.6%203s-.9.7-.9%201.5-.4%201.5-1%201.5c-.5%200-1.2%201.1-1.6%202.5-.3%201.4-1%202.5-1.5%202.5s-.9.6-.9%201.4c0%20.8-.7%201.6-1.5%202-.8.3-1.5%201.2-1.5%202s-.9%201.8-2%202.1c-1.1.3-2%201.2-2%201.9s-1.1%202.2-2.5%203.2-2.5%202.4-2.5%203.1c0%20.7-.9%201.7-2.1%202.3-1.1.7-2.9%201.9-3.9%202.8-1%20.9-3.6%203.3-5.9%205.2-2.3%201.9-5.4%204.5-6.9%205.8-1.5%201.2-3.4%202.9-4.3%203.7-.9.8-2.3%201.5-3.2%201.5-1%200-2.6.9-3.7%202s-2.7%202-3.5%202c-.8%200-1.5.4-1.5%201%200%20.5-1.9%201.5-4.2%202.2-2.4.6-4.7%201.8-5.1%202.5-.4.7-1.7%201.3-2.7%201.3-1.1%200-2%20.4-2%20.8%200%20.5-2.2%201.4-5%202.1-2.7.7-5%201.7-5%202.1%200%20.5-3.1%201.4-7%202.1-3.8.7-7%201.6-7%202%200%20.4-2.4%201-5.2%201.4-2.9.4-5.5%201.1-5.8%201.5-.6%201-17.8%203-25.5%203-3%200-5.5.4-5.5%201s-4.5%201-11.5%201-11.5-.4-11.5-1-2.3-1-5.1-1c-7.1%200-23.9-2.2-23.9-3.1%200-.4-2-1.1-4.5-1.5-2.5-.3-4.5-.9-4.5-1.3s-3.4-1.3-7.5-2c-4.1-.8-7.5-1.7-7.5-2.1%200-.4-2.1-1.3-4.7-2-2.7-.8-5.2-1.9-5.6-2.7-.4-.7-1.7-1.3-2.7-1.3-1.1%200-2-.3-2-.8%200-.7-4.7-3.2-6.2-3.2-.4%200-1.7-.9-2.8-2-1.1-1.1-2.7-2-3.5-2-.8%200-1.5-.5-1.5-1%200-.6-.7-1-1.5-1s-2.3-.9-3.2-2c-1-1.1-2.7-2-3.8-2-1.1%200-2.8-.8-3.7-1.8-.9-.9-2.8-2.6-4.3-3.7-4.7-3.6-7.5-6.4-7.5-7.5%200-.5-.3-1-.8-1-1.1%200-7.2-5.7-7.2-6.8%200-.6-.7-1.2-1.5-1.6-.8-.3-1.5-1.2-1.5-2s-.9-1.8-2-2.1c-1.1-.3-2-1.3-2-2%200-.8-1.1-2.5-2.5-3.9-1.3-1.3-2.7-3.6-3.1-5-.3-1.4-1-2.6-1.5-2.6s-.9-.5-.9-1.1c0-.6-.7-1.7-1.5-2.5-.8-.9-1.5-2.4-1.5-3.5%200-1-.4-1.9-1-1.9-.5%200-1-.7-1-1.5s-.4-1.5-.9-1.5-1.2-1.8-1.6-4c-.4-2.2-1.1-4-1.6-4s-.9-1.4-.9-3c0-1.9-.5-3-1.4-3-1%200-1.6-2-2.1-7.5-.4-4.1-1.1-7.5-1.6-7.5s-.9-7.4-.9-16.5.4-16.5.9-16.5c.4%200%201.2-3.2%201.5-7%20.5-5.1%201.1-7%202.2-7%20.8%200%201.4-1%201.4-2.5%200-1.4.4-2.5.9-2.5s1.2-1.9%201.5-4.3c.4-2.6%201.5-4.9%202.6-5.7%201.1-.8%202-2.4%202-3.6%200-1.3.7-2.9%201.5-3.8.8-.8%201.5-1.9%201.5-2.5%200-.6.4-1.1.9-1.1s1.2-1.3%201.6-3c.4-1.6%201.5-3.2%202.6-3.5%201-.4%201.9-1.3%201.9-2%200-.8%201.1-2.5%202.5-3.9s2.5-3%202.5-3.6c0-.6%201.1-1.6%202.5-2.2%201.4-.6%202.5-1.5%202.5-2%200-1.1%208.9-9.8%2010.1-9.8.5%200%20.9-.6.9-1.4%200-.8%201-1.8%202.3-2.2%201.2-.4%203.1-1.6%204.2-2.8%201.1-1.2%203.2-2.7%204.8-3.3%201.5-.7%202.7-1.7%202.7-2.2%200-.6%201.8-1.5%204-2.1%202.2-.6%204-1.5%204-2%200-.6.6-1%201.4-1%20.8%200%202.1-.6%202.8-1.4.8-.7%203-1.9%205.1-2.7%202-.7%203.7-1.6%203.7-1.9%200-.4%201.8-1.3%204-2s4-1.7%204-2.1c0-.4%201.9-1%204.3-1.4%202.3-.4%204.5-1.2%204.8-1.7.3-.5%203.6-1.4%207.2-2%203.7-.6%206.7-1.4%206.7-1.9%200-.4%204.1-1.3%209-2%205-.7%209-1.6%209-2%200-1.3%209.1-1.7%2035.3-1.5%2016.3.1%2025.1.5%2025.5%201.2z%22/%3E%3Cpath%20d=%22M1214.6%201140.2c-11.6.4-21.2%201.2-21.5%201.7-.3.4-4.6%201.1-9.6%201.5-4.9.4-9.2%201.1-9.5%201.5-.3.4-5.9%201.3-12.5%202s-12.2%201.7-12.5%202.2c-.3.5-4.2%201.4-8.5%202-4.4.6-8.2%201.4-8.5%201.9-.3.4-2.6%201.1-5.2%201.5-2.7.4-4.8%201-4.8%201.4%200%20.4-3.6%201.3-8%202-4.4.8-8%201.7-8%202.1%200%20.5-2.5%201.4-5.5%202-3%20.6-5.5%201.5-5.5%201.9%200%20.5-1.9%201.1-4.2%201.5-2.3.4-4.5%201.1-4.8%201.6-.3.5-2.8%201.5-5.5%202.2-2.8.7-5.2%201.5-5.5%201.9-.3.3-2.9%201.2-5.7%201.9-2.9.6-5.3%201.6-5.3%202.1s-.6.9-1.4.9c-.8%200-2.1.6-2.8%201.3-.7.8-3.7%202-6.6%202.6-2.8.7-5.2%201.7-5.2%202.1%200%20.5-1.7%201.4-3.7%202.1-2.1.6-4.4%201.8-5.1%202.6-.7.7-2%201.3-2.8%201.3-.8%200-1.4.4-1.4.9s-1.6%201.5-3.5%202.1c-1.9.6-3.5%201.5-3.5%201.9%200%20.4-1.8%201.4-4%202.1-2.2.7-4%201.6-4%202.1%200%20.4-1.2%201-2.6%201.3-1.4.4-3.5%201.6-4.7%202.6-1.1%201.1-2.9%202-3.9%202s-1.8.5-1.8%201c0%20.6-1.2%201.6-2.7%202.3-3.2%201.4-4.7%202.5-7.1%204.9-.9%201-2.1%201.8-2.7%201.8-1.2%200-5.4%203.1-9.7%207.2-1.6%201.6-3.4%202.8-4.1%202.8-.7%200-2.8%201.4-4.7%203-1.9%201.6-4.1%203-4.7%203-.7%200-1.3.4-1.3%201%200%20.5-.6%201-1.3%201-.7%200-2%20.8-2.9%201.7-.9%201-2.9%202.7-4.3%203.8-4.9%203.6-7.5%206.2-7.5%207.3%200%20.6-.9%201.6-2.1%202.3-2.4%201.3-8.9%207.7-8.9%208.8%200%20.4-1.1%201.3-2.5%201.9-1.4.6-2.5%201.7-2.5%202.4s-1.1%202.2-2.5%203.2-2.5%202.4-2.5%203.1c0%20.6-1.1%201.7-2.5%202.3-1.4.6-2.5%201.6-2.5%202.2%200%20.6-1.1%202.2-2.5%203.6s-2.5%202.9-2.5%203.4-.9%201.2-2%201.5c-1.1.3-2%201.3-2%202.1s-.4%201.4-1%201.4c-.5%200-1%20.6-1%201.4%200%20.8-.7%201.6-1.5%202-.8.3-1.5%201.2-1.5%202s-.9%201.7-1.9%202.1c-1.1.3-2.2%201.9-2.6%203.5-.4%201.6-1.5%203.2-2.5%203.5-1%20.3-2.1%201.7-2.4%203-.4%201.4-1.1%202.5-1.6%202.5-.6%200-1%20.7-1%201.5s-.4%201.5-.9%201.5-1.2%201.2-1.6%202.7c-.3%201.5-1.5%203.4-2.5%204.3-1%20.9-2.2%202.8-2.5%204.3-.4%201.5-1.1%202.7-1.6%202.7s-.9.7-.9%201.5-.4%201.5-1%201.5c-.5%200-1.2%201.1-1.6%202.5-.3%201.4-1%202.5-1.5%202.5s-.9.9-.9%202-.7%202-1.5%202-1.7%201.4-2.1%203.5c-.3%201.9-1%203.5-1.5%203.5-.4%200-1.1%201.6-1.5%203.5-.3%201.9-1%203.5-1.5%203.5s-.9.9-.9%202-.4%202-.9%202-1.2%201.8-1.6%204c-.4%202.2-1.1%204-1.6%204s-.9%201.1-.9%202.5-.4%202.5-1%202.5-1%202.8-1%206.5.4%206.5%201%206.5%201%20.9%201%202%20.4%202%20.9%202%201.2%201.1%201.5%202.5c.4%201.4%201.1%202.5%201.6%202.5.6%200%201.9.9%203.1%202.1%201.2%201.2%204.5%202.5%208%203.2%203.2.6%205.9%201.4%205.9%201.9%200%20.4%202.5.8%205.5.8s5.5-.4%205.5-.8%202.7-1.4%206-2c3.3-.7%206-1.7%206-2.1%200-.5%201.3-1.4%202.9-2.1%202-.8%203.2-2.1%203.6-4.1.4-1.6%201.1-2.9%201.6-2.9s.9-.7.9-1.5.4-1.5.9-1.5c.6%200%201.3-2%201.7-4.5.3-2.5%201-4.5%201.5-4.5s.9-.7.9-1.5.4-1.5.9-1.5%201.2-1.8%201.6-4c.4-2.2%201.1-4%201.6-4s.9-.7.9-1.5.4-1.5.9-1.5%201.2-1.6%201.5-3.5c.4-1.9%201.1-3.5%201.6-3.5.6%200%201-.9%201-2s.4-2%20.9-2%201.2-1.2%201.6-2.7c.3-1.5%201.5-3.4%202.5-4.3%201-.9%202.2-2.8%202.5-4.3.4-1.5%201.1-2.7%201.6-2.7s.9-.5.9-1.1c0-.6.6-1.6%201.3-2.3.6-.8%201.9-2.4%202.7-3.6.8-1.2%202.1-2.8%202.8-3.6.6-.7%201.2-1.5%201.2-1.9%200-.6.8-1.6%205.3-6.6%201.5-1.7%202.7-3.7%202.7-4.4%200-.7%201.4-1.6%203-2%201.7-.4%203-1.3%203-2.1s1.1-1.9%202.4-2.5c1.4-.7%202.7-2.1%203-3.4.3-1.2%201.7-2.7%203.1-3.3%201.4-.6%202.5-1.8%202.5-2.7%200-.8.4-1.5.9-1.5.8%200%205.6-4.6%209.8-9.2%201.3-1.5%2011.4-10%2016.9-14.3%201.4-1.1%203.3-2.7%204.2-3.6%201-.9%202.8-2%204.2-2.4%201.3-.4%203-1.3%203.7-1.9.7-.6%202.4-2%203.9-3.1%201.4-1.1%203.2-2.6%203.9-3.3.8-.6%201.7-1.2%202.2-1.2.4%200%202.1-1.1%203.7-2.5s3.3-2.5%203.8-2.5%201.8-.9%203-2%202.9-2%203.9-2c.9%200%201.9-.7%202.3-1.5.3-.8%201.4-1.5%202.5-1.5s2.6-.7%203.5-1.5c.8-.8%202.2-1.5%203.1-1.5.8%200%201.8-.7%202.1-1.5.4-.8%201.4-1.5%202.4-1.5%201.1%200%202.2-.5%202.5-1%20.3-.6%201.5-1%202.6-1%201%200%201.9-.5%201.9-1%200-.6%202-1.5%204.5-2.2%202.5-.7%204.5-1.5%204.5-1.9%200-.4%201.1-1%202.5-1.3%201.4-.4%202.5-1%202.5-1.5s2.3-1.5%205-2.2c2.8-.7%205-1.6%205-2%200-.4%202.3-1.3%205-2%202.8-.7%205-1.6%205-2%200-.4%201.4-1%203-1.4%201.7-.4%203-1%203-1.4%200-.4%202.9-1.3%206.5-2s6.5-1.6%206.5-2c0-.4%202.8-1.3%206.2-1.9%203.4-.6%206.4-1.6%206.7-2.1.3-.4%203.1-1.2%206.1-1.6%203-.4%205.7-1.1%206-1.5.3-.5%204.2-1.4%208.8-2.1%204.5-.8%208.2-1.6%208.2-2%200-.3%205.4-1.2%2012-1.9s12-1.6%2012-2c0-.4%205.2-1.1%2011.5-1.5%206.3-.4%2011.5-1.1%2011.5-1.6s14.5-.9%2034-.9c18.7%200%2034%20.4%2034%20.9%200%20.4%205.1%201.1%2011.2%201.5%206.2.4%2011.5%201.1%2011.8%201.5.3.4%205.4%201.3%2011.5%202%206%20.7%2011.2%201.6%2011.5%202%20.3.4%204.4%201.3%209.3%202%204.8.7%208.7%201.7%208.7%202.1%200%20.5%202.3%201.1%205%201.5%202.8.4%205%201%205%201.5%200%20.4%202.7%201.3%206%201.9%203.3.7%206%201.6%206%202.2%200%20.5%201%20.9%202.1.9%202.9%200%209.9%202.1%209.9%203%200%20.4%201.6%201.1%203.5%201.4%201.9.4%203.5%201.1%203.5%201.5%200%20.5%202.3%201.4%205%202.1%202.8.7%205%201.5%205%201.9%200%20.4%202%201.3%204.5%202s4.5%201.7%204.5%202.1c0%20.4%201.5%201.1%203.4%201.4%201.9.4%203.6%201.3%203.9%202%20.3.8%202.4%201.7%204.6%202.1%202.3.4%204.1%201.1%204.1%201.5%200%20.5%201.6%201.4%203.5%202%201.9.6%203.5%201.6%203.5%202.1s.7.9%201.5.9%202.3.9%203.2%202c1%201.1%202.4%202%203.3%202%20.9%200%202.3.9%203.3%202%20.9%201.1%202.3%202%203.1%202%20.8%200%203.1%201.6%205.2%203.5%202%201.9%204.2%203.5%204.9%203.5.7%200%202.8%201.5%204.7%203.2%205.2%204.8%2010.2%208.8%2011.1%208.8.5%200%202%201.1%203.5%202.5%205.9%205.4%208.5%207.5%209.5%207.5%201.4%200%205.7%204.3%205.7%205.7%200%20.7.4%201.3.9%201.3.4%200%202%201.1%203.5%202.5s3.1%202.5%203.5%202.5c.5%200%201.2%201.1%201.5%202.4.3%201.4%201.5%202.8%202.6%203.1%201.1.3%202%201.3%202%202.1s1.1%202%202.5%202.6c1.4.6%202.5%201.7%202.5%202.4%200%201.1%201.5%203%207.8%209.9%201%201.1%202.1%202.8%202.5%203.8.3.9%201.1%201.7%201.7%201.7.5%200%201%20.7%201%201.5s.6%201.5%201.4%201.5c.8%200%201.8.9%202.1%202%20.3%201.1%201%202%201.5%202%20.4%200%201.1%201.1%201.4%202.5.4%201.4%201.1%202.5%201.6%202.5.6%200%201%20.7%201%201.5s.4%201.5.9%201.5%201.2%201.2%201.6%202.7c.3%201.5%201.5%203.4%202.5%204.3%201%20.9%202.2%202.8%202.5%204.3.4%201.5%201.1%202.7%201.6%202.7s.9.5.9%201.1c0%20.6.7%201.7%201.5%202.5%204.4%204.4%205.2%204.4-62.7%204.6l-64.3.3-.3%2023.2-.2%2023.3h228v-185h-27.1c-22.1%200-27.3.3-28.5%201.4-1.2%201.2-1.4%209.1-1.4%2049%200%2043.5-.5%2052.7-2.4%2045.1-.4-1.4-1.1-2.5-1.6-2.5-.6%200-1-.7-1-1.5s-.4-1.5-1-1.5c-.5%200-1-.7-1-1.5%200-.9-.7-1.8-1.5-2.1-.8-.4-1.5-1.2-1.5-2s-.4-1.4-1-1.4c-.5%200-1-.7-1-1.5s-1.1-1.7-2.5-2.1c-1.4-.3-2.5-1.2-2.5-2s-.4-1.4-1-1.4c-.5%200-1-.7-1-1.5%200-.9-.7-1.8-1.5-2.1-.8-.4-1.5-1.3-1.5-2%200-.8-.7-1.7-1.5-2-.8-.4-1.5-1.2-1.5-1.9s-.7-1.5-1.5-1.9c-.8-.3-1.5-1.2-1.5-2s-.9-1.8-2-2.1c-1.1-.3-2-1.2-2-1.9s-1.1-2.2-2.5-3.2-2.5-2.5-2.5-3.2c0-.7-1.1-1.8-2.5-2.4-1.4-.6-2.5-1.7-2.5-2.3%200-.7-1.3-2.2-3-3.5-1.6-1.3-3-2.9-3-3.6%200-.8-.4-1.4-.8-1.4-.5%200-2.8-1.8-5.2-4-2.4-2.2-4.7-4-5.2-4-.4%200-.8-.7-.8-1.5%200-.9-.8-1.9-1.7-2.2-1-.4-3-1.8-4.5-3.2-1.5-1.4-3.9-3.5-5.4-4.6-1.4-1.1-3.7-3-5.1-4.3-1.4-1.2-3-2.2-3.5-2.2s-1.6-.6-2.3-1.3c-.8-.6-2.6-2.1-4.1-3.2-1.4-1.1-3.7-3-5.1-4.3-1.4-1.2-3-2.2-3.5-2.2s-1.8-.9-3-2-2.8-2-3.5-2c-.7%200-1.3-.4-1.3-.9s-1.6-1.5-3.5-2.1c-1.9-.6-3.5-1.5-3.5-2s-1.3-1.1-2.9-1.5c-1.6-.3-3.2-1.3-3.5-2.1-.3-.8-1.5-1.4-2.6-1.4s-2.3-.7-2.6-1.5c-.4-.8-1.4-1.5-2.3-1.5-1%200-2.6-.8-3.7-1.9-1.1-1-3-2.2-4.2-2.5-1.2-.4-2.2-1.1-2.2-1.5%200-.4-1.8-1.3-4-2-2.2-.6-4-1.6-4-2.1s-1.6-1.2-3.6-1.6c-1.9-.4-3.8-1.2-4-1.9-.3-.7-2.1-1.6-4-1.9-1.9-.4-3.4-1.1-3.4-1.6s-2.5-1.4-5.5-2c-3-.6-5.5-1.5-5.5-2%200-.4-2.2-1.4-5-2.1-2.7-.7-5-1.6-5-2%200-.4-1.3-1-3-1.4-1.6-.4-3-1-3-1.4%200-.3-2.8-1.2-6.2-1.8-3.3-.7-6.4-1.6-6.7-2.1-.3-.5-3.9-1.5-7.8-2.2-4-.7-7.3-1.6-7.3-2%200-.4-2.5-1.1-5.5-1.5-3-.3-5.5-1-5.5-1.4%200-.5-3.5-1.4-7.7-2.1-4.3-.7-8-1.6-8.3-2-.6-.7-15.1-3-19.2-3-1.4%200-2.8-.4-3-.9-.1-.6-5-1.3-10.8-1.7-5.8-.4-10.8-1.1-11.1-1.5-.6-1-41.9-2.9-55.9-2.7-4.7%200-17.9.5-29.4%201zM842%201553v92h57v-87.1l2.5%202.5c1.3%201.3%202.7%203.6%203.1%205%20.3%201.4%201%202.6%201.5%202.6s.9.5.9%201.1c0%20.6.6%201.7%201.3%202.4%202.9%203.3%203.7%204.5%203.7%205.5%200%20.5.4%201%201%201%20.5%200%201.2%201.1%201.6%202.5.3%201.3%201.5%202.7%202.5%203%201%20.4%201.9%201.3%201.9%202.1s.5%201.4%201%201.4c.6%200%201%20.6%201%201.4%200%20.8.7%201.6%201.5%202%20.8.3%201.5%201.2%201.5%202s.9%201.8%202%202.1c1.1.3%202%201.2%202%202%200%201.2%202.9%204.9%208.5%2010.6%201.4%201.4%202.5%203.1%202.5%203.7%200%20.6.9%201.4%202%201.7%201.1.3%202%201.1%202%201.6s1.4%202.2%203%203.7c1.7%201.6%203%203.4%203%204.1%200%20.6.4%201.1.9%201.1s2.8%201.8%205.1%204%204.6%204%205.1%204%20.9.5.9%201.2c0%201.5%206%206.8%207.8%206.8.6%200%201.2.4%201.2%201%200%20.5.6%201%201.3%201%20.7%200%202%20.8%202.9%201.7.9%201%202.9%202.7%204.3%203.8%205.2%203.9%207.7%206%209.3%207.7.9%201%202.3%201.8%203%201.8%201.4%200%202.5.9%209.3%207.3%201.6%201.5%203.5%202.7%204.2%202.7.7%200%202.8%201.4%204.7%203%201.9%201.6%204.2%203%205.1%203%20.9%200%201.9.7%202.3%201.5.3.8%201.5%201.5%202.6%201.5s2.9.9%204%202%202.7%202%203.5%202c.8%200%201.5.4%201.5.9s1.6%201.5%203.5%202.1c1.9.6%203.5%201.6%203.5%202.1s.6.9%201.4.9c.8%200%202.1.6%202.8%201.4.8.7%203%201.9%205.1%202.7%202%20.7%203.7%201.6%203.7%202%200%20.4%202%201.3%204.5%202s4.5%201.6%204.5%202c0%20.4%201.6%201%203.5%201.3%201.9.4%203.5%201.1%203.5%201.6s2%201.5%204.5%202.1c2.5.6%204.5%201.5%204.5%201.9%200%20.4%202.3%201.3%205%202%202.8.7%205%201.6%205%202.1%200%20.4%201.6%201.1%203.5%201.5%201.9.3%203.5%201%203.5%201.4%200%20.5%202.5%201.4%205.5%202%203%20.6%205.5%201.5%205.5%201.9%200%20.4%202.9%201.4%206.5%202.1%203.6.7%206.5%201.7%206.5%202.1%200%20.4%202.5%201%205.5%201.4%203%20.3%205.5%201%205.5%201.4%200%20.5%203.4%201.4%207.5%202.2%204.1.7%207.5%201.6%207.5%202%200%20.6%202.2.9%2016.3%202.6%202.6.3%204.7.9%204.7%201.4%200%20.4%203.6%201.1%208%201.5%204.4.3%208%201%208%201.3%200%20.8%2022.6%203.1%2029.3%203.1%202%200%203.7.4%203.7%201s13.3%201%2038%201c20.9%200%2038-.4%2038-.8s7.8-1.4%2017.3-2.1c9.4-.8%2017.4-1.7%2017.7-2.1.3-.4%203.8-1.1%207.8-1.5%203.9-.4%207.2-1%207.2-1.5%200-.4%204.3-1.3%209.5-2s9.5-1.6%209.5-2c0-.4%203.6-1.3%208-2.1%204.4-.7%208-1.6%208-2%200-.3%201.8-.9%204-1.3%202.2-.3%204-1%204-1.4%200-.4%202.7-1.4%206-2%203.3-.7%206-1.6%206-2.1%200-.4%202.9-1.3%206.5-2s6.5-1.7%206.5-2.1c0-.5%201.4-1.1%203-1.5%201.7-.4%203-1%203-1.5s2.5-1.4%205.5-2.1c3-.7%205.5-1.6%205.5-2%200-.4%202.3-1.2%205-1.9%202.8-.7%205-1.6%205-2.1s1.1-1.1%202.5-1.5c1.4-.3%202.5-.9%202.5-1.3%200-.5%201.8-1.4%204-2.1%202.2-.7%204-1.7%204-2.1%200-.4%201.6-1.3%203.5-1.9%201.9-.6%203.5-1.6%203.5-2.1s.6-.9%201.4-.9c.8%200%202.1-.6%202.8-1.3.7-.7%202.9-1.9%204.8-2.7%201.9-.8%204.4-2.2%205.4-3.2%201.1-1%202.8-1.8%203.8-1.8%201.1%200%202.9-1.1%204.2-2.5%201.3-1.4%203.8-3%205.6-3.6%201.8-.7%204.8-2.6%206.6-4.3%205.1-4.7%206.2-5.6%207.3-5.6.5%200%202.1-1%203.6-2.3%201.5-1.2%203.7-3.1%205-4.2%201.3-1.1%203.5-2.9%204.9-4%201.4-1.1%203.7-3%205.1-4.2%201.5-1.3%203-2.3%203.5-2.3s1.2-1.1%201.6-2.5c.3-1.3%201.6-2.7%202.7-3.1%201.2-.4%202.9-1.4%203.8-2.3.8-.9%202.8-2.5%204.2-3.6%201.5-1.1%202.7-2.6%202.7-3.3%200-.7%201.1-1.8%202.5-2.4%201.4-.6%202.5-1.7%202.5-2.3%200-.7%201.1-2.1%202.5-3.1s2.5-2.5%202.5-3.2c0-.7%201.1-1.8%202.5-2.4%201.4-.6%202.5-1.7%202.5-2.5%200-.7.7-1.6%201.5-1.9.8-.4%201.5-1%201.5-1.5%200-.6.5-1.6%201.1-2.3.6-.8%202.4-2.8%203.9-4.6%204.7-5.5%205-5.9%205-6.5%200-.3.5-1.1%201-1.8%204.1-4.8%205-6.2%205-7.4%200-.7.5-1.3%201-1.3.6%200%201-.6%201-1.4%200-.8%201.1-1.7%202.5-2%201.4-.4%202.5-1.3%202.5-2.1s.5-1.5%201-1.5c.6%200%201-.7%201-1.5s.4-1.5.9-1.5%201.2-1.1%201.5-2.5c.4-1.4%201.1-2.5%201.6-2.5.6%200%201-.7%201-1.5s.4-1.5%201-1.5c.5%200%201.2-1.6%201.6-3.5.3-1.9%201-3.5%201.5-3.5s.9-.7.9-1.5.4-1.5%201-1.5c.5%200%201.2-1.1%201.6-2.5.3-1.4%201-2.5%201.5-2.5s.9-.9.9-2%20.4-2%201-2c.5%200%201.2-1.6%201.6-3.5.3-1.9%201-3.5%201.5-3.5s.9-.9.9-2%20.4-2%201-2c.5%200%201.2-1.6%201.6-3.5.3-1.9%201-3.5%201.5-3.5s.9-.9.9-2%20.4-2%201-2c.5%200%201.2-2.3%201.6-5%20.4-2.8%201-5%201.5-5s1.1-2.3%201.5-5c.4-2.8%201-5%201.5-5s.9-1.1.9-2.5.4-2.5.9-2.5%201.3-2.9%201.6-6.5c.4-3.6%201.1-6.5%201.6-6.5s.9-2.5.9-5.5-.4-5.5-1-5.5c-.5%200-1-.9-1-2%200-1-1.1-3-2.5-4.4-1.4-1.4-2.5-3-2.5-3.6%200-.6-1.3-1.6-3-2.1-1.6-.6-3-1.5-3-1.9%200-2.1-11.4-3.3-19.9-2.2-4.7.7-8.7%201.6-9%202-.3.5-2.3%201.5-4.4%202.1-2.5.9-3.9%202-4.3%203.6-.3%201.4-1.4%202.7-2.5%203-1.3.5-2%202-2.5%205.6-.4%202.7-1%204.9-1.5%204.9s-.9%201.1-.9%202.5-.4%202.5-.9%202.5-1.2%202.5-1.6%205.5c-.3%203-1.1%205.5-1.6%205.5s-.9.9-.9%202-.4%202-.9%202-1.1%202.2-1.5%205c-.4%202.7-1.1%205-1.6%205-.6%200-1%20.9-1%202s-.4%202-.9%202-1.2%201.6-1.5%203.5c-.4%201.9-1.1%203.5-1.6%203.5-.6%200-1%20.9-1%202s-.4%202-1%202c-.5%200-1.2%201.6-1.6%203.5-.3%201.9-1%203.5-1.5%203.5s-.9.7-.9%201.5-.4%201.5-.9%201.5-1.1%201.4-1.5%203.1c-.3%201.8-1.5%203.9-2.5%204.8-1.1%201-2.3%202.9-2.6%204.4-.4%201.5-1.1%202.7-1.5%202.7-.4%200-1.1%201.1-1.4%202.5-.4%201.4-1.3%202.5-2.1%202.5s-1.5.6-1.5%201.4c0%20.8-.7%201.6-1.5%202-.8.3-1.5%201.2-1.5%202.1%200%20.8-.4%201.5-1%201.5-.5%200-1%20.7-1%201.5s-.4%201.5-1%201.5c-.5%200-1%20.7-1%201.5%200%20.9-.7%201.8-1.5%202.1-.8.4-1.5%201.2-1.5%201.9s-.7%201.5-1.5%201.9c-.8.3-1.5%201.2-1.5%202s-.9%201.8-2%202.1c-1.1.3-2%201.3-2%202.1s-.7%201.7-1.5%202c-.8.4-1.5%201-1.5%201.5%200%201.7-7.6%209.9-9.1%209.9-.5%200-.9.6-.9%201.3%200%20.7-1.3%202.3-3%203.7-1.6%201.4-3%203-3%203.7%200%20.7-.6%201.3-1.4%201.3-.7%200-2.9%201.5-4.8%203.2-5.3%204.9-7.7%206.8-8.6%206.8-.5%200-2.8%201.7-5.1%203.8-2.3%202-5.3%204.6-6.8%205.7-1.4%201.1-4.1%203.5-6%205.3-1.8%201.7-3.9%203.2-4.6%203.2-.7%200-2.5%201.1-4.1%202.5-1.6%201.4-3.5%202.5-4.2%202.5-.7%200-2.5%201.3-4.1%202.9-1.6%201.5-4.5%203.4-6.6%204.2-2%20.7-3.7%201.6-3.7%202.1%200%20.4-1.8%201.2-4%201.8-2.2.6-4%201.5-4%202%200%20.6-.6%201-1.4%201-.8%200-2.1.6-2.8%201.3-.7.8-3%202-5.1%202.6-2%20.7-3.7%201.6-3.7%202.1s-2.5%201.4-5.5%202c-3%20.6-5.5%201.6-5.5%202.1s-1.1%201.1-2.5%201.5c-1.4.3-2.5%201-2.5%201.5%200%20.4-2.7%201.3-6%202-3.3.6-6%201.5-6%202%200%20.4-2.7%201.4-6%202.1-3.3.6-6%201.6-6%202%200%20.4-1.8%201.1-4%201.4-2.2.4-4%201-4%201.4%200%20.4-3.4%201.3-7.5%202.1-4.1.7-7.5%201.6-7.5%201.9%200%20.3-4%201.2-9%201.9-4.9.8-9%201.7-9%202.1%200%20.4-4.2%201-9.2%201.4-5.1.4-9.5%201.1-9.8%201.5-.8%201.4-31%203.1-53.6%203.1-22.2%200-52.6-1.7-53.4-2.9-.3-.5-3.9-1.1-8-1.5-4.1-.3-7.7-1-8-1.4-.3-.5-5.4-1.4-11.5-2.1-6-.7-11.2-1.7-11.5-2.1-.3-.4-4-1.4-8.2-2.1-4.3-.7-7.8-1.6-7.8-2%200-.3-1.8-.9-4-1.3-2.2-.3-4-1-4-1.4%200-.4-2.8-1.4-6.2-2.2-3.5-.7-6.5-1.6-6.8-1.9-.3-.4-2.7-1.2-5.5-1.9-2.7-.7-5.1-1.7-5.3-2.2-.2-.5-1.9-1.2-3.8-1.6-1.9-.3-3.4-1-3.4-1.4%200-.5-2.2-1.4-5-2.1-2.7-.7-5-1.6-5-1.9%200-.4-1.8-1.2-4-1.9-2.2-.6-4-1.6-4-2.1s-1.5-1.2-3.4-1.6c-1.9-.3-3.7-1.2-4-2-.3-.8-1.4-1.4-2.5-1.4s-2.4-.6-2.8-1.3c-.4-.6-2.6-1.8-4.8-2.6-2.1-.8-4.5-2-5.3-2.7-.7-.8-2-1.4-2.8-1.4-1.5%200-2.7-.8-6.5-4.2-1-1-2.5-1.8-3.1-1.8-.7%200-2.6-1.1-4.2-2.5s-3.3-2.5-3.7-2.5c-.9%200-3-1.6-7.5-5.8-1.4-1.2-2.9-2.2-3.5-2.2-1%200-1.5-.4-6.2-4.5-1.5-1.4-3.2-2.5-3.8-2.5-.5%200-1.7-.7-2.6-1.5-2-1.8-9.2-8.7-11-10.7-.7-.7-2.4-2.2-3.8-3.3-4.8-3.7-7.5-6.4-7.5-7.5%200-.6-1.1-1.5-2.4-2.1-1.4-.7-2.7-2.2-3-3.5-.3-1.2-1.5-2.6-2.6-2.9-1.1-.3-2-1.3-2-2.1s-1.1-2-2.5-2.6c-1.4-.6-2.5-1.7-2.5-2.4%200-.6-1.3-2.6-3-4.4-1.6-1.8-3-3.6-3-4.1%200-.5-.7-.9-1.5-.9s-1.5-.7-1.5-1.5-.6-1.5-1.4-1.5c-.8%200-1.8-.9-2.1-2-.3-1.1-1.1-2-1.6-2s-.9-.6-.9-1.4c0-.8-.7-1.6-1.5-2-.8-.3-1.5-1.2-1.5-2.1%200-.8-.4-1.5-1-1.5-.5%200-1-.7-1-1.5s-.4-1.5-.9-1.5-1.2-1.1-1.5-2.5c-.4-1.4-1-2.5-1.5-2.5s-1.2-1.4-1.6-3c-.4-1.7-1.1-3-1.6-3s-.9-.5-.9-1.1c0-.6-.7-1.7-1.5-2.5-.8-.9-1.5-2.5-1.5-3.8%200-1.2-.9-2.8-2-3.6-1.1-.8-2.3-2.9-2.6-4.7-.3-1.8-1-3.3-1.5-3.3s-.9-.9-.9-2-.4-2-1-2c-.5%200-1.2-1.6-1.6-3.5-.3-1.9-1-3.5-1.5-3.5s-.9-.4-.9-1%2023.6-1.1%2067.3-1.2l67.2-.3.3-22.8.2-22.7H842v92z%22/%3E%3C/svg%3E"
       },
       "design": {
         "graph": {
